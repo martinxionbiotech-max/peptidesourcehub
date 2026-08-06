@@ -70,13 +70,13 @@ const pricing = [
   <div class="absolute inset-0 hero-grid opacity-20"></div>
   <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
     <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb"><a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span><a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span><a href="/products/cosmetic-skin/" class="text-gray-400 hover:text-white">Cosmetic & Skin</a><span class="text-gray-600">/</span><span class="text-accent">GHK-Cu</span></nav>
-    <img src="/images/products/ghk-cu-bottle.png" alt="GHK-Cu 50mg research peptide" class="w-32 h-32 object-cover rounded-2xl border-2 border-accent/30 shadow-lg float-right ml-4 mb-4 hidden sm:block" loading="lazy" />
     <h1 class="text-white text-3xl md:text-5xl">GHK-Cu Wholesale</h1>
     <p class="text-xl text-gray-300 mt-4 max-w-2xl">Copper Tripeptide-1 — the most extensively studied copper peptide in dermatological research, batch-documented, manufacturer-direct</p>
   </div>
 </section>
 
-<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Product Identity</h2><div class="max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><tbody>{specs.map(([k,v],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary w-1/3">{k}</td><td class="py-3 px-5 text-gray-600">{v}</td></tr>))}</tbody></table></div>
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Product Identity</h2>
+<img src="/images/products/ghk-cu-bottle.png" alt="GHK-Cu 50mg research peptide vial" class="float-right ml-4 mb-2 w-36 h-36 md:w-44 md:h-44 lg:w-48 lg:h-48 object-cover rounded-2xl border-2 border-accent/30 shadow-lg hidden sm:block" loading="lazy" /><div class="max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><tbody>{specs.map(([k,v],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary w-1/3">{k}</td><td class="py-3 px-5 text-gray-600">{v}</td></tr>))}</tbody></table></div>
 <div class="max-w-3xl mx-auto mt-6 card p-5 bg-accent/5 border-accent/20"><p class="text-sm text-gray-600"><strong class="text-accent-dark">The GHK-Cu Complex:</strong> GHK binds Cu²⁺ in a square-planar geometry via four coordination bonds: N-terminal amine, Gly-His deprotonated amide, His imidazole, and His-Lys deprotonated amide. This tetradentate complex (log K ~16) remains intact under physiological conditions. The biological activities are attributed to the intact complex — not free copper or free peptide.</p></div>
 </div></section>
 
