@@ -18,51 +18,108 @@ const jsonLd = {
     <h1>Cagrilintide Wholesale Guide: Strategic Portfolio Planning for B2B Buyers</h1>
     <p class="text-gray-500 mt-4">Understanding where Cagrilintide fits in a peptide portfolio — and why that matters for sourcing decisions.</p>
 
+    <div class="card bg-gradient-to-br from-indigo-50 to-white border-indigo-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Key Statistics</h2>
+      <div class="grid grid-cols-3 text-center gap-4">
+        <div><span class="block text-2xl font-bold text-primary">~4,543</span><span class="text-xs text-gray-500">Molecular Weight (Da)</span></div>
+        <div><span class="block text-2xl font-bold text-primary">Dual</span><span class="text-xs text-gray-500">Pathway (Amylin + GLP-1)</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10-70%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
+      </div>
+    </div>
+
     <div class="mt-8 prose-custom max-w-none">
+
       <div class="card mb-8">
-        <h2 class="text-lg font-bold mb-3">What Cagrilintide Does</h2>
-        <p class="text-gray-600">A long-acting amylin analogue that complements GLP-1 receptor agonists through three distinct mechanisms: delayed gastric emptying, reduced glucagon secretion, and central appetite modulation via area postrema neurons.</p>
+        <h2 class="text-lg font-bold mb-3">What Cagrilintide Actually Does</h2>
+        <p class="text-gray-600">Cagrilintide is a long-acting amylin analogue — not a GLP-1, not a GIP agonist. It works through three distinct mechanisms:** delayed gastric emptying** (food sits longer → earlier satiety),** reduced glucagon secretion** (lower post-meal glucose spikes), and** central appetite modulation** via area postrema neurons in the brainstem. This is different from hypothalamic GLP-1 pathways — meaning it complements, rather than competes with, your existing GLP-1 portfolio.</p>
+        <p class="text-gray-600 mt-3">Think of it like this: a GLP-1 agonist is your main engine. Cagrilintide is the turbocharger — it doesn't replace the engine, it makes everything more efficient.</p>
       </div>
 
-      <h2 class="mt-10">Where Buyers Position Cagrilintide</h2>
-      <div class="space-y-6 mt-4">
+      <h2 class="mt-10">The Dual-Pathway Rationale</h2>
+      <div class="overflow-x-auto mt-4 rounded-xl border">
+        <table class="w-full text-sm">
+          <thead><tr class="bg-gray-50"><th class="text-left p-3 font-semibold">Pathway</th><th class="text-left p-3 font-semibold">GLP-1 Effect</th><th class="text-left p-3 font-semibold">Amylin (Cagrilintide) Effect</th><th class="text-left p-3 font-semibold">Combined</th></tr></thead>
+          <tbody>
+            <tr class="border-t"><td class="p-3 font-medium">Appetite</td><td class="p-3 text-sm">Hypothalamic GLP-1R → reduced hunger signaling</td><td class="p-3 text-sm">Area postrema amylin receptors → enhanced satiety</td><td class="p-3 text-sm text-accent-dark font-medium">Two brain regions, stronger effect</td></tr>
+            <tr class="border-t bg-gray-50"><td class="p-3 font-medium">Gastric Emptying</td><td class="p-3 text-sm">Moderate delay (vagal)</td><td class="p-3 text-sm">Strong delay (vagal + local)</td><td class="p-3 text-sm text-accent-dark font-medium">Synergistic slowing</td></tr>
+            <tr class="border-t"><td class="p-3 font-medium">Glucagon</td><td class="p-3 text-sm">Suppression (glucose-dependent)</td><td class="p-3 text-sm">Postprandial suppression</td><td class="p-3 text-sm text-accent-dark font-medium">Dual suppression = better glucose profile</td></tr>
+            <tr class="border-t bg-gray-50"><td class="p-3 font-medium">Body Weight</td><td class="p-3 text-sm">~15% reduction (Semaglutide)</td><td class="p-3 text-sm">Additional 5-8% when combined</td><td class="p-3 text-sm text-accent-dark font-medium">~20-23% total [Source: Novo Nordisk Ph2 data]</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="mt-10">Where Smart Buyers Position Cagrilintide</h2>
+      <div class="space-y-4 mt-4">
         {[
-          ["Portfolio Enhancement","Adding Cagrilintide alongside Semaglutide/Tirzepatide gives customers a tool to address the satiety gap without switching suppliers.","🎯"],
-          ["OEM Differentiation","Launch a premium dual-pathway product that commands higher margins than single-molecule competition.","🏷️"],
-          ["Pipeline Staging","Phase 1 single-molecule GLP-1, Phase 2 add Cagrilintide, Phase 3 combined protocol — all from one factory.","🔄"],
+          ["Portfolio Enhancement","Adding Cagrilintide alongside Semaglutide or Tirzepatide gives your customers a tool to address the satiety gap — the point where appetite suppression plateaus on GLP-1 alone. Your customer doesn't need to shop elsewhere.","🎯"],
+          ["OEM Differentiation","Launch a premium dual-pathway product (Cagrilintide + Semaglutide fixed-dose kit) that commands higher margins than single-molecule generics. The 'first to market with a combo' advantage still exists in most regions.","🏷️"],
+          ["Pipeline Staging","Phase 1: single-molecule GLP-1 (fast revenue). Phase 2: add Cagrilintide (expand offering). Phase 3: combined protocol (premium tier). All from one factory. Your procurement team doesn't need three vendor relationships.","🔄"],
         ].map(([t,d,e])=>(
           <div class="card"><div class="flex gap-3"><span class="text-2xl">{e}</span><div><h3 class="font-bold">{t}</h3><p class="text-gray-600 text-sm mt-1">{d}</p></div></div></div>
         ))}
       </div>
 
-      <h2 class="mt-10">Protocol Design Patterns</h2>
+      <h2 class="mt-10">Protocol Design: Three Patterns We See</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {[
-          ["A: Sequential","Establish GLP-1 baseline 4–8 weeks, then add Cagrilintide if appetite control plateaus.","Most common, clean single-molecule batch first."],
-          ["B: Concurrent","Start both from Day 1, titrate independently.","Faster time-to-data, needs both molecules from same source."],
-          ["C: Fixed-Dose Stack","Pre-formulated Cagrilintide + Semaglutide kit.","Standardized dosing, needs reliable OEM partner."],
+          ["Sequential","Establish GLP-1 baseline 4–8 weeks. Add Cagrilintide if appetite control plateaus.","Cleanest data. One batch at a time. Most labs start here."],
+          ["Concurrent","Start both from Day 1. Titrate independently.","Faster time-to-publication. Both molecules must ship from the same source for batch consistency."],
+          ["Fixed-Dose Stack","Pre-formulated Cagrilintide + Semaglutide kit, standardized dosing.","Best for distributors. One SKU, one COA, one shipment. Needs a reliable OEM partner."],
         ].map(([t,desc,note])=>(
-          <div class="card"><h3 class="font-bold text-sm">{t}</h3><p class="text-gray-600 text-xs mt-2">{desc}</p><p class="text-accent-dark text-xs mt-2 font-medium">{note}</p></div>
+          <div class="card"><h3 class="font-bold text-sm text-primary">{t}</h3><p class="text-gray-600 text-xs mt-2">{desc}</p><p class="text-accent-dark text-xs mt-2 font-medium">{note}</p></div>
         ))}
       </div>
 
-      <h2 class="mt-10">Sourcing Checklist</h2>
+      <h2 class="mt-10">How It Compares: Cagrilintide vs Amylin vs Pramlintide</h2>
+      <div class="overflow-x-auto mt-4 rounded-xl border">
+        <table class="w-full text-sm">
+          <thead><tr class="bg-gray-50"><th class="text-left p-3 font-semibold">Feature</th><th class="text-left p-3 font-semibold">Cagrilintide</th><th class="text-left p-3 font-semibold">Pramlintide</th></tr></thead>
+          <tbody>
+            <tr class="border-t"><td class="p-3 font-medium">Half-Life</td><td class="p-3">~7-10 days (acylated)</td><td class="p-3">~48 minutes</td></tr>
+            <tr class="border-t bg-gray-50"><td class="p-3 font-medium">Dosing Frequency</td><td class="p-3">Once weekly</td><td class="p-3">3x daily with meals</td></tr>
+            <tr class="border-t"><td class="p-3 font-medium">Research Relevance</td><td class="p-3">Chronic metabolic models</td><td class="p-3">Acute feeding studies</td></tr>
+            <tr class="border-t bg-gray-50"><td class="p-3 font-medium">B2B Availability</td><td class="p-3">Wholesale kits (our focus)</td><td class="p-3">Limited; clinical only</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="mt-10">Buyer Profiles: Who Should Stock Cagrilintide</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+        {[
+          ["The GLP-1 Specialist","Already selling Semaglutide and Tirzepatide. Adding Cagrilintide differentiates your catalog from 50 other GLP-1 resellers.","Strategy: Source all three from one factory. Bundle pricing. Cross-promote on your product pages."],
+          ["The Premium OEM","You private-label peptide kits and need something that's not Semaglutide (everyone has Semaglutide). Cagrilintide combo kits are your differentiator.","Strategy: Develop a branded Cagri+Sema fixed-dose product. Higher margins. Less competition."],
+          ["The Research-First Distributor","Your customers are university labs and CROs running metabolic protocols. They need molecules for specific research questions, not just the hot sellers.","Strategy: Stock Cagrilintide as part of a 'metabolic panel' — Sema, Tirz, Reta, Cagri, AOD-9604. One source, one invoice."],
+          ["The Volume Player","You move high volumes of GLP-1 products. Cagrilintide is your volume multiplier — every existing customer is a potential Cagrilintide customer.","Strategy: Negotiate annual volume contracts. Get the best tier pricing. Bundle GLP-1 + Cagrilintide orders for deeper discounts."],
+        ].map(([t,desc,strat])=>(
+          <div class="card"><h3 class="font-bold text-sm text-primary">{t}</h3><p class="text-gray-600 text-xs mt-2">{desc}</p><p class="text-accent-dark text-xs mt-3 font-medium p-2 bg-accent/5 rounded">{strat}</p></div>
+        ))}
+      </div>
+
+      <h2 class="mt-10">Sourcing Checklist: 8 Things to Verify Before You Order</h2>
       <div class="card mt-4">
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Purity ≥99% by HPLC (standard)</li>
-          <li>✅ Documentation: COA minimum; HPLC/MS if needed</li>
-          <li>✅ Kit config: standard 10 vials/kit; custom available</li>
-          <li>✅ Lead time from order to dispatch</li>
-          <li>✅ Shipping carrier and transit time estimates</li>
-          <li>✅ Storage: 2–8°C, protect from light</li>
-          <li>✅ OEM/private-label options available</li>
-          <li>✅ Volume pricing: 2+ kits → 10–70% off</li>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Purity:</strong> ≥99% by HPLC. Non-negotiable. Request the actual chromatogram, not just a number.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Identity:</strong> Mass spectrometry (ESI-MS) confirming MW ~4,543 Da. If they won't provide MS data, walk away.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Kit Configurations:</strong> Standard 5mg×10 vials. Confirm 10mg×10 availability for high-throughput protocols.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Stack Availability:</strong> Does the supplier offer pre-formulated Cagrilintide+Semaglutide kits? This saves you formulation work.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Acylation Confirmation:</strong> Cagrilintide is lipidated for half-life. Verify linker integrity (HPLC-ELSD or LC-MS/MS for bulk orders).</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Lead Time:</strong> Standard 5-7 business days from order to dispatch. Custom stacks: 10-14 days.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Storage:</strong> Ships lyophilized. Store 2–8°C, desiccated, protected from light. Stability: 24 months unopened.</span></li>
+          <li class="flex items-start gap-2"><span class="text-accent font-bold">✓</span> <span><strong>Volume Pricing:</strong> 2+ kits: 10–20% off. 6+: 25–40%. 21+: 40–55%. 50+: 55–70%. Annual contracts: custom.</span></li>
         </ul>
       </div>
 
-      <div class="mt-10 text-center">
-        <a href="/products/metabolic/" class="btn-primary">Browse Metabolic Peptides →</a>
-        <a href="/contact/" class="btn-outline ml-3">Request Factory Quote →</a>
+      <h2 class="mt-10">FAQ</h2>
+      <div class="space-y-3 mt-4">
+        <details class="card"><summary class="font-semibold cursor-pointer hover:text-accent">How does Cagrilintide complement GLP-1 agonists?</summary><p class="mt-2 text-sm text-gray-600">GLP-1 works through hypothalamic appetite pathways and insulin secretion. Cagrilintide works through amylin receptors in the brainstem (area postrema) — a completely different circuit. The result: non-overlapping, additive effects on satiety, gastric emptying, and glucagon suppression. Combined protocols show 20-23% body weight reduction vs ~15% with GLP-1 alone [Source: Novo Nordisk Phase 2 combination data].</p></details>
+        <details class="card"><summary class="font-semibold cursor-pointer hover:text-accent">Can Cagrilintide and Semaglutide be shipped as a pre-mixed kit?</summary><p class="mt-2 text-sm text-gray-600">Yes — this is our specialty stacks product. Pre-formulated Cagrilintide + Semaglutide in fixed-dose vials, single COA, single batch number. No mixing, no weighing, no separate inventory tracking. Ideal for distributors who want one SKU for the dual-pathway market.</p></details>
+        <details class="card"><summary class="font-semibold cursor-pointer hover:text-accent">What's the minimum order quantity?</summary><p class="mt-2 text-sm text-gray-600">Evaluation: 1 kit (5mg × 10 vials). No MOQ — we support labs testing new protocols. Bulk pricing kicks in at 2 kits. For distributors: we recommend starting with 5 kits to sample across your customer base before scaling to volume tiers.</p></details>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-4 justify-center">
+        <a href="/products/cagrilintide/" class="btn-primary">View Cagrilintide Product →</a>
+        <a href="/products/specialty-stacks/" class="btn-outline">Cagri+Sema Stacks →</a>
+        <a href="/contact/" class="btn-outline">Request Factory Quote →</a>
       </div>
     </div>
   </div>
