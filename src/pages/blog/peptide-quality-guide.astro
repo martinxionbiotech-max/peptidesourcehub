@@ -59,6 +59,7 @@ const checklistAnswers = [
   "FedEx, UPS, DHL, or TNT. Lyophilized vials shipped at ambient with ice-pack option.",
   "Yes. Stability data available on request. Standard retest at 12 months.",
 ];
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What should a good COA contain?", "acceptedAnswer": {"@type": "Answer", "text": "Batch number, product name, CAS number, HPLC purity (≥99%), MS molecular weight, appearance, storage, retest date, and QC signature. Must be batch-specific, not a template."}}, {"@type": "Question", "name": "What is the difference between HPLC purity and peptide content?", "acceptedAnswer": {"@type": "Answer", "text": "HPLC purity tells you what percentage of peptide material is target sequence. Peptide content (70-90%) tells you how much of total powder weight is actual peptide — the rest is TFA and water."}}, {"@type": "Question", "name": "What are common peptide impurities?", "acceptedAnswer": {"@type": "Answer", "text": "Deletion peptides (incomplete coupling), oxidation products (Met/Cys/Trp), TFA counterions, residual solvents, and aggregates. A quality COA should document the impurity profile."}}, {"@type": "Question", "name": "How do I evaluate a peptide supplier?", "acceptedAnswer": {"@type": "Answer", "text": "Ask 10 questions: purity spec, batch-specific COA, chromatogram/MS availability, peptide content, batch traceability, manufacturing location, return policy, custom capability, and shipping."}}, {"@type": "Question", "name": "What quality standards apply to peptide manufacturing?", "acceptedAnswer": {"@type": "Answer", "text": "ISO 9001 (quality management), ICH Q7 (GMP for APIs), USP 1503 (synthetic peptide quality attributes), and AOAC (standard analytical methods)."}}]};
 ---
 
 <PageLayout
@@ -213,13 +214,7 @@ const checklistAnswers = [
 
   </div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What should a good COA contain?","acceptedAnswer":{"@type":"Answer","text":"Batch number, product name, CAS number, HPLC purity (≥99%), MS molecular weight, appearance, storage conditions, retest date, and QC signature. Must be batch-specific, not a template."}},
-      {"@type":"Question","name":"What is the difference between HPLC purity and peptide content?","acceptedAnswer":{"@type":"Answer","text":"HPLC purity tells you what percentage of peptide material is the target sequence. Peptide content (typically 70-90%) tells you how much of total powder weight is actual peptide — the rest is water, TFA, and salts."}},
-      {"@type":"Question","name":"What are common peptide impurities?","acceptedAnswer":{"@type":"Answer","text":"Deletion peptides (incomplete coupling), oxidation products (Met/Cys/Trp), TFA counterions, residual solvents, and aggregates. A quality COA should document the impurity profile."}},
-      {"@type":"Question","name":"How do I evaluate a peptide supplier?","acceptedAnswer":{"@type":"Answer","text":"Ask 10 questions: purity spec, batch-specific COA, chromatogram availability, MS data, peptide content, batch traceability, manufacturing location, return policy, custom capability, and shipping carriers."}},
-      {"@type":"Question","name":"What quality standards apply to peptide manufacturing?","acceptedAnswer":{"@type":"Answer","text":"ISO 9001 (quality management), ICH Q7 (GMP for APIs), USP 1503 (synthetic peptide quality attributes), and AOAC (standard analytical methods)."}}
-    ]}</script>
-
 </article>
+
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>

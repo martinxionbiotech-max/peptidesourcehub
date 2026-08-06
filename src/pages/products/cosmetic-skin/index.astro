@@ -24,6 +24,7 @@ const matrix = [
   ["Argireline","Neurotransmitter inhibition","Expression line research","Snap-8"],
   ["Matrixyl","Collagen synthesis signaling","Anti-aging formulation","GHK-Cu"],
 ];
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What cosmetic research peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "GHK-Cu (copper tripeptide, 50mg) and additional cosmetic peptides in our catalog. All ≥99% HPLC purity with batch-specific COA."}}, {"@type": "Question", "name": "How is GHK-Cu quality verified?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% HPLC purity, ESI-MS identity, and UV-Vis spectroscopy (600nm peak) verifying copper chelation. Dedicated HPLC gradient optimized for copper-peptide analysis."}}, {"@type": "Question", "name": "Why does GHK-Cu appear blue?", "acceptedAnswer": {"@type": "Answer", "text": "The characteristic blue color confirms successful Cu²⁺ chelation by the GHK tripeptide. This is a quality indicator — absorbance at 600nm corresponds to the copper d-d transition."}}, {"@type": "Question", "name": "What documentation is included?", "acceptedAnswer": {"@type": "Answer", "text": "COA, commercial invoice, packing list with every order. Additional analytical data on request. Full technical dossier for bulk orders."}}, {"@type": "Question", "name": "How should cosmetic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. GHK-Cu is photolabile — protect from direct light during storage. Reconstituted: tinted vials recommended."}}]};
 ---
 
 <PageLayout
@@ -98,14 +99,7 @@ const matrix = [
 
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What cosmetic peptides are available?","acceptedAnswer":{"@type":"Answer","text":"GHK-Cu (copper tripeptide, 50mg) and additional cosmetic peptides. All ≥99% HPLC purity with batch-specific COA."}},
-      {"@type":"Question","name":"How is GHK-Cu quality verified?","acceptedAnswer":{"@type":"Answer","text":"≥99% HPLC, ESI-MS, UV-Vis 600nm peak for copper chelation. Dedicated HPLC gradient for copper-peptide analysis."}},
-      {"@type":"Question","name":"Why does GHK-Cu appear blue?","acceptedAnswer":{"@type":"Answer","text":"The blue color confirms Cu2+ chelation — a quality indicator, not a contaminant."}},
-      {"@type":"Question","name":"What documentation is included?","acceptedAnswer":{"@type":"Answer","text":"COA, commercial invoice, packing list. Additional analytical data on request. Full dossier for bulk orders."}},
-      {"@type":"Question","name":"How should cosmetic peptides be stored?","acceptedAnswer":{"@type":"Answer","text":"Lyophilized: 2-8°C, desiccated, protected from light. GHK-Cu is photolabile. Reconstituted: tinted vials recommended."}}
-    ]}</script>
-<h2 class="text-center mb-10">FAQ</h2>
+    <h2 class="text-center mb-10">FAQ</h2>
     <div class="space-y-3 max-w-3xl mx-auto">
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What makes GHK-Cu different from other cosmetic peptides?</summary><p class="mt-3 text-gray-600 text-sm">GHK-Cu is a naturally occurring copper tripeptide with an unusually broad mechanism: it simultaneously modulates collagen synthesis, elastin production, glycosaminoglycan deposition, and metalloproteinase activity. Most other cosmetic peptides target a single pathway — GHK-Cu is a multi-target signal.</p></details>
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can Snap-8 and Argireline be used in the same formulation?</summary><p class="mt-3 text-gray-600 text-sm">Yes. While both target neurotransmitter release, they act through different mechanisms — Argireline inhibits vesicle docking (SNAP-25 competitor), while Snap-8 targets the SNARE complex assembly. Combined use is a common multi-target strategy in topical research.</p></details>
@@ -125,4 +119,6 @@ const matrix = [
 </section>
 
 <div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>

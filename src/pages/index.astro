@@ -49,6 +49,7 @@ const valueProps = [
   { icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", title: "QC That Travels With Your Order", desc: "Certificate of Analysis with every batch. HPLC chromatograms, MS data, and stability documentation available on request." },
   { icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z", title: "Pricing That Scales With You", desc: "10–70% off for 2+ kits. Custom pricing models for recurring supply agreements aligned to your volume projections." },
 ];
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What peptides do you manufacture?", "acceptedAnswer": {"@type": "Answer", "text": "58 standard peptide SKUs across 6 categories: Metabolic, Healing & Recovery, Cosmetic & Skin, Muscle Growth, Nootropic & Anti-Aging, and Specialty Stacks."}}, {"@type": "Question", "name": "What is your minimum purity standard?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for every product. Batch-specific Certificate of Analysis included with every order."}}, {"@type": "Question", "name": "What are your wholesale pricing tiers?", "acceptedAnswer": {"@type": "Answer", "text": "Tiered pricing: 2-5 kits (10-20% off), 6-20 kits (25-40%), 21-50 (40-55%), 50+ (55-70%). Annual contracts: custom pricing. Published, transparent tiers."}}, {"@type": "Question", "name": "Where do you ship?", "acceptedAnswer": {"@type": "Answer", "text": "North America, EU, UK, Australia, NZ, Japan, South Korea, Singapore, and most APAC regions via DHL/FedEx/UPS/TNT. Free shipping on orders over $500."}}, {"@type": "Question", "name": "How do I place a wholesale order?", "acceptedAnswer": {"@type": "Answer", "text": "Contact Dr. Aaron Wang via WhatsApp (+64 20 431 0558), Telegram (@DrAaronWang), email (aaron@senobiocorp.com), or our contact page. Quotes within 24 hours."}}]};
 ---
 
 <PageLayout
@@ -82,7 +83,6 @@ const valueProps = [
       <p class="text-xl md:text-2xl text-gray-300 mt-6 font-medium leading-relaxed max-w-2xl animate-on-scroll">
         ≥99% Purity. Factory-Direct. Global B2B Supply Since 2009.
       </p>
-<p class="text-gray-400 text-center mt-3 text-sm max-w-xl mx-auto">TL;DR: 58+ research peptides, factory-direct from Shenzhen. ≥99% HPLC purity, COA included. Tiered wholesale pricing (10-70% off). Global DHL/FedEx fulfillment in 2-6 business days.</p>
 
       <!-- Stats counters -->
       <div class="flex flex-wrap gap-4 mt-8 animate-on-scroll">
@@ -439,15 +439,9 @@ const valueProps = [
     </div>
   </div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What peptides do you manufacture?","acceptedAnswer":{"@type":"Answer","text":"58 standard peptide SKUs across 6 categories: Metabolic, Healing & Recovery, Cosmetic & Skin, Muscle Growth, Nootropic & Anti-Aging, and Specialty Stacks. All synthesized in our Shenzhen facility."}},
-      {"@type":"Question","name":"What is your minimum purity standard?","acceptedAnswer":{"@type":"Answer","text":"≥99% by HPLC with ESI-MS identity confirmation for every product. Batch-specific Certificate of Analysis included with every order."}},
-      {"@type":"Question","name":"What are your wholesale pricing tiers?","acceptedAnswer":{"@type":"Answer","text":"Tiered pricing: 2-5 kits (10-20% off), 6-20 kits (25-40%), 21-50 (40-55%), 50+ (55-70%). Annual contracts: custom pricing. Published, transparent tiers."}},
-      {"@type":"Question","name":"Where do you ship?","acceptedAnswer":{"@type":"Answer","text":"North America, EU, UK, Australia, NZ, Japan, South Korea, Singapore, and most APAC regions via DHL/FedEx/UPS/TNT. Free shipping on orders over $500."}},
-      {"@type":"Question","name":"How do I place a wholesale order?","acceptedAnswer":{"@type":"Answer","text":"Contact Dr. Aaron Wang via WhatsApp (+64 20 431 0558), Telegram (@DrAaronWang), email (aaron@senobiocorp.com), or our contact page. Quotes within 24 hours."}}
-    ]}</script>
 
 
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>
 
 <!-- ━━━━━ SCRIPTS ━━━━━ -->

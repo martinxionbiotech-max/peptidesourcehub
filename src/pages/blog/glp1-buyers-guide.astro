@@ -11,6 +11,7 @@ const jsonLd = {
   "datePublished": "2026-08-06",
   "dateModified": "2026-08-06",
 };
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which GLP-1 peptide should I stock first?", "acceptedAnswer": {"@type": "Answer", "text": "Semaglutide. Highest research volume, broadest customer base, lowest procurement risk. Start with 2-3 kits to evaluate quality, then add Tirzepatide for premium positioning."}}, {"@type": "Question", "name": "Is Tirzepatide worth the premium over Semaglutide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes for premium positioning. Tirzepatide's dual GIP/GLP-1 mechanism shows ~20% body weight reduction vs ~15% for Semaglutide [Source: SURMOUNT-1]. This translates to higher margins."}}, {"@type": "Question", "name": "How does Retatrutide compare to Tirzepatide?", "acceptedAnswer": {"@type": "Answer", "text": "Retatrutide adds glucagon receptor activation, producing ~22.5% body weight reduction [Source: Phase 2 data]. Most potent but newest — Phase 2 only. Early adopter advantage."}}, {"@type": "Question", "name": "How does volume pricing work across molecules?", "acceptedAnswer": {"@type": "Answer", "text": "Tiered pricing per order. Mixed-molecule orders qualify for combined tiers — e.g., 3 Sema + 2 Tirz + 1 Reta = 6 kits at 25-40% off. Single-manufacturer sourcing advantage."}}, {"@type": "Question", "name": "What documentation comes with GLP-1 orders?", "acceptedAnswer": {"@type": "Answer", "text": "Every kit: batch-specific COA (HPLC ≥99%, MS identity), commercial invoice, packing list. Bulk: complete technical dossier at no extra cost."}}]};
 ---
 
 <PageLayout
@@ -146,13 +147,7 @@ const jsonLd = {
 
   </div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"Which GLP-1 peptide should I stock first?","acceptedAnswer":{"@type":"Answer","text":"Semaglutide. Highest research volume, broadest customer base, lowest procurement risk. Start with 2-3 kits, then add Tirzepatide for premium positioning."}},
-      {"@type":"Question","name":"Is Tirzepatide worth the premium over Semaglutide?","acceptedAnswer":{"@type":"Answer","text":"Yes for premium positioning. Tirzepatide's dual GIP/GLP-1 mechanism shows ~20% body weight reduction vs ~15% for Semaglutide [Source: SURMOUNT-1]. This translates to higher margins."}},
-      {"@type":"Question","name":"How does Retatrutide compare?","acceptedAnswer":{"@type":"Answer","text":"Retatrutide adds glucagon receptor activation, producing ~22.5% body weight reduction [Source: Phase 2 data]. Most potent but newest (Phase 2 only). Early adopter advantage."}},
-      {"@type":"Question","name":"How does volume pricing work across molecules?","acceptedAnswer":{"@type":"Answer","text":"Tiered pricing applies per order. Mixed-molecule orders qualify for combined tiers — e.g., 3 Sema + 2 Tirz + 1 Reta = 6 kits at 25-40% off. Single-manufacturer advantage."}},
-      {"@type":"Question","name":"What documentation comes with GLP-1 orders?","acceptedAnswer":{"@type":"Answer","text":"Batch-specific COA (HPLC, MS), commercial invoice, packing list. Full chromatogram and MS spectrum on request. Bulk: complete technical dossier."}}
-    ]}</script>
-
 </article>
+
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>

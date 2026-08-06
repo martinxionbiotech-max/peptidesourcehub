@@ -23,6 +23,7 @@ const workflow = [
   ["03","Stability Testing","Accelerated stability study at 40°C/75% RH. Confirms no peptide-peptide degradation interactions."],
   ["04","Batch Production","GMP synthesis → HPLC purification → co-lyophilization → QC release with dual-peptide chromatogram."],
 ];
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are pre-formulated peptide stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Pre-formulated research peptide combinations where two or more peptides are co-lyophilized into single vials. One COA, one batch number — eliminating separate reconstitution steps."}}, {"@type": "Question", "name": "What stack combinations are available?", "acceptedAnswer": {"@type": "Answer", "text": "Standard: Cagrilintide + Semaglutide fixed-dose kit, BPC-157 + TB-500 blend, and GLOW70/KLOW80 cosmetic peptide stacks. Custom stacks for bulk orders."}}, {"@type": "Question", "name": "What's the advantage of pre-formulated stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Single COA documents both peptides. No weighing errors. No cross-contamination. Simplified inventory (one SKU). Consistent batch-to-batch ratios."}}, {"@type": "Question", "name": "How is stack purity verified?", "acceptedAnswer": {"@type": "Answer", "text": "Each peptide component individually verified by HPLC and MS before combination. Final stack product undergoes HPLC confirming both peaks at specified ratios. Single COA."}}, {"@type": "Question", "name": "What is the lead time for custom stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Standard catalog stacks: 5-7 business days. Custom ratio stacks: 10-14 days for new formulations. Annual contract customers: priority production scheduling."}}]};
 ---
 
 <PageLayout
@@ -108,14 +109,7 @@ const workflow = [
 
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What are pre-formulated peptide stacks?","acceptedAnswer":{"@type":"Answer","text":"Co-lyophilized peptide combinations in single vials. One COA, one batch number — eliminating separate reconstitution and simplifying inventory."}},
-      {"@type":"Question","name":"What stack combinations are available?","acceptedAnswer":{"@type":"Answer","text":"Cagrilintide + Semaglutide, BPC-157 + TB-500 blend, GLOW70/KLOW80 cosmetic stacks. Custom stacks for bulk orders."}},
-      {"@type":"Question","name":"What's the advantage of pre-formulated stacks?","acceptedAnswer":{"@type":"Answer","text":"Single COA. No weighing errors. No cross-contamination. Simplified inventory (one SKU). Consistent batch ratios."}},
-      {"@type":"Question","name":"How is stack purity verified?","acceptedAnswer":{"@type":"Answer","text":"Each component individually verified by HPLC/MS before combination. Final stack: HPLC confirms both peaks at specified ratios. Single COA."}},
-      {"@type":"Question","name":"What is lead time for custom stacks?","acceptedAnswer":{"@type":"Answer","text":"Standard: 5-7 business days. Custom ratio: 10-14 days. Annual contracts: priority production scheduling."}}
-    ]}</script>
-<h2 class="text-center mb-10">FAQ</h2>
+    <h2 class="text-center mb-10">FAQ</h2>
     <div class="space-y-3 max-w-3xl mx-auto">
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can I customize the peptide ratios in a stack?</summary><p class="mt-3 text-gray-600 text-sm">Yes. Standard stacks have fixed ratios (e.g., 5mg BPC-157 + 5mg TB-500), but custom ratios are available for qualifying MOQs. For example, a 10mg BPC-157 + 2.5mg TB-500 configuration is a common custom request for protocols emphasizing cytoprotection.</p></details>
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Are custom stacks suitable for OEM private-labeling?</summary><p class="mt-3 text-gray-600 text-sm">Yes — this is their primary use case. A custom stack with your branding, your vial labels, your kit box, and your packaging is a complete product. We handle synthesis, formulation, filling, and documentation; you manage branding, marketing, and distribution.</p></details>
@@ -135,4 +129,6 @@ const workflow = [
 </section>
 
 <div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>

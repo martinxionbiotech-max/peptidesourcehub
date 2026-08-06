@@ -24,6 +24,7 @@ const pathways = [
   ["Sleep Architecture","DSIP","Delta wave promotion → restorative sleep regulation"],
   ["Cellular Senescence","FOXO4-DRI","p53-mediated senescent cell clearance"],
 ];
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What nootropic and anti-aging peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "A curated selection of peptides for cognitive function, neuroprotection, and longevity research. All ≥99% HPLC purity with batch-specific COA. Contact us for complete catalog listing."}}, {"@type": "Question", "name": "What purity standard applies to nootropic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all nootropic and anti-aging research peptides. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "How are nootropic peptides shipped?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized powder via DHL/FedEx international priority (2-6 business days). Temperature-controlled packaging. Tracking number within 3 business days."}}, {"@type": "Question", "name": "What is the minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "1 kit (standard configuration) for evaluation. No MOQ. Bulk tiered pricing: 10-70% off depending on volume. Mixed-molecule orders qualify for combined tiers."}}, {"@type": "Question", "name": "How should nootropic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. 12-24 month stability depending on peptide. Reconstituted: aliquot at -20°C to -80°C. Avoid freeze-thaw cycles."}}]};
 ---
 
 <PageLayout
@@ -101,14 +102,7 @@ const pathways = [
 
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What nootropic peptides are available?","acceptedAnswer":{"@type":"Answer","text":"Curated selection for cognitive function, neuroprotection, and longevity research. All ≥99% HPLC purity. Contact us for complete catalog."}},
-      {"@type":"Question","name":"What purity standard applies?","acceptedAnswer":{"@type":"Answer","text":"≥99% by HPLC with ESI-MS identity confirmation. Batch-specific COA included with every order."}},
-      {"@type":"Question","name":"How are nootropic peptides shipped?","acceptedAnswer":{"@type":"Answer","text":"Lyophilized powder via DHL/FedEx (2-6 business days). Temperature-controlled. Tracking within 3 business days."}},
-      {"@type":"Question","name":"What is the minimum order quantity?","acceptedAnswer":{"@type":"Answer","text":"1 kit for evaluation. No MOQ. Tiered pricing: 10-70% off. Mixed-molecule orders qualify for combined tiers."}},
-      {"@type":"Question","name":"How should nootropic peptides be stored?","acceptedAnswer":{"@type":"Answer","text":"Lyophilized: 2-8°C, desiccated, protected from light. 12-24 month stability. Reconstituted: aliquot at -20°C to -80°C."}}
-    ]}</script>
-<h2 class="text-center mb-10">FAQ</h2>
+    <h2 class="text-center mb-10">FAQ</h2>
     <div class="space-y-3 max-w-3xl mx-auto">
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What is the research evidence for Epithalon and telomerase?</summary><p class="mt-3 text-gray-600 text-sm">Epithalon (Ala-Glu-Asp-Gly) has been studied for its effect on telomerase activity in somatic cells. Research by Khavinson et al. documented telomere length preservation in cell cultures treated with the tetrapeptide, implicating gene expression modulation of telomerase catalytic subunit hTERT. This remains an active area of biogerontology research.</p></details>
       <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">How does Semax differ from Selank?</summary><p class="mt-3 text-gray-600 text-sm">Semax is an ACTH(4–7) fragment modified with a C-terminal Pro-Gly-Pro tripeptide that enhances metabolic stability. Its primary documented mechanism is BDNF/NGF upregulation. Selank is a tuftsin-derived heptapeptide that modulates GABAergic and dopaminergic systems — producing an anxiolytic profile without sedation. They are complementary but mechanistically distinct.</p></details>
@@ -128,4 +122,6 @@ const pathways = [
 </section>
 
 <div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+
+<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>
