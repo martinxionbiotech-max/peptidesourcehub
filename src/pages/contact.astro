@@ -1,0 +1,196 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Dr. Aaron Wang — Peptide Source Hub",
+  "description": "Contact Dr. Aaron Wang for wholesale peptide pricing and technical inquiries. WhatsApp, Telegram, email. PhD biologist with 15 years international experience.",
+  "mainEntity": { "@type": "Person", "name": "Dr. Aaron Wang", "jobTitle": "International Sales & Technical Director", "email": "aaron@senobiocorp.com", "telephone": "+64-20-431-0558" },
+  "provider": { "@type": "Organization", "name": "Peptide Source Hub" },
+};
+
+const channels = [
+  {
+    icon: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a9.87 9.87 0 00-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z",
+    color: "bg-green-600",
+    colorLight: "bg-green-600/20",
+    label: "WhatsApp",
+    value: "+64 20 431 0558",
+    href: "https://wa.me/64204310558",
+    hint: "Dr. Aaron — direct message, fastest response",
+    cta: "Message on WhatsApp"
+  },
+  {
+    icon: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
+    color: "bg-blue-600",
+    colorLight: "bg-blue-600/20",
+    label: "Email",
+    value: "aaron@senobiocorp.com",
+    href: "mailto:aaron@senobiocorp.com",
+    hint: "For formal quotations and technical documentation",
+    cta: "Send Email"
+  },
+  {
+    icon: "M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.717-.962 4.084-1.362 5.42-.168.602-.5.804-.82.824-.697.064-1.226-.46-1.901-.903-1.056-.692-1.653-1.123-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.213-.07-.062-.174-.04-.25-.023-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.24-1.865-.44-.752-.245-1.349-.374-1.297-.79.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.002.321.023.465.14.119.09.152.212.166.298.015.086.034.28.02.432z",
+    color: "bg-sky-600",
+    colorLight: "bg-sky-600/20",
+    label: "Telegram",
+    value: "@DrAaronWang",
+    href: "https://t.me/DrAaronWang",
+    hint: "Direct messaging support",
+    cta: "Open Telegram"
+  },
+];
+---
+
+<PageLayout
+  title="Contact Dr. Aaron Wang — Peptide Source Hub"
+  description="Contact Dr. Aaron Wang for wholesale peptide pricing and technical inquiries. WhatsApp, Telegram, email. PhD biologist with 15 years international experience."
+  {jsonLd}
+>
+
+<!-- Page Header -->
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-narrow mx-auto px-4 text-center relative z-10 animate-on-scroll">
+    <h1 class="text-white">Contact Dr. Aaron Wang</h1>
+    <p class="text-xl text-gray-300 mt-4 flex items-center justify-center gap-2">
+      <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Response within 1 business day (Mon–Sat, CST / UTC+8)
+    </p>
+  </div>
+</section>
+
+<!-- Dr. Aaron Introduction Card -->
+<section class="section bg-surface -mt-8 relative z-10">
+  <div class="container-narrow mx-auto px-4">
+    <div class="card p-8 md:p-10">
+      <div class="flex flex-col md:flex-row items-start gap-6">
+        <div class="shrink-0 w-20 h-20 rounded-2xl bg-gradient-to-br from-accent/20 to-accent/10 flex items-center justify-center text-accent font-bold text-2xl border-2 border-accent/20">
+          AW
+        </div>
+        <div>
+          <h2 class="text-xl font-bold mb-2">Dr. Aaron Wang <span class="text-accent-dark text-sm font-normal">PhD, Biology</span></h2>
+          <p class="text-accent-dark font-medium text-sm mb-3">International Sales &amp; Technical Director</p>
+          <p class="text-gray-600 text-sm leading-relaxed">A Chinese-New Zealand dual national with a PhD in Biology, Dr. Aaron completed his undergraduate studies in New Zealand before returning to China to bridge peptide manufacturing with global B2B markets. His 15 years in New Zealand's life sciences sector — spanning academic research, biotech product development, and technical sales — means every buyer conversation is backed by genuine scientific understanding, not a sales script.</p>
+          <p class="text-gray-500 text-xs mt-3">📌 <a href="/about/" class="text-accent-dark hover:text-accent underline font-medium">Read Dr. Aaron's full bio →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Channels -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
+      {channels.map(({ icon, color, colorLight, label, value, href, hint, cta }) => (
+        <div class="card text-center p-8 group hover:-translate-y-2">
+          <div class={`w-16 h-16 mx-auto mb-5 rounded-2xl ${colorLight} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+            {icon === channels[0].icon ? (
+              <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="currentColor"><path d={icon}/></svg>
+            ) : icon === channels[1].icon ? (
+              <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d={icon}/></svg>
+            ) : (
+              <svg class="w-8 h-8 text-sky-600" viewBox="0 0 24 24" fill="currentColor"><path d={icon}/></svg>
+            )}
+          </div>
+
+          <h3 class="font-bold text-lg mb-2">{label}</h3>
+          <a href={href} class="text-accent-dark font-semibold text-lg hover:text-accent transition-colors block mb-2">{value}</a>
+          <p class="text-gray-500 text-sm mb-5">{hint}</p>
+
+          <a href={href} class="inline-flex items-center gap-2 bg-primary text-white font-medium px-5 py-2.5 rounded-btn text-sm hover:bg-primary-light transition-colors duration-200 group/btn">
+            {cta}
+            <svg class="w-4 h-4 transition-transform group-hover/btn:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Inquiry Guide + Address -->
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-5xl mx-auto stagger-children">
+
+      <!-- What to Include -->
+      <div class="card p-8">
+        <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+          <span class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
+            <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </span>
+          What to Include
+        </h2>
+        <ol class="space-y-4">
+          {[
+            ["Target peptide(s)", "CAS number or sequence if available"],
+            ["Desired purity", "Our standard is ≥99%"],
+            ["Quantity", "Single kit evaluation or projected monthly volume"],
+            ["Documentation needs", "COA only or full analytical package?"],
+            ["Special requirements", "Custom labeling, private-label, specific configurations"],
+          ].map(([label, desc]) => (
+            <li class="flex items-start gap-3">
+              <span class="shrink-0 w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center text-accent text-xs font-bold mt-0.5">
+                {label[0]}
+              </span>
+              <div>
+                <span class="font-semibold text-primary text-sm">{label}</span>
+                <p class="text-gray-500 text-xs mt-0.5">{desc}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <!-- Address Card -->
+      <div class="card p-8">
+        <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+          <span class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
+            <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </span>
+          Factory Address
+        </h2>
+
+        <div class="space-y-5">
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Building 9A, Shenzhen Bay Science & Technology Eco-Park<br/>
+              No. 9 Gaoxin South 1st Road<br/>
+              Nanshan District, Shenzhen, China
+            </p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div>
+              <p class="text-gray-600 text-sm font-medium">Operating Hours</p>
+              <p class="text-gray-500 text-sm">Mon–Sat, 9:00 AM – 6:00 PM (CST / UTC+8)</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <div>
+              <p class="text-gray-600 text-sm font-medium">Response Time</p>
+              <p class="text-gray-500 text-sm">Within one business day for all inquiries</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map placeholder -->
+        <div class="mt-6 rounded-xl bg-gray-100 h-48 flex items-center justify-center border border-gray-200">
+          <div class="text-center text-gray-400">
+            <svg class="w-8 h-8 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            <span class="text-sm">Shenzhen Bay Science & Technology Eco-Park</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</PageLayout>

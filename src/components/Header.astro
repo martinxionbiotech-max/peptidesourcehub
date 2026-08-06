@@ -1,0 +1,231 @@
+---
+const { currentPath = "/" } = Astro.props;
+const navLinks = [
+  { href: "/products/", label: "Products" },
+  { href: "/about/", label: "About" },
+  { href: "/faq/", label: "FAQ" },
+  { href: "/blog/", label: "Guides" },
+  { href: "/contact/", label: "Contact" },
+];
+---
+
+<header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <!-- Top bar -->
+  <div id="top-bar" class="bg-primary-lighter text-gray-300 text-sm py-1.5 px-4 text-center hidden md:block transition-all duration-300 overflow-hidden">
+    <span class="inline-flex items-center gap-1.5">
+      <svg class="w-3.5 h-3.5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+      Free worldwide shipping on orders over $500
+      <span class="mx-2 opacity-30">·</span>
+      <svg class="w-3.5 h-3.5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Tracking within 3 business days
+    </span>
+  </div>
+
+  <!-- Main nav bar -->
+  <div id="nav-bar" class="bg-primary/90 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
+    <div class="container-wide mx-auto px-4">
+      <div class="flex items-center justify-between py-3">
+
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2.5 text-white font-bold text-xl hover:opacity-90 transition-opacity shrink-0" aria-label="Peptide Source Hub home">
+          <span class="relative flex items-center justify-center w-9 h-9">
+            <span class="absolute inset-0 bg-accent/20 rounded-lg rotate-45"></span>
+            <span class="relative text-accent text-xl">◆</span>
+          </span>
+          <span class="hidden sm:inline">Peptide Source Hub</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden lg:flex items-center gap-0.5" role="navigation">
+          {navLinks.map(link => {
+            const isActive = currentPath.startsWith(link.href) && link.href !== "/";
+            return (
+              <a
+                href={link.href}
+                class={`relative px-3.5 py-2 rounded-lg text-sm font-medium transition-all duration-200
+                  ${isActive
+                    ? "text-accent bg-accent/10"
+                    : "text-gray-300 hover:text-white hover:bg-white/5"}`}
+              >
+                {link.label}
+                {isActive && (
+                  <span class="absolute bottom-0 left-3 right-3 h-0.5 bg-accent rounded-full"></span>
+                )}
+              </a>
+            );
+          })}
+
+          <!-- Language placeholder -->
+          <span class="px-2 py-1.5 ml-1 text-gray-500 text-xs cursor-default select-none border border-white/10 rounded-md opacity-50" title="Multi-language coming soon">
+            🌐 EN
+          </span>
+
+          <!-- CTA button with pulse animation -->
+          <a
+            href="/contact/"
+            class="ml-3 inline-flex items-center gap-2 bg-accent text-primary font-semibold px-5 py-2.5 rounded-btn text-sm
+                   hover:bg-accent-light transition-all duration-200 shadow-glow relative"
+            style="animation: pulse-ring 2s infinite;"
+          >
+            Get a Quote
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+          </a>
+        </nav>
+
+        <!-- Mobile CTA mini + Menu button -->
+        <div class="lg:hidden flex items-center gap-3">
+          <a href="/contact/" class="btn-primary text-xs !px-3 !py-1.5 !rounded-md shrink-0">
+            Quote
+          </a>
+          <button id="mobile-menu-btn" class="text-white p-2 -mr-2 relative z-50" aria-label="Toggle menu" aria-expanded="false">
+            <svg id="menu-icon-hamburger" class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            <svg id="menu-icon-close" class="w-6 h-6 hidden transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Fullscreen Overlay Menu -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-primary/98 backdrop-blur-xl flex flex-col items-center justify-center opacity-0 pointer-events-none transition-all duration-300">
+    <nav class="flex flex-col items-center gap-3 w-full px-6 max-w-sm mx-auto" role="navigation">
+      {navLinks.map((link, i) => {
+        const isActive = currentPath.startsWith(link.href) && link.href !== "/";
+        return (
+          <a
+            href={link.href}
+            class={`mobile-nav-link w-full text-center py-4 text-lg font-semibold rounded-xl transition-all duration-300
+              ${isActive
+                ? "text-accent bg-accent/10"
+                : "text-white hover:bg-white/5"}`}
+            style={`transition-delay: ${i * 50}ms;`}
+          >
+            {link.label}
+          </a>
+        );
+      })}
+      <div class="w-full border-t border-white/10 pt-5 mt-2 flex flex-col gap-3">
+        <a
+          href="/contact/"
+          class="mobile-nav-link w-full text-center bg-accent text-primary font-bold px-8 py-4 rounded-btn text-lg
+                 hover:bg-accent-light transition-all duration-200"
+          style="transition-delay: 300ms;"
+        >
+          Get Your Factory Quote <span class="ml-1">→</span>
+        </a>
+        <span class="text-gray-500 text-xs text-center mt-2 cursor-default select-none">
+          🌐 English (more languages coming soon)
+        </span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<style>
+  /* Scrolled state — applied via JS */
+  header.scrolled #top-bar {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+  }
+  header.scrolled #nav-bar {
+    background-color: rgb(10 22 40 / 0.95);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+
+  /* Mobile menu open state */
+  .mobile-menu-open #mobile-menu-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .mobile-menu-open .mobile-nav-link {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .mobile-menu-open #nav-bar {
+    background-color: #0a1628;
+  }
+</style>
+
+<script>
+  // ── Scroll handler: glass → solid transition ──
+  const header = document.getElementById('site-header');
+  const topBar = document.getElementById('top-bar');
+  let lastScrollY = 0;
+
+  function updateHeader() {
+    const scrollY = window.scrollY;
+    if (scrollY > 10) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+    lastScrollY = scrollY;
+  }
+
+  // Initial check
+  updateHeader();
+  window.addEventListener('scroll', updateHeader, { passive: true });
+
+  // ── Mobile menu toggle ──
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const hamburger = document.getElementById('menu-icon-hamburger');
+  const closeIcon = document.getElementById('menu-icon-close');
+  const overlay = document.getElementById('mobile-menu-overlay');
+  let menuOpen = false;
+
+  function openMenu() {
+    menuOpen = true;
+    document.documentElement.classList.add('mobile-menu-open');
+    hamburger.classList.add('hidden');
+    closeIcon.classList.remove('hidden');
+    menuBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    // Animate in links
+    overlay.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.style.opacity = '1';
+      link.style.transform = 'translateY(0)';
+    });
+  }
+
+  function closeMenu() {
+    menuOpen = false;
+    document.documentElement.classList.remove('mobile-menu-open');
+    hamburger.classList.remove('hidden');
+    closeIcon.classList.add('hidden');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    overlay.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.style.opacity = '0';
+      link.style.transform = 'translateY(8px)';
+    });
+  }
+
+  menuBtn?.addEventListener('click', () => {
+    menuOpen ? closeMenu() : openMenu();
+  });
+
+  // Close on link click
+  overlay?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeMenu();
+    });
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && menuOpen) closeMenu();
+  });
+
+  // Initialize mobile nav links hidden
+  overlay?.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.style.opacity = '0';
+    link.style.transform = 'translateY(8px)';
+    link.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+  });
+</script>

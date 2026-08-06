@@ -1,0 +1,70 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cagrilintide Wholesale Guide: Strategic Portfolio Planning for B2B Buyers",
+  "description": "How peptide distributors and research buyers use Cagrilintide alongside GLP-1 portfolios. Mechanism, protocol design, OEM stack development, and sourcing checklist.",
+  "author": { "@type": "Organization", "name": "Peptide Source Hub" },
+  "publisher": { "@type": "Organization", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+  "datePublished": "2026-08-01",
+  "dateModified": "2026-08-06",
+};
+---
+<PageLayout title="Cagrilintide Wholesale Guide" description="How peptide distributors and research buyers use Cagrilintide alongside GLP-1 portfolios. Mechanism, protocol design, OEM stack development, and sourcing checklist." {jsonLd}>
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Cagrilintide Wholesale Guide: Strategic Portfolio Planning for B2B Buyers</h1>
+    <p class="text-gray-500 mt-4">Understanding where Cagrilintide fits in a peptide portfolio — and why that matters for sourcing decisions.</p>
+
+    <div class="mt-8 prose-custom max-w-none">
+      <div class="card mb-8">
+        <h2 class="text-lg font-bold mb-3">What Cagrilintide Does</h2>
+        <p class="text-gray-600">A long-acting amylin analogue that complements GLP-1 receptor agonists through three distinct mechanisms: delayed gastric emptying, reduced glucagon secretion, and central appetite modulation via area postrema neurons.</p>
+      </div>
+
+      <h2 class="mt-10">Where Buyers Position Cagrilintide</h2>
+      <div class="space-y-6 mt-4">
+        {[
+          ["Portfolio Enhancement","Adding Cagrilintide alongside Semaglutide/Tirzepatide gives customers a tool to address the satiety gap without switching suppliers.","🎯"],
+          ["OEM Differentiation","Launch a premium dual-pathway product that commands higher margins than single-molecule competition.","🏷️"],
+          ["Pipeline Staging","Phase 1 single-molecule GLP-1, Phase 2 add Cagrilintide, Phase 3 combined protocol — all from one factory.","🔄"],
+        ].map(([t,d,e])=>(
+          <div class="card"><div class="flex gap-3"><span class="text-2xl">{e}</span><div><h3 class="font-bold">{t}</h3><p class="text-gray-600 text-sm mt-1">{d}</p></div></div></div>
+        ))}
+      </div>
+
+      <h2 class="mt-10">Protocol Design Patterns</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+        {[
+          ["A: Sequential","Establish GLP-1 baseline 4–8 weeks, then add Cagrilintide if appetite control plateaus.","Most common, clean single-molecule batch first."],
+          ["B: Concurrent","Start both from Day 1, titrate independently.","Faster time-to-data, needs both molecules from same source."],
+          ["C: Fixed-Dose Stack","Pre-formulated Cagrilintide + Semaglutide kit.","Standardized dosing, needs reliable OEM partner."],
+        ].map(([t,desc,note])=>(
+          <div class="card"><h3 class="font-bold text-sm">{t}</h3><p class="text-gray-600 text-xs mt-2">{desc}</p><p class="text-accent-dark text-xs mt-2 font-medium">{note}</p></div>
+        ))}
+      </div>
+
+      <h2 class="mt-10">Sourcing Checklist</h2>
+      <div class="card mt-4">
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li>✅ Purity ≥99% by HPLC (standard)</li>
+          <li>✅ Documentation: COA minimum; HPLC/MS if needed</li>
+          <li>✅ Kit config: standard 10 vials/kit; custom available</li>
+          <li>✅ Lead time from order to dispatch</li>
+          <li>✅ Shipping carrier and transit time estimates</li>
+          <li>✅ Storage: 2–8°C, protect from light</li>
+          <li>✅ OEM/private-label options available</li>
+          <li>✅ Volume pricing: 2+ kits → 10–70% off</li>
+        </ul>
+      </div>
+
+      <div class="mt-10 text-center">
+        <a href="/products/metabolic/" class="btn-primary">Browse Metabolic Peptides →</a>
+        <a href="/contact/" class="btn-outline ml-3">Request Factory Quote →</a>
+      </div>
+    </div>
+  </div>
+</article>
+</PageLayout>

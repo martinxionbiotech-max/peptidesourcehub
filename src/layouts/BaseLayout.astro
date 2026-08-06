@@ -1,0 +1,92 @@
+---
+const { title, description, image, jsonLd } = Astro.props;
+const pageTitle = `${title} — Peptide Source Hub`;
+const pageDesc = description || title;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="en" href={new URL(Astro.url.pathname, Astro.site).href} />
+  <link rel="alternate" hreflang="x-default" href={new URL(Astro.url.pathname, Astro.site).href} />
+
+  <!-- Primary Meta -->
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDesc} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={pageDesc} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
+  <meta property="og:site_name" content="Peptide Source Hub" />
+  {image && <meta property="og:image" content={image} />}
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD: Organization (global) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Peptide Source Hub",
+      "url": "https://peptidesourcehub.com",
+      "description": "Factory-direct peptide manufacturing since 2009. 58+ research peptides & HGH kits, ≥99% purity, global B2B fulfillment from Shenzhen, China.",
+      "foundingDate": "2009",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Building 9A, Shenzhen Bay Science & Technology Eco-Park, No. 9 Gaoxin South 1st Road",
+        "addressLocality": "Shenzhen",
+        "addressRegion": "Nanshan District",
+        "addressCountry": "CN"
+      },
+      "contactPoint": [
+        { "@type": "ContactPoint", "contactType": "sales", "telephone": "+64-20-431-0558", "availableLanguage": ["English", "Chinese"], "contactOption": "WhatsApp" },
+        { "@type": "ContactPoint", "contactType": "customer service", "email": "aaron@senobiocorp.com", "availableLanguage": ["English"] }
+      ],
+      "sameAs": [
+        "https://wa.me/64204310558",
+        "https://t.me/DrAaronWang"
+      ]
+    }
+  </script>
+
+  <!-- JSON-LD: Page-specific -->
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+  )}
+</head>
+
+<body class="font-sans bg-white text-dark min-h-screen flex flex-col">
+  <slot />
+
+  <!-- Scroll-Reveal via Intersection Observer -->
+  <script>
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.animate-on-scroll, .stagger-children').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>

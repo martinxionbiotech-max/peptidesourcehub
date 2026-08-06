@@ -1,0 +1,115 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "TB-500 Wholesale — Thymosin Beta-4 Fragment",
+  "description": "TB-500 (Thymosin Beta-4 fragment). CAS 77591-33-4. ≥99% HPLC purity. 5mg or 10mg ×10 vials/kit. G-actin sequestration research tool. COA included.",
+  "sku": "PSH-TB500-5MG",
+  "manufacturer": { "@type": "Organization", "name": "Peptide Source Hub" },
+};
+
+const specs = [
+  ["CAS Number","77591-33-4"],
+  ["Sequence","Thymosin Beta-4 fragment (17-43) with actin-binding domain"],
+  ["Molecular Weight","~4,963 Da (full Tβ4); fragment MW fragment-dependent"],
+  ["Appearance","White to off-white lyophilized powder"],
+  ["Purity","≥99% by HPLC"],
+  ["Solubility","Freely soluble in sterile water or PBS"],
+  ["Storage","2–8°C, desiccated, protect from light"],
+];
+
+const configs = [
+  ["Standard Kit","5 mg × 10 vials","Most research protocols"],
+  ["Bulk Kit","10 mg × 10 vials","High-throughput; repeat buyers"],
+  ["BPC-157 + TB-500 Stack","5mg + 5mg × 10 vials","Combined tissue repair research"],
+  ["Custom","Custom mg × custom vials","OEM; protocol-specific"],
+];
+
+const focusAreas = [
+  ["Wound Healing","Accelerated closure; reduced scar formation (collagen III:I ratio)"],
+  ["Cell Migration","Keratinocyte & endothelial migration via G-actin remodeling"],
+  ["Angiogenesis","Endothelial differentiation; capillary tube formation"],
+  ["Hair Follicle","Anagen phase entry promotion"],
+  ["Cardiac Protection","Reduced infarct size; improved function post-MI"],
+  ["Anti-Inflammatory","Reduced NF-κB activation and TNF-α expression"],
+  ["Neuroprotection","Neurite outgrowth; excitotoxic damage protection"],
+];
+
+const mechanisms = [
+  ["G-Actin Sequestration","1:1 binding to monomeric G-actin → maintains polymerization-ready pool"],
+  ["Cell Migration","Regulates actin dynamics → directional migration of keratinocytes"],
+  ["Collagen Modulation","Shifts Type III:Type I ratio → finer, organized collagen (fetal-like healing)"],
+  ["Laminin-5 Upregulation","Increases laminin-332 → key ECM component for keratinocyte migration"],
+  ["MMP Expression","Modulates matrix metalloproteinases → controlled ECM remodeling"],
+];
+
+const tb500VsFull = [
+  ["Size","17-43 fragment (~27 AA)","43 amino acids"],
+  ["Actin-binding","✓","✓"],
+  ["Synthesis","Lower complexity","Higher (full 43-mer)"],
+  ["Research prevalence","Most common","Full-length mechanism studies"],
+  ["Cost","More economical","Higher"],
+  ["PSH availability","Standard","On request"],
+];
+
+const qcSpecs = [
+  ["Purity","HPLC at 214 nm","≥99.0% peak area"],
+  ["Identity (MW)","ESI-MS","Confirmed ±1.0 Da"],
+  ["Appearance","Visual","White to off-white powder"],
+  ["Peptide Content","AAA / nitrogen","≥80% net peptide"],
+  ["Residual Moisture","Karl Fischer","≤3%"],
+  ["Solubility","Sterile water test","Clear solution"],
+];
+
+const pricing = [
+  ["1 kit","List price","Evaluation; quality validation"],
+  ["2–5 kits","10–20% off","Small groups; initial stocking"],
+  ["6–20 kits","25–40% off","Mid-size distributors"],
+  ["21–50 kits","40–55% off","Regional distributors"],
+  ["50+ kits","55–70% off","Large distributors; recurring"],
+];
+---
+
+<PageLayout title="TB-500 Wholesale — Research-Grade ≥99% Purity Bulk Thymosin β4 Fragment" description="Factory-direct TB-500 wholesale. CAS 77591-33-4. ≥99% HPLC, lyophilized powder, 10-vial kits. Tiered pricing. COA included." {jsonLd}>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb"><a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span><a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span><a href="/products/healing-recovery/" class="text-gray-400 hover:text-white">Healing & Recovery</a><span class="text-gray-600">/</span><span class="text-accent">TB-500</span></nav>
+    <h1 class="text-white text-3xl md:text-5xl">TB-500 Wholesale</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Thymosin Beta-4 fragment (17-43) — G-actin sequestration research tool, batch-documented, manufacturer-direct</p>
+  </div>
+</section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Product Identity & Specifications</h2><div class="max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><tbody>{specs.map(([k,v],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary w-1/3">{k}</td><td class="py-3 px-5 text-gray-600">{v}</td></tr>))}</tbody></table></div></div></section>
+
+<section class="section dot-pattern"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Available Configurations</h2><div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Configuration</th><th class="text-left py-3 px-5 font-semibold text-primary">Content</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead><tbody>{configs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody></table></div></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Research Background</h2><div class="max-w-4xl"><p class="text-gray-600 mb-6">Thymosin Beta-4 is a 43-amino acid peptide ubiquitously expressed in mammalian cells. TB-500 is its synthetic fragment containing the G-actin binding domain — making it a critical tool for cell migration and tissue repair research.</p><h3 class="text-lg font-bold mb-3">Published Research Focus Areas</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">{focusAreas.map(([a,f])=>(<div class="card p-4"><span class="font-semibold text-primary text-sm">{a}</span><p class="text-gray-500 text-xs mt-1">{f}</p></div>))}</div><h3 class="text-lg font-bold mb-3">Proposed Mechanisms</h3><div class="space-y-2 mb-6">{mechanisms.map(([m,d])=>(<div class="card p-4"><span class="font-semibold text-accent-dark text-sm">{m}</span><span class="text-gray-600 text-sm ml-2">{d}</span></div>))}</div><h3 class="text-lg font-bold mb-3">TB-500 vs Full-Length Thymosin Beta-4</h3><div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-4 font-semibold text-primary">Aspect</th><th class="text-left py-3 px-4 font-semibold text-primary">TB-500</th><th class="text-left py-3 px-4 font-semibold text-primary">Full Tβ4</th></tr></thead><tbody>{tb500VsFull.map(([a,tb,full],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-4 font-semibold text-primary text-sm">{a}</td><td class="py-3 px-4 text-gray-600 text-sm">{tb}</td><td class="py-3 px-4 text-gray-600 text-sm">{full}</td></tr>))}</tbody></table></div></div></div></section>
+
+<section class="section bg-surface"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Quality Specifications</h2><div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-4 font-semibold text-primary">Parameter</th><th class="text-left py-3 px-4 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">Criterion</th></tr></thead><tbody>{qcSpecs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-4 font-semibold text-primary text-sm">{r[0]}</td><td class="py-3 px-4 text-gray-600 text-xs">{r[1]}</td><td class="py-3 px-5 text-accent-dark font-medium text-sm">{r[2]}</td></tr>))}</tbody></table></div></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Tiered Wholesale Pricing</h2><div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Volume</th><th class="text-left py-3 px-5 font-semibold text-primary">Discount</th><th class="text-left py-3 px-5 font-semibold text-primary">For</th></tr></thead><tbody>{pricing.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody></table></div><p class="text-gray-500 text-sm mt-4 text-center"><strong>Combined ordering:</strong> Order BPC-157 + TB-500 together for combined volume discount — both count toward your tier.</p></div></section>
+
+<section class="section bg-surface"><div class="container-narrow mx-auto px-4"><h2 class="text-center mb-8">FAQ</h2><div class="space-y-3 max-w-3xl mx-auto">
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">How does TB-500 differ from BPC-157 mechanistically?</summary><p class="mt-3 text-gray-600 text-sm">TB-500 works via G-actin sequestration — binding monomeric actin to regulate cytoskeletal dynamics and cell migration. BPC-157 works via VEGF-mediated angiogenesis, GH receptor upregulation, and NO modulation. They are complementary: TB-500 mobilizes cells into wound sites; BPC-157 builds blood supply and growth factor environment. This is the mechanistic basis for their frequent combined use.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What's the recommended storage?</summary><p class="mt-3 text-gray-600 text-sm">2–8°C, desiccated, protect from light. Powder is hygroscopic — reseal vials after opening. Stable 12–24 months. Post-reconstitution: aliquot into single-use portions in polypropylene tubes, freeze at -20°C. Avoid freeze-thaw cycles.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can you provide full-length Thymosin Beta-4 (43-mer)?</summary><p class="mt-3 text-gray-600 text-sm">Yes — available on request for protocols requiring the complete 43-amino acid sequence. Higher synthesis complexity and price vs. the TB-500 fragment. <a href="/contact/" class="text-accent-dark hover:underline">Contact us</a> with your requirements.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Is TB-500 the same as Thymosin Beta-4?</summary><p class="mt-3 text-gray-600 text-sm">Not exactly. TB-500 is the synthetic 17-43 fragment of Tβ4, containing the actin-binding domain. The full 43-mer may have additional N-terminal activities. For most tissue repair research, the TB-500 fragment is sufficient — it's the most commonly studied form.</p></details>
+</div></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Related Products</h2><div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+<a href="/products/bpc-157/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">BPC-157</span><span class="text-gray-500 text-xs">Angiogenesis & GF signaling</span></a>
+<a href="/products/specialty-stacks/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">BPC+TB Stack</span><span class="text-gray-500 text-xs">Pre-formulated combo</span></a>
+<a href="/products/ghk-cu/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">GHK-Cu</span><span class="text-gray-500 text-xs">Collagen & wound healing</span></a>
+<a href="/products/healing-recovery/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">ARA-290</span><span class="text-gray-500 text-xs">Tissue protection</span></a>
+</div></div></section>
+
+<section class="section bg-surface"><div class="container-narrow mx-auto px-4 text-center"><p class="text-gray-500 text-sm max-w-2xl mx-auto"><strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, prophylactic, or any clinical use.</p></div></section>
+
+<section class="section bg-primary py-16 text-center"><div class="container-wide mx-auto px-4"><h2 class="text-white text-3xl mb-4">Ready to Source TB-500?</h2><p class="text-gray-300 max-w-xl mx-auto mb-8">Tiered discounts up to 70%. COA with every order. Combined BPC-157 + TB-500 ordering available.</p><div class="flex justify-center gap-4 flex-wrap"><a href="/contact/" class="btn-primary text-lg group">Request a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a></div></div></section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/healing-recovery/" class="text-accent-dark font-medium hover:underline">← Back to Healing & Recovery</a></div>
+</PageLayout>

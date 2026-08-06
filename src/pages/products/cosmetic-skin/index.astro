@@ -1,0 +1,111 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Wholesale Cosmetic & Skin Research Peptides",
+  "description": "Factory-direct GHK-Cu, Snap-8, Leuphasyl, Argireline, Matrixyl. ≥99% HPLC purity, batch-traceable, tiered wholesale pricing.",
+  "isPartOf": { "@type": "WebSite", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+};
+
+const products = [
+  ["GHK-Cu","49557-75-7","340.4 (GHK)","Copper peptide — wound healing & collagen synthesis","50 mg × 10 vials"],
+  ["Snap-8","—","1,073.2","Acetyl octapeptide-3 — SNAP-25 inhibitor, anti-wrinkle","10 mg × 10 vials"],
+  ["Leuphasyl","—","623.7","Pentapeptide-18 — enkephalin analogue, muscle relaxant","10 mg × 10 vials"],
+  ["Argireline","616204-22-9","889.0","Acetyl hexapeptide-8 — neurotransmitter inhibition","10 mg × 10 vials"],
+  ["Matrixyl","214047-00-4","803.9","Palmitoyl pentapeptide-4 — collagen fragment signal","10 mg × 10 vials"],
+];
+
+const matrix = [
+  ["GHK-Cu","Skin regeneration, wound repair","Tissue remodeling research","—"],
+  ["Snap-8","Expression line inhibition","Wrinkle reduction models","Argireline"],
+  ["Leuphasyl","Muscle contraction modulation","Fine line models","Snap-8"],
+  ["Argireline","Neurotransmitter inhibition","Expression line research","Snap-8"],
+  ["Matrixyl","Collagen synthesis signaling","Anti-aging formulation","GHK-Cu"],
+];
+---
+
+<PageLayout
+  title="Wholesale Cosmetic & Skin Research Peptides — GHK-Cu, Snap-8"
+  description="Factory-direct GHK-Cu, Snap-8, Leuphasyl, Argireline, Matrixyl. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
+  {jsonLd}
+>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Cosmetic & Skin</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Cosmetic & Skin Peptides</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Dermatological research & cosmetic formulation — factory-direct, batch-traceable</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="max-w-4xl">
+      <p class="text-lg text-gray-600">Cosmetic peptides are the fastest-growing segment in topical research peptide supply — driven by demand for evidence-backed ingredients in dermatological formulation studies. GHK-Cu remains the anchor of this category: a naturally occurring copper tripeptide with well-characterized effects on collagen synthesis and tissue remodeling. Snap-8 and Argireline extend into neurotransmitter modulation pathways for expression line research.</p>
+      <div class="flex flex-wrap gap-3 mt-6">
+        <a href="/contact/" class="btn-primary group">Get a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+        <a href="/blog/peptide-quality-guide/" class="btn-outline text-primary border-primary/30 hover:bg-primary hover:text-white">Peptide Quality Guide →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Product Specifications</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Product</th><th class="text-left py-3 px-4 font-semibold text-primary">CAS</th><th class="text-left py-3 px-4 font-semibold text-primary">MW (Da)</th><th class="text-left py-3 px-4 font-semibold text-primary">Research Context</th><th class="text-left py-3 px-5 font-semibold text-primary">Std. Configuration</th></tr></thead>
+        <tbody>
+          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{p[0]}</td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center">All products: ≥99% purity by HPLC · Lyophilized powder · COA included · Store at 2–8°C</p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Cross-Selling Matrix</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Peptide</th><th class="text-left py-3 px-5 font-semibold text-primary">Primary Application</th><th class="text-left py-3 px-5 font-semibold text-primary">Research Use</th><th class="text-left py-3 px-5 font-semibold text-primary">Pairs With</th></tr></thead>
+        <tbody>
+          {matrix.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[2]}</td><td class="py-3 px-5 text-accent-dark text-sm">{row[3]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-10">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What makes GHK-Cu different from other cosmetic peptides?</summary><p class="mt-3 text-gray-600 text-sm">GHK-Cu is a naturally occurring copper tripeptide with an unusually broad mechanism: it simultaneously modulates collagen synthesis, elastin production, glycosaminoglycan deposition, and metalloproteinase activity. Most other cosmetic peptides target a single pathway — GHK-Cu is a multi-target signal.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can Snap-8 and Argireline be used in the same formulation?</summary><p class="mt-3 text-gray-600 text-sm">Yes. While both target neurotransmitter release, they act through different mechanisms — Argireline inhibits vesicle docking (SNAP-25 competitor), while Snap-8 targets the SNARE complex assembly. Combined use is a common multi-target strategy in topical research.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What purity is required for cosmetic formulation research?</summary><p class="mt-3 text-gray-600 text-sm">Our standard ≥99% by HPLC is suitable for formulation studies requiring defined active concentrations. Lower-purity material increases the risk of off-target effects from peptide-related impurities.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Ready to Source Cosmetic Peptides?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Bulk pricing on all five cosmetic peptides. COA, HPLC, and MS documentation with every order.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request Wholesale Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+</PageLayout>

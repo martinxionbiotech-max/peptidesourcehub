@@ -1,0 +1,173 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Peptide Source Hub — Factory-Direct Peptide Manufacturing",
+  "description": "Since 2009, Peptide Source Hub has manufactured research-grade lyophilized peptides from our Shenzhen, China facility. In-house synthesis, purification, lyophilization, and QC.",
+  "mainEntity": { "@type": "Organization", "name": "Peptide Source Hub", "foundingDate": "2009" },
+};
+
+const stats = [
+  ["16+", "Years Operating"],
+  ["2M+", "Vials Produced"],
+  ["3K+", "B2B Customers"],
+  ["58", "Standard SKUs"],
+];
+
+const workflow = [
+  ["01", "Raw Material Control", "Every incoming amino acid derivative, resin, solvent, and reagent is verified against its certificate before entering synthesis."],
+  ["02", "Synthesis & Purification", "Solid-phase peptide synthesis followed by preparative HPLC purification. Target purity ≥99%. Lower-purity material is not released."],
+  ["03", "Lyophilization", "Freeze-dried under controlled temperature and vacuum profiles. Consistent cake morphology is a release criterion."],
+  ["04", "Vial Filling & Inspection", "Performed in classified clean areas with in-process weight checks. Visual inspection for particulate matter, seal integrity, and label accuracy."],
+  ["05", "Batch Documentation", "Every lot assigned a unique batch number. COA included; HPLC/MS data on request."],
+];
+
+const team = [
+  ["Dr. Aaron Wang", "International Sales & Technical Director", "PhD in Biology, Chinese-New Zealand dual national. Completed undergraduate studies in New Zealand, where he spent 15 years in life sciences — spanning academic research, biotech product development, and B2B technical sales. Leads international product sales and provides scientific-technical support bridging purchase requirements with manufacturing capabilities. Every buyer conversation is backed by genuine domain expertise, not a sales script."],
+  ["Daniel Chen", "Manufacturing & QC Director", "15 years in peptide synthesis. Oversees all production operations from raw material qualification through final QC release."],
+  ["Lily Wang", "Product & Compliance Specialist", "Manages product specifications, documentation packages, and regulatory compliance. Primary technical contact for regulated markets."],
+  ["Kevin Zhang", "Global Logistics & Fulfillment Manager", "Coordinates international order fulfillment, export documentation, and logistics partner relationships."],
+];
+---
+
+<PageLayout
+  title="About Our Factory"
+  description="Since 2009, Peptide Source Hub has manufactured research-grade lyophilized peptides from our Shenzhen, China facility. Meet our team and quality workflow."
+  {jsonLd}
+>
+
+<!-- Page Header -->
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-narrow mx-auto px-4 text-center relative z-10">
+    <div class="animate-on-scroll">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium mb-6">
+        <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+        Since 2009
+      </div>
+      <h1 class="text-white">About Peptide Source Hub</h1>
+      <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">Factory-Direct Peptide Manufacturing Since 2009</p>
+    </div>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4 animate-on-scroll">
+    <p class="text-lg">
+      We are not a trading company that resells peptides from unknown sources. We are a manufacturer. From day one, Peptide Source Hub has operated as a factory-direct supplier of lyophilized peptides and research materials.
+    </p>
+    <p class="mt-4">
+      Our Shenzhen facility handles the full production chain: solid-phase peptide synthesis, preparative HPLC purification, lyophilization under controlled cycle parameters, and final vial filling in classified clean zones.
+    </p>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <div class="text-center mb-12 animate-on-scroll">
+      <h2>By the Numbers</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">Our track record speaks for itself.</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 stagger-children">
+      {stats.map(([num, label]) => (
+        <div class="card text-center p-8 hover:-translate-y-1">
+          <div class="text-3xl md:text-4xl font-extrabold text-accent">{num}</div>
+          <div class="text-gray-500 text-sm font-medium mt-2">{label}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Quality Workflow Timeline -->
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <div class="text-center mb-16 animate-on-scroll">
+      <h2>Our Quality Workflow</h2>
+      <p class="text-gray-500 mt-4">Every batch follows these five production stages.</p>
+    </div>
+
+    <div class="relative stagger-children">
+      <!-- Vertical timeline line -->
+      <div class="hidden md:block absolute left-12 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent/20 via-accent to-accent/20"></div>
+
+      <div class="space-y-8">
+        {workflow.map(([num, title, desc]) => (
+          <div class="relative flex gap-6 items-start">
+            <!-- Step number circle -->
+            <div class="hidden md:flex w-24 shrink-0 items-center justify-center relative z-10">
+              <div class="w-12 h-12 rounded-full bg-accent/10 border-2 border-accent/20 flex items-center justify-center text-accent font-extrabold text-lg">
+                {num}
+              </div>
+            </div>
+            <!-- Content card -->
+            <div class="flex-1 card hover:-translate-y-0.5 hover:border-accent/20">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="md:hidden w-8 h-8 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-bold text-sm shrink-0">{num}</span>
+                <h3 class="font-bold text-lg">{title}</h3>
+              </div>
+              <p class="text-gray-600 text-sm leading-relaxed">{desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <div class="text-center mb-14 animate-on-scroll">
+      <h2>Our Team</h2>
+      <p class="text-gray-500 mt-4 max-w-2xl mx-auto">The people behind every batch.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 stagger-children">
+      {team.map(([name, role, desc]) => {
+        const initials = name.split(' ').map(n => n[0]).join('');
+        return (
+          <div class="card p-7 hover:-translate-y-1 flex gap-5 items-start">
+            <div class="shrink-0 w-14 h-14 rounded-full bg-gradient-to-br from-accent/20 to-accent/10 flex items-center justify-center text-accent font-bold text-lg border-2 border-accent/20">
+              {initials}
+            </div>
+            <div>
+              <h3 class="font-bold text-lg">{name}</h3>
+              <p class="text-accent-dark text-sm font-semibold mb-2">{role}</p>
+              <p class="text-gray-600 text-sm leading-relaxed">{desc}</p>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>
+
+<!-- Location CTA -->
+<section class="relative bg-primary overflow-hidden py-20">
+  <div class="absolute inset-0 hero-grid opacity-30"></div>
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl"></div>
+
+  <div class="container-wide mx-auto px-4 text-center relative z-10 animate-on-scroll">
+    <div class="inline-flex items-center gap-2 mb-4">
+      <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      <span class="text-accent font-medium">Shenzhen, China</span>
+    </div>
+    <h2 class="text-white text-3xl md:text-4xl mb-4">Building 9A, Shenzhen Bay Science & Technology Eco-Park</h2>
+    <p class="text-gray-300 max-w-2xl mx-auto">
+      Nanshan District. Our location gives us access to top-tier raw material suppliers and major international freight gateways.
+    </p>
+    <div class="mt-8">
+      <a href="/contact/" class="btn-primary text-lg group">
+        Get Your Factory Quote
+        <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+</PageLayout>

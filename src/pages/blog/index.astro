@@ -1,0 +1,92 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const posts = [
+  {
+    title: "Peptide Quality Guide: COA, HPLC & Supplier Selection",
+    slug: "peptide-quality-guide",
+    desc: "Learn how to read a Certificate of Analysis, understand HPLC purity vs MS identity, identify common impurity sources, and evaluate suppliers with our 10-question checklist.",
+    tags: ["Quality & Compliance", "B2B Buyer Guide"],
+    date: "2026-08-06",
+    icon: "🔬",
+  },
+  {
+    title: "GLP-1 Buyer's Guide: Semaglutide vs Tirzepatide vs Retatrutide",
+    slug: "glp1-buyers-guide",
+    desc: "Compare GLP-1 receptor agonists for wholesale procurement. Receptor pharmacology, clinical efficacy data, market trends, and a 5-step procurement decision framework.",
+    tags: ["Metabolic Research", "B2B Buyer Guide"],
+    date: "2026-08-06",
+    icon: "📊",
+  },
+  {
+    title: "Cagrilintide Wholesale Guide: Strategic Portfolio Planning",
+    slug: "cagrilintide-wholesale-guide",
+    desc: "How international buyers position Cagrilintide alongside GLP-1 portfolios — mechanistic role, protocol design patterns, and OEM stack strategies.",
+    tags: ["Metabolic Research", "OEM Strategy"],
+    date: "2026-08-01",
+    icon: "📋",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Peptide Source Hub Industry Blog",
+  "description": "Technical guides and industry insights for B2B peptide buyers: research applications, quality standards, and supply chain best practices.",
+  "publisher": { "@type": "Organization", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+  "blogPost": posts.map(p => ({
+    "@type": "BlogPosting",
+    "headline": p.title,
+    "url": `https://peptidesourcehub.com/blog/${p.slug}/`,
+    "datePublished": p.date,
+    "author": { "@type": "Organization", "name": "Peptide Source Hub" },
+    "description": p.desc,
+  })),
+};
+---
+
+<PageLayout
+  title="Peptide Industry Blog & Buyer Guides"
+  description="Technical guides for B2B peptide buyers: quality standards, COA interpretation, GLP-1 sourcing strategy, and supply chain best practices."
+  {jsonLd}
+>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 text-center relative z-10 animate-on-scroll">
+    <h1 class="text-white">Peptide Industry Blog</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">Technical resources for B2B peptide buyers, researchers, and supply chain managers.</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
+      {posts.map((post, i) => (
+        <a href={`/blog/${post.slug}/`} class="card group p-6 hover:-translate-y-2 flex flex-col h-full">
+          <div class="text-3xl mb-4">{post.icon}</div>
+          <div class="flex flex-wrap gap-2 mb-3">
+            {post.tags.map(tag => (
+              <span class={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${
+                tag === 'B2B Buyer Guide' ? 'bg-accent/10 text-accent' : 'bg-gray-100 text-gray-600'
+              }`}>{tag}</span>
+            ))}
+          </div>
+          <h2 class="text-lg font-bold mb-2 group-hover:text-accent transition-colors flex-1">{post.title}</h2>
+          <p class="text-gray-600 text-sm mb-4">{post.desc}</p>
+          <span class="text-accent-dark text-sm font-medium group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 mt-auto">
+            Read Guide
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+          </span>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center mt-12 py-10">
+      <p class="text-gray-500">More technical guides coming soon — subscribe to our newsletter for updates.</p>
+      <div class="mt-4"><a href="/contact/" class="btn-outline text-primary border-primary/30">Contact Us for Custom Research →</a></div>
+    </div>
+  </div>
+</section>
+
+</PageLayout>

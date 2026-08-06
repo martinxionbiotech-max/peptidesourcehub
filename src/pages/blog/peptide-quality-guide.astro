@@ -1,0 +1,167 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The B2B Peptide Quality Guide: COA, Purity Analysis & Supplier Selection",
+  "description": "Learn how to read a peptide COA, understand HPLC purity vs MS identity, identify impurity sources, and evaluate suppliers. 10 questions every B2B buyer should ask.",
+  "author": { "@type": "Organization", "name": "Peptide Source Hub" },
+  "publisher": { "@type": "Organization", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-06",
+};
+
+const coaFields = [
+  ["Product Name","IUPAC or common name","Should match exactly what you ordered"],
+  ["CAS Number","Chemical Abstracts Service registry","Cross-check against PubChem/ChemSpider"],
+  ["Batch/Lot Number","Unique identifier for your lot","Must change between orders; enables traceability"],
+  ["Purity (HPLC)","Percentage by HPLC peak area","Should be ≥99% for research-grade"],
+  ["Peptide Content","Net peptide weight (counterions removed)","May be 70–90% of total weight — important for dosing"],
+  ["Appearance","Visual description","White to off-white lyophilized powder; no discoloration"],
+  ["Molecular Weight","Confirmed by mass spectrometry","Should match theoretical MW ±1.0 Da"],
+  ["Storage","Recommended conditions","Typically 2–8°C, protect from light"],
+  ["Retest/Expiry","Recommended retest date","≥12 months from manufacture for stable peptides"],
+  ["QC Signature","Authorized sign-off","Indicates human-reviewed and approved batch"],
+];
+
+const impurities = [
+  ["Deletion peptides","Incomplete coupling cycle","Missing amino acids in sequence","HPLC (additional peaks), MS (lower MW)"],
+  ["Racemization","Epimerization during coupling","D-amino acid incorporation","Chiral HPLC, biological activity assay"],
+  ["Oxidation products","Exposure to air/light","Oxidized Met, Cys, Trp residues","HPLC (additional peaks), MS (+16 Da)"],
+  ["TFA counterions","HPLC purification with TFA","TFA bound to basic residues","Ion chromatography, elemental analysis"],
+  ["Residual solvents","Incomplete lyophilization","Acetonitrile, DMF, water","GC headspace analysis"],
+  ["Aggregates","Intermolecular association","Dimers, oligomers","SEC-HPLC, DLS"],
+];
+
+const checklist = [
+  "What is the purity specification for this peptide, and is it measured by HPLC?",
+  "Can you provide a batch-specific COA — not a generic template — for my order?",
+  "Will you share the HPLC chromatogram and MS spectrum upon request?",
+  "What is the net peptide content (not just total weight)?",
+  "What is your batch record system — is each batch uniquely identified and traceable?",
+  "Where are your peptides manufactured? Do you own the synthesis facility?",
+  "What is your policy on product returns or replacements if QC documentation fails review?",
+  "Can you produce custom peptide sequences, and what is your minimum order quantity?",
+  "What shipping carriers do you use, and how are temperature-sensitive shipments handled?",
+  "Do you maintain stability data for your peptides, and what is your retest policy?",
+];
+
+const checklistAnswers = [
+  "≥99% by HPLC. We target ≥99% purity and do not release lower-purity material.",
+  "Yes. Every order includes a batch-specific COA linked to your lot number.",
+  "Yes. HPLC chromatograms and MS data are available on request with every order.",
+  "We measure and report peptide content — important for accurate research dosing.",
+  "Every batch receives a unique lot number linked to complete production and QC records.",
+  "All synthesis, purification, lyophilization, and vial filling is done in our Shenzhen facility.",
+  "If any QC document fails third-party review, we will replace the order.",
+  "Yes. Custom sequences evaluated on complexity, scale, and timeline.",
+  "FedEx, UPS, DHL, or TNT. Lyophilized vials shipped at ambient with ice-pack option.",
+  "Yes. Stability data available on request. Standard retest at 12 months.",
+];
+---
+
+<PageLayout
+  title="B2B Peptide Quality Guide: COA, HPLC & Supplier Selection"
+  description="Learn how to read a peptide Certificate of Analysis, understand HPLC vs MS, identify impurity sources, and evaluate suppliers with our 10-question checklist."
+  {jsonLd}
+>
+
+<article class="prose-content">
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-narrow mx-auto px-4 relative z-10 animate-on-scroll">
+    <div class="flex flex-wrap gap-2 mb-6">
+      <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-medium">📚 B2B Buyer Guide</span>
+      <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-gray-300 text-xs">Quality & Compliance</span>
+    </div>
+    <h1 class="text-white">The B2B Peptide Quality Guide:<br/>COA, Purity Analysis & Supplier Selection</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">When you order peptides in bulk, you are buying documentation as much as chemistry. Here's how to read it.</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+
+    <h2>1. The Certificate of Analysis (COA): Your Quality Passport</h2>
+    <p>A COA should not be a generic template — it must be a batch-specific document containing measured values for YOUR specific lot. If your supplier cannot provide a lot-specific COA with every order, find a different supplier.</p>
+
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Field</th><th class="text-left py-3 px-5 font-semibold text-primary">What It Is</th><th class="text-left py-3 px-5 font-semibold text-primary">What to Look For</th></tr></thead>
+        <tbody>
+          {coaFields.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'':'bg-gray-50/50'}`}><td class="py-3 px-5 font-medium text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[2]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card bg-amber-50 border-l-4 border-l-amber-400 p-5 my-6">
+      <h3 class="font-bold text-amber-800 mb-2">⚠️ COA Red Flags</h3>
+      <ul class="space-y-2 text-sm text-amber-900">
+        <li><strong>No batch number</strong> — without it, the COA links to nothing. No traceability.</li>
+        <li><strong>Purity stated as ">95%" or ">98%"</strong> — Research-grade should target ≥99%. Suppliers unwilling to specify 99% may be producing lower-purity material.</li>
+        <li><strong>COA not dated, or date older than 12 months</strong> — You may be receiving old stock with unknown storage history.</li>
+      </ul>
+    </div>
+
+    <h2>2. HPLC Purity Analysis: Understanding the Chromatogram</h2>
+    <p>High-Performance Liquid Chromatography (HPLC) is the gold standard for peptide purity determination. It separates components based on their interaction with a C18 reversed-phase column and a water/acetonitrile gradient.</p>
+    <p>The key metric is <strong>peak area percentage</strong> — the main product peak should represent ≥99% of the total integrated area. Additional small peaks indicate peptide-related impurities (deletion sequences, oxidation products) that co-elute at different retention times.</p>
+
+    <h2>3. Mass Spectrometry (MS): Confirming Molecular Identity</h2>
+    <p>HPLC tells you how pure the peptide is. MS tells you whether it's the right peptide at all. Electrospray ionization mass spectrometry (ESI-MS) measures the mass-to-charge ratio of ionized peptide molecules. The observed molecular weight should match the theoretical value within ±1.0 Da for peptides under 5,000 Da.</p>
+
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">What It Measures</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">HPLC</td><td class="py-3 px-5 text-gray-600">Purity (% main peak area)</td><td class="py-3 px-5 text-gray-600">Quantifying relative purity and impurity profile</td></tr>
+          <tr><td class="py-3 px-5 font-medium">ESI-MS</td><td class="py-3 px-5 text-gray-600">Molecular weight (Da)</td><td class="py-3 px-5 text-gray-600">Confirming identity — is this the right peptide?</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>4. Common Impurity Sources</h2>
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Impurity</th><th class="text-left py-3 px-5 font-semibold text-primary">Source</th><th class="text-left py-3 px-5 font-semibold text-primary">Detection</th></tr></thead>
+        <tbody>
+          {impurities.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'':'bg-gray-50/50'}`}><td class="py-3 px-5 font-medium text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[3]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>5. Storage and Stability</h2>
+    <p>Lyophilized peptides are hygroscopic and susceptible to oxidation. Proper storage is critical:</p>
+    <ul>
+      <li>Store sealed at <strong>2–8°C</strong> in a dry, dark environment.</li>
+      <li>Avoid repeated freeze-thaw cycles with reconstituted solutions.</li>
+      <li>Most peptides remain stable for 12–24 months under recommended conditions.</li>
+    </ul>
+
+    <h2>6. 10 Questions Every B2B Buyer Should Ask</h2>
+    <p>Before placing a bulk peptide order, confirm each of these points with your supplier. We've included PeptideSourceHub's answers:</p>
+
+    <div class="space-y-3 my-6">
+      {checklist.map((q,i)=>(
+        <details class="card group cursor-pointer">
+          <summary class="font-semibold text-primary text-sm hover:text-accent">{i+1}. {q}</summary>
+          <div class="mt-3 pt-3 border-t border-gray-100">
+            <p class="text-accent-dark font-medium text-sm mb-1">→ PeptideSourceHub's answer:</p>
+            <p class="text-gray-600 text-sm">{checklistAnswers[i]}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-4 mt-10 pt-8 border-t border-gray-200">
+      <a href="/contact/" class="btn-primary group">Request COA Samples <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+      <a href="/products/" class="btn-outline text-primary border-primary/30 hover:bg-primary hover:text-white">Browse Catalog →</a>
+    </div>
+
+  </div>
+</section>
+</article>
+
+
+</PageLayout>

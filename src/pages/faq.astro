@@ -1,0 +1,168 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const allFaqs = [
+  { q: "What is the minimum order quantity?", a: "Most catalog products have no minimum — order 1 kit to evaluate quality before committing to volume. Custom synthesis and OEM projects have project-specific minimums." },
+  { q: "Do you offer free shipping?", a: "Orders over $500 qualify for free worldwide delivery." },
+  { q: "Do you offer private labeling?", a: "Yes. OEM services include custom vial labels, kit boxes, insert documentation, and branding. Contact for project scope." },
+  { q: "What purity level do your peptides meet?", a: "All catalog products target ≥99% purity by HPLC, verified on every production batch. Lower-purity material is not released for shipment." },
+  { q: "What quality documentation do you provide?", a: "Every order includes a Certificate of Analysis (COA). HPLC chromatograms, mass spectrometry data, and stability data available on request." },
+  { q: "Can I request third-party testing?", a: "Yes. We provide internal QC documentation with every order. Third-party lab testing can be arranged at buyer's request and expense." },
+  { q: "How do you ensure batch-to-batch consistency?", a: "Every production step follows documented SOPs. Each batch receives a unique lot number linked to its full production and QC record." },
+  { q: "Which countries do you ship to?", a: "North America, EU, UK, Australia, New Zealand, Asia, and most other regions. Contact us for your specific destination." },
+  { q: "How long does delivery take?", a: "Tracking number issued within 3 business days. Transit: typically 5–10 business days for major markets." },
+  { q: "Who handles customs clearance?", a: "The buyer is responsible for import duties and customs clearance. We provide necessary export documentation." },
+  { q: "Can you produce custom peptide sequences?", a: "Yes. Our R&D team evaluates custom synthesis projects based on sequence complexity, scale, and timeline." },
+  { q: "How should I store peptide vials?", a: "Store lyophilized vials at 2–8°C in a dry, dark environment. Protect from light and moisture." },
+  { q: "What is the shelf life?", a: "12–24 months for most catalog SKUs when stored at recommended conditions. Stability varies by sequence." },
+  { q: "Are your peptides for human consumption?", a: "No. All products are labeled FOR LABORATORY RESEARCH USE ONLY. Not for diagnostic or therapeutic use." },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Peptide Source Hub — Frequently Asked Questions",
+  "mainEntity": allFaqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a }
+  })),
+};
+
+const groups = [
+  {
+    title: "Ordering & Pricing",
+    icon: "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z",
+    faqs: [
+      { q: "What is the minimum order quantity?", a: "Most catalog products have no minimum — order 1 kit to evaluate quality before committing to volume. Custom synthesis and OEM projects have project-specific minimums." },
+      { q: "Do you offer free shipping?", a: "Orders over $500 qualify for free worldwide delivery." },
+      { q: "Do you offer private labeling?", a: "Yes. OEM services include custom vial labels, kit boxes, insert documentation, and branding. Contact for project scope." },
+    ],
+  },
+  {
+    title: "Quality & Documentation",
+    icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+    faqs: [
+      { q: "What purity level do your peptides meet?", a: "All catalog products target ≥99% purity by HPLC, verified on every production batch. Lower-purity material is not released for shipment." },
+      { q: "What quality documentation do you provide?", a: "Every order includes a Certificate of Analysis (COA). HPLC chromatograms, mass spectrometry data, and stability data available on request." },
+      { q: "Can I request third-party testing?", a: "Yes. We provide internal QC documentation with every order. Third-party lab testing can be arranged at buyer's request and expense." },
+      { q: "How do you ensure batch-to-batch consistency?", a: "Every production step follows documented SOPs. Each batch receives a unique lot number linked to its full production and QC record." },
+    ],
+  },
+  {
+    title: "Shipping & Delivery",
+    icon: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+    faqs: [
+      { q: "Which countries do you ship to?", a: "North America, EU, UK, Australia, New Zealand, Asia, and most other regions. Contact us for your specific destination." },
+      { q: "How long does delivery take?", a: "Tracking number issued within 3 business days. Transit: typically 5–10 business days for major markets." },
+      { q: "Who handles customs clearance?", a: "The buyer is responsible for import duties and customs clearance. We provide necessary export documentation." },
+    ],
+  },
+  {
+    title: "OEM & Custom Synthesis",
+    icon: "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+    faqs: [
+      { q: "Can you produce custom peptide sequences?", a: "Yes. Our R&D team evaluates custom synthesis projects based on sequence complexity, scale, and timeline." },
+      { q: "How should I store peptide vials?", a: "Store lyophilized vials at 2–8°C in a dry, dark environment. Protect from light and moisture." },
+      { q: "What is the shelf life?", a: "12–24 months for most catalog SKUs when stored at recommended conditions. Stability varies by sequence." },
+      { q: "Are your peptides for human consumption?", a: "No. All products are labeled FOR LABORATORY RESEARCH USE ONLY. Not for diagnostic or therapeutic use." },
+    ],
+  },
+];
+---
+
+<PageLayout
+  title="Frequently Asked Questions"
+  description="FAQ about ordering research peptides in bulk: MOQ, quality documentation, international shipping, custom synthesis, and OEM services."
+  {jsonLd}
+>
+
+<!-- Header -->
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-narrow mx-auto px-4 text-center relative z-10 animate-on-scroll">
+    <h1 class="text-white">Frequently Asked Questions</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
+      Everything you need to know about ordering research peptides in bulk.
+    </p>
+  </div>
+</section>
+
+<!-- FAQ Accordion Groups -->
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <div class="space-y-10 stagger-children">
+      {groups.map(({ title, icon, faqs }) => (
+        <div>
+          <!-- Group header -->
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center shrink-0">
+              <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d={icon}/>
+              </svg>
+            </div>
+            <h2 class="text-xl md:text-2xl">{title}</h2>
+          </div>
+
+          <!-- FAQ items -->
+          <div class="space-y-3">
+            {faqs.map(({ q, a }) => (
+              <div class="border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 transition-colors">
+                <button class="faq-toggle w-full text-left px-6 py-4 flex items-center justify-between gap-4 bg-white hover:bg-gray-50/50 transition-colors duration-200" aria-expanded="false">
+                  <span class="font-semibold text-primary text-sm md:text-base pr-4">{q}</span>
+                  <span class="faq-icon shrink-0 w-5 h-5 flex items-center justify-center text-gray-400 transition-transform duration-300">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                  <p class="px-6 pb-4 text-gray-600 text-sm leading-relaxed">{a}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="text-center mt-16 animate-on-scroll">
+      <div class="card p-8 max-w-md mx-auto">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+          <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <p class="text-gray-500 mb-5">Didn't find your answer? Our team is ready to help.</p>
+        <a href="/contact/" class="btn-primary group">
+          Contact Our Team
+          <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</PageLayout>
+
+<script>
+  // FAQ accordion toggle
+  document.querySelectorAll('.faq-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling as HTMLElement;
+      const icon = btn.querySelector('.faq-icon') as HTMLElement;
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+      if (isOpen) {
+        btn.setAttribute('aria-expanded', 'false');
+        answer.classList.remove('max-h-96');
+        answer.classList.add('max-h-0');
+        icon.style.transform = 'rotate(0deg)';
+      } else {
+        btn.setAttribute('aria-expanded', 'true');
+        answer.classList.remove('max-h-0');
+        answer.classList.add('max-h-96');
+        icon.style.transform = 'rotate(180deg)';
+      }
+    });
+  });
+</script>

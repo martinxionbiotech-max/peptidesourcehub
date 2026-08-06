@@ -1,0 +1,111 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Wholesale Healing & Recovery Research Peptides",
+  "description": "Factory-direct BPC-157, TB-500, Thymosin Beta-4, ARA-290. ≥99% HPLC purity, batch-traceable, tiered wholesale pricing.",
+  "isPartOf": { "@type": "WebSite", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+};
+
+const products = [
+  ["BPC-157","137525-51-0","1,419.5","Pentadecapeptide — gastric-derived cytoprotective","5 mg × 10 vials"],
+  ["TB-500 (Thymosin β4)","77591-33-4","4,963.5","Actin-sequestering peptide — wound healing & angiogenesis","5 mg × 10 vials"],
+  ["Thymosin Beta-4","77591-33-4","4,963.5","Full-length thymosin — tissue regeneration","5 mg × 10 vials"],
+  ["ARA-290","1208243-50-8","1,258.4","Erythropoietin-derived — tissue protection & repair","5 mg × 10 vials"],
+];
+
+const combos = [
+  ["Soft Tissue Recovery","BPC-157 + TB-500","Synergistic cytoprotection + angiogenesis","Injury healing models"],
+  ["Surgical Recovery","BPC-157 + ARA-290","Dual tissue protective pathways","Post-operative research"],
+  ["Wound Healing","TB-500 + Thymosin Beta-4","Enhanced angiogenesis + migration","Dermal wound models"],
+];
+---
+
+<PageLayout
+  title="Wholesale Healing & Recovery Peptides — BPC-157, TB-500"
+  description="Factory-direct BPC-157, TB-500, Thymosin Beta-4, ARA-290. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
+  {jsonLd}
+>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Healing & Recovery</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Healing & Recovery Peptides</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Tissue repair, wound healing & inflammation pathway research — factory-direct, batch-traceable</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="max-w-4xl">
+      <p class="text-lg text-gray-600">The healing and recovery category is built around peptides that target tissue repair through distinct yet complementary mechanisms. BPC-157 and TB-500 together form the core — they are the most frequently co-ordered pair in our entire catalog, reflecting their synergistic research applications in tissue regeneration and wound healing models. Both are synthesized in-house from verified starting materials through the same quality workflow.</p>
+      <div class="flex flex-wrap gap-3 mt-6">
+        <a href="/contact/" class="btn-primary group">Get a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+        <a href="/blog/peptide-quality-guide/" class="btn-outline text-primary border-primary/30 hover:bg-primary hover:text-white">Peptide Quality Guide →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Product Specifications</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Product</th><th class="text-left py-3 px-4 font-semibold text-primary">CAS</th><th class="text-left py-3 px-4 font-semibold text-primary">MW (Da)</th><th class="text-left py-3 px-4 font-semibold text-primary">Research Context</th><th class="text-left py-3 px-5 font-semibold text-primary">Std. Configuration</th></tr></thead>
+        <tbody>
+          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{p[0]}</td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center">All products: ≥99% purity by HPLC · Lyophilized powder · COA included · Store at 2–8°C · Protect from light</p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Common Combination Protocols</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      {combos.map(([title,peps,mech,use]) => (
+        <div class="card p-6 text-center">
+          <div class="text-3xl mb-3">🩹</div>
+          <h3 class="font-bold">{title}</h3>
+          <p class="text-accent-dark text-sm font-mono my-2">{peps}</p>
+          <p class="text-gray-500 text-xs">{mech}</p>
+          <p class="text-gray-400 text-xs mt-1">{use}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-10">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Why are BPC-157 and TB-500 often sourced together?</summary><p class="mt-3 text-gray-600 text-sm">The two peptides target complementary pathways: BPC-157 promotes cytoprotection and angiogenesis via VEGF upregulation, while TB-500 facilitates cell migration through actin sequestration. Research protocols frequently combine them for synergistic tissue repair outcomes.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What formulation is BPC-157 supplied in?</summary><p class="mt-3 text-gray-600 text-sm">Acetate salt, lyophilized powder. Stable at 2–8°C for 12+ months when stored sealed and protected from light. For special salt forms (e.g., arginine salt), contact Dr. Aaron for custom synthesis.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Do you offer BPC-157 in oral formulation?</summary><p class="mt-3 text-gray-600 text-sm">Our standard offering is lyophilized powder for research use. Custom formulations — including oral-grade material with appropriate excipients — are available for qualifying minimum order quantities.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Ready to Source Healing Peptides?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Bulk pricing on BPC-157, TB-500, Thymosin Beta-4, and ARA-290. COA with every order.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request Wholesale Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+</PageLayout>

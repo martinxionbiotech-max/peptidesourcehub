@@ -1,0 +1,121 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Wholesale Specialty Peptide Stacks — Pre-Formulated Research Kits",
+  "description": "Factory-direct pre-formulated multi-peptide combination kits. 5 standard stacks plus custom OEM development. ≥99% HPLC purity, tiered wholesale pricing.",
+  "isPartOf": { "@type": "WebSite", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+};
+
+const stacks = [
+  ["Recovery Stack","BPC-157 5mg + TB-500 5mg","×10 vials each","Tissue repair synergy","Healing & recovery research"],
+  ["GH Secretagogue Stack","CJC-1295 (DAC) 2mg + Ipamorelin 2mg","×10 vials each","Sustained GH pulse","Endocrine & muscle research"],
+  ["Metabolic Stack","Semaglutide 5mg + Cagrilintide 5mg","×10 vials each","GLP-1 + amylin dual agonism","Metabolic pathway research"],
+  ["Cosmetic Stack","GHK-Cu 50mg + Snap-8 10mg","×10 vials each","Collagen + anti-wrinkle dual action","Dermatological research"],
+  ["Nootropic Stack","Semax 10mg + Selank 10mg","×10 vials each","BDNF upregulation + anxiolytic","Cognitive research"],
+];
+
+const workflow = [
+  ["01","Target Design","Define multi-pathway target profile. Identify complementary mechanisms to avoid receptor competition."],
+  ["02","Formulation","Determine molar ratios, salt forms, and lyophilization parameters for co-formulated vials."],
+  ["03","Stability Testing","Accelerated stability study at 40°C/75% RH. Confirms no peptide-peptide degradation interactions."],
+  ["04","Batch Production","GMP synthesis → HPLC purification → co-lyophilization → QC release with dual-peptide chromatogram."],
+];
+---
+
+<PageLayout
+  title="Wholesale Specialty Peptide Stacks — Pre-Formulated Research Kits"
+  description="Factory-direct pre-formulated multi-peptide combination kits. 5 standard stacks plus custom OEM development. COA with every order."
+  {jsonLd}
+>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Specialty Stacks</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Specialty Peptide Stacks</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Pre-formulated multi-peptide combinations — ready-to-ship or custom OEM</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="max-w-4xl">
+      <p class="text-lg text-gray-600">Specialty stacks are pre-formulated combination kits that ship as a single SKU with unified batch documentation. Instead of ordering BPC-157 and TB-500 separately and coordinating two QC reports, you receive them in one kit with a single COA covering both peptides. For OEM buyers, this is the most efficient path to a branded product line — one supplier, one shipment, one set of paperwork.</p>
+      <p class="mt-4 text-gray-600">Custom stacks are fully configurable: choose your peptides, molar ratios, vial fill weights, salt forms, and packaging specifications. Standard lead time for custom stack development is 4–6 weeks including stability verification.</p>
+      <div class="flex flex-wrap gap-3 mt-6">
+        <a href="/contact/" class="btn-primary group">Get a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Standard Stack Configurations</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Stack</th><th class="text-left py-3 px-5 font-semibold text-primary">Contents</th><th class="text-left py-3 px-4 font-semibold text-primary">Quantity</th><th class="text-left py-3 px-4 font-semibold text-primary">Mechanism</th><th class="text-left py-3 px-5 font-semibold text-primary">Research Use</th></tr></thead>
+        <tbody>
+          {stacks.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-4 text-accent-dark text-sm font-medium">{row[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{row[3]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[4]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center">All stacks: ≥99% purity per peptide · Individual COA per peptide included · Unified batch number</p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Custom Stack Development</h2>
+    <div class="relative max-w-3xl mx-auto stagger-children">
+      <div class="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-accent/20 via-accent to-accent/20"></div>
+      <div class="space-y-6">
+        {workflow.map(([num,title,desc]) => (
+          <div class="flex gap-6 items-start">
+            <div class="hidden md:flex w-16 shrink-0 justify-center relative z-10">
+              <div class="w-10 h-10 rounded-full bg-accent/10 border-2 border-accent/20 flex items-center justify-center text-accent font-bold text-sm">{num}</div>
+            </div>
+            <div class="flex-1 card p-5">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="md:hidden w-8 h-8 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center text-accent font-bold text-xs shrink-0">{num}</span>
+                <h3 class="font-bold">{title}</h3>
+              </div>
+              <p class="text-gray-600 text-sm">{desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-10">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can I customize the peptide ratios in a stack?</summary><p class="mt-3 text-gray-600 text-sm">Yes. Standard stacks have fixed ratios (e.g., 5mg BPC-157 + 5mg TB-500), but custom ratios are available for qualifying MOQs. For example, a 10mg BPC-157 + 2.5mg TB-500 configuration is a common custom request for protocols emphasizing cytoprotection.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Are custom stacks suitable for OEM private-labeling?</summary><p class="mt-3 text-gray-600 text-sm">Yes — this is their primary use case. A custom stack with your branding, your vial labels, your kit box, and your packaging is a complete product. We handle synthesis, formulation, filling, and documentation; you manage branding, marketing, and distribution.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">How is co-formulated stability verified?</summary><p class="mt-3 text-gray-600 text-sm">Each custom stack undergoes accelerated stability testing: 40°C / 75% RH for 4 weeks, with HPLC purity and MS identity checks at T=0, T=2wk, T=4wk. We confirm no peptide-peptide degradation interactions (e.g., disulfide scrambling, deamidation) before releasing the stack for production.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Ready to Build Your Stack?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Standard stacks ship within 5 business days. Custom stacks: 4–6 week development including stability verification.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request Stack Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+</PageLayout>

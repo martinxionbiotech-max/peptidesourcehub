@@ -1,0 +1,111 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "GHK-Cu Wholesale — Copper Tripeptide-1",
+  "description": "GHK-Cu (Copper Tripeptide-1) lyophilized powder. CAS 49557-75-7, ~340.4 Da. ≥99% HPLC, blue powder. Collagen synthesis and skin research tool. COA included. Tiered wholesale pricing.",
+  "sku": "PSH-GHKCU-50MG",
+  "manufacturer": { "@type": "Organization", "name": "Peptide Source Hub" },
+};
+
+const specs = [
+  ["CAS Number","49557-75-7"],
+  ["Sequence","H-Gly-His-Lys-OH complexed with Cu²⁺ (square-planar, log K ~16)"],
+  ["Amino Acids","3 (tripeptide)"],
+  ["Molecular Weight","~340.38 Da (free peptide)"],
+  ["Appearance","Blue to blue-purple lyophilized powder (Cu²⁺ complex)"],
+  ["Purity","≥99% by HPLC"],
+  ["Solubility","Freely soluble in water or PBS"],
+  ["Storage","2–8°C, desiccated, protect from light (light-sensitive)"],
+];
+
+const configs = [
+  ["Standard Kit","50 mg × 10 vials","Dermatological/cosmetic research"],
+  ["Bulk Kit","100 mg × 10 vials","High-volume; formulation studies"],
+  ["Custom","Custom mg × custom vials","OEM; cosmetic ingredient supply"],
+];
+
+const focusAreas = [
+  ["Collagen Synthesis","Stimulates Type I, III, IV collagen in fibroblasts"],
+  ["Wound Healing","Accelerated closure in full/partial-thickness models"],
+  ["Angiogenesis","Endothelial proliferation; capillary tube formation"],
+  ["Antioxidant","SOD-like activity; ROS reduction"],
+  ["ECM Remodeling","Upregulates decorin for collagen fibril organization"],
+  ["Anti-Inflammatory","Reduces TNF-α and TGF-β1 in skin inflammation models"],
+  ["Hair Follicle","Dermal papilla cell proliferation; anagen phase extension"],
+  ["Skin Remodeling","Increases epidermal thickness; dermal collagen density"],
+];
+
+const applications = [
+  ["Dermatological Research","Fibroblast collagen synthesis","1–10 μg/mL"],
+  ["Cosmetic Formulation","Topical formulation; transdermal penetration","0.05–0.5% w/w"],
+  ["Wound Healing","Scratch assay; wound contraction","1–100 μg/mL"],
+  ["Anti-Aging","Senescence markers; antioxidant capacity","Varies by model"],
+  ["Hair Research","Dermal papilla proliferation; follicle organ culture","0.1–10 μg/mL"],
+];
+
+const qcSpecs = [
+  ["Purity (HPLC)","HPLC at 214 nm","≥99.0% peak area"],
+  ["Identity (MW)","ESI-MS","~340.4 Da; Cu complex confirmed"],
+  ["Copper Content","ICP-OES / colorimetric","1:1 Cu:peptide ±5%"],
+  ["Appearance","Visual","Blue to blue-purple powder"],
+  ["Peptide Content","AAA / nitrogen","≥80% net peptide"],
+  ["Residual Moisture","Karl Fischer","≤3%"],
+];
+
+const pricing = [
+  ["1 kit","List price","Evaluation; protocol development"],
+  ["2–5 kits","10–20% off","Small cosmetic R&D labs"],
+  ["6–20 kits","25–40% off","Mid-size ingredient distributors"],
+  ["21–50 kits","40–55% off","Regional ingredient suppliers"],
+  ["50+ kits","55–70% off","Large formulators; OEM"],
+];
+---
+
+<PageLayout title="GHK-Cu Wholesale — Research-Grade Copper Tripeptide-1 ≥99% Purity Bulk" description="Factory-direct GHK-Cu wholesale. CAS 49557-75-7, ~340.4 Da. ≥99% HPLC, lyophilized powder. Copper peptide for collagen synthesis & skin research. Tiered pricing. COA." {jsonLd}>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb"><a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span><a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span><a href="/products/cosmetic-skin/" class="text-gray-400 hover:text-white">Cosmetic & Skin</a><span class="text-gray-600">/</span><span class="text-accent">GHK-Cu</span></nav>
+    <h1 class="text-white text-3xl md:text-5xl">GHK-Cu Wholesale</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Copper Tripeptide-1 — the most extensively studied copper peptide in dermatological research, batch-documented, manufacturer-direct</p>
+  </div>
+</section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Product Identity</h2><div class="max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><tbody>{specs.map(([k,v],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary w-1/3">{k}</td><td class="py-3 px-5 text-gray-600">{v}</td></tr>))}</tbody></table></div>
+<div class="max-w-3xl mx-auto mt-6 card p-5 bg-accent/5 border-accent/20"><p class="text-sm text-gray-600"><strong class="text-accent-dark">The GHK-Cu Complex:</strong> GHK binds Cu²⁺ in a square-planar geometry via four coordination bonds: N-terminal amine, Gly-His deprotonated amide, His imidazole, and His-Lys deprotonated amide. This tetradentate complex (log K ~16) remains intact under physiological conditions. The biological activities are attributed to the intact complex — not free copper or free peptide.</p></div>
+</div></section>
+
+<section class="section dot-pattern"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Configurations</h2><div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Configuration</th><th class="text-left py-3 px-5 font-semibold text-primary">Content</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead><tbody>{configs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody></table></div></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="mb-6">Research Background</h2><div class="max-w-4xl"><p class="text-gray-600 mb-6">GHK was first isolated from human plasma in 1973 by Dr. Loren Pickart. The tripeptide has an exceptionally high affinity for copper(II) ions — the GHK-Cu complex is what drives its biological activities.</p>
+<h3 class="text-lg font-bold mb-3">Research Focus Areas</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">{focusAreas.map(([a,f])=>(<div class="card p-4"><span class="font-semibold text-primary text-sm">{a}</span><p class="text-gray-500 text-xs mt-1">{f}</p></div>))}</div>
+<h3 class="text-lg font-bold mb-3">Research Applications by Field</h3><div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-4 font-semibold text-primary">Field</th><th class="text-left py-3 px-4 font-semibold text-primary">Application</th><th class="text-left py-3 px-4 font-semibold text-primary">Concentration</th></tr></thead><tbody>{applications.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-4 font-semibold text-primary text-sm">{r[0]}</td><td class="py-3 px-4 text-gray-600 text-xs">{r[1]}</td><td class="py-3 px-4 text-accent-dark font-medium text-xs">{r[2]}</td></tr>))}</tbody></table></div></div></div></section>
+
+<section class="section bg-surface"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Quality Specifications</h2><div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-4 font-semibold text-primary">Parameter</th><th class="text-left py-3 px-4 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">Criterion</th></tr></thead><tbody>{qcSpecs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-4 font-semibold text-primary text-sm">{r[0]}</td><td class="py-3 px-4 text-gray-600 text-xs">{r[1]}</td><td class="py-3 px-5 text-accent-dark font-medium text-sm">{r[2]}</td></tr>))}</tbody></table></div><p class="text-gray-500 text-sm mt-4 text-center">GHK-Cu analysis requires a dedicated HPLC gradient — the copper complex can interact with standard C18 stationary phases. Our method is optimized for copper-peptide purity determination.</p></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Tiered Wholesale Pricing</h2><div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-sm bg-white"><thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Volume</th><th class="text-left py-3 px-5 font-semibold text-primary">Discount</th><th class="text-left py-3 px-5 font-semibold text-primary">For</th></tr></thead><tbody>{pricing.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody></table></div></div></section>
+
+<section class="section bg-surface"><div class="container-narrow mx-auto px-4"><h2 class="text-center mb-8">FAQ</h2><div class="space-y-3 max-w-3xl mx-auto">
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Why is GHK-Cu blue? Is the color an indicator of quality?</summary><p class="mt-3 text-gray-600 text-sm">The blue color is from Cu²⁺ in square-planar coordination — absorbing red light and reflecting blue. A blue to blue-purple powder = properly complexed copper. Faded or absent blue suggests copper loss or incomplete complexation. We verify with both color assessment and quantitative copper content (ICP-OES) to confirm 1:1 stoichiometry.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Is GHK-Cu stable in solution?</summary><p class="mt-3 text-gray-600 text-sm">Stable in aqueous solution at neutral pH for several days at 4°C. The copper complex (log K ~16) remains intact. For quantitative cell culture: prepare fresh or aliquot and freeze at -20°C. Avoid chelating agents (EDTA, citrate) — they strip copper from the complex.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What's the difference between GHK and GHK-Cu?</summary><p class="mt-3 text-gray-600 text-sm">Chemically distinct. GHK (free peptide, CAS 72957-37-0) lacks Cu²⁺ and doesn't exhibit the same biological activities. Virtually all published research uses GHK-Cu (the copper-complexed form). We supply GHK-Cu as standard. If you need copper-free GHK, specify in your inquiry.</p></details>
+<details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Can GHK-Cu be combined with other cosmetic peptides?</summary><p class="mt-3 text-gray-600 text-sm">Yes — commonly studied with Matrixyl (collagen), Argireline/Snap-8 (neurotransmitter inhibition). Peptides are chemically compatible. Expect blue tint in formulations — this is normal. Avoid strong chelators (EDTA) and reducing agents (high-concentration ascorbic acid) which disrupt the Cu complex.</p></details>
+</div></div></section>
+
+<section class="section bg-white"><div class="container-wide mx-auto px-4"><h2 class="text-center mb-6">Related Products</h2><div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+<a href="/products/cosmetic-skin/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">Matrixyl</span><span class="text-gray-500 text-xs">Matrikine signaling</span></a>
+<a href="/products/bpc-157/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">BPC-157</span><span class="text-gray-500 text-xs">Angiogenesis + repair</span></a>
+<a href="/products/specialty-stacks/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">GHK+BPC Stack</span><span class="text-gray-500 text-xs">Wound healing combo</span></a>
+<a href="/products/cosmetic-skin/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">Argireline</span><span class="text-gray-500 text-xs">NT inhibition</span></a>
+</div></div></section>
+
+<section class="section bg-surface"><div class="container-narrow mx-auto px-4 text-center"><p class="text-gray-500 text-sm max-w-2xl mx-auto"><strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, or clinical use. Not a cosmetic ingredient for consumer use, dietary supplement, or approved drug substance.</p></div></section>
+
+<section class="section bg-primary py-16 text-center"><div class="container-wide mx-auto px-4"><h2 class="text-white text-3xl mb-4">Ready to Source GHK-Cu?</h2><p class="text-gray-300 max-w-xl mx-auto mb-8">Bulk pricing up to 70% off. Copper content verified by ICP-OES. COA with every order.</p><div class="flex justify-center gap-4 flex-wrap"><a href="/contact/" class="btn-primary text-lg group">Request a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a></div></div></section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/cosmetic-skin/" class="text-accent-dark font-medium hover:underline">← Back to Cosmetic & Skin</a></div>
+</PageLayout>

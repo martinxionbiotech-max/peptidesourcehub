@@ -1,0 +1,114 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Wholesale Nootropic & Anti-Aging Research Peptides",
+  "description": "Factory-direct Semax, Selank, Epithalon, DSIP, FOXO4-DRI. ≥99% HPLC purity, batch-traceable, tiered wholesale pricing.",
+  "isPartOf": { "@type": "WebSite", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+};
+
+const products = [
+  ["Semax","80714-61-0","813.9","ACTH(4–7)-Pro-Gly-Pro — BDNF upregulation, neuroprotection","10 mg × 10 vials"],
+  ["Selank","129954-34-1","751.9","Tuftsin-derived — anxiolytic, immune-neural modulation","10 mg × 10 vials"],
+  ["Epithalon","307297-39-8","390.4","Ala-Glu-Asp-Gly — telomerase activation, pineal peptide","10 mg × 10 vials"],
+  ["DSIP","62568-57-4","848.8","Delta sleep-inducing peptide — sleep architecture","5 mg × 10 vials"],
+  ["FOXO4-DRI","—","4,316.0","FOXO4-p53 interaction inhibitor — senolytic","5 mg × 10 vials"],
+];
+
+const pathways = [
+  ["BDNF/NGF","Semax","Neurotrophin upregulation → enhanced synaptic plasticity"],
+  ["GABA/Dopamine","Selank","Anxiolytic without sedation → immune-neural bridge"],
+  ["Telomerase","Epithalon","Telomere maintenance → replicative lifespan extension"],
+  ["Sleep Architecture","DSIP","Delta wave promotion → restorative sleep regulation"],
+  ["Cellular Senescence","FOXO4-DRI","p53-mediated senescent cell clearance"],
+];
+---
+
+<PageLayout
+  title="Wholesale Nootropic & Anti-Aging Peptides — Semax, Epithalon"
+  description="Factory-direct Semax, Selank, Epithalon, DSIP, FOXO4-DRI. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
+  {jsonLd}
+>
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Nootropic & Anti-Aging</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Nootropic & Anti-Aging Peptides</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Cognitive enhancement & longevity research — factory-direct, batch-traceable</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="max-w-4xl">
+      <p class="text-lg text-gray-600">The nootropic and anti-aging category spans peptides that target neural plasticity, sleep regulation, and cellular senescence — three axes of longevity research. Semax is the most characterized nootropic peptide in the literature, with documented effects on BDNF expression and neuroprotection. Epithalon targets telomerase activation pathways implicated in replicative lifespan extension. Our team is particularly experienced with these two peptides — their synthesis requires precise deprotection protocols to maintain C-terminal amidation integrity.</p>
+      <div class="flex flex-wrap gap-3 mt-6">
+        <a href="/contact/" class="btn-primary group">Get a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Product Specifications</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Product</th><th class="text-left py-3 px-4 font-semibold text-primary">CAS</th><th class="text-left py-3 px-4 font-semibold text-primary">MW (Da)</th><th class="text-left py-3 px-4 font-semibold text-primary">Research Context</th><th class="text-left py-3 px-5 font-semibold text-primary">Std. Configuration</th></tr></thead>
+        <tbody>
+          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{p[0]}</td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-10">Pathway Targets</h2>
+    <div class="max-w-3xl mx-auto space-y-3">
+      {pathways.map(([pathway,peptide,mech]) => (
+        <div class="card p-5 flex items-center gap-4">
+          <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent font-bold text-sm shrink-0">{peptide[0]}</div>
+          <div class="flex-1">
+            <span class="font-semibold text-primary">{peptide}</span>
+            <span class="text-gray-400 mx-2">→</span>
+            <span class="text-gray-600 text-sm">{pathway}</span>
+            <p class="text-gray-500 text-xs mt-1">{mech}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-10">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What is the research evidence for Epithalon and telomerase?</summary><p class="mt-3 text-gray-600 text-sm">Epithalon (Ala-Glu-Asp-Gly) has been studied for its effect on telomerase activity in somatic cells. Research by Khavinson et al. documented telomere length preservation in cell cultures treated with the tetrapeptide, implicating gene expression modulation of telomerase catalytic subunit hTERT. This remains an active area of biogerontology research.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">How does Semax differ from Selank?</summary><p class="mt-3 text-gray-600 text-sm">Semax is an ACTH(4–7) fragment modified with a C-terminal Pro-Gly-Pro tripeptide that enhances metabolic stability. Its primary documented mechanism is BDNF/NGF upregulation. Selank is a tuftsin-derived heptapeptide that modulates GABAergic and dopaminergic systems — producing an anxiolytic profile without sedation. They are complementary but mechanistically distinct.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What is FOXO4-DRI?</summary><p class="mt-3 text-gray-600 text-sm">FOXO4-DRI (D-Retro-Inverso) is a modified peptide that disrupts the FOXO4-p53 interaction in senescent cells — a mechanism for targeted senescent cell clearance (senolysis). It represents a fundamentally different approach from the signaling peptides in this category: rather than modulating a pathway, it targets a specific protein-protein interaction.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Ready to Source Nootropic Peptides?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Bulk pricing on all five nootropic and anti-aging peptides. COA with every order.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request Wholesale Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Categories</a></div>
+</PageLayout>

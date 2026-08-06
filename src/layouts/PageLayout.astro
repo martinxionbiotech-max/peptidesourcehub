@@ -1,0 +1,18 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const { title, description, image, jsonLd } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<BaseLayout {title} {description} {image} {jsonLd}>
+  <Header {currentPath} />
+  <!-- Spacer for fixed header (top bar ~32px + nav ~60px) -->
+  <div class="h-[88px] md:h-[92px]"></div>
+  <main class="flex-1">
+    <slot />
+  </main>
+  <Footer />
+</BaseLayout>
