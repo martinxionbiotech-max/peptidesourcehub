@@ -127,27 +127,38 @@ const team = [
       <p class="text-gray-500 mt-4 max-w-2xl mx-auto">The people behind every batch.</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-      <div class="card text-center p-6">
-        <img src="/images/team/daniel-chen.jpg" alt="Daniel Chen — Manufacturing & QC Director" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" loading="lazy" />
-        <h3 class="font-semibold text-primary">Daniel Chen</h3>
-        <p class="text-sm text-gray-500">Manufacturing & QC Director</p>
-      </div>
-      <div class="card text-center p-6">
-        <img src="/images/team/lily-wang.jpg" alt="Lily Wang — Product Compliance Specialist" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" loading="lazy" />
-        <h3 class="font-semibold text-primary">Lily Wang</h3>
-        <p class="text-sm text-gray-500">Product Compliance Specialist</p>
-      </div>
-      <div class="card text-center p-6">
-        <img src="/images/team/michael-liu.jpg" alt="Michael Liu — R&D Formulation Lead" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" loading="lazy" />
-        <h3 class="font-semibold text-primary">Michael Liu</h3>
-        <p class="text-sm text-gray-500">R&D Formulation Lead</p>
-      </div>
-      <div class="card text-center p-6">
-        <img src="/images/team/kevin-zhang.jpg" alt="Kevin Zhang — Global Sales & Logistics" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" loading="lazy" />
-        <h3 class="font-semibold text-primary">Kevin Zhang</h3>
-        <p class="text-sm text-gray-500">Global Sales & Logistics</p>
-      </div>
+    <!-- Team photos -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 stagger-children">
+      {[
+        ["Daniel Chen", "Manufacturing & QC", "/images/team/daniel-chen.jpg"],
+        ["Lily Wang", "Product Compliance", "/images/team/lily-wang.jpg"],
+        ["Michael Liu", "R&D Formulation", "/images/team/michael-liu.jpg"],
+        ["Kevin Zhang", "Global Logistics", "/images/team/kevin-zhang.jpg"],
+      ].map(([name, role, photo]) => (
+        <div class="card text-center p-5 hover:-translate-y-1">
+          <img src={photo} alt={name} class="w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 border-accent/20" loading="lazy" />
+          <h3 class="font-bold text-sm">{name}</h3>
+          <p class="text-accent-dark text-xs font-medium">{role}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 stagger-children">
+      {team.map(([name, role, desc]) => {
+        const initials = name.split(' ').map(n => n[0]).join('');
+        return (
+          <div class="card p-7 hover:-translate-y-1 flex gap-5 items-start">
+            <div class="shrink-0 w-14 h-14 rounded-full bg-gradient-to-br from-accent/20 to-accent/10 flex items-center justify-center text-accent font-bold text-lg border-2 border-accent/20">
+              {initials}
+            </div>
+            <div>
+              <h3 class="font-bold text-lg">{name}</h3>
+              <p class="text-accent-dark text-sm font-semibold mb-2">{role}</p>
+              <p class="text-gray-600 text-sm leading-relaxed">{desc}</p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   </div>
 </section>
