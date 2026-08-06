@@ -76,15 +76,26 @@ const checklistAnswers = [
       <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-gray-300 text-xs">Quality & Compliance</span>
     </div>
     <h1 class="text-white">The B2B Peptide Quality Guide:<br/>COA, Purity Analysis & Supplier Selection</h1>
-    <p class="text-xl text-gray-300 mt-4 max-w-2xl">When you order peptides in bulk, you are buying documentation as much as chemistry. Here's how to read it.</p>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">When you order peptides in bulk, you are buying documentation as much as chemistry. Here's how to read it — and how to spot a supplier who's cutting corners.</p>
   </div>
 </section>
 
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
 
+    <div class="card bg-gradient-to-br from-blue-50 to-white border-blue-200 p-5 -mt-16 relative z-10 mb-8">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Key Statistics</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div><span class="block text-2xl font-bold text-primary">≥99%</span><span class="text-xs text-gray-500">HPLC Purity Standard</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10</span><span class="text-xs text-gray-500">COA Fields to Check</span></div>
+        <div><span class="block text-2xl font-bold text-primary">6</span><span class="text-xs text-gray-500">Common Impurity Sources</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10</span><span class="text-xs text-gray-500">Supplier Questions</span></div>
+      </div>
+    </div>
+
     <h2>1. The Certificate of Analysis (COA): Your Quality Passport</h2>
-    <p>A COA should not be a generic template — it must be a batch-specific document containing measured values for YOUR specific lot. If your supplier cannot provide a lot-specific COA with every order, find a different supplier.</p>
+    <p>A COA should not be a generic template — it must be a <strong>batch-specific document</strong> containing measured values for YOUR specific lot. If your supplier cannot provide a lot-specific COA with every order, find a different supplier.</p>
+    <p>Think of a COA like a birth certificate for your batch. Without a unique lot number, you can't trace anything back. Without a date, you don't know how old the material is. Without actual measured values (not just pass/fail), you can't verify anything independently.</p>
 
     <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
       <table class="w-full text-sm bg-white">
@@ -96,72 +107,111 @@ const checklistAnswers = [
     </div>
 
     <div class="card bg-amber-50 border-l-4 border-l-amber-400 p-5 my-6">
-      <h3 class="font-bold text-amber-800 mb-2">⚠️ COA Red Flags</h3>
+      <h3 class="font-bold text-amber-800 mb-2">⚠️ COA Red Flags — What Makes Us Walk Away</h3>
       <ul class="space-y-2 text-sm text-amber-900">
-        <li><strong>No batch number</strong> — without it, the COA links to nothing. No traceability.</li>
-        <li><strong>Purity stated as ">95%" or ">98%"</strong> — Research-grade should target ≥99%. Suppliers unwilling to specify 99% may be producing lower-purity material.</li>
-        <li><strong>COA not dated, or date older than 12 months</strong> — You may be receiving old stock with unknown storage history.</li>
+        <li><strong>No batch number</strong> — without it, the COA links to nothing. No traceability. This is the #1 red flag.</li>
+        <li><strong>Purity stated as ">95%" or ">98%"</strong> — Research-grade should target ≥99%. Suppliers unwilling to specify 99% may be producing lower-purity material or using a lower resolution HPLC method.</li>
+        <li><strong>COA not dated, or date older than 12 months</strong> — You may be receiving old stock with unknown storage history. A fresh COA should be issued for every shipment.</li>
+        <li><strong>"Template" COA that doesn't change between orders</strong> — If the same PDF is re-sent for every order, it's not batch-specific. It's a marketing document, not a quality document.</li>
+        <li><strong>No MS data provided</strong> — HPLC tells you purity; MS tells you identity. A supplier who won't share MS data may not have MS capability — and that's a serious quality infrastructure gap.</li>
       </ul>
     </div>
 
     <h2>2. HPLC Purity Analysis: Understanding the Chromatogram</h2>
-    <p>High-Performance Liquid Chromatography (HPLC) is the gold standard for peptide purity determination. It separates components based on their interaction with a C18 reversed-phase column and a water/acetonitrile gradient.</p>
-    <p>The key metric is <strong>peak area percentage</strong> — the main product peak should represent ≥99% of the total integrated area. Additional small peaks indicate peptide-related impurities (deletion sequences, oxidation products) that co-elute at different retention times.</p>
+    <p>High-Performance Liquid Chromatography (HPLC) is the gold standard for peptide purity determination. It separates components based on their interaction with a C18 reversed-phase column and a water/acetonitrile gradient with 0.1% TFA as ion-pairing agent.</p>
+    <p>The key metric is <strong>peak area percentage</strong> — the main product peak should represent ≥99% of the total integrated area at 220 nm (peptide bond absorption). Additional small peaks indicate peptide-related impurities (deletion sequences, oxidation products) that co-elute at different retention times.</p>
+    <div class="card bg-gray-50 p-4 my-4">
+      <h3 class="font-bold text-sm mb-2">What to Ask the Supplier</h3>
+      <ul class="text-sm text-gray-600 space-y-1">
+        <li>• What wavelength was used for integration? (220 nm standard)</li>
+        <li>• What column and gradient were used?</li>
+        <li>• Is the purity reported as the main peak area percentage?</li>
+        <li>• Can I see the actual chromatogram, not just the number?</li>
+      </ul>
+    </div>
 
     <h2>3. Mass Spectrometry (MS): Confirming Molecular Identity</h2>
-    <p>HPLC tells you how pure the peptide is. MS tells you whether it's the right peptide at all. Electrospray ionization mass spectrometry (ESI-MS) measures the mass-to-charge ratio of ionized peptide molecules. The observed molecular weight should match the theoretical value within ±1.0 Da for peptides under 5,000 Da.</p>
+    <p>HPLC tells you how pure the peptide is. MS tells you whether it's the right peptide at all. Electrospray ionization mass spectrometry (ESI-MS) measures the mass-to-charge ratio of ionized peptide molecules. The observed molecular weight should match the theoretical value within ±1.0 Da for peptides under 5,000 Da, and within ±2.0 Da for larger peptides.</p>
+    <p><strong>Critical point:</strong> A peptide can be 99% pure by HPLC and still be the wrong sequence. Without MS confirmation, HPLC purity is meaningless. An unscrupulous supplier could ship a cheap, easily synthesized peptide at 99% purity with the wrong label — and without MS, you'd never know.</p>
 
     <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
       <table class="w-full text-sm bg-white">
-        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">What It Measures</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead>
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">What It Measures</th><th class="text-left py-3 px-5 font-semibold text-primary">How to Verify</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead>
         <tbody>
-          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">HPLC</td><td class="py-3 px-5 text-gray-600">Purity (% main peak area)</td><td class="py-3 px-5 text-gray-600">Quantifying relative purity and impurity profile</td></tr>
-          <tr><td class="py-3 px-5 font-medium">ESI-MS</td><td class="py-3 px-5 text-gray-600">Molecular weight (Da)</td><td class="py-3 px-5 text-gray-600">Confirming identity — is this the right peptide?</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">HPLC</td><td class="py-3 px-5 text-gray-600">Purity (% main peak area)</td><td class="py-3 px-5 text-gray-600 text-sm">Request chromatogram trace</td><td class="py-3 px-5 text-gray-600">Quantifying relative purity and impurity profile</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium">ESI-MS</td><td class="py-3 px-5 text-gray-600">Molecular weight (Da)</td><td class="py-3 px-5 text-gray-600 text-sm">Compare observed vs theoretical MW</td><td class="py-3 px-5 text-gray-600">Confirming identity — is this the right peptide?</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">AAA</td><td class="py-3 px-5 text-gray-600">Amino acid composition</td><td class="py-3 px-5 text-gray-600 text-sm">Compare observed vs theoretical ratios</td><td class="py-3 px-5 text-gray-600">Confirming sequence composition, net content</td></tr>
+          <tr><td class="py-3 px-5 font-medium">LC-MS/MS</td><td class="py-3 px-5 text-gray-600">Sequence fragments</td><td class="py-3 px-5 text-gray-600 text-sm">Fragment ion spectrum matching</td><td class="py-3 px-5 text-gray-600">Advanced: confirming full amino acid sequence</td></tr>
         </tbody>
       </table>
     </div>
 
-    <h2>4. Common Impurity Sources</h2>
+    <h2>4. Peptide Content vs Purity: The Distinction That Matters</h2>
+    <p>This is one of the most misunderstood concepts in peptide quality — and where many buyers overpay. <strong>Purity</strong> (≥99% by HPLC) tells you what percentage of the peptide material is the target sequence. <strong>Peptide content</strong> (typically 70–90%) tells you how much of the total powder weight is actually peptide — the rest is water, TFA counterions, and residual salts from lyophilization.</p>
+    <div class="card bg-accent/5 border-accent/20 p-5 my-6">
+      <h3 class="font-bold text-sm mb-2">💡 Real-World Example</h3>
+      <p class="text-sm text-gray-600">You order 10 mg of "99% pure" peptide. But the net peptide content is 80%. That means you actually have 8 mg of pure peptide — not 10 mg. If your protocol calls for 10 mg of actual peptide, you're 20% short. This is why peptide content measurement (by AAA) is critical for accurate research dosing.</p>
+      <p class="text-sm text-gray-600 mt-2"><strong>What to ask:</strong> "What is the net peptide content of this batch?" If the supplier can't answer, they don't measure it — and your dosing calculations are based on total weight, not actual peptide.</p>
+    </div>
+
+    <h2>5. Common Impurity Sources</h2>
+    <p>Every peptide synthesis produces impurities. The question is: does your supplier identify, quantify, and control them — or ignore them?</p>
     <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
       <table class="w-full text-sm bg-white">
-        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Impurity</th><th class="text-left py-3 px-5 font-semibold text-primary">Source</th><th class="text-left py-3 px-5 font-semibold text-primary">Detection</th></tr></thead>
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Impurity</th><th class="text-left py-3 px-5 font-semibold text-primary">Source</th><th class="text-left py-3 px-5 font-semibold text-primary">Impact</th><th class="text-left py-3 px-5 font-semibold text-primary">Detection</th></tr></thead>
         <tbody>
-          {impurities.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'':'bg-gray-50/50'}`}><td class="py-3 px-5 font-medium text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[3]}</td></tr>))}
+          {impurities.map((row,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'':'bg-gray-50/50'}`}><td class="py-3 px-5 font-medium text-primary">{row[0]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[2]}</td><td class="py-3 px-5 text-gray-600 text-sm">{row[3]}</td></tr>))}
         </tbody>
       </table>
     </div>
 
-    <h2>5. Storage and Stability</h2>
+    <h2>6. Industry Quality Standards Reference</h2>
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Standard</th><th class="text-left py-3 px-5 font-semibold text-primary">Organization</th><th class="text-left py-3 px-5 font-semibold text-primary">Relevance to Peptide Buyers</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">ISO 9001</td><td class="py-3 px-5 text-gray-600">International</td><td class="py-3 px-5 text-gray-600 text-sm">Quality management system — baseline for any legitimate manufacturer</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium">ICH Q7</td><td class="py-3 px-5 text-gray-600">ICH</td><td class="py-3 px-5 text-gray-600 text-sm">GMP for active pharmaceutical ingredients — gold standard, rarely met by research suppliers</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">USP <1503></td><td class="py-3 px-5 text-gray-600">USP</td><td class="py-3 px-5 text-gray-600 text-sm">Quality attributes for synthetic peptide APIs — relevant framework</td></tr>
+          <tr><td class="py-3 px-5 font-medium">AOAC</td><td class="py-3 px-5 text-gray-600">AOAC Intl</td><td class="py-3 px-5 text-gray-600 text-sm">Standard methods — HPLC and MS method validation reference</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>7. Storage and Stability</h2>
     <p>Lyophilized peptides are hygroscopic and susceptible to oxidation. Proper storage is critical:</p>
     <ul>
       <li>Store sealed at <strong>2–8°C</strong> in a dry, dark environment.</li>
       <li>Avoid repeated freeze-thaw cycles with reconstituted solutions.</li>
       <li>Most peptides remain stable for 12–24 months under recommended conditions.</li>
+      <li>Peptides containing methionine (Met), cysteine (Cys), or tryptophan (Trp) are more oxidation-prone — shorter shelf life.</li>
+      <li>After reconstitution, store aliquots at -20°C to -80°C. Do not refreeze thawed aliquots.</li>
     </ul>
 
-    <h2>6. 10 Questions Every B2B Buyer Should Ask</h2>
-    <p>Before placing a bulk peptide order, confirm each of these points with your supplier. We've included PeptideSourceHub's answers:</p>
+    <h2>8. 10 Questions Every B2B Buyer Should Ask</h2>
+    <p>Before placing a bulk peptide order, confirm each of these points with your supplier. We've included Peptides Source Hub's answers so you can see what good answers look like:</p>
 
     <div class="space-y-3 my-6">
       {checklist.map((q,i)=>(
         <details class="card group cursor-pointer">
           <summary class="font-semibold text-primary text-sm hover:text-accent">{i+1}. {q}</summary>
           <div class="mt-3 pt-3 border-t border-gray-100">
-            <p class="text-accent-dark font-medium text-sm mb-1">→ PeptideSourceHub's answer:</p>
+            <p class="text-accent-dark font-medium text-sm mb-1">→ Peptides Source Hub Answer:</p>
             <p class="text-gray-600 text-sm">{checklistAnswers[i]}</p>
           </div>
         </details>
       ))}
     </div>
 
+    <h2>9. The Bottom Line: Documentation = Quality</h2>
+    <p>In peptide supply, <strong>documentation quality is product quality</strong>. A supplier who can't produce a clear, batch-specific COA with HPLC and MS data is telling you something about their quality systems — listen. The 10 questions above are your due diligence baseline. A legitimate manufacturer answers all 10 without hesitation, without "we'll get back to you," without "that's proprietary information."</p>
+
     <div class="flex flex-col sm:flex-row gap-4 mt-10 pt-8 border-t border-gray-200">
       <a href="/contact/" class="btn-primary group">Request COA Samples <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
-      <a href="/products/" class="btn-outline text-primary border-primary/30 hover:bg-primary hover:text-white">Browse Catalog →</a>
+      <a href="/products/" class="btn-outline text-primary border-primary/30">Browse Catalog →</a>
     </div>
 
   </div>
 </section>
 </article>
-
-
 </PageLayout>

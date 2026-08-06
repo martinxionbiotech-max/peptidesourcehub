@@ -28,56 +28,123 @@ const jsonLd = {
       <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-gray-300 text-xs">Metabolic Research</span>
     </div>
     <h1 class="text-white">GLP-1 Buyer's Guide:<br/>Semaglutide vs Tirzepatide vs Retatrutide</h1>
-    <p class="text-xl text-gray-300 mt-4 max-w-2xl">How to choose the right GLP-1 molecule for your portfolio — receptor pharmacology, comparative data, and a procurement decision framework.</p>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">How to choose the right GLP-1 molecule for your portfolio — receptor pharmacology, comparative data, cost-per-dose analysis, and a procurement decision framework.</p>
   </div>
 </section>
 
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
 
+    <!-- Key Stats Box -->
+    <div class="card bg-gradient-to-br from-emerald-50 to-white border-emerald-200 p-5 -mt-16 relative z-10 mb-8">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Key Statistics</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div><span class="block text-2xl font-bold text-primary">$125B</span><span class="text-xs text-gray-500">Market by 2030</span></div>
+        <div><span class="block text-2xl font-bold text-primary">3</span><span class="text-xs text-gray-500">Receptor Tiers (1/2/3)</span></div>
+        <div><span class="block text-2xl font-bold text-primary">~15%</span><span class="text-xs text-gray-500">Semaglutide BW Reduction</span></div>
+        <div><span class="block text-2xl font-bold text-primary">~22.5%</span><span class="text-xs text-gray-500">Retatrutide BW Reduction</span></div>
+      </div>
+    </div>
+
     <h2>The GLP-1 Landscape in 2026</h2>
     <p>The GLP-1 receptor agonist market has expanded beyond single-receptor pharmacology. Today's B2B buyers choose between three tiers: single-agonist (Semaglutide), dual-agonist (Tirzepatide), and triple-agonist (Retatrutide). Each tier represents a different value proposition — and a different procurement strategy.</p>
+    <p>What's driving this evolution? Two things. First, each additional receptor target produces <strong>meaningfully better efficacy data</strong> — the jump from single to triple agonism can add 5–8 percentage points of body weight reduction. Second, the market is fragmenting: researchers aren't just asking for "a GLP-1" anymore. They're specifying molecules by receptor profile. If your catalog has only Semaglutide, you're missing the customers who need Tirzepatide's GIP component or Retatrutide's glucagon activity.</p>
 
     <h2>Mechanism Comparison</h2>
     <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
-      <table class="w-full text-sm bg-white">
-        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold">Molecule</th><th class="text-center py-3 px-4 font-semibold">GLP-1R</th><th class="text-center py-3 px-4 font-semibold">GIPR</th><th class="text-center py-3 px-4 font-semibold">GCGR</th><th class="text-left py-3 px-5 font-semibold">Profile</th></tr></thead>
+      <table class="w-full text-sm">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold">Molecule</th><th class="text-center py-3 px-4 font-semibold">GLP-1R</th><th class="text-center py-3 px-4 font-semibold">GIPR</th><th class="text-center py-3 px-4 font-semibold">GCGR</th><th class="text-center py-3 px-4 font-semibold">Half-Life</th><th class="text-left py-3 px-5 font-semibold">Profile</th></tr></thead>
         <tbody>
-          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-semibold text-primary">Semaglutide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="py-3 px-5 text-gray-600 text-sm">Established, highest-volume, well-characterized</td></tr>
-          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-semibold text-primary">Tirzepatide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="py-3 px-5 text-gray-600 text-sm">Enhanced metabolic effect, premium positioning</td></tr>
-          <tr><td class="py-3 px-5 font-semibold text-primary">Retatrutide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="py-3 px-5 text-gray-600 text-sm">Next-generation triple agonist, highest potency</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-semibold text-primary">Semaglutide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="text-center py-3 text-sm">~7 days</td><td class="py-3 px-5 text-gray-600 text-sm">Established, highest-volume, well-characterized</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-semibold text-primary">Tirzepatide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-gray-300">—</span></td><td class="text-center py-3 text-sm">~5 days</td><td class="py-3 px-5 text-gray-600 text-sm">Enhanced metabolic effect, premium positioning</td></tr>
+          <tr><td class="py-3 px-5 font-semibold text-primary">Retatrutide</td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3"><span class="text-green-600 font-bold">✓</span></td><td class="text-center py-3 text-sm">~6 days</td><td class="py-3 px-5 text-gray-600 text-sm">Next-gen triple agonist, highest potency</td></tr>
         </tbody>
       </table>
     </div>
 
-    <h2>Market Trends</h2>
-    <p>The global GLP-1 market is projected to reach <strong>$125 billion by 2030</strong>, driven by expanding therapeutic applications beyond metabolic disease into cardiovascular, renal, and neurological research. For B2B suppliers, this means sustained demand growth with increasing pressure on batch consistency, documentation quality, and supply chain reliability.</p>
-    <p>Key procurement trend: buyers are shifting from single-SKU sourcing to multi-molecule portfolios — buying Semaglutide, Tirzepatide, and Retatrutide from a single manufacturer to consolidate logistics, standardize QC documentation, and negotiate volume-based pricing.</p>
+    <h2>Head-to-Head: Clinical Efficacy Data</h2>
+    <p>For B2B buyers, the numbers that matter most are the ones your customers ask about. Here's what the published data shows [Sources: NEJM STEP trials, SURMOUNT trials, Lancet Phase 2 Retatrutide data]:</p>
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold">Metric</th><th class="text-center py-3 px-4 font-semibold">Semaglutide</th><th class="text-center py-3 px-4 font-semibold">Tirzepatide</th><th class="text-center py-3 px-4 font-semibold">Retatrutide</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">Body Weight Reduction</td><td class="text-center py-3 text-accent-dark font-semibold">~15%</td><td class="text-center py-3 text-accent-dark font-semibold">~20%</td><td class="text-center py-3 text-accent-dark font-semibold">~22.5%</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium">HbA1c Reduction</td><td class="text-center py-3">~1.5%</td><td class="text-center py-3">~2.0%</td><td class="text-center py-3">~2.2%</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-5 font-medium">Dosing Frequency</td><td class="text-center py-3">Weekly</td><td class="text-center py-3">Weekly</td><td class="text-center py-3">Weekly</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium">Trial Phase (Published)</td><td class="text-center py-3">Phase 3</td><td class="text-center py-3">Phase 3</td><td class="text-center py-3">Phase 2</td></tr>
+          <tr><td class="py-3 px-5 font-medium">Relative Cost (Indexed)</td><td class="text-center py-3">1.0× (baseline)</td><td class="text-center py-3">~1.3×</td><td class="text-center py-3">~1.6×</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card bg-blue-50 border-l-4 border-l-blue-400 p-5 my-6">
+      <h3 class="font-bold text-blue-800 mb-2">💡 The Real Trade-Off</h3>
+      <p class="text-sm text-blue-900">Semaglutide = lowest cost per dose, highest volume demand, most customers. Tirzepatide = best efficacy-to-cost ratio, premium positioning. Retatrutide = highest efficacy, early adopter advantage, smallest current market.</p>
+      <p class="text-sm text-blue-900 mt-2">Smart buyers stock all three — because your Tirzepatide customer will eventually want Retatrutide, and you don't want them finding another supplier when that day comes.</p>
+    </div>
+
+    <h2>Market Trends & Procurement Implications</h2>
+    <p>The global GLP-1 market is projected to reach <strong>$125 billion by 2030</strong> [Source: Industry forecasts], driven by expanding applications beyond metabolic disease into cardiovascular, renal, and neurological research. For B2B suppliers, this means sustained demand growth with increasing pressure on batch consistency, documentation quality, and supply chain reliability.</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+      {[
+        ["Consolidation","Buyers shifting from single-SKU sourcing to multi-molecule portfolios from a single manufacturer. One QC standard, one invoice, one relationship."],
+        ["Documentation Bar Rising","It's not enough to say ≥99%. Buyers want to see the actual chromatogram, the MS trace, the batch-specific COA — not a template."],
+        ["Combo Protocols Growing","Cagrilintide + Semaglutide, Tirzepatide + AOD-9604 — researchers are stacking molecules. Suppliers who offer pre-formulated stacks capture higher margins."],
+      ].map(([t,d]) => (
+        <div class="card p-4"><h3 class="font-bold text-sm text-primary mb-2">{t}</h3><p class="text-gray-600 text-xs">{d}</p></div>
+      ))}
+    </div>
+
+    <h2>Buyer Profile × Molecule Matrix</h2>
+    <p>Which molecules belong in your portfolio? It depends on who your customers are:</p>
+    <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm my-6">
+      <table class="w-full text-sm">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold">Buyer Profile</th><th class="text-left py-3 px-5 font-semibold">Primary Stock</th><th class="text-left py-3 px-5 font-semibold">Secondary</th><th class="text-left py-3 px-5 font-semibold">Strategy</th></tr></thead>
+        <tbody>
+          <tr class="border-b"><td class="py-3 px-5 font-medium">Volume Distributor</td><td class="py-3 px-5 text-accent-dark font-medium">Semaglutide</td><td class="py-3 px-5">Tirzepatide</td><td class="py-3 px-5 text-xs text-gray-500">Anchor on high-volume, low-cost Sema. Add Tirz for premium tier.</td></tr>
+          <tr class="border-b bg-gray-50/50"><td class="py-3 px-5 font-medium">Premium OEM</td><td class="py-3 px-5 text-accent-dark font-medium">Tirzepatide + Retatrutide</td><td class="py-3 px-5">Cagrilintide</td><td class="py-3 px-5 text-xs text-gray-500">Differentiate with dual/triple agonists. Combo kits = higher margin.</td></tr>
+          <tr class="border-b"><td class="py-3 px-5 font-medium">Research Supplier</td><td class="py-3 px-5 text-accent-dark font-medium">All three</td><td class="py-3 px-5">AOD-9604</td><td class="py-3 px-5 text-xs text-gray-500">Full metabolic panel. Labs need molecules for specific research questions.</td></tr>
+          <tr><td class="py-3 px-5 font-medium">Testing Lab / CRO</td><td class="py-3 px-5 text-accent-dark font-medium">Semaglutide</td><td class="py-3 px-5">Tirzepatide</td><td class="py-3 px-5 text-xs text-gray-500">Well-characterized references. Documentation quality matters most.</td></tr>
+        </tbody>
+      </table>
+    </div>
 
     <h2>5-Step Procurement Decision Framework</h2>
     <div class="space-y-4 my-6">
-      <div class="card p-5"><h3 class="font-bold mb-2">Step 1: Define Your Portfolio Tier</h3><p class="text-gray-600 text-sm">Entry: Semaglutide only. Growth: Semaglutide + Tirzepatide. Premium: All three plus complementary molecules (Cagrilintide, AOD-9604).</p></div>
-      <div class="card p-5"><h3 class="font-bold mb-2">Step 2: Estimate Monthly Volume</h3><p class="text-gray-600 text-sm">Be realistic. Under-ordering creates stockouts; over-ordering wastes cash. 1–3 kits/mo for evaluation, 10+ kits/mo for established distribution.</p></div>
-      <div class="card p-5"><h3 class="font-bold mb-2">Step 3: Define Documentation Requirements</h3><p class="text-gray-600 text-sm">COA minimum. Add HPLC/MS for regulated markets. Add stability data for long-term storage planning.</p></div>
-      <div class="card p-5"><h3 class="font-bold mb-2">Step 4: Confirm Manufacturing Source</h3><p class="text-gray-600 text-sm">Is your supplier a manufacturer or a reseller? Factory-direct means faster turnaround, direct QC access, and undisrupted batch continuity.</p></div>
-      <div class="card p-5"><h3 class="font-bold mb-2">Step 5: Negotiate Tiered Pricing</h3><p class="text-gray-600 text-sm">Volume pricing should be transparent and predictable. Ask for a published tier structure rather than per-order negotiation.</p></div>
+      {[
+        ["Step 1: Define Your Portfolio Tier","Entry: Semaglutide only (highest demand, lowest risk). Growth: Sema + Tirzepatide (premium tier added). Premium: All three + Cagrilintide + AOD-9604 (full metabolic panel). Don't jump to Premium on day one — let your customer demand pull you up."],
+        ["Step 2: Estimate Monthly Volume Honestly","1–3 kits/mo = evaluation phase. 5–10 kits/mo = you have a customer base. 20+ kits/mo = you're an established distributor. Under-ordering creates stockouts and lost customers. Over-ordering ties up cash in inventory that degrades over 12–24 months."],
+        ["Step 3: Define Your Documentation Requirements","Minimum: COA with HPLC purity + MS identity. Premium: add HPLC chromatogram file, stability data, residual solvent analysis. Regulated destination: full technical dossier. Know what your customers actually need — don't pay for documentation nobody reads."],
+        ["Step 4: Verify Manufacturing Source","Factory-direct vs reseller: this is the single most important sourcing question. Manufacturers control synthesis, purification, and QC. Resellers repackage someone else's product. Ask: 'Can I visit the synthesis facility?' If the answer is 'no' or 'it's in another location,' you're talking to a reseller."],
+        ["Step 5: Negotiate Published Tier Pricing","Demand transparency. Tiered pricing should be documented, not negotiated per order. Standard tiers: 2–5 kits (10–20% off), 6–20 kits (25–40%), 21–50 (40–55%), 50+ (55–70%). Annual contracts: custom. If a supplier refuses to publish tiers, they're likely margin-gouging on reorders."],
+      ].map(([t,d]) => (
+        <div class="card p-5"><h3 class="font-bold mb-2 text-primary">{t}</h3><p class="text-gray-600 text-sm">{d}</p></div>
+      ))}
+    </div>
+
+    <h2>When to Stock Each Molecule: A Timeline</h2>
+    <div class="space-y-3 my-6">
+      <div class="card p-4 border-l-4 border-l-green-500"><h3 class="font-bold text-sm">Month 1 → Semaglutide</h3><p class="text-gray-600 text-xs mt-1">Start here. Highest demand, broadest customer base, lowest risk. Order 2–3 kits, sample to your 5–10 best customers, get feedback on quality and documentation.</p></div>
+      <div class="card p-4 border-l-4 border-l-blue-500"><h3 class="font-bold text-sm">Month 3 → Add Tirzepatide</h3><p class="text-gray-600 text-xs mt-1">Once Semaglutide is moving, add Tirzepatide for the premium tier. Your existing Sema customers are your first Tirz prospects — cross-sell directly.</p></div>
+      <div class="card p-4 border-l-4 border-l-purple-500"><h3 class="font-bold text-sm">Month 6 → Add Retatrutide + Cagrilintide</h3><p class="text-gray-600 text-xs mt-1">By now you have a customer base. Retatrutide = early adopter advantage. Cagrilintide = combo protocol unlock. Pre-formulated stacks command 2× margin over single molecules.</p></div>
     </div>
 
     <h2>FAQ</h2>
     <div class="space-y-3 max-w-3xl">
-      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">Which GLP-1 peptide should I source first?</summary><p class="mt-3 text-gray-600 text-sm">Semaglutide is the highest-volume GLP-1 in research supply and the safest starting point. It is well-characterized, widely recognized, and has the broadest customer base.</p></details>
-      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">Is Tirzepatide worth the premium over Semaglutide?</summary><p class="mt-3 text-gray-600 text-sm">For distributors targeting premium positioning, yes. Tirzepatide's dual-receptor mechanism commands higher margins and attracts customers seeking enhanced metabolic profiles. For pure volume play, Semaglutide remains the anchor.</p></details>
-      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">How does volume pricing work?</summary><p class="mt-3 text-gray-600 text-sm">Tiered pricing typically starts at 10–20% off for 2+ kits, scaling to 50–70% off at 50+ kits. We provide published tier structures. Contact us for a quotation based on your projected monthly volume.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">Which GLP-1 peptide should I source first?</summary><p class="mt-3 text-gray-600 text-sm">Semaglutide. It has the highest research volume, broadest customer base, and lowest procurement risk. Start with 2–3 kits to evaluate our quality and documentation before expanding your portfolio. Once established, add Tirzepatide for premium positioning.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">Is Tirzepatide worth the premium over Semaglutide?</summary><p class="mt-3 text-gray-600 text-sm">For distributors targeting premium positioning — absolutely. Tirzepatide's dual GIP/GLP-1 mechanism shows ~20% body weight reduction vs ~15% for Semaglutide [Source: SURMOUNT-1 data]. This efficacy gap translates directly to higher margins — your customers will pay more for better data. For pure volume play, Semaglutide is still the anchor.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">How does Retatrutide compare to Tirzepatide?</summary><p class="mt-3 text-gray-600 text-sm">Retatrutide adds glucagon receptor activation to the GLP-1/GIP combo, producing ~22.5% body weight reduction [Source: Phase 2 data]. It's the most potent molecule but also the newest — published Phase 2 only. For early adopters, it's a significant differentiator. For conservative buyers, wait for Phase 3 data expected 2027.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">How does volume pricing work across molecules?</summary><p class="mt-3 text-gray-600 text-sm">Tiered pricing applies per order. Mixed-molecule orders qualify for combined volume tiers — e.g., 3 Sema + 2 Tirz + 1 Reta = 6 kits total, eligible for the 6+ tier (25–40% off). This is a key advantage of single-manufacturer sourcing: you don't lose volume discounts by splitting molecules across suppliers.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">What documentation comes with GLP-1 orders?</summary><p class="mt-3 text-gray-600 text-sm">Every kit: batch-specific COA (HPLC purity ≥99%, MS identity confirmation), commercial invoice, packing list. On request: full HPLC chromatogram, MS spectrum, stability data, residual solvent analysis. Bulk orders (10+ kits): complete technical dossier at no extra cost.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary text-sm hover:text-accent">Can I get pre-formulated GLP-1 combinations?</summary><p class="mt-3 text-gray-600 text-sm">Yes. Our Specialty Stacks include Cagrilintide + Semaglutide fixed-dose kits. Custom stacks (Tirzepatide + AOD-9604, Retatrutide + Cagrilintide) available on request. Pre-formulated stacks simplify your inventory — one SKU, one COA, one shipment — and typically yield higher margins than single-molecule products.</p></details>
     </div>
 
     <div class="flex flex-col sm:flex-row gap-4 mt-10 pt-8 border-t border-gray-200">
       <a href="/products/metabolic/" class="btn-primary group">Browse Metabolic Peptides <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
-      <a href="/contact/" class="btn-outline text-primary border-primary/30 hover:bg-primary hover:text-white">Request Wholesale Quote →</a>
+      <a href="/contact/" class="btn-outline text-primary border-primary/30">Request Wholesale Quote →</a>
     </div>
 
   </div>
 </section>
 </article>
-
-
 </PageLayout>
