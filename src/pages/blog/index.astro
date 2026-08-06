@@ -31,15 +31,15 @@ const posts = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Peptide Source Hub Industry Blog",
+  "name": "Peptides Source Hub Industry Blog",
   "description": "Technical guides and industry insights for B2B peptide buyers: research applications, quality standards, and supply chain best practices.",
-  "publisher": { "@type": "Organization", "name": "Peptide Source Hub", "url": "https://peptidesourcehub.com" },
+  "publisher": { "@type": "Organization", "name": "Peptides Source Hub", "url": "https://peptidesourcehub.com" },
   "blogPost": posts.map(p => ({
     "@type": "BlogPosting",
     "headline": p.title,
     "url": `https://peptidesourcehub.com/blog/${p.slug}/`,
     "datePublished": p.date,
-    "author": { "@type": "Organization", "name": "Peptide Source Hub" },
+    "author": { "@type": "Organization", "name": "Peptides Source Hub" },
     "description": p.desc,
   })),
 };

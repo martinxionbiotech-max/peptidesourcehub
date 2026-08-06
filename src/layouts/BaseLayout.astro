@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 const { title, description, image, jsonLd } = Astro.props;
-const pageTitle = `${title} — Peptide Source Hub`;
+const pageTitle = `${title} — Peptides Source Hub`;
 const pageDesc = description || title;
 ---
 
@@ -24,7 +24,7 @@ const pageDesc = description || title;
   <meta property="og:description" content={pageDesc} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
-  <meta property="og:site_name" content="Peptide Source Hub" />
+  <meta property="og:site_name" content="Peptides Source Hub" />
   {image && <meta property="og:image" content={image} />}
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -41,7 +41,7 @@ const pageDesc = description || title;
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Peptide Source Hub",
+      "name": "Peptides Source Hub",
       "url": "https://peptidesourcehub.com",
       "description": "Factory-direct peptide manufacturing since 2009. 58+ research peptides & HGH kits, ≥99% purity, global B2B fulfillment from Shenzhen, China.",
       "foundingDate": "2009",
