@@ -75,7 +75,7 @@ const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEnti
       <table class="w-full text-sm bg-white">
         <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Product</th><th class="text-left py-3 px-4 font-semibold text-primary">CAS</th><th class="text-left py-3 px-4 font-semibold text-primary">MW (Da)</th><th class="text-left py-3 px-4 font-semibold text-primary">Research Context</th><th class="text-left py-3 px-5 font-semibold text-primary">Std. Configuration</th></tr></thead>
         <tbody>
-          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary">{p[0]}</td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
+          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary"><a href={"/products/" + p[0].toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9-]/g,"") + "/"} class="hover:text-accent transition-colors">{p[0]}</a></td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
         </tbody>
       </table>
     </div>
