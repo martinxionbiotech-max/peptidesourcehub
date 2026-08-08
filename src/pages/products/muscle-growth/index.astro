@@ -10,12 +10,12 @@ const jsonLd = {
 };
 
 const products = [
-  ["CJC-1295 (DAC)","863288-34-0","3,649.2","Long-acting GHRH analogue — sustained GH pulse","2 mg × 10 vials"],
-  ["Ipamorelin","170851-70-4","711.9","Selective GHS-R agonist — minimal hunger signal","2 mg × 10 vials"],
-  ["GHRP-2","158861-67-7","817.0","Potent ghrelin receptor agonist","5 mg × 10 vials"],
-  ["GHRP-6","87616-84-0","873.0","Ghrelin mimetic — strong GH release","5 mg × 10 vials"],
-  ["PEG-MGF","—","11,500","IGF-1 splice variant — muscle stem cell activation","1 mg × 10 vials"],
-  ["CJC-1295 (no DAC)","863288-34-0","3,367.1","Short-acting GHRH — pulse-compatible","2 mg × 10 vials"],
+  ["CJC-1295 (DAC)","863288-34-0","3,649.2","Long-acting GHRH analogue — sustained GH pulse","2 mg × 10 vials","/products/muscle-growth/"],
+  ["Ipamorelin","170851-70-4","711.9","Selective GHS-R agonist — minimal hunger signal","2 mg × 10 vials","/products/muscle-growth/"],
+  ["GHRP-2","158861-67-7","817.0","Potent ghrelin receptor agonist","5 mg × 10 vials","/products/muscle-growth/"],
+  ["GHRP-6","87616-84-0","873.0","Ghrelin mimetic — strong GH release","5 mg × 10 vials","/products/muscle-growth/"],
+  ["PEG-MGF","—","11,500","IGF-1 splice variant — muscle stem cell activation","1 mg × 10 vials","/products/muscle-growth/"],
+  ["CJC-1295 (no DAC)","863288-34-0","3,367.1","Short-acting GHRH — pulse-compatible","2 mg × 10 vials","/products/muscle-growth/"],
 ];
 
 const combos = [
@@ -92,7 +92,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
       <table class="w-full text-sm bg-white">
         <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Product</th><th class="text-left py-3 px-4 font-semibold text-primary">CAS</th><th class="text-left py-3 px-4 font-semibold text-primary">MW (Da)</th><th class="text-left py-3 px-4 font-semibold text-primary">Research Context</th><th class="text-left py-3 px-5 font-semibold text-primary">Std. Configuration</th></tr></thead>
         <tbody>
-          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary"><a href={"/products/" + p[0].toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9-]/g,"") + "/"} class="hover:text-accent transition-colors">{p[0]}</a></td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
+          {products.map((p,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}><td class="py-3 px-5 font-semibold text-primary"><a href={p[5]} class="hover:text-accent transition-colors">{p[0]}</a></td><td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td><td class="py-3 px-4 text-gray-600">{p[2]}</td><td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td><td class="py-3 px-5 font-medium text-accent-dark">{p[4]}</td></tr>))}
         </tbody>
       </table>
     </div>

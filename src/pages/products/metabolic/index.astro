@@ -10,11 +10,11 @@ const jsonLd = {
 };
 
 const products = [
-  ["Semaglutide","910463-68-2","4,113.6","GLP-1 receptor agonist — most researched incretin mimetic","5 mg × 10 vials"],
-  ["Tirzepatide","2023788-19-2","4,813.5","Dual GIP/GLP-1 receptor agonist","5 mg × 10 vials"],
-  ["Retatrutide","2381089-83-2","4,731.5","Triple GIP/GLP-1/GCGR agonist — next-gen","5 mg × 10 vials"],
-  ["Cagrilintide","1415456-99-3","4,100.7","Long-acting amylin analogue","5 mg × 10 vials"],
-  ["AOD-9604","221231-10-3","1,815.1","hGH fragment 177-191 — lipolytic","2 mg × 10 vials"],
+  ["Semaglutide","910463-68-2","4,113.6","GLP-1 receptor agonist — most researched incretin mimetic","5 mg × 10 vials","/products/semaglutide/"],
+  ["Tirzepatide","2023788-19-2","4,813.5","Dual GIP/GLP-1 receptor agonist","5 mg × 10 vials","/products/tirzepatide/"],
+  ["Retatrutide","2381089-83-2","4,731.5","Triple GIP/GLP-1/GCGR agonist — next-gen","5 mg × 10 vials","/products/retatrutide/"],
+  ["Cagrilintide","1415456-99-3","4,100.7","Long-acting amylin analogue","5 mg × 10 vials","/products/cagrilintide/"],
+  ["AOD-9604","221231-10-3","1,815.1","hGH fragment 177-191 — lipolytic","2 mg × 10 vials","/products/metabolic/"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity standard for metabolic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all metabolic research peptides including Semaglutide, Tirzepatide, Retatrutide, and Cagrilintide."}}, {"@type": "Question", "name": "Can I order mixed metabolic peptide kits?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Combined orders qualify for merged volume tiers — e.g., 3 Semaglutide + 2 Tirzepatide + 1 Retatrutide = 6 kits eligible for the 25-40% off tier."}}, {"@type": "Question", "name": "What documentation is provided with orders?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request."}}, {"@type": "Question", "name": "How are GLP-1 peptides shipped and stored?", "acceptedAnswer": {"@type": "Answer", "text": "All metabolic peptides ship as lyophilized powder via DHL/FedEx (2-6 business days). Temperature-controlled packaging. 24-month stability at 2-8°C."}}, {"@type": "Question", "name": "Do you offer pre-formulated GLP-1 stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Cagrilintide + Semaglutide fixed-dose kits are available in our Specialty Stacks category. Custom metabolic stacks on request for bulk wholesale orders."}}]};
 const breadcrumbLd = {
@@ -123,7 +123,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
         <tbody>
           {products.map((p,i) => (
             <tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'} hover:bg-accent/5`}>
-              <td class="py-3 px-5 font-semibold text-primary"><a href={"/products/" + p[0].toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9-]/g,"") + "/"} class="hover:text-accent transition-colors">{p[0]}</a></td>
+              <td class="py-3 px-5 font-semibold text-primary"><a href={p[5]} class="hover:text-accent transition-colors">{p[0]}</a></td>
               <td class="py-3 px-4 text-gray-600 text-xs font-mono">{p[1]}</td>
               <td class="py-3 px-4 text-gray-600">{p[2]}</td>
               <td class="py-3 px-4 text-gray-600 text-sm">{p[3]}</td>
