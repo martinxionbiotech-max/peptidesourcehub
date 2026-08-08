@@ -1,0 +1,231 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "CJC-1295 (no DAC) Wholesale — Short-Acting GHRH Analogue Peptide",
+  "description": "Factory-direct CJC-1295 without DAC wholesale. CAS 863288-34-0, ~3,367.1 Da. ≥99% HPLC. Short-acting GHRH analogue. COA included.",
+  "sku": "PSH-CJC1295-2MG",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "Contact",
+    "highPrice": "Contact",
+    "offerCount": "5"
+  },
+  "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
+};
+
+const specs = [
+  ["CAS Number","863288-34-0"],
+  ["Sequence","Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys-NH₂"],
+  ["Amino Acids","30 (no DAC linker)"],
+  ["Molecular Formula","C₁₅₂H₂₅₂N₄₄O₄₂"],
+  ["Molecular Weight","~3,367.1 Da"],
+  ["Appearance","White to off-white lyophilized powder"],
+  ["Purity","≥99% by HPLC"],
+  ["Solubility","Soluble in sterile or bacteriostatic water"],
+  ["Storage","2–8°C, desiccated, protect from light"]
+];
+
+const configs = [
+  ["Standard Kit","2 mg × 10 vials","Pulsatile GH research; evaluation"],
+  ["Bulk Kit","5 mg × 10 vials","Chronic pulse protocols; repeat orders"],
+  ["Custom","Custom mg × custom vials","OEM; private-label"]
+];
+
+const focusAreas = [
+  ["Pulsatile GH","Physiological GH pulse pattern — short-duration GHRH-R activation"],
+  ["Post-Exercise GH","Pulse timing relative to exercise-induced GH window"],
+  ["Combination Protocols","Paired with GHS-R agonist (Ipamorelin/GHRP-2) for synergistic pulse"],
+  ["GH Axis Research","Endogenous pulsatile secretion pattern studies"]
+];
+
+const mechanisms = [
+  ["GHRH-R Agonism","Full receptor activation → cAMP → GH synthesis and release from somatotrophs"],
+  ["Short Half-Life","~30 minute plasma half-life → discrete GH pulse → mimics endogenous GHRH"],
+  ["No Albumin Binding","Absence of DAC linker → no serum albumin conjugation → renal clearance at normal rate"]
+];
+
+const qcSpecs = [
+  ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
+  ["Identity (MW)","ESI-MS","~3,367.1 ± 1.0 Da"],
+  ["Appearance","Visual inspection","White to off-white powder"],
+  ["Peptide Content","Amino acid analysis","≥80% net peptide"],
+  ["No DAC Confirmation","HPLC-MS","Absence of maleimidopropionyl mass adduct"]
+];
+
+const pricing = [
+  ["1 kit","List price","Evaluation; protocol validation"],
+  ["2–5 kits","10–20% off","Small groups; initial stocking"],
+  ["6–20 kits","25–40% off","Mid-size distributors"],
+  ["21–50 kits","40–55% off","Regional distributors; OEM pilot"],
+  ["50+ kits","55–70% off","Large distributors; recurring supply"]
+];
+
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Why choose CJC-1295 without DAC?", "acceptedAnswer": { "@type": "Answer", "text": "Choice depends on research objective. No DAC = ~30 min half-life = discrete physiological GH pulse. With DAC = ~8 day half-life = sustained GH/IGF-1 elevation. Use no DAC for pulsatile GH studies; use DAC for chronic activation." } },
+    { "@type": "Question", "name": "Is CJC-1295 (no DAC) the same as Mod GRF 1-29?", "acceptedAnswer": { "@type": "Answer", "text": "Essentially yes. Both refer to the same 30-amino acid GHRH analogue with four substitutions but without the DAC linker. Both terms describe the short-acting, non-albumin-binding variant." } },
+    { "@type": "Question", "name": "What is the optimal partner peptide?", "acceptedAnswer": { "@type": "Answer", "text": "Ipamorelin is preferred for pulsatile protocols: CJC-1295 provides GHRH signal, Ipamorelin suppresses somatostatin tone → synergistic, clean GH pulse. GHRP-2 can be used when maximum pulse amplitude is preferred over selectivity." } },
+    { "@type": "Question", "name": "What is the half-life difference vs DAC variant?", "acceptedAnswer": { "@type": "Answer", "text": "No DAC: ~30 minutes → discrete GH pulse. With DAC: ~8 days (via albumin conjugation). This ~400-fold difference is entirely due to the maleimidopropionyl DAC linker." } },
+    { "@type": "Question", "name": "How is absence of DAC verified?", "acceptedAnswer": { "@type": "Answer", "text": "HPLC-MS confirms the molecular ion without the maleimidopropionyl mass adduct (+97 Da absent vs DAC variant). Included in every batch-specific COA." } }]};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Muscle Growth", "item": "https://peptidesourcehub.com/products/muscle-growth/" },
+    { "@type": "ListItem", "position": 4, "name": "CJC-1295 (no DAC)" }
+  ]
+};
+
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+---
+
+<PageLayout title="CJC-1295 (no DAC) Wholesale — Short-Acting GHRH Analogue Peptide"
+  description="Factory-direct CJC-1295 without DAC wholesale. CAS 863288-34-0, ~3,367.1 Da. ≥99% HPLC. Short-acting GHRH analogue. COA included."
+jsonLd={allJsonLd}>
+
+<!-- Hero -->
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <a href="/products/muscle-growth/" class="text-gray-400 hover:text-white">Muscle Growth</a><span class="text-gray-600">/</span>
+      <span class="text-accent">CJC-1295 (no DAC)</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">CJC-1295 (no DAC) Wholesale</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">Short-acting GHRH analogue without Drug Affinity Complex — pulsatile GH research, manufacturer-direct</p>
+    <div class="mt-4">
+      <a href="/download/product-list-price.pdf" download class="inline-flex items-center gap-2 bg-accent/20 hover:bg-accent/30 border border-accent/40 text-accent font-semibold px-5 py-2.5 rounded-xl text-sm transition-all duration-200 hover:-translate-y-0.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        Product List & Price (PDF)
+        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Identity -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">Product Identity & Specifications</h2>
+    <div class="max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <tbody>
+          {specs.map(([k,v],i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary w-1/3">{k}</td><td class="py-3 px-5 text-gray-600">{v}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Configurations -->
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Available Configurations</h2>
+    <div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Configuration</th><th class="text-left py-3 px-5 font-semibold text-primary">Content</th><th class="text-left py-3 px-5 font-semibold text-primary">Best For</th></tr></thead>
+        <tbody>{configs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Research Background -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">Research Background</h2>
+    <div class="max-w-4xl">
+      <p class="text-gray-600 mb-6">CJC-1295 without DAC (also known as Mod GRF 1-29) is the same 30-amino acid GHRH analogue as the DAC variant, but without the C-terminal maleimidopropionyl linker. This single structural difference produces a fundamentally different pharmacokinetic profile: instead of 8-day sustained GH elevation, the no-DAC variant has a short ~30-minute half-life producing a discrete GH pulse that closely mimics endogenous pulsatile secretion patterns.</p>
+      <h3 class="text-lg font-bold mb-3">Published Research Focus Areas</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+        {focusAreas.map(([area,finding])=>(<div class="card p-4"><span class="font-semibold text-primary text-sm">{area}</span><p class="text-gray-500 text-xs mt-1">{finding}</p></div>))}
+      </div>
+      <h3 class="text-lg font-bold mb-3">Proposed Mechanisms</h3>
+      <div class="space-y-2">
+        {mechanisms.map(([mech,desc])=>(<div class="card p-4"><span class="font-semibold text-accent-dark text-sm">{mech}</span><span class="text-gray-600 text-sm ml-2">{desc}</span></div>))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quality -->
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Quality Specifications</h2>
+    <div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-4 font-semibold text-primary">Parameter</th><th class="text-left py-3 px-4 font-semibold text-primary">Method</th><th class="text-left py-3 px-5 font-semibold text-primary">Criterion</th></tr></thead>
+        <tbody>{qcSpecs.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-4 font-semibold text-primary text-sm">{r[0]}</td><td class="py-3 px-4 text-gray-600 text-xs">{r[1]}</td><td class="py-3 px-5 text-accent-dark font-medium text-sm">{r[2]}</td></tr>))}</tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Tiered Wholesale Pricing</h2>
+    <div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead><tr class="bg-gray-50 border-b-2 border-gray-200"><th class="text-left py-3 px-5 font-semibold text-primary">Volume</th><th class="text-left py-3 px-5 font-semibold text-primary">Discount</th><th class="text-left py-3 px-5 font-semibold text-primary">For</th></tr></thead>
+        <tbody>{pricing.map((r,i)=>(<tr class={`border-b border-gray-100 ${i%2===0?'bg-white':'bg-gray-50/50'}`}><td class="py-3 px-5 font-semibold text-primary">{r[0]}</td><td class="py-3 px-5 text-accent-dark font-medium">{r[1]}</td><td class="py-3 px-5 text-gray-600 text-sm">{r[2]}</td></tr>))}</tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">Frequently Asked Questions</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Why choose CJC-1295 without DAC?</summary><p class="mt-3 text-gray-600 text-sm">Choice depends on research objective. No DAC = ~30 min half-life = discrete physiological GH pulse. With DAC = ~8 day half-life = sustained GH/IGF-1 elevation. Use no DAC for pulsatile GH studies; use DAC for chronic activation.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">Is CJC-1295 (no DAC) the same as Mod GRF 1-29?</summary><p class="mt-3 text-gray-600 text-sm">Essentially yes. Both refer to the same 30-amino acid GHRH analogue with four substitutions but without the DAC linker. Both terms describe the short-acting, non-albumin-binding variant.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What is the optimal partner peptide?</summary><p class="mt-3 text-gray-600 text-sm">Ipamorelin is preferred for pulsatile protocols: CJC-1295 provides GHRH signal, Ipamorelin suppresses somatostatin tone → synergistic, clean GH pulse. GHRP-2 can be used when maximum pulse amplitude is preferred over selectivity.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">What is the half-life difference vs DAC variant?</summary><p class="mt-3 text-gray-600 text-sm">No DAC: ~30 minutes → discrete GH pulse. With DAC: ~8 days (via albumin conjugation). This ~400-fold difference is entirely due to the maleimidopropionyl DAC linker.</p></details>
+      <details class="card group cursor-pointer"><summary class="font-semibold text-primary hover:text-accent">How is absence of DAC verified?</summary><p class="mt-3 text-gray-600 text-sm">HPLC-MS confirms the molecular ion without the maleimidopropionyl mass adduct (+97 Da absent vs DAC variant). Included in every batch-specific COA.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- Related Products -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Related Products</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+      <a href="/products/muscle-growth/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">CJC-1295 (DAC)</span><span class="text-gray-500 text-xs">Sustained GHRH variant</span></a>
+      <a href="/products/muscle-growth/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">Ipamorelin</span><span class="text-gray-500 text-xs">Selective GHS-R agonist</span></a>
+      <a href="/products/muscle-growth/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">GHRP-2</span><span class="text-gray-500 text-xs">Potent GHS-R agonist</span></a>
+      <a href="/products/hgh/" class="card p-4 text-center hover:border-accent/30 transition-colors"><span class="font-semibold text-primary block">HGH</span><span class="text-gray-500 text-xs">Direct GH receptor agonist</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Compliance -->
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4 text-center">
+    <p class="text-gray-500 text-sm max-w-2xl mx-auto">All products are manufactured for <strong>laboratory research purposes only</strong>. CJC-1295 (no DAC) is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Ready to Source CJC-1295 (no DAC)?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Bulk pricing, tiered discounts up to 70%, COA with every order.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface"><a href="/products/muscle-growth/" class="text-accent-dark font-medium hover:underline">← Back to Muscle Growth</a></div>
+
+</PageLayout>
