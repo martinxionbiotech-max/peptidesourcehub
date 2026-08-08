@@ -70,7 +70,6 @@ const pricing = [
   ["50+ kits","55–70% off","Large formulators; OEM"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is GHK-Cu and how is quality verified?", "acceptedAnswer": {"@type": "Answer", "text": "Copper tripeptide complex (MW ~340.4 Da). Sequence Gly-His-Lys chelating Cu²⁺. ≥99% HPLC, ESI-MS, UV-Vis 600nm verifies copper chelation."}}, {"@type": "Question", "name": "Why does GHK-Cu appear blue?", "acceptedAnswer": {"@type": "Answer", "text": "The characteristic blue color confirms Cu²⁺ chelation — a quality indicator, not a contaminant. 600nm absorbance peak."}}, {"@type": "Question", "name": "How should GHK-Cu be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. The copper complex is photolabile. Reconstituted: use tinted vials or wrap in foil."}}, {"@type": "Question", "name": "What concentrations of GHK-Cu are available?", "acceptedAnswer": {"@type": "Answer", "text": "Standard: 50mg (single vial). Bulk: 50mg × 10 vials kit. Custom concentrations available on request."}}, {"@type": "Question", "name": "What documentation is included with GHK-Cu?", "acceptedAnswer": {"@type": "Answer", "text": "COA, commercial invoice, packing list. Additional analytical data (HPLC chromatogram, MS spectrum, UV-Vis) on request."}}]};
----
 
 const breadcrumbLd = {
   "@context": "https://schema.org",
@@ -84,8 +83,8 @@ const breadcrumbLd = {
 };
 
 const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
-
-<PageLayout title="GHK-Cu Wholesale — Research-Grade Copper Tripeptide-1 ≥99% Purity Bulk" description="Factory-direct GHK-Cu wholesale. CAS 49557-75-7, ~340.4 Da. ≥99% HPLC, lyophilized powder. Copper peptide for collagen synthesis & skin research. Tiered pricing. COA." jsonLd={allJsonLd}>
+---
+ title="GHK-Cu Wholesale — Research-Grade Copper Tripeptide-1 ≥99% Purity Bulk" description="Factory-direct GHK-Cu wholesale. CAS 49557-75-7, ~340.4 Da. ≥99% HPLC, lyophilized powder. Copper peptide for collagen synthesis & skin research. Tiered pricing. COA." jsonLd={allJsonLd}>
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>

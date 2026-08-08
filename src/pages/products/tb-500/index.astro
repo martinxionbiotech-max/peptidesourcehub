@@ -78,7 +78,6 @@ const pricing = [
   ["50+ kits","55–70% off","Large distributors; recurring"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity of TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "What is the molecular weight of TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Synthetic N-terminal fragment of Thymosin Beta-4, MW ~889 Da. Active sequence: Ac-LKKTETQ."}}, {"@type": "Question", "name": "How should I store TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, protected from light and moisture. After reconstitution: aliquot and store at -20°C. Avoid repeated freeze-thaw cycles."}}, {"@type": "Question", "name": "Is TB-500 the same as Thymosin Beta-4?", "acceptedAnswer": {"@type": "Answer", "text": "No. TB-500 is the synthetic N-terminal fragment of full Thymosin Beta-4 (43 amino acids). It retains actin-binding activity but is a distinct research molecule."}}, {"@type": "Question", "name": "What documentation comes with TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA, commercial invoice, packing list. Full HPLC chromatogram and MS spectrum available on request."}}]};
----
 
 const breadcrumbLd = {
   "@context": "https://schema.org",
@@ -92,8 +91,8 @@ const breadcrumbLd = {
 };
 
 const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
-
-<PageLayout title="TB-500 Wholesale — Research-Grade ≥99% Purity Bulk Thymosin β4 Fragment" description="Factory-direct TB-500 wholesale. CAS 77591-33-4. ≥99% HPLC, lyophilized powder, 10-vial kits. Tiered pricing. COA included." jsonLd={allJsonLd}>
+---
+ title="TB-500 Wholesale — Research-Grade ≥99% Purity Bulk Thymosin β4 Fragment" description="Factory-direct TB-500 wholesale. CAS 77591-33-4. ≥99% HPLC, lyophilized powder, 10-vial kits. Tiered pricing. COA included." jsonLd={allJsonLd}>
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
