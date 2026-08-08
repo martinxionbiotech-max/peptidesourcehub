@@ -1,0 +1,10 @@
+# Block common exploit paths — return 410 Gone
+/.env             /404.html   410
+/.git/*           /404.html   410
+/wp-*             /404.html   410
+/wordpress        /404.html   410
+/admin            /404.html   410
+/backup.zip       /404.html   410
+/phpinfo.php      /404.html   410
+/config.php       /404.html   410
+/.DS_Store        /404.html   410

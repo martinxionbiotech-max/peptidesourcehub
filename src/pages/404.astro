@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Page Not Found — Peptides Source Hub"
+  description="The page you requested could not be found. Browse our wholesale peptide catalog instead."
+  schema={{
+    "@type": "WebSite",
+    "name": "Peptides Source Hub",
+    "url": "https://peptidesourcehub.net",
+  }}
+>
+  <main class="max-w-3xl mx-auto px-4 py-24 text-center">
+    <h1 class="text-5xl font-bold text-gray-900 mb-4">404</h1>
+    <p class="text-xl text-gray-600 mb-8">
+      The page you requested could not be found.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a
+        href="/"
+        class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+      >← Back to Homepage</a>
+      <a
+        href="/products/"
+        class="inline-block border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
+      >Browse Products</a>
+      <a
+        href="/contact/"
+        class="inline-block border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition"
+      >Contact Us</a>
+    </div>
+    <p class="mt-12 text-sm text-gray-400">
+      If you believe this is an error, please <a href="/contact/" class="text-blue-600 underline">contact us</a>.
+    </p>
+  </main>
+</BaseLayout>

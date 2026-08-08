@@ -33,11 +33,11 @@ const jsonLd = {
   "@type": "Blog",
   "name": "Peptides Source Hub Industry Blog",
   "description": "Technical guides and industry insights for B2B peptide buyers: research applications, quality standards, and supply chain best practices.",
-  "publisher": { "@type": "Organization", "name": "Peptides Source Hub", "url": "https://peptidesourcehub.com" },
+  "publisher": { "@type": "Organization", "name": "Peptides Source Hub", "url": "https://peptidesourcehub.net" },
   "blogPost": posts.map(p => ({
     "@type": "BlogPosting",
     "headline": p.title,
-    "url": `https://peptidesourcehub.com/blog/${p.slug}/`,
+    "url": `https://peptidesourcehub.net/blog/${p.slug}/`,
     "datePublished": p.date,
     "author": { "@type": "Organization", "name": "Peptides Source Hub" },
     "description": p.desc,
