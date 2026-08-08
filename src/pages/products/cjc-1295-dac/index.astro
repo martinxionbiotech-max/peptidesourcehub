@@ -18,50 +18,49 @@ const jsonLd = {
 };
 
 const specs = [
-  ["CAS Number","863288-34-0"],
-  ["Sequence","Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys(Maleimidopropionyl)-NH₂"],
-  ["Amino Acids","30 (C-terminal DAC linker)"],
-  ["Molecular Formula","C₁₅₂H₂₅₂N₄₄O₄₂"],
-  ["Molecular Weight","~3,649.2 Da"],
-  ["Appearance","White to off-white lyophilized powder"],
-  ["Purity","≥99% by HPLC"],
-  ["Solubility","Soluble in sterile or bacteriostatic water"],
-  ["Storage","2–8°C, desiccated, protect from light"]
+    ["CAS Number","863288-34-0"],
+    ["Sequence","Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys(Maleimidopropionyl)-NH₂"],
+    ["Amino Acids","30 (C-terminal DAC linker)"],
+    ["Molecular Formula","C₁₅₂H₂₅₂N₄₄O₄₂"],
+    ["Molecular Weight","~3,649.2 Da"],
+    ["Appearance","White to off-white lyophilized powder"],
+    ["Purity","≥99% by HPLC"],
+    ["Solubility","Soluble in sterile or bacteriostatic water"],
+    ["Storage","2–8°C, desiccated, protect from light"]
 ];
 
 const configs = [
-  ["Standard Kit","2 mg × 10 vials","GH pulse research; evaluation"],
-  ["Bulk Kit","5 mg × 10 vials","Chronic GH axis studies; repeat orders"],
-  ["Custom","Custom mg × custom vials","OEM; private-label; protocol-specific"]
+    ["Standard Kit","2 mg × 10 vials","GH pulse research; evaluation"],
+    ["Bulk Kit","5 mg × 10 vials","Chronic GH axis studies; repeat orders"],
+    ["Custom","Custom mg × custom vials","OEM; private-label; protocol-specific"]
 ];
 
 const focusAreas = [
-  ["GH Secretion","Sustained GHRH receptor activation → prolonged GH elevation"],
-  ["Body Composition","Lean mass preservation; fat mass reduction models"],
-  ["Muscle Protein Synthesis","GH/IGF-1 axis-mediated anabolic signaling"],
-  ["Recovery Research","Post-exercise GH pulse augmentation in trained models"]
+    ["GH Secretion","Sustained GHRH receptor activation → prolonged GH elevation"],
+    ["Body Composition","Lean mass preservation; fat mass reduction models"],
+    ["Muscle Protein Synthesis","GH/IGF-1 axis-mediated anabolic signaling"],
+    ["Recovery Research","Post-exercise GH pulse augmentation in trained models"]
 ];
 
 const mechanisms = [
-  ["GHRH-R Agonism","Full GHRH receptor activation → cAMP → GH synthesis and release from pituitary"],
-  ["DAC-Albumin Conjugation","Maleimidopropionyl linker covalently binds Cys³⁴ of serum albumin → half-life extended from ~7 min to ~8 days"],
-  ["IGF-1 Cascade","Sustained GH → hepatic IGF-1 production → systemic anabolic signaling"]
+    ["GHRH-R Agonism","Full GHRH receptor activation → cAMP → GH synthesis and release from pituitary"],
+    ["DAC-Albumin Conjugation","Maleimidopropionyl linker covalently binds Cys³⁴ of serum albumin → half-life extended from ~7 min to ~8 days"],
+    ["IGF-1 Cascade","Sustained GH → hepatic IGF-1 production → systemic anabolic signaling"]
 ];
 
 const qcSpecs = [
-  ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
-  ["Identity (MW)","ESI-MS","~3,649.2 ± 1.0 Da"],
-  ["Appearance","Visual inspection","White to off-white powder"],
-  ["Peptide Content","Amino acid analysis","≥80% net peptide"],
-  ["Residual Moisture","Karl Fischer","≤3%"]
+    ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
+    ["Identity (MW)","ESI-MS","~3,649.2 ± 1.0 Da"],
+    ["Appearance","Visual inspection","White to off-white powder"],
+    ["Peptide Content","Amino acid analysis","≥80% net peptide"],
+    ["Residual Moisture","Karl Fischer","≤3%"]
 ];
 
 const pricing = [
-  ["1 kit","List price","Evaluation; protocol validation"],
-  ["2–5 kits","10–20% off","Small groups; initial stocking"],
-  ["6–20 kits","25–40% off","Mid-size distributors"],
-  ["21–50 kits","40–55% off","Regional distributors; OEM pilot"],
-  ["50+ kits","55–70% off","Large distributors; recurring supply"]
+  ["1 kit","List price","Evaluation; competitive analysis"],
+  ["5+ kits","10% off","Initial portfolio expansion"],
+  ["20+ kits","20% off","Mid-size distributors"],
+  ["50+ kits","30% off","Regional distributors"],
 ];
 
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is the DAC in CJC-1295?", "acceptedAnswer": { "@type": "Answer", "text": "DAC stands for Drug Affinity Complex — a maleimidopropionyl linker that covalently binds to Cys³⁴ of serum albumin. This conjugation extends half-life from minutes to ~8 days by preventing renal clearance and enzymatic degradation." } },

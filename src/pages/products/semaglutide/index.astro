@@ -18,70 +18,68 @@ const jsonLd = {
 };
 
 const specs = [
-  ["CAS Number","910463-68-2"],
-  ["Sequence","31-amino acid with Aib⁸ (DPP-4 resistance) + C18 fatty diacid linker"],
-  ["Molecular Formula","C₁₈₇H₂₉₁N₄₅O₅₉"],
-  ["Molecular Weight","~4,113.6 Da"],
-  ["Appearance","White to off-white lyophilized powder"],
-  ["Purity","≥99% by HPLC"],
-  ["Solubility","Phosphate buffer (pH 7.4); limited solubility in pure water"],
-  ["Storage","2–8°C, desiccated, protect from light"],
+    ["CAS Number","910463-68-2"],
+    ["Sequence","31-amino acid with Aib⁸ (DPP-4 resistance) + C18 fatty diacid linker"],
+    ["Molecular Formula","C₁₈₇H₂₉₁N₄₅O₅₉"],
+    ["Molecular Weight","~4,113.6 Da"],
+    ["Appearance","White to off-white lyophilized powder"],
+    ["Purity","≥99% by HPLC"],
+    ["Solubility","Phosphate buffer (pH 7.4); limited solubility in pure water"],
+    ["Storage","2–8°C, desiccated, protect from light"],
 ];
 
 const configs = [
-  ["Standard Kit","5 mg × 10 vials","Most research protocols"],
-  ["Bulk Kit","10 mg × 10 vials","High-throughput; OEM projects"],
-  ["Custom","Custom mg × custom vials","Private-label development"],
+    ["Standard Kit","5 mg × 10 vials","Most research protocols"],
+    ["Bulk Kit","10 mg × 10 vials","High-throughput; OEM projects"],
+    ["Custom","Custom mg × custom vials","Private-label development"],
 ];
 
 const structural = [
-  ["Aib⁸","Ala⁸→Aib","DPP-4 cleavage protection","Extended half-life"],
-  ["Lys²⁶ acylation","C18 diacid via PEG₂-PEG₂-γ-Glu","Albumin binding","~7-day half-life"],
-  ["Arg³⁴","Lys³⁴→Arg","Manufacturing optimization","Improved SPPS coupling"],
+    ["Aib⁸","Ala⁸→Aib","DPP-4 cleavage protection","Extended half-life"],
+    ["Lys²⁶ acylation","C18 diacid via PEG₂-PEG₂-γ-Glu","Albumin binding","~7-day half-life"],
+    ["Arg³⁴","Lys³⁴→Arg","Manufacturing optimization","Improved SPPS coupling"],
 ];
 
 const pharmaco = [
-  ["GLP-1R Affinity (EC₅₀)","~0.4 nM"],
-  ["GLP-1R Selectivity",">10,000-fold over related receptors"],
-  ["Albumin Binding",">99% (human serum albumin)"],
-  ["Half-Life (human)","~165 hours (~7 days)"],
-  ["DPP-4 Resistance",">100-fold vs. native GLP-1"],
+    ["GLP-1R Affinity (EC₅₀)","~0.4 nM"],
+    ["GLP-1R Selectivity",">10,000-fold over related receptors"],
+    ["Albumin Binding",">99% (human serum albumin)"],
+    ["Half-Life (human)","~165 hours (~7 days)"],
+    ["DPP-4 Resistance",">100-fold vs. native GLP-1"],
 ];
 
 const focusAreas = [
-  ["Glucose Homeostasis","Glucose-dependent insulin secretion; glucagon suppression"],
-  ["Body Weight","Reduced food intake via hypothalamic GLP-1R; delayed gastric emptying"],
-  ["Cardiovascular","Reduced MACE in high-risk populations"],
-  ["Renal Protection","Reduced albuminuria; slowed eGFR decline"],
-  ["NASH/NAFLD","Reduced liver fat; improved NASH resolution"],
-  ["Neuroprotection","Potential effects in Parkinson's and Alzheimer's models"],
+    ["Glucose Homeostasis","Glucose-dependent insulin secretion; glucagon suppression"],
+    ["Body Weight","Reduced food intake via hypothalamic GLP-1R; delayed gastric emptying"],
+    ["Cardiovascular","Reduced MACE in high-risk populations"],
+    ["Renal Protection","Reduced albuminuria; slowed eGFR decline"],
+    ["NASH/NAFLD","Reduced liver fat; improved NASH resolution"],
+    ["Neuroprotection","Potential effects in Parkinson's and Alzheimer's models"],
 ];
 
 const comparison = [
-  ["Receptor","GLP-1R only","GIPR + GLP-1R","GIPR + GLP-1R + GCGR"],
-  ["MW","~4,113.6 Da","~4,813.5 Da","~4,845.5 Da"],
-  ["Amino Acids","31","39","39"],
-  ["Clinical BW reduction","~15%","~22.5%","~24.2% (Ph2)"],
-  ["Synthesis complexity","High","Very High","Very High"],
-  ["Market position","Volume driver","Differentiation","Innovation leader"],
+    ["Receptor","GLP-1R only","GIPR + GLP-1R","GIPR + GLP-1R + GCGR"],
+    ["MW","~4,113.6 Da","~4,813.5 Da","~4,845.5 Da"],
+    ["Amino Acids","31","39","39"],
+    ["Clinical BW reduction","~15%","~22.5%","~24.2% (Ph2)"],
+    ["Synthesis complexity","High","Very High","Very High"],
+    ["Market position","Volume driver","Differentiation","Innovation leader"],
 ];
 
 const qcSpecs = [
-  ["Purity","HPLC at 214 nm, C18","≥99.0% peak area"],
-  ["Identity (MW)","ESI-MS","~4,113.6 ± 1.5 Da"],
-  ["Appearance","Visual","White to off-white powder"],
-  ["Peptide Content","AAA / elemental","≥80% net peptide"],
-  ["Residual Moisture","Karl Fischer","≤3%"],
-  ["Linker Integrity","HPLC-ELSD / LC-MS/MS","Intact C18 linker (bulk orders)"],
+    ["Purity","HPLC at 214 nm, C18","≥99.0% peak area"],
+    ["Identity (MW)","ESI-MS","~4,113.6 ± 1.5 Da"],
+    ["Appearance","Visual","White to off-white powder"],
+    ["Peptide Content","AAA / elemental","≥80% net peptide"],
+    ["Residual Moisture","Karl Fischer","≤3%"],
+    ["Linker Integrity","HPLC-ELSD / LC-MS/MS","Intact C18 linker (bulk orders)"],
 ];
 
 const pricing = [
-  ["1 kit","List price","Evaluation; protocol validation"],
-  ["2–5 kits","10–20% off","Small groups; initial stocking"],
-  ["6–20 kits","25–40% off","Mid-size distributors"],
-  ["21–50 kits","40–55% off","Regional distributors"],
-  ["50+ kits","55–70% off","Large distributors; recurring"],
-  ["Custom annual","Custom","Enterprise; projected quarterly volume"],
+  ["1 kit","List price","Evaluation; competitive analysis"],
+  ["5+ kits","10% off","Initial portfolio expansion"],
+  ["20+ kits","20% off","Mid-size distributors"],
+  ["50+ kits","30% off","Regional distributors"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity of Semaglutide?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS confirmation. C18 fatty diacid linker integrity verified. Batch-specific COA included."}}, {"@type": "Question", "name": "What is the molecular weight of Semaglutide?", "acceptedAnswer": {"@type": "Answer", "text": "~4,113.6 Da. The C18 fatty diacid linker at Lys26 is critical for albumin binding and extended half-life."}}, {"@type": "Question", "name": "How does Semaglutide differ from Tirzepatide?", "acceptedAnswer": {"@type": "Answer", "text": "Semaglutide is a single GLP-1 receptor agonist. Tirzepatide is a dual GIP/GLP-1 agonist with enhanced metabolic effects. See our GLP-1 Buyer's Guide for full comparison."}}, {"@type": "Question", "name": "What kit configurations are available?", "acceptedAnswer": {"@type": "Answer", "text": "Standard: 10mg × 10 vials. Also 5mg × 10 vials for evaluation orders. Custom configurations available for bulk wholesale orders."}}, {"@type": "Question", "name": "How should Semaglutide be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, protected from light, 24-month stability. Reconstituted: aliquot at -20°C for up to 30 days. Do not refreeze."}}]};
 

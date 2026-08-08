@@ -18,52 +18,51 @@ const jsonLd = {
 };
 
 const specs = [
-  ["CAS Number","1208243-50-8"],
-  ["Sequence","H-Gln-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser-OH"],
-  ["Amino Acids","11"],
-  ["Molecular Formula","C₅₁H₈₄N₁₆O₁₉"],
-  ["Molecular Weight","~1,258.4 Da"],
-  ["Appearance","White to off-white lyophilized powder"],
-  ["Purity","≥99% by HPLC"],
-  ["Solubility","Soluble in sterile water or PBS"],
-  ["Storage","2–8°C, desiccated, protect from light"]
+    ["CAS Number","1208243-50-8"],
+    ["Sequence","H-Gln-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser-OH"],
+    ["Amino Acids","11"],
+    ["Molecular Formula","C₅₁H₈₄N₁₆O₁₉"],
+    ["Molecular Weight","~1,258.4 Da"],
+    ["Appearance","White to off-white lyophilized powder"],
+    ["Purity","≥99% by HPLC"],
+    ["Solubility","Soluble in sterile water or PBS"],
+    ["Storage","2–8°C, desiccated, protect from light"]
 ];
 
 const configs = [
-  ["Standard Kit","5 mg × 10 vials","Tissue protection models; evaluation"],
-  ["Bulk Kit","10 mg × 10 vials","Chronic neuropathy models; repeat orders"],
-  ["Custom","Custom mg × custom vials","OEM; private-label; protocol-specific"]
+    ["Standard Kit","5 mg × 10 vials","Tissue protection models; evaluation"],
+    ["Bulk Kit","10 mg × 10 vials","Chronic neuropathy models; repeat orders"],
+    ["Custom","Custom mg × custom vials","OEM; private-label; protocol-specific"]
 ];
 
 const focusAreas = [
-  ["Small Fiber Neuropathy","Nerve fiber density preservation; pain threshold normalization"],
-  ["Cardiac Ischemia-Reperfusion","Infarct size reduction; caspase-3 suppression"],
-  ["Wound Healing","Chronic wound models; diabetic ulcer re-epithelialization"],
-  ["Renal Protection","Acute kidney injury models; tubular cell survival"],
-  ["Neuroinflammation","Microglial activation modulation; IL-1β/TNF-α suppression"]
+    ["Small Fiber Neuropathy","Nerve fiber density preservation; pain threshold normalization"],
+    ["Cardiac Ischemia-Reperfusion","Infarct size reduction; caspase-3 suppression"],
+    ["Wound Healing","Chronic wound models; diabetic ulcer re-epithelialization"],
+    ["Renal Protection","Acute kidney injury models; tubular cell survival"],
+    ["Neuroinflammation","Microglial activation modulation; IL-1β/TNF-α suppression"]
 ];
 
 const mechanisms = [
-  ["IRR Agonism","Selective Innate Repair Receptor (CD131/β-common receptor) activation → no EPO-R binding"],
-  ["JAK2/STAT3 Pathway","Anti-inflammatory signaling cascade → suppression of pro-inflammatory cytokines"],
-  ["Anti-Apoptotic","Bcl-2 upregulation; caspase-3 inhibition; mitochondrial membrane stabilization"],
-  ["No Erythropoiesis","Engineered to avoid EPO-R homodimer → no hematocrit elevation or thrombosis risk"]
+    ["IRR Agonism","Selective Innate Repair Receptor (CD131/β-common receptor) activation → no EPO-R binding"],
+    ["JAK2/STAT3 Pathway","Anti-inflammatory signaling cascade → suppression of pro-inflammatory cytokines"],
+    ["Anti-Apoptotic","Bcl-2 upregulation; caspase-3 inhibition; mitochondrial membrane stabilization"],
+    ["No Erythropoiesis","Engineered to avoid EPO-R homodimer → no hematocrit elevation or thrombosis risk"]
 ];
 
 const qcSpecs = [
-  ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
-  ["Identity (MW)","ESI-MS","~1,258.4 ± 1.0 Da"],
-  ["Appearance","Visual inspection","White to off-white powder"],
-  ["Peptide Content","Amino acid analysis","≥80% net peptide"],
-  ["Residual Moisture","Karl Fischer","≤3%"]
+    ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
+    ["Identity (MW)","ESI-MS","~1,258.4 ± 1.0 Da"],
+    ["Appearance","Visual inspection","White to off-white powder"],
+    ["Peptide Content","Amino acid analysis","≥80% net peptide"],
+    ["Residual Moisture","Karl Fischer","≤3%"]
 ];
 
 const pricing = [
-  ["1 kit","List price","Evaluation; protocol validation"],
-  ["2–5 kits","10–20% off","Small groups; initial stocking"],
-  ["6–20 kits","25–40% off","Mid-size distributors"],
-  ["21–50 kits","40–55% off","Regional distributors; OEM pilot"],
-  ["50+ kits","55–70% off","Large distributors; recurring supply"]
+  ["1 kit","List price","Evaluation; competitive analysis"],
+  ["5+ kits","10% off","Initial portfolio expansion"],
+  ["20+ kits","20% off","Mid-size distributors"],
+  ["50+ kits","30% off","Regional distributors"],
 ];
 
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is ARA-290 and how does it differ from EPO?", "acceptedAnswer": { "@type": "Answer", "text": "ARA-290 is an 11-amino acid peptide derived from the helix B domain of erythropoietin. It selectively activates the Innate Repair Receptor (IRR/CD131) without binding the classical EPO receptor — providing tissue protection without erythropoiesis (no increase in hematocrit). This receptor selectivity is the defining feature." } },

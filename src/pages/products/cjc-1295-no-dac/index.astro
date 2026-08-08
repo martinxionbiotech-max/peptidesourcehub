@@ -18,50 +18,49 @@ const jsonLd = {
 };
 
 const specs = [
-  ["CAS Number","863288-34-0"],
-  ["Sequence","Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys-NH₂"],
-  ["Amino Acids","30 (no DAC linker)"],
-  ["Molecular Formula","C₁₅₂H₂₅₂N₄₄O₄₂"],
-  ["Molecular Weight","~3,367.1 Da"],
-  ["Appearance","White to off-white lyophilized powder"],
-  ["Purity","≥99% by HPLC"],
-  ["Solubility","Soluble in sterile or bacteriostatic water"],
-  ["Storage","2–8°C, desiccated, protect from light"]
+    ["CAS Number","863288-34-0"],
+    ["Sequence","Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys-NH₂"],
+    ["Amino Acids","30 (no DAC linker)"],
+    ["Molecular Formula","C₁₅₂H₂₅₂N₄₄O₄₂"],
+    ["Molecular Weight","~3,367.1 Da"],
+    ["Appearance","White to off-white lyophilized powder"],
+    ["Purity","≥99% by HPLC"],
+    ["Solubility","Soluble in sterile or bacteriostatic water"],
+    ["Storage","2–8°C, desiccated, protect from light"]
 ];
 
 const configs = [
-  ["Standard Kit","2 mg × 10 vials","Pulsatile GH research; evaluation"],
-  ["Bulk Kit","5 mg × 10 vials","Chronic pulse protocols; repeat orders"],
-  ["Custom","Custom mg × custom vials","OEM; private-label"]
+    ["Standard Kit","2 mg × 10 vials","Pulsatile GH research; evaluation"],
+    ["Bulk Kit","5 mg × 10 vials","Chronic pulse protocols; repeat orders"],
+    ["Custom","Custom mg × custom vials","OEM; private-label"]
 ];
 
 const focusAreas = [
-  ["Pulsatile GH","Physiological GH pulse pattern — short-duration GHRH-R activation"],
-  ["Post-Exercise GH","Pulse timing relative to exercise-induced GH window"],
-  ["Combination Protocols","Paired with GHS-R agonist (Ipamorelin/GHRP-2) for synergistic pulse"],
-  ["GH Axis Research","Endogenous pulsatile secretion pattern studies"]
+    ["Pulsatile GH","Physiological GH pulse pattern — short-duration GHRH-R activation"],
+    ["Post-Exercise GH","Pulse timing relative to exercise-induced GH window"],
+    ["Combination Protocols","Paired with GHS-R agonist (Ipamorelin/GHRP-2) for synergistic pulse"],
+    ["GH Axis Research","Endogenous pulsatile secretion pattern studies"]
 ];
 
 const mechanisms = [
-  ["GHRH-R Agonism","Full receptor activation → cAMP → GH synthesis and release from somatotrophs"],
-  ["Short Half-Life","~30 minute plasma half-life → discrete GH pulse → mimics endogenous GHRH"],
-  ["No Albumin Binding","Absence of DAC linker → no serum albumin conjugation → renal clearance at normal rate"]
+    ["GHRH-R Agonism","Full receptor activation → cAMP → GH synthesis and release from somatotrophs"],
+    ["Short Half-Life","~30 minute plasma half-life → discrete GH pulse → mimics endogenous GHRH"],
+    ["No Albumin Binding","Absence of DAC linker → no serum albumin conjugation → renal clearance at normal rate"]
 ];
 
 const qcSpecs = [
-  ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
-  ["Identity (MW)","ESI-MS","~3,367.1 ± 1.0 Da"],
-  ["Appearance","Visual inspection","White to off-white powder"],
-  ["Peptide Content","Amino acid analysis","≥80% net peptide"],
-  ["No DAC Confirmation","HPLC-MS","Absence of maleimidopropionyl mass adduct"]
+    ["Purity","HPLC at 214 nm, C18 column","≥99.0% peak area"],
+    ["Identity (MW)","ESI-MS","~3,367.1 ± 1.0 Da"],
+    ["Appearance","Visual inspection","White to off-white powder"],
+    ["Peptide Content","Amino acid analysis","≥80% net peptide"],
+    ["No DAC Confirmation","HPLC-MS","Absence of maleimidopropionyl mass adduct"]
 ];
 
 const pricing = [
-  ["1 kit","List price","Evaluation; protocol validation"],
-  ["2–5 kits","10–20% off","Small groups; initial stocking"],
-  ["6–20 kits","25–40% off","Mid-size distributors"],
-  ["21–50 kits","40–55% off","Regional distributors; OEM pilot"],
-  ["50+ kits","55–70% off","Large distributors; recurring supply"]
+  ["1 kit","List price","Evaluation; competitive analysis"],
+  ["5+ kits","10% off","Initial portfolio expansion"],
+  ["20+ kits","20% off","Mid-size distributors"],
+  ["50+ kits","30% off","Regional distributors"],
 ];
 
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Why choose CJC-1295 without DAC?", "acceptedAnswer": { "@type": "Answer", "text": "Choice depends on research objective. No DAC = ~30 min half-life = discrete physiological GH pulse. With DAC = ~8 day half-life = sustained GH/IGF-1 elevation. Use no DAC for pulsatile GH studies; use DAC for chronic activation." } },

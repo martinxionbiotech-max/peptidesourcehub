@@ -18,64 +18,63 @@ const jsonLd = {
 };
 
 const specs = [
-  ["CAS Number","77591-33-4"],
-  ["Sequence","Thymosin Beta-4 fragment (17-43) with actin-binding domain"],
-  ["Molecular Weight","~4,963 Da (full Tβ4); fragment MW fragment-dependent"],
-  ["Appearance","White to off-white lyophilized powder"],
-  ["Purity","≥99% by HPLC"],
-  ["Solubility","Freely soluble in sterile water or PBS"],
-  ["Storage","2–8°C, desiccated, protect from light"],
+    ["CAS Number","77591-33-4"],
+    ["Sequence","Thymosin Beta-4 fragment (17-43) with actin-binding domain"],
+    ["Molecular Weight","~4,963 Da (full Tβ4); fragment MW fragment-dependent"],
+    ["Appearance","White to off-white lyophilized powder"],
+    ["Purity","≥99% by HPLC"],
+    ["Solubility","Freely soluble in sterile water or PBS"],
+    ["Storage","2–8°C, desiccated, protect from light"],
 ];
 
 const configs = [
-  ["Standard Kit","5 mg × 10 vials","Most research protocols"],
-  ["Bulk Kit","10 mg × 10 vials","High-throughput; repeat buyers"],
-  ["BPC-157 + TB-500 Stack","5mg + 5mg × 10 vials","Combined tissue repair research"],
-  ["Custom","Custom mg × custom vials","OEM; protocol-specific"],
+    ["Standard Kit","5 mg × 10 vials","Most research protocols"],
+    ["Bulk Kit","10 mg × 10 vials","High-throughput; repeat buyers"],
+    ["BPC-157 + TB-500 Stack","5mg + 5mg × 10 vials","Combined tissue repair research"],
+    ["Custom","Custom mg × custom vials","OEM; protocol-specific"],
 ];
 
 const focusAreas = [
-  ["Wound Healing","Accelerated closure; reduced scar formation (collagen III:I ratio)"],
-  ["Cell Migration","Keratinocyte & endothelial migration via G-actin remodeling"],
-  ["Angiogenesis","Endothelial differentiation; capillary tube formation"],
-  ["Hair Follicle","Anagen phase entry promotion"],
-  ["Cardiac Protection","Reduced infarct size; improved function post-MI"],
-  ["Anti-Inflammatory","Reduced NF-κB activation and TNF-α expression"],
-  ["Neuroprotection","Neurite outgrowth; excitotoxic damage protection"],
+    ["Wound Healing","Accelerated closure; reduced scar formation (collagen III:I ratio)"],
+    ["Cell Migration","Keratinocyte & endothelial migration via G-actin remodeling"],
+    ["Angiogenesis","Endothelial differentiation; capillary tube formation"],
+    ["Hair Follicle","Anagen phase entry promotion"],
+    ["Cardiac Protection","Reduced infarct size; improved function post-MI"],
+    ["Anti-Inflammatory","Reduced NF-κB activation and TNF-α expression"],
+    ["Neuroprotection","Neurite outgrowth; excitotoxic damage protection"],
 ];
 
 const mechanisms = [
-  ["G-Actin Sequestration","1:1 binding to monomeric G-actin → maintains polymerization-ready pool"],
-  ["Cell Migration","Regulates actin dynamics → directional migration of keratinocytes"],
-  ["Collagen Modulation","Shifts Type III:Type I ratio → finer, organized collagen (fetal-like healing)"],
-  ["Laminin-5 Upregulation","Increases laminin-332 → key ECM component for keratinocyte migration"],
-  ["MMP Expression","Modulates matrix metalloproteinases → controlled ECM remodeling"],
+    ["G-Actin Sequestration","1:1 binding to monomeric G-actin → maintains polymerization-ready pool"],
+    ["Cell Migration","Regulates actin dynamics → directional migration of keratinocytes"],
+    ["Collagen Modulation","Shifts Type III:Type I ratio → finer, organized collagen (fetal-like healing)"],
+    ["Laminin-5 Upregulation","Increases laminin-332 → key ECM component for keratinocyte migration"],
+    ["MMP Expression","Modulates matrix metalloproteinases → controlled ECM remodeling"],
 ];
 
 const tb500VsFull = [
-  ["Size","17-43 fragment (~27 AA)","43 amino acids"],
-  ["Actin-binding","✓","✓"],
-  ["Synthesis","Lower complexity","Higher (full 43-mer)"],
-  ["Research prevalence","Most common","Full-length mechanism studies"],
-  ["Cost","More economical","Higher"],
-  ["PSH availability","Standard","On request"],
+    ["Size","17-43 fragment (~27 AA)","43 amino acids"],
+    ["Actin-binding","✓","✓"],
+    ["Synthesis","Lower complexity","Higher (full 43-mer)"],
+    ["Research prevalence","Most common","Full-length mechanism studies"],
+    ["Cost","More economical","Higher"],
+    ["PSH availability","Standard","On request"],
 ];
 
 const qcSpecs = [
-  ["Purity","HPLC at 214 nm","≥99.0% peak area"],
-  ["Identity (MW)","ESI-MS","Confirmed ±1.0 Da"],
-  ["Appearance","Visual","White to off-white powder"],
-  ["Peptide Content","AAA / nitrogen","≥80% net peptide"],
-  ["Residual Moisture","Karl Fischer","≤3%"],
-  ["Solubility","Sterile water test","Clear solution"],
+    ["Purity","HPLC at 214 nm","≥99.0% peak area"],
+    ["Identity (MW)","ESI-MS","Confirmed ±1.0 Da"],
+    ["Appearance","Visual","White to off-white powder"],
+    ["Peptide Content","AAA / nitrogen","≥80% net peptide"],
+    ["Residual Moisture","Karl Fischer","≤3%"],
+    ["Solubility","Sterile water test","Clear solution"],
 ];
 
 const pricing = [
-  ["1 kit","List price","Evaluation; quality validation"],
-  ["2–5 kits","10–20% off","Small groups; initial stocking"],
-  ["6–20 kits","25–40% off","Mid-size distributors"],
-  ["21–50 kits","40–55% off","Regional distributors"],
-  ["50+ kits","55–70% off","Large distributors; recurring"],
+  ["1 kit","List price","Evaluation; competitive analysis"],
+  ["5+ kits","10% off","Initial portfolio expansion"],
+  ["20+ kits","20% off","Mid-size distributors"],
+  ["50+ kits","30% off","Regional distributors"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity of TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "What is the molecular weight of TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Synthetic N-terminal fragment of Thymosin Beta-4, MW ~889 Da. Active sequence: Ac-LKKTETQ."}}, {"@type": "Question", "name": "How should I store TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, protected from light and moisture. After reconstitution: aliquot and store at -20°C. Avoid repeated freeze-thaw cycles."}}, {"@type": "Question", "name": "Is TB-500 the same as Thymosin Beta-4?", "acceptedAnswer": {"@type": "Answer", "text": "No. TB-500 is the synthetic N-terminal fragment of full Thymosin Beta-4 (43 amino acids). It retains actin-binding activity but is a distinct research molecule."}}, {"@type": "Question", "name": "What documentation comes with TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA, commercial invoice, packing list. Full HPLC chromatogram and MS spectrum available on request."}}]};
 
