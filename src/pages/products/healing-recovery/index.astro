@@ -22,12 +22,23 @@ const combos = [
   ["Wound Healing","TB-500 + Thymosin Beta-4","Enhanced angiogenesis + migration","Dermal wound models"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity standard for healing peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity verification for all healing and recovery peptides (BPC-157, TB-500, and all blend products)."}}, {"@type": "Question", "name": "What's the difference between BPC-157 and TB-500?", "acceptedAnswer": {"@type": "Answer", "text": "BPC-157 is a gastric pentadecapeptide (MW ~1419.5 Da) with angiogenic properties. TB-500 is the synthetic N-terminal fragment of Thymosin Beta-4 (MW ~889 Da) with actin-binding activity. Often combined in research protocols."}}, {"@type": "Question", "name": "Do you offer a BPC-157 + TB-500 combination?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — our Specialty Stacks include pre-formulated BPC-157 10mg + TB-500 10mg blend kits with single COA and batch number."}}, {"@type": "Question", "name": "What kit configurations are available?", "acceptedAnswer": {"@type": "Answer", "text": "BPC-157: 5mg × 10 vials. TB-500: 5mg × 10 vials. Blend: 10mg+10mg × 10 vials. Custom configurations for bulk orders."}}, {"@type": "Question", "name": "How should healing peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "All healing peptides: lyophilized powder at 2-8°C, desiccated, protected from light. After reconstitution, aliquot and store at -20°C. Do not refreeze thawed aliquots."}}]};
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Healing &amp; Recovery" }
+  ]
+};
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 ---
 
 <PageLayout
   title="Wholesale Healing & Recovery Peptides — BPC-157, TB-500"
   description="Factory-direct BPC-157, TB-500, Thymosin Beta-4, ARA-290. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

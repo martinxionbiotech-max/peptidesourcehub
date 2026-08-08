@@ -24,12 +24,23 @@ const workflow = [
   ["04","Batch Production","GMP synthesis → HPLC purification → co-lyophilization → QC release with dual-peptide chromatogram."],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are pre-formulated peptide stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Pre-formulated research peptide combinations where two or more peptides are co-lyophilized into single vials. One COA, one batch number — eliminating separate reconstitution steps."}}, {"@type": "Question", "name": "What stack combinations are available?", "acceptedAnswer": {"@type": "Answer", "text": "Standard: Cagrilintide + Semaglutide fixed-dose kit, BPC-157 + TB-500 blend, and GLOW70/KLOW80 cosmetic peptide stacks. Custom stacks for bulk orders."}}, {"@type": "Question", "name": "What's the advantage of pre-formulated stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Single COA documents both peptides. No weighing errors. No cross-contamination. Simplified inventory (one SKU). Consistent batch-to-batch ratios."}}, {"@type": "Question", "name": "How is stack purity verified?", "acceptedAnswer": {"@type": "Answer", "text": "Each peptide component individually verified by HPLC and MS before combination. Final stack product undergoes HPLC confirming both peaks at specified ratios. Single COA."}}, {"@type": "Question", "name": "What is the lead time for custom stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Standard catalog stacks: 5-7 business days. Custom ratio stacks: 10-14 days for new formulations. Annual contract customers: priority production scheduling."}}]};
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Specialty Stacks" }
+  ]
+};
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 ---
 
 <PageLayout
   title="Wholesale Specialty Peptide Stacks — Pre-Formulated Research Kits"
   description="Factory-direct pre-formulated multi-peptide combination kits. 5 standard stacks plus custom OEM development. COA with every order."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

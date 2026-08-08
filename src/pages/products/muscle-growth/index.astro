@@ -24,12 +24,23 @@ const combos = [
   ["CJC-1295 + Ipamorelin + PEG-MGF","GH elevation + satellite cell","GH axis coverage + repair","Regeneration protocols"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What muscle growth peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "HGH (Recombinant Human Growth Hormone, multiple IU configurations) and additional GH/IGF-1 axis peptides. All HPLC-verified with batch-specific COA."}}, {"@type": "Question", "name": "What HGH kit configurations are available?", "acceptedAnswer": {"@type": "Answer", "text": "100 IU × 10 vials, 150 IU × 10 vials, 200 IU × 10 vials. Custom IU configurations for wholesale bulk orders. BAC water kits available separately."}}, {"@type": "Question", "name": "How is HGH quality verified?", "acceptedAnswer": {"@type": "Answer", "text": "HPLC purity, SDS-PAGE molecular weight confirmation (~22,125 Da), batch-specific COA. Recombinant DNA technology origin verified. Endotoxin testing available on request."}}, {"@type": "Question", "name": "How should HGH be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, protected from light, 24-month stability. HGH is agitation-sensitive — handle vials gently. Do not vortex. Reconstituted: aliquot at -20°C."}}, {"@type": "Question", "name": "What documentation is provided?", "acceptedAnswer": {"@type": "Answer", "text": "COA, commercial invoice, packing list. Full analytical documentation (HPLC, SDS-PAGE) on request. Bulk orders include complete technical dossier."}}]};
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Muscle Growth" }
+  ]
+};
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 ---
 
 <PageLayout
   title="Wholesale Muscle Growth Peptide Kits — CJC-1295, Ipamorelin"
   description="Factory-direct CJC-1295, Ipamorelin, GHRP-2, GHRP-6, PEG-MGF. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

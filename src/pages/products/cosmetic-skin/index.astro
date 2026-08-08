@@ -25,12 +25,23 @@ const matrix = [
   ["Matrixyl","Collagen synthesis signaling","Anti-aging formulation","GHK-Cu"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What cosmetic research peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "GHK-Cu (copper tripeptide, 50mg) and additional cosmetic peptides in our catalog. All ≥99% HPLC purity with batch-specific COA."}}, {"@type": "Question", "name": "How is GHK-Cu quality verified?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% HPLC purity, ESI-MS identity, and UV-Vis spectroscopy (600nm peak) verifying copper chelation. Dedicated HPLC gradient optimized for copper-peptide analysis."}}, {"@type": "Question", "name": "Why does GHK-Cu appear blue?", "acceptedAnswer": {"@type": "Answer", "text": "The characteristic blue color confirms successful Cu²⁺ chelation by the GHK tripeptide. This is a quality indicator — absorbance at 600nm corresponds to the copper d-d transition."}}, {"@type": "Question", "name": "What documentation is included?", "acceptedAnswer": {"@type": "Answer", "text": "COA, commercial invoice, packing list with every order. Additional analytical data on request. Full technical dossier for bulk orders."}}, {"@type": "Question", "name": "How should cosmetic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. GHK-Cu is photolabile — protect from direct light during storage. Reconstituted: tinted vials recommended."}}]};
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Cosmetic &amp; Skin" }
+  ]
+};
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 ---
 
 <PageLayout
   title="Wholesale Cosmetic & Skin Research Peptides — GHK-Cu, Snap-8"
   description="Factory-direct GHK-Cu, Snap-8, Leuphasyl, Argireline, Matrixyl. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

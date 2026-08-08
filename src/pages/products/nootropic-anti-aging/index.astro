@@ -25,12 +25,23 @@ const pathways = [
   ["Cellular Senescence","FOXO4-DRI","p53-mediated senescent cell clearance"],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What nootropic and anti-aging peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "A curated selection of peptides for cognitive function, neuroprotection, and longevity research. All ≥99% HPLC purity with batch-specific COA. Contact us for complete catalog listing."}}, {"@type": "Question", "name": "What purity standard applies to nootropic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all nootropic and anti-aging research peptides. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "How are nootropic peptides shipped?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized powder via DHL/FedEx international priority (2-6 business days). Temperature-controlled packaging. Tracking number within 3 business days."}}, {"@type": "Question", "name": "What is the minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "1 kit (standard configuration) for evaluation. No MOQ. Bulk tiered pricing: 10-70% off depending on volume. Mixed-molecule orders qualify for combined tiers."}}, {"@type": "Question", "name": "How should nootropic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. 12-24 month stability depending on peptide. Reconstituted: aliquot at -20°C to -80°C. Avoid freeze-thaw cycles."}}]};
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Nootropic &amp; Anti-Aging" }
+  ]
+};
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 ---
 
 <PageLayout
   title="Wholesale Nootropic & Anti-Aging Peptides — Semax, Epithalon"
   description="Factory-direct Semax, Selank, Epithalon, DSIP, FOXO4-DRI. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
