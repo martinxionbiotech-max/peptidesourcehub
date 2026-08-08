@@ -7,6 +7,13 @@ const jsonLd = {
   "name": "BPC-157 Wholesale — Research-Grade Pentadecapeptide",
   "description": "BPC-157 lyophilized powder. CAS 137525-51-0, ~1419.5 Da. ≥99% HPLC purity. 5mg or 10mg ×10 vials/kit. COA included. Bulk pricing 10–70% off.",
   "sku": "PSH-BPC157-5MG",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "Contact",
+    "highPrice": "Contact",
+    "offerCount": "5"
+  },
   "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
 };
 
@@ -65,11 +72,23 @@ const pricing = [
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity of BPC-157?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation. Every batch verified at our Shenzhen facility. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "What is the molecular weight and sequence of BPC-157?", "acceptedAnswer": {"@type": "Answer", "text": "BPC-157 is a pentadecapeptide with MW ~1419.5 Da. Sequence: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val."}}, {"@type": "Question", "name": "How should I reconstitute and store BPC-157?", "acceptedAnswer": {"@type": "Answer", "text": "Reconstitute with sterile bacteriostatic water or 0.9% saline. Store lyophilized powder at 2-8°C. After reconstitution, aliquot and store at -20°C for up to 30 days."}}, {"@type": "Question", "name": "What is the minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "1 kit (5mg × 10 vials). No MOQ. Bulk discounts start at 2 kits (10-20% off) and scale to 70% at 50+ kits."}}, {"@type": "Question", "name": "What documentation is included with BPC-157?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request."}}]};
 ---
 
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Healing &amp; Recovery", "item": "https://peptidesourcehub.com/products/healing-recovery/" },
+    { "@type": "ListItem", "position": 4, "name": "BPC-157 Wholesale" }
+  ]
+};
+
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
 <PageLayout
   title="BPC-157 Wholesale — Research-Grade ≥99% Purity Bulk Peptide"
   description="Factory-direct BPC-157 wholesale. CAS 137525-51-0, ~1419.5 Da. ≥99% HPLC, lyophilized powder, 10-vial kits. Bulk pricing 10–70% off. COA included."
-  {jsonLd}
->
+jsonLd={allJsonLd}>
 
 <!-- Hero -->
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
@@ -211,5 +230,4 @@ const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEnti
 
 <div class="text-center py-6 bg-surface"><a href="/products/healing-recovery/" class="text-accent-dark font-medium hover:underline">← Back to Healing & Recovery</a></div>
 
-<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>

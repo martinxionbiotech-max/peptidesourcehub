@@ -7,6 +7,13 @@ const jsonLd = {
   "name": "Tirzepatide Wholesale — Dual GIP/GLP-1 Agonist",
   "description": "Tirzepatide lyophilized powder. CAS 2023788-19-2, ~4813.5 Da. ≥99% HPLC purity. 39-amino acid dual GIP/GLP-1 receptor agonist. COA included. Tiered wholesale pricing.",
   "sku": "PSH-TIRZ-5MG",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "Contact",
+    "highPrice": "Contact",
+    "offerCount": "5"
+  },
   "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
 };
 
@@ -76,7 +83,20 @@ const pricing = [
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity of Tirzepatide?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation. Dual agonist activity verified. Batch-specific COA included."}}, {"@type": "Question", "name": "What is the molecular weight of Tirzepatide?", "acceptedAnswer": {"@type": "Answer", "text": "~4,813.5 Da. Synthetic linear peptide with both GIP and GLP-1 receptor agonist activity."}}, {"@type": "Question", "name": "How does Tirzepatide compare to Semaglutide and Retatrutide?", "acceptedAnswer": {"@type": "Answer", "text": "Tirzepatide (dual GIP/GLP-1): ~20% body weight reduction vs ~15% for Semaglutide and ~22.5% for Retatrutide. See GLP-1 Buyer's Guide for full comparison."}}, {"@type": "Question", "name": "What kit configurations are available?", "acceptedAnswer": {"@type": "Answer", "text": "Standard: 10mg × 10 vials. Also 5mg × 10 for evaluation. Mixed-molecule orders qualify for combined volume tier discounts."}}, {"@type": "Question", "name": "How should Tirzepatide be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized powder: 2-8°C, desiccated, protected from light, 24-month stability. Reconstituted solutions: aliquot and store at -20°C."}}]};
 ---
 
-<PageLayout title="Tirzepatide Wholesale — Research-Grade Dual GIP/GLP-1 ≥99% Purity Bulk" description="Factory-direct Tirzepatide wholesale. CAS 2023788-19-2, ~4813.5 Da. ≥99% HPLC, lyophilized powder. Dual GIP/GLP-1 agonist. Tiered pricing. COA." {jsonLd}>
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.com/products/" },
+    { "@type": "ListItem", "position": 3, "name": "Metabolic Research", "item": "https://peptidesourcehub.com/products/metabolic/" },
+    { "@type": "ListItem", "position": 4, "name": "Tirzepatide Wholesale" }
+  ]
+};
+
+const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
+
+<PageLayout title="Tirzepatide Wholesale — Research-Grade Dual GIP/GLP-1 ≥99% Purity Bulk" description="Factory-direct Tirzepatide wholesale. CAS 2023788-19-2, ~4813.5 Da. ≥99% HPLC, lyophilized powder. Dual GIP/GLP-1 agonist. Tiered pricing. COA." jsonLd={allJsonLd}>
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
@@ -124,5 +144,4 @@ const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEnti
 
 <div class="text-center py-6 bg-surface"><a href="/products/metabolic/" class="text-accent-dark font-medium hover:underline">← Back to Metabolic</a></div>
 
-<script type="application/ld+json">{JSON.stringify(faqJson)}</script>
 </PageLayout>
