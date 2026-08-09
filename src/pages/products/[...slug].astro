@@ -1,0 +1,386 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro";
+
+export async function getStaticPaths() {
+  const products = await getCollection("products");
+  return products.map((p) => ({ params: { slug: p.data.slug } }));
+}
+
+const { slug } = Astro.params;
+const products = await getCollection("products");
+const product = products.find((p) => p.data.slug === slug);
+if (!product) return Astro.redirect("/404");
+
+const p = product.data;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": p.name,
+  "description": p.metaDescription,
+  "sku": p.sku,
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "Contact",
+    "highPrice": "Contact",
+    "offerCount": "5",
+  },
+  "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": p.faq.map((q) => ({
+    "@type": "Question",
+    "name": q.question,
+    "acceptedAnswer": { "@type": "Answer", "text": q.answer },
+  })),
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://peptidesourcehub.net/" },
+    { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://peptidesourcehub.net/products/" },
+    { "@type": "ListItem", "position": 3, "name": p.categoryLabel, "item": `https://peptidesourcehub.net/products/${p.category}/` },
+    { "@type": "ListItem", "position": 4, "name": p.name },
+  ],
+};
+
+const allJsonLd = [jsonLd, faqLd, breadcrumbLd];
+const title = `${p.nameShort} | Buy Wholesale`;
+---
+
+<PageLayout {title} description={p.metaDescription} jsonLd={allJsonLd} image={p.ogImage}>
+
+<!-- Hero -->
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <a href={`/products/${p.category}/`} class="text-gray-400 hover:text-white">{p.categoryLabel}</a><span class="text-gray-600">/</span>
+      <span class="text-accent">{p.nameShort}</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">{p.heroTitle}</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl">{p.heroSubtitle}</p>
+    <div class="mt-4">
+      <a href="/download/product-list-price.pdf" download class="inline-flex items-center gap-2 bg-accent/20 hover:bg-accent/30 border border-accent/40 text-accent font-semibold px-5 py-2.5 rounded-xl text-sm transition-all duration-200 hover:-translate-y-0.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        Product List & Price (PDF)
+        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Identity / Specs -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">Product Identity</h2>
+    <div class="flex flex-col md:flex-row gap-8 items-start">
+      <div class="flex-1 max-w-3xl overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+        <table class="w-full text-sm bg-white">
+          <tbody>
+            {p.specifications.map((spec, i) => (
+              <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+                <td class="py-3 px-5 font-semibold text-primary w-1/3">{spec.label}</td>
+                <td class="py-3 px-5 text-gray-600">{spec.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {p.productImage && (
+        <div class="shrink-0 flex flex-col items-center gap-3">
+          <img src={p.productImage} alt={`${p.nameShort} research peptide vial`} class="w-32 h-32 md:w-40 md:h-40 object-cover rounded-2xl border-2 border-accent/20 shadow-md" loading="lazy" />
+          <span class="text-xs text-gray-400 text-center">Factory-direct<br/>Shenzhen, China</span>
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<!-- Configurations -->
+<section class="section dot-pattern">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Available Configurations</h2>
+    <div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-5 font-semibold text-primary">Configuration</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Content</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          {p.configurations.map((cfg, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-5 font-semibold text-primary">{cfg.name}</td>
+              <td class="py-3 px-5 text-accent-dark font-medium">{cfg.content}</td>
+              <td class="py-3 px-5 text-gray-600 text-sm">{cfg.bestFor}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Research Background -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">Research Background</h2>
+    <div class="max-w-4xl">
+      <p class="text-gray-600 mb-6">{p.description}</p>
+
+      {p.mechanisms && p.mechanisms.length > 0 && (
+        <>
+          <h3 class="text-lg font-bold mb-3">Proposed Mechanisms</h3>
+          <div class="space-y-2 mb-6">
+            {p.mechanisms.map((m) => (
+              <div class="card p-4">
+                <span class="font-semibold text-accent-dark text-sm">{m.name}</span>
+                <span class="text-gray-600 text-sm ml-2">{m.description}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {p.structural && p.structural.length > 0 && (
+        <>
+          <h3 class="text-lg font-bold mb-3">Structural Design</h3>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200 mb-6">
+            <table class="w-full text-sm bg-white">
+              <thead>
+                <tr class="bg-gray-50 border-b-2 border-gray-200">
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Modification</th>
+                  <th class="text-left py-3 px-4 font-semibold text-primary">What</th>
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Purpose</th>
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Effect</th>
+                </tr>
+              </thead>
+              <tbody>
+                {p.structural.map((s, i) => (
+                  <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+                    <td class="py-3 px-4 font-semibold text-primary text-sm">{s.modification}</td>
+                    <td class="py-3 px-4 text-gray-600 text-xs">{s.what}</td>
+                    <td class="py-3 px-4 text-gray-600 text-xs">{s.purpose}</td>
+                    <td class="py-3 px-4 text-accent-dark font-medium text-xs">{s.effect}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+
+      {p.pharmaco && p.pharmaco.length > 0 && (
+        <>
+          <h3 class="text-lg font-bold mb-3">Pharmacological Profile</h3>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200 mb-6">
+            <table class="w-full text-sm bg-white">
+              <tbody>
+                {p.pharmaco.map((ph, i) => (
+                  <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+                    <td class="py-3 px-4 font-semibold text-primary text-sm">{ph.parameter}</td>
+                    <td class="py-3 px-4 text-accent-dark font-medium text-sm">{ph.value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+
+      <h3 class="text-lg font-bold mb-3">Research Focus Areas</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+        {p.researchAreas.map((area) => (
+          <div class="card p-4">
+            <span class="font-semibold text-primary text-sm">{area.area}</span>
+            <p class="text-gray-500 text-xs mt-1">{area.description}</p>
+          </div>
+        ))}
+      </div>
+
+      {p.applications && p.applications.length > 0 && (
+        <>
+          <h3 class="text-lg font-bold mb-3">Research Applications by Field</h3>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+            <table class="w-full text-sm bg-white">
+              <thead>
+                <tr class="bg-gray-50 border-b-2 border-gray-200">
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Field</th>
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Application</th>
+                  <th class="text-left py-3 px-4 font-semibold text-primary">Concentration</th>
+                </tr>
+              </thead>
+              <tbody>
+                {p.applications.map((app, i) => (
+                  <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+                    <td class="py-3 px-4 font-semibold text-primary text-sm">{app.field}</td>
+                    <td class="py-3 px-4 text-gray-600 text-xs">{app.application}</td>
+                    <td class="py-3 px-4 text-accent-dark font-medium text-xs">{app.concentration}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </div>
+  </div>
+</section>
+
+<!-- Comparison (Semaglutide-specific) -->
+{p.comparison && p.comparison.length > 0 && (
+  <section class="section bg-surface">
+    <div class="container-wide mx-auto px-4">
+      <h2 class="mb-6">GLP-1 Agonist Comparison</h2>
+      <div class="max-w-4xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+        <table class="w-full text-sm bg-white">
+          <thead>
+            <tr class="bg-gray-50 border-b-2 border-gray-200">
+              <th class="text-left py-3 px-4 font-semibold text-primary">Parameter</th>
+              <th class="text-left py-3 px-4 font-semibold text-accent-dark">Semaglutide</th>
+              <th class="text-left py-3 px-4 font-semibold text-primary">Tirzepatide</th>
+              <th class="text-left py-3 px-4 font-semibold text-primary">Retatrutide</th>
+            </tr>
+          </thead>
+          <tbody>
+            {p.comparison.map((c, i) => (
+              <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+                <td class="py-3 px-4 font-semibold text-primary text-sm">{c.parameter}</td>
+                <td class="py-3 px-4 text-accent-dark font-medium text-sm">{c.semaglutide}</td>
+                <td class="py-3 px-4 text-gray-600 text-sm">{c.tirzepatide}</td>
+                <td class="py-3 px-4 text-gray-600 text-sm">{c.retatrutide}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {p.comparisonNote && (
+        <p class="text-gray-500 text-sm mt-4 text-center" set:html={p.comparisonNote} />
+      )}
+    </div>
+  </section>
+)}
+
+<!-- Quality -->
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Quality Specifications</h2>
+    <div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-4 font-semibold text-primary">Parameter</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Method</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Criterion</th>
+          </tr>
+        </thead>
+        <tbody>
+          {p.qualitySpecs.map((q, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-4 font-semibold text-primary text-sm">{q.parameter}</td>
+              <td class="py-3 px-4 text-gray-600 text-xs">{q.method}</td>
+              <td class="py-3 px-5 text-accent-dark font-medium text-sm">{q.criterion}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    {p.qualityNote && (
+      <p class="text-gray-500 text-sm mt-4 text-center">{p.qualityNote}</p>
+    )}
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Tiered Wholesale Pricing</h2>
+    <div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-5 font-semibold text-primary">Volume</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Discount</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">For</th>
+          </tr>
+        </thead>
+        <tbody>
+          {p.pricingTiers.map((pt, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-5 font-semibold text-primary">{pt.volume}</td>
+              <td class="py-3 px-5 text-accent-dark font-medium">{pt.discount}</td>
+              <td class="py-3 px-5 text-gray-600 text-sm">{pt.audience}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      {p.faq.map((q) => (
+        <details class="card group cursor-pointer">
+          <summary class="font-semibold text-primary hover:text-accent">{q.question}</summary>
+          <p class="mt-3 text-gray-600 text-sm" set:html={q.answer} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Related Products -->
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Related Products</h2>
+    <div class={`grid grid-cols-2 md:grid-cols-${Math.min(p.relatedProducts.length, 5)} gap-4 max-w-3xl mx-auto`}>
+      {p.relatedProducts.map((rp) => (
+        <a href={rp.url} class="card p-4 text-center hover:border-accent/30 transition-colors">
+          <span class="font-semibold text-primary block">{rp.name}</span>
+          <span class="text-gray-500 text-xs">{rp.subtitle}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Compliance -->
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4 text-center">
+    <p class="text-gray-500 text-sm max-w-2xl mx-auto" set:html={p.complianceText} />
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">{p.ctaText}</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">{p.ctaSubtitle}</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg group">Request a Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface">
+  <a href={`/products/${p.category}/`} class="text-accent-dark font-medium hover:underline">← Back to {p.categoryLabel}</a>
+</div>
+
+</PageLayout>

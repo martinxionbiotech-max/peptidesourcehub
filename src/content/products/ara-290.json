@@ -1,0 +1,89 @@
+{
+  "slug": "ara-290",
+  "name": "ARA-290 Wholesale",
+  "nameShort": "ARA-290",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "1208243-50-8",
+  "molecularWeight": "~1,258.4 Da",
+  "sequence": "H-Gln-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₅₁H₈₄N₁₆O₁₉",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "11",
+
+  "metaDescription": "Factory-direct ARA-290 wholesale. CAS 1208243-50-8, ~1,258.4 Da. ≥99% HPLC. Innate Repair Receptor agonist — tissue protection. COA included.",
+  "heroSubtitle": "Erythropoietin-derived 11-mer helix B peptide — tissue protection & repair via IRR agonism without erythropoietic effects, manufacturer-direct",
+  "heroTitle": "ARA-290 Wholesale",
+  "description": "ARA-290 is an 11-amino acid peptide engineered from the helix B domain of erythropoietin (EPO). The key innovation behind ARA-290 is its receptor selectivity: it activates the Innate Repair Receptor (IRR, also known as the β-common receptor/CD131 heterodimer) but does not bind the classical EPO receptor (EPO-R). This receptor discrimination separates tissue-protective signaling from erythropoietic signaling — in research models, ARA-290 demonstrates tissue protection and anti-inflammatory effects without elevating hematocrit.",
+  "sku": "PSH-ARA290-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "1208243-50-8" },
+    { "label": "Sequence", "value": "H-Gln-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser-OH" },
+    { "label": "Amino Acids", "value": "11" },
+    { "label": "Molecular Formula", "value": "C₅₁H₈₄N₁₆O₁₉" },
+    { "label": "Molecular Weight", "value": "~1,258.4 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "Tissue protection models; evaluation" },
+    { "name": "Bulk Kit", "content": "10 mg × 10 vials", "bestFor": "Chronic neuropathy models; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label; protocol-specific" }
+  ],
+
+  "researchAreas": [
+    { "area": "Small Fiber Neuropathy", "description": "Nerve fiber density preservation; pain threshold normalization" },
+    { "area": "Cardiac Ischemia-Reperfusion", "description": "Infarct size reduction; caspase-3 suppression" },
+    { "area": "Wound Healing", "description": "Chronic wound models; diabetic ulcer re-epithelialization" },
+    { "area": "Renal Protection", "description": "Acute kidney injury models; tubular cell survival" },
+    { "area": "Neuroinflammation", "description": "Microglial activation modulation; IL-1β/TNF-α suppression" }
+  ],
+
+  "mechanisms": [
+    { "name": "IRR Agonism", "description": "Selective Innate Repair Receptor (CD131/β-common receptor) activation → no EPO-R binding" },
+    { "name": "JAK2/STAT3 Pathway", "description": "Anti-inflammatory signaling cascade → suppression of pro-inflammatory cytokines" },
+    { "name": "Anti-Apoptotic", "description": "Bcl-2 upregulation; caspase-3 inhibition; mitochondrial membrane stabilization" },
+    { "name": "No Erythropoiesis", "description": "Engineered to avoid EPO-R homodimer → no hematocrit elevation or thrombosis risk" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~1,258.4 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is ARA-290 and how does it differ from EPO?", "answer": "ARA-290 is an 11-amino acid peptide derived from the helix B domain of erythropoietin. It selectively activates the Innate Repair Receptor (IRR/CD131) without binding the classical EPO receptor — providing tissue protection without erythropoiesis (no increase in hematocrit). This receptor selectivity is the defining feature." },
+    { "question": "What research applications is ARA-290 used for?", "answer": "Primarily neuroprotection (small fiber neuropathy, peripheral nerve injury models), cardiac ischemia-reperfusion injury reduction, wound healing (chronic and diabetic ulcer models), renal protection, and neuroinflammation research." },
+    { "question": "Why doesn't ARA-290 affect red blood cell production?", "answer": "EPO's tissue-protective and erythropoietic activities are mediated by distinct receptor complexes. ARA-290 was specifically engineered to only activate the IRR/CD131 heterodimer (tissue protection) and not the EPO-R homodimer (erythropoiesis)." },
+    { "question": "How should ARA-290 be stored?", "answer": "Lyophilized powder: 2–8°C, desiccated, 24-month stability. After reconstitution in sterile water or PBS, aliquot single-use portions and store at -20°C. Avoid freeze-thaw cycles." },
+    { "question": "What documentation is included with ARA-290?", "answer": "Batch-specific COA (HPLC purity, ESI-MS identity confirmation), commercial invoice, and packing list. Full chromatogram and MS spectrum available on request." }
+  ],
+
+  "relatedProducts": [
+    { "name": "BPC-157", "subtitle": "Cytoprotective peptide", "url": "/products/bpc-157/" },
+    { "name": "TB-500", "subtitle": "Actin fragment", "url": "/products/tb-500/" },
+    { "name": "Healing Category", "subtitle": "All repair peptides", "url": "/products/healing-recovery/" },
+    { "name": "Recovery Stack", "subtitle": "Pre-formulated blend", "url": "/products/specialty-stacks/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. ARA-290 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source ARA-290?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "matrixyl",
+  "name": "Matrixyl Wholesale",
+  "nameShort": "Matrixyl",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "214047-00-4",
+  "molecularWeight": "~803.9 Da",
+  "sequence": "Palmitoyl-Lys-Thr-Thr-Lys-Ser-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₉H₇₅N₇O₁₀",
+  "solubility": "Lipid-soluble; limited aqueous solubility",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "5 (N-terminal palmitoyl)",
+
+  "metaDescription": "Factory-direct Matrixyl wholesale. CAS 214047-00-4, ~803.9 Da. ≥99% HPLC. Palmitoyl pentapeptide-4 — procollagen I signaling. COA included.",
+  "heroSubtitle": "Palmitoyl pentapeptide-4 — collagen fragment signal peptide for extracellular matrix research, manufacturer-direct",
+  "heroTitle": "Matrixyl Wholesale",
+  "description": "Matrixyl (Palmitoyl Pentapeptide-4) is a lipopeptide designed around the concept of 'matrikine' signaling — using small peptide fragments of extracellular matrix proteins to stimulate the skin's own repair mechanisms. It consists of the pentapeptide Lys-Thr-Thr-Lys-Ser conjugated to a palmitic acid (C16) chain for enhanced skin penetration. Unlike neurotransmitter-targeting peptides (Argireline, Snap-8), Matrixyl addresses expression lines from the structural side — rebuilding dermal matrix components rather than inhibiting muscle contraction.",
+  "sku": "PSH-MATRX-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "214047-00-4" },
+    { "label": "Sequence", "value": "Palmitoyl-Lys-Thr-Thr-Lys-Ser-OH" },
+    { "label": "Amino Acids", "value": "5 (N-terminal palmitoyl)" },
+    { "label": "Molecular Formula", "value": "C₃₉H₇₅N₇O₁₀" },
+    { "label": "Molecular Weight", "value": "~803.9 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Lipid-soluble; limited aqueous solubility" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "ECM research; formulation evaluation" },
+    { "name": "Bulk Kit", "content": "50 mg × 10 vials", "bestFor": "Product development; pilot batches" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label cosmetics" }
+  ],
+
+  "researchAreas": [
+    { "area": "Collagen Synthesis", "description": "Procollagen I and III upregulation in dermal fibroblast models" },
+    { "area": "ECM Remodeling", "description": "Fibronectin and elastin production stimulation" },
+    { "area": "Wrinkle Reduction", "description": "Dermal matrix regeneration in photoaged skin models" },
+    { "area": "Skin Firmness", "description": "Increased dermal density and elasticity in clinical research" }
+  ],
+
+  "mechanisms": [
+    { "name": "Matrikine Signaling", "description": "Collagen fragment mimetic → activates fibroblast ECM synthesis programs" },
+    { "name": "TGF-β Pathway", "description": "Stimulates TGF-β → procollagen I/III transcription in dermal fibroblasts" },
+    { "name": "Palmitoyl Anchoring", "description": "C16 palmitoyl chain → enhanced stratum corneum partitioning and dermal delivery" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~803.9 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "How does Matrixyl differ from other cosmetic peptides?", "answer": "Matrixyl targets the structural extracellular matrix (collagen, elastin, fibronectin synthesis) rather than neuromuscular signaling. While Argireline/Snap-8 reduce lines by inhibiting contraction, Matrixyl rebuilds dermal matrix components through matrikine signaling." },
+    { "question": "What is the purpose of the palmitoyl group?", "answer": "N-terminal palmitoyl (C16) dramatically enhances stratum corneum penetration by partitioning into the lipid-rich intercellular matrix, and anchors the peptide at the cell membrane, prolonging fibroblast receptor interaction. Without it, dermal delivery would be negligible." },
+    { "question": "What does 'matrikine' mean?", "answer": "Matrikines are peptide fragments released during ECM degradation that signal cells to initiate repair. Matrixyl mimics this by presenting a collagen-derived peptide sequence to fibroblasts — 'tricking' cells into believing ECM damage has occurred, triggering repair." },
+    { "question": "Is Matrixyl compatible with other cosmetic peptides?", "answer": "Yes. Matrixyl's ECM-building mechanism is complementary to neurotransmitter-targeting peptides (Argireline, Snap-8) and copper peptides (GHK-Cu). Multi-peptide formulations combining matrikine + neurotransmitter inhibitor + carrier peptide are common research strategies." },
+    { "question": "What purity is Matrixyl supplied at?", "answer": "≥99% by HPLC at 214 nm. Palmitoylation efficiency (>98%) verified by HPLC with ELSD detection. Batch-specific COA included." }
+  ],
+
+  "relatedProducts": [
+    { "name": "GHK-Cu", "subtitle": "Copper tripeptide", "url": "/products/ghk-cu/" },
+    { "name": "Snap-8", "subtitle": "Acetyl octapeptide-3", "url": "/products/snap-8/" },
+    { "name": "Argireline", "subtitle": "Acetyl hexapeptide-8", "url": "/products/argireline/" },
+    { "name": "Cosmetic Category", "subtitle": "All skin peptides", "url": "/products/cosmetic-skin/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Matrixyl is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Matrixyl?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

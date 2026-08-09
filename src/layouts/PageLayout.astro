@@ -11,7 +11,7 @@ const currentPath = Astro.url.pathname;
   <Header {currentPath} />
   <!-- Spacer for fixed header (top bar ~32px + nav ~60px) -->
   <div class="h-[88px] md:h-[92px]"></div>
-  <main class="flex-1">
+  <main id="main-content" class="flex-1">
     <slot />
   </main>
   <Footer />

@@ -1,0 +1,210 @@
+{
+  "slug": "tirzepatide",
+  "name": "Tirzepatide Wholesale",
+  "nameShort": "Tirzepatide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic",
+  "cas": "2023788-19-2",
+  "molecularWeight": "~4,813.5 Da",
+  "sequence": "39-amino acid with Aib²+Aib¹³ + C20 fatty diacid linker + C-terminal amidation",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Phosphate buffer (pH 7.4) or dilute acetic acid",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct Tirzepatide wholesale. CAS 2023788-19-2, ~4813.5 Da. ≥99% HPLC, lyophilized powder. Dual GIP/GLP-1 agonist. Tiered pricing. COA.",
+  "heroSubtitle": "39-amino acid dual GIP/GLP-1 receptor agonist — the differentiation leader in metabolic peptide portfolios",
+  "heroTitle": "Tirzepatide Wholesale",
+  "description": "Tirzepatide is an imbalanced dual agonist — it activates both GIP and GLP-1 receptors but with ~5× greater GIPR potency. This dual mechanism is the basis for its enhanced metabolic efficacy over selective GLP-1 agonists.",
+  "productImage": "/images/products/tirzepatide-bottle.webp",
+  "sku": "PSH-TIRZ-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "2023788-19-2"
+    },
+    {
+      "label": "Sequence",
+      "value": "39-amino acid with Aib²+Aib¹³ + C20 fatty diacid linker + C-terminal amidation"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,813.5 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Phosphate buffer (pH 7.4) or dilute acetic acid"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Most protocols; evaluation"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput; OEM"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "Private-label; protocol-specific"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Body Weight",
+      "description": "~22.5% mean reduction (SURMOUNT-1); >GLP-1 alone"
+    },
+    {
+      "area": "Glycemic Control",
+      "description": "HbA1c reduction up to 2.4%; superior to Semaglutide 1mg"
+    },
+    {
+      "area": "Lipid Metabolism",
+      "description": "Improved lipid profiles; reduced triglycerides"
+    },
+    {
+      "area": "Insulin Sensitivity",
+      "description": "Improved beyond weight loss alone (GIP-mediated)"
+    },
+    {
+      "area": "NASH/NAFLD",
+      "description": "Reduced liver fat content; under investigation for NASH"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GIP-backbone design",
+      "description": "Based on native GIP → greater GIPR potency (5× GIPR vs GLP-1R)"
+    },
+    {
+      "name": "Aib², Aib¹³",
+      "description": "DPP-4 resistance → extended half-life"
+    },
+    {
+      "name": "C20 fatty diacid",
+      "description": "Longer chain than Semaglutide's C18 → stronger albumin binding (~5-day t½)"
+    },
+    {
+      "name": "C-terminal Pro-rich",
+      "description": "Pro-Pro-Pro-Ser-NH₂ → receptor selectivity optimization"
+    },
+    {
+      "name": "AEEA-AEEA-γ-Glu spacer",
+      "description": "Optimal separation between peptide and albumin-binding moiety"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity (MW)",
+      "method": "ESI-MS",
+      "criterion": "~4,813.5 ± 1.5 Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Peptide Content",
+      "method": "AAA / elemental",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual Moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Linker Integrity",
+      "method": "HPLC-ELSD / LC-MS/MS",
+      "criterion": "Intact C20 linker (bulk)"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does Tirzepatide differ from Semaglutide mechanistically?",
+      "answer": "Semaglutide activates only GLP-1R. Tirzepatide activates both GIPR and GLP-1R — the GIP component adds insulinotropic effects, improved lipid handling, and better insulin sensitivity. Read the full comparison in our <a href=\"/blog/glp1-buyers-guide/\" class=\"text-accent-dark hover:underline\">GLP-1 Buyer's Guide →</a>"
+    },
+    {
+      "question": "Why is Tirzepatide more expensive than Semaglutide?",
+      "answer": "Three factors: longer sequence (39 vs 31 AA → more coupling steps, higher material costs), more challenging purification, and higher demand relative to capacity (Tirzepatide is in 'differentiation' phase with growing demand)."
+    },
+    {
+      "question": "What salt form is your Tirzepatide?",
+      "answer": "Standard is the acetate salt. If your protocol requires Na, TFA, or another counterion, specify in your inquiry — salt form can be adjusted during the final purification/lyophilization stage."
+    },
+    {
+      "question": "How do you confirm the identity — not just purity — of Tirzepatide?",
+      "answer": "Every batch undergoes both HPLC (purity, ≥99% peak area) AND ESI-MS (identity, confirming MW ~4,813.5 Da). For bulk orders: linker integrity by HPLC-ELSD or LC-MS/MS to confirm intact C20 fatty diacid conjugation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Semaglutide",
+      "subtitle": "Volume driver GLP-1",
+      "url": "/products/semaglutide/"
+    },
+    {
+      "name": "Retatrutide",
+      "subtitle": "Triple agonist",
+      "url": "/products/retatrutide/"
+    },
+    {
+      "name": "Cagrilintide",
+      "subtitle": "Amylin analogue",
+      "url": "/products/cagrilintide/"
+    },
+    {
+      "name": "AOD-9604",
+      "subtitle": "Lipolytic hGH",
+      "url": "/products/aod-9604/"
+    }
+  ],
+  "complianceText": "<strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, or any clinical use.",
+  "ctaText": "Ready to Source Tirzepatide?",
+  "ctaSubtitle": "Premium dual-agonist differentiation. Tiered pricing up to 70%. COA + MS + linker integrity with every bulk order.",
+  "molecularFormula": "—",
+  "aminoAcids": "—"
+}

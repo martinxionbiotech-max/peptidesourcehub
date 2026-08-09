@@ -1,0 +1,87 @@
+{
+  "slug": "ghrp-6",
+  "name": "GHRP-6 Wholesale",
+  "nameShort": "GHRP-6",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "87616-84-0",
+  "molecularWeight": "~873.0 Da",
+  "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₄₆H₅₆N₁₂O₆",
+  "solubility": "Soluble in sterile or bacteriostatic water",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "6 (D-Trp², D-Phe⁵)",
+
+  "metaDescription": "Factory-direct GHRP-6 wholesale. CAS 87616-84-0, ~873.0 Da. ≥99% HPLC. Ghrelin mimetic — strong GH release with orexigenic effects. COA included.",
+  "heroSubtitle": "Growth Hormone Releasing Peptide-6 — strong GH pulse with pronounced hunger signaling, manufacturer-direct",
+  "heroTitle": "GHRP-6 Wholesale",
+  "description": "GHRP-6 is the prototypical synthetic ghrelin receptor agonist — and the most orexigenic member of the GHRP family. Its hexapeptide sequence (His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂) closely mimics the N-terminal active core of ghrelin, producing potent activation of both the GH-releasing and appetite-stimulating arms of GHS-R1a signaling.",
+  "sku": "PSH-GHRP6-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "87616-84-0" },
+    { "label": "Sequence", "value": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂" },
+    { "label": "Amino Acids", "value": "6 (D-Trp², D-Phe⁵)" },
+    { "label": "Molecular Formula", "value": "C₄₆H₅₆N₁₂O₆" },
+    { "label": "Molecular Weight", "value": "~873.0 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile or bacteriostatic water" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "Ghrelin pathway research; evaluation" },
+    { "name": "Bulk Kit", "content": "10 mg × 10 vials", "bestFor": "Chronic protocols; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "GH Release", "description": "Potent pituitary GH secretion via ghrelin receptor activation" },
+    { "area": "Appetite Research", "description": "Strong orexigenic (hunger-promoting) signaling — ghrelin pathway studies" },
+    { "area": "Gastric Motility", "description": "Ghrelin-mediated GI motility and gastric emptying research" },
+    { "area": "Body Composition", "description": "GH/IGF-1 mediated anabolic effects with appetite co-stimulation" }
+  ],
+
+  "mechanisms": [
+    { "name": "GHS-R1a Agonism", "description": "Potent ghrelin receptor activation → GH release + appetite signaling" },
+    { "name": "NPY/AgRP Activation", "description": "GHS-R activation in hypothalamic arcuate nucleus → NPY/AgRP neurons → hunger" },
+    { "name": "GI Motility", "description": "Ghrelin mimetic activity on enteric neurons → gastric emptying and motility" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~873.0 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Chiral Purity", "method": "Chiral HPLC", "criterion": "D-Trp², D-Phe⁵ verified" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "Why does GHRP-6 increase hunger so strongly?", "answer": "GHRP-6 is the closest structural mimetic to ghrelin's N-terminal active core. Its activation of GHS-R1a in the hypothalamic arcuate nucleus strongly stimulates NPY/AgRP neurons — the most potent orexigenic neurons in the brain." },
+    { "question": "How does GHRP-6 compare to GHRP-2?", "answer": "Both are potent GHS-R1a agonists, but GHRP-6 produces stronger hunger signaling due to closer structural homology to ghrelin. GHRP-2 has modifications (D-Ala¹, D-2-Nal²) that shift toward purer GH release with less appetite stimulation." },
+    { "question": "Is GHRP-6 suitable for all GH research?", "answer": "It depends on protocol. GHRP-6 is the tool of choice when studying ghrelin's dual GH-releasing and appetite-stimulating effects. When appetite is a confounding variable, Ipamorelin (minimal hunger) or GHRP-2 (moderate hunger) should be considered." },
+    { "question": "What is the structural basis of GHRP-6 activity?", "answer": "D-Trp² and D-Phe⁵ residues are critical for GHS-R1a binding and stability. His¹ mimics ghrelin's N-terminal serine-3 acylation site. Together these enable nanomolar potency while resisting degradation." },
+    { "question": "How should GHRP-6 be stored?", "answer": "Lyophilized: 2–8°C, desiccated, 24-month stability. Reconstitute, aliquot, store at -20°C. D-amino acid modifications provide good solution stability. Protect from freeze-thaw cycles." }
+  ],
+
+  "relatedProducts": [
+    { "name": "GHRP-2", "subtitle": "Potent GHS-R agonist", "url": "/products/ghrp-2/" },
+    { "name": "Ipamorelin", "subtitle": "Selective GHS-R agonist", "url": "/products/ipamorelin/" },
+    { "name": "CJC-1295 (DAC)", "subtitle": "Sustained GHRH", "url": "/products/cjc-1295-dac/" },
+    { "name": "HGH", "subtitle": "Direct GH receptor agonist", "url": "/products/hgh/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. GHRP-6 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source GHRP-6?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "tb-500",
+  "name": "TB-500 Wholesale",
+  "nameShort": "TB-500",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "77591-33-4",
+  "molecularWeight": "~4,963 Da (full Tβ4); fragment MW fragment-dependent",
+  "sequence": "Thymosin Beta-4 fragment (17-43) with actin-binding domain",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Freely soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "TB-500 (Thymosin Beta-4 fragment). CAS 77591-33-4. ≥99% HPLC purity. 5mg or 10mg ×10 vials/kit. G-actin sequestration research tool. COA included.",
+  "heroSubtitle": "Thymosin Beta-4 fragment (17-43) — G-actin sequestration research tool, batch-documented, manufacturer-direct",
+  "heroTitle": "TB-500 Wholesale",
+  "description": "Thymosin Beta-4 is a 43-amino acid peptide ubiquitously expressed in mammalian cells. TB-500 is its synthetic fragment containing the G-actin binding domain — making it a critical tool for cell migration and tissue repair research.",
+  "productImage": "/images/products/tb-500-bottle.webp",
+  "sku": "PSH-TB500-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "77591-33-4"
+    },
+    {
+      "label": "Sequence",
+      "value": "Thymosin Beta-4 fragment (17-43) with actin-binding domain"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,963 Da (full Tβ4); fragment MW fragment-dependent"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Freely soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Most research protocols"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput; repeat buyers"
+    },
+    {
+      "name": "BPC-157 + TB-500 Stack",
+      "content": "5mg + 5mg × 10 vials",
+      "bestFor": "Combined tissue repair research"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; protocol-specific"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Wound Healing",
+      "description": "Accelerated closure; reduced scar formation (collagen III:I ratio)"
+    },
+    {
+      "area": "Cell Migration",
+      "description": "Keratinocyte & endothelial migration via G-actin remodeling"
+    },
+    {
+      "area": "Angiogenesis",
+      "description": "Endothelial differentiation; capillary tube formation"
+    },
+    {
+      "area": "Hair Follicle",
+      "description": "Anagen phase entry promotion"
+    },
+    {
+      "area": "Cardiac Protection",
+      "description": "Reduced infarct size; improved function post-MI"
+    },
+    {
+      "area": "Anti-Inflammatory",
+      "description": "Reduced NF-κB activation and TNF-α expression"
+    },
+    {
+      "area": "Neuroprotection",
+      "description": "Neurite outgrowth; excitotoxic damage protection"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "G-Actin Sequestration",
+      "description": "1:1 binding to monomeric G-actin → maintains polymerization-ready pool"
+    },
+    {
+      "name": "Cell Migration",
+      "description": "Regulates actin dynamics → directional migration of keratinocytes"
+    },
+    {
+      "name": "Collagen Modulation",
+      "description": "Shifts Type III:Type I ratio → finer, organized collagen (fetal-like healing)"
+    },
+    {
+      "name": "Laminin-5 Upregulation",
+      "description": "Increases laminin-332 → key ECM component for keratinocyte migration"
+    },
+    {
+      "name": "MMP Expression",
+      "description": "Modulates matrix metalloproteinases → controlled ECM remodeling"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity (MW)",
+      "method": "ESI-MS",
+      "criterion": "Confirmed ±1.0 Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Peptide Content",
+      "method": "AAA / nitrogen",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual Moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Sterile water test",
+      "criterion": "Clear solution"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does TB-500 differ from BPC-157 mechanistically?",
+      "answer": "TB-500 works via G-actin sequestration — binding monomeric actin to regulate cytoskeletal dynamics and cell migration. BPC-157 works via VEGF-mediated angiogenesis, GH receptor upregulation, and NO modulation. They are complementary: TB-500 mobilizes cells into wound sites; BPC-157 builds blood supply and growth factor environment. This is the mechanistic basis for their frequent combined use."
+    },
+    {
+      "question": "What's the recommended storage?",
+      "answer": "2–8°C, desiccated, protect from light. Powder is hygroscopic — reseal vials after opening. Stable 12–24 months. Post-reconstitution: aliquot into single-use portions in polypropylene tubes, freeze at -20°C. Avoid freeze-thaw cycles."
+    },
+    {
+      "question": "Can you provide full-length Thymosin Beta-4 (43-mer)?",
+      "answer": "Yes — available on request for protocols requiring the complete 43-amino acid sequence. Higher synthesis complexity and price vs. the TB-500 fragment. Contact us with your requirements."
+    },
+    {
+      "question": "Is TB-500 the same as Thymosin Beta-4?",
+      "answer": "Not exactly. TB-500 is the synthetic 17-43 fragment of Tβ4, containing the actin-binding domain. The full 43-mer may have additional N-terminal activities. For most tissue repair research, the TB-500 fragment is sufficient — it's the most commonly studied form."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "BPC-157",
+      "subtitle": "Angiogenic partner",
+      "url": "/products/bpc-157/"
+    },
+    {
+      "name": "GHK-Cu",
+      "subtitle": "Wound remodeling",
+      "url": "/products/ghk-cu/"
+    },
+    {
+      "name": "Healing Category",
+      "subtitle": "All repair peptides",
+      "url": "/products/healing-recovery/"
+    },
+    {
+      "name": "BPC+TB Stack",
+      "subtitle": "Pre-formulated blend",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "<strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, prophylactic, or any clinical use.",
+  "ctaText": "Ready to Source TB-500?",
+  "ctaSubtitle": "Tiered discounts up to 70%. COA with every order. Combined BPC-157 + TB-500 ordering available.",
+  "molecularFormula": "—",
+  "aminoAcids": "—"
+}

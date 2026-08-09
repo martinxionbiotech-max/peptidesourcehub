@@ -1,0 +1,87 @@
+{
+  "slug": "cjc-1295-no-dac",
+  "name": "CJC-1295 (no DAC) Wholesale",
+  "nameShort": "CJC-1295 (no DAC)",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "863288-34-0",
+  "molecularWeight": "~3,367.1 Da",
+  "sequence": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₁₅₂H₂₅₂N₄₄O₄₂",
+  "solubility": "Soluble in sterile or bacteriostatic water",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "30 (no DAC linker)",
+
+  "metaDescription": "Factory-direct CJC-1295 without DAC wholesale. CAS 863288-34-0, ~3,367.1 Da. ≥99% HPLC. Short-acting GHRH analogue. COA included.",
+  "heroSubtitle": "Short-acting GHRH analogue without Drug Affinity Complex — pulsatile GH research, manufacturer-direct",
+  "heroTitle": "CJC-1295 (no DAC) Wholesale",
+  "description": "CJC-1295 without DAC (also known as Mod GRF 1-29) is the same 30-amino acid GHRH analogue as the DAC variant, but without the C-terminal maleimidopropionyl linker. This single structural difference produces a fundamentally different pharmacokinetic profile: instead of 8-day sustained GH elevation, the no-DAC variant has a short ~30-minute half-life producing a discrete GH pulse that closely mimics endogenous pulsatile secretion patterns.",
+  "sku": "PSH-CJC1295-2MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "863288-34-0" },
+    { "label": "Sequence", "value": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys-NH₂" },
+    { "label": "Amino Acids", "value": "30 (no DAC linker)" },
+    { "label": "Molecular Formula", "value": "C₁₅₂H₂₅₂N₄₄O₄₂" },
+    { "label": "Molecular Weight", "value": "~3,367.1 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile or bacteriostatic water" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "2 mg × 10 vials", "bestFor": "Pulsatile GH research; evaluation" },
+    { "name": "Bulk Kit", "content": "5 mg × 10 vials", "bestFor": "Chronic pulse protocols; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Pulsatile GH", "description": "Physiological GH pulse pattern — short-duration GHRH-R activation" },
+    { "area": "Post-Exercise GH", "description": "Pulse timing relative to exercise-induced GH window" },
+    { "area": "Combination Protocols", "description": "Paired with GHS-R agonist (Ipamorelin/GHRP-2) for synergistic pulse" },
+    { "area": "GH Axis Research", "description": "Endogenous pulsatile secretion pattern studies" }
+  ],
+
+  "mechanisms": [
+    { "name": "GHRH-R Agonism", "description": "Full receptor activation → cAMP → GH synthesis and release from somatotrophs" },
+    { "name": "Short Half-Life", "description": "~30 minute plasma half-life → discrete GH pulse → mimics endogenous GHRH" },
+    { "name": "No Albumin Binding", "description": "Absence of DAC linker → no serum albumin conjugation → renal clearance at normal rate" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~3,367.1 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "No DAC Confirmation", "method": "HPLC-MS", "criterion": "Absence of maleimidopropionyl mass adduct" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "Why choose CJC-1295 without DAC?", "answer": "Choice depends on research objective. No DAC = ~30 min half-life = discrete physiological GH pulse. With DAC = ~8 day half-life = sustained GH/IGF-1 elevation. Use no DAC for pulsatile GH studies; use DAC for chronic activation." },
+    { "question": "Is CJC-1295 (no DAC) the same as Mod GRF 1-29?", "answer": "Essentially yes. Both refer to the same 30-amino acid GHRH analogue with four substitutions but without the DAC linker. Both terms describe the short-acting, non-albumin-binding variant." },
+    { "question": "What is the optimal partner peptide?", "answer": "Ipamorelin is preferred for pulsatile protocols: CJC-1295 provides GHRH signal, Ipamorelin suppresses somatostatin tone → synergistic, clean GH pulse. GHRP-2 can be used when maximum pulse amplitude is preferred over selectivity." },
+    { "question": "What is the half-life difference vs DAC variant?", "answer": "No DAC: ~30 minutes → discrete GH pulse. With DAC: ~8 days (via albumin conjugation). This ~400-fold difference is entirely due to the maleimidopropionyl DAC linker." },
+    { "question": "How is absence of DAC verified?", "answer": "HPLC-MS confirms the molecular ion without the maleimidopropionyl mass adduct (+97 Da absent vs DAC variant). Included in every batch-specific COA." }
+  ],
+
+  "relatedProducts": [
+    { "name": "CJC-1295 (DAC)", "subtitle": "Sustained GHRH variant", "url": "/products/cjc-1295-dac/" },
+    { "name": "Ipamorelin", "subtitle": "Selective GHS-R agonist", "url": "/products/ipamorelin/" },
+    { "name": "GHRP-2", "subtitle": "Potent GHS-R agonist", "url": "/products/ghrp-2/" },
+    { "name": "HGH", "subtitle": "Direct GH receptor agonist", "url": "/products/hgh/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. CJC-1295 (no DAC) is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source CJC-1295 (no DAC)?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

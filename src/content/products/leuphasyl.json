@@ -1,0 +1,87 @@
+{
+  "slug": "leuphasyl",
+  "name": "Leuphasyl Wholesale",
+  "nameShort": "Leuphasyl",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "— (Pentapeptide-18)",
+  "molecularWeight": "~623.7 Da",
+  "sequence": "Tyr-D-Ala-Gly-Phe-Leu-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₃H₄₅N₅O₈",
+  "solubility": "Soluble in sterile water; cosmetic formulation-compatible",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "5 (D-Ala² substitution)",
+
+  "metaDescription": "Factory-direct Leuphasyl wholesale. MW ~623.7 Da. ≥99% HPLC. Pentapeptide-18 — δ-opioid receptor agonist. COA included.",
+  "heroSubtitle": "Pentapeptide-18 — enkephalin analogue for fine line & calcium channel modulation research, manufacturer-direct",
+  "heroTitle": "Leuphasyl Wholesale",
+  "description": "Leuphasyl (Pentapeptide-18) is a synthetic enkephalin analogue pentapeptide featuring a D-Ala² substitution that confers resistance to enzymatic degradation. Unlike Snap-8 and Argireline — which target SNARE-mediated vesicle docking — Leuphasyl operates through a fundamentally different mechanism: δ-opioid receptor (DOR) agonism leading to modulation of voltage-gated calcium channels. This reduces neuronal calcium influx, which in turn decreases acetylcholine release at the neuromuscular junction.",
+  "sku": "PSH-LEUPH-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "— (Pentapeptide-18)" },
+    { "label": "Sequence", "value": "Tyr-D-Ala-Gly-Phe-Leu-OH" },
+    { "label": "Amino Acids", "value": "5 (D-Ala² substitution)" },
+    { "label": "Molecular Formula", "value": "C₃₃H₄₅N₅O₈" },
+    { "label": "Molecular Weight", "value": "~623.7 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water; cosmetic formulation-compatible" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "Fine line models; evaluation" },
+    { "name": "Bulk Kit", "content": "50 mg × 10 vials", "bestFor": "Product development; pilot batches" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label cosmetics" }
+  ],
+
+  "researchAreas": [
+    { "area": "Fine Lines", "description": "Periorbital and perioral fine line reduction in topical models" },
+    { "area": "Muscle Tone Modulation", "description": "Calcium channel-mediated smooth muscle relaxation" },
+    { "area": "Expression Modulation", "description": "Enkephalin receptor-mediated neuromuscular signaling" },
+    { "area": "Cosmetic Formulations", "description": "Topical delivery of enkephalin analogue peptides" }
+  ],
+
+  "mechanisms": [
+    { "name": "δ-Opioid Receptor Agonism", "description": "Enkephalin analogue → δ-opioid receptor (DOR) activation → reduced neuronal excitability" },
+    { "name": "Ca²⁺ Channel Modulation", "description": "DOR-mediated inhibition of voltage-gated calcium channels → reduced calcium influx" },
+    { "name": "ACh Release Reduction", "description": "Decreased intracellular Ca²⁺ → reduced vesicular acetylcholine release at NMJ" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~623.7 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is Leuphasyl and how does it work?", "answer": "Leuphasyl (Pentapeptide-18) is a synthetic enkephalin analogue pentapeptide with a D-Ala² substitution. It activates δ-opioid receptors, which modulate voltage-gated calcium channels — reducing calcium influx and consequently decreasing ACh release at the NMJ." },
+    { "question": "How does Leuphasyl differ from Snap-8 and Argireline?", "answer": "Mechanistically: Leuphasyl targets opioid receptors → calcium channel modulation. Snap-8 and Argireline target SNARE complex → vesicle docking inhibition. Leuphasyl is preferred for fine line models; Snap-8/Argireline for deeper expression lines." },
+    { "question": "What does the D-Ala² substitution do?", "answer": "The D-Ala² substitution replaces natural L-Ala with D-Ala, conferring resistance to aminopeptidase degradation. This significantly extends half-life compared to natural enkephalins, making it viable for topical formulation research." },
+    { "question": "Is Leuphasyl stable in topical formulations?", "answer": "Yes. As a short pentapeptide (~623.7 Da), Leuphasyl shows good stability at pH 5.0–7.0. Small size facilitates stratum corneum penetration in topical models." },
+    { "question": "What is the standard purity specification?", "answer": "≥99% by HPLC with ESI-MS identity. The D-Ala² substitution is verified by chiral amino acid analysis. Batch-specific COA included." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Snap-8", "subtitle": "Acetyl octapeptide-3", "url": "/products/snap-8/" },
+    { "name": "Argireline", "subtitle": "Acetyl hexapeptide-8", "url": "/products/argireline/" },
+    { "name": "GHK-Cu", "subtitle": "Copper tripeptide", "url": "/products/ghk-cu/" },
+    { "name": "Category", "subtitle": "All cosmetic peptides", "url": "/products/cosmetic-skin/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Leuphasyl is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Leuphasyl?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

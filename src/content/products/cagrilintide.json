@@ -1,0 +1,207 @@
+{
+  "slug": "cagrilintide",
+  "name": "Cagrilintide Wholesale",
+  "nameShort": "Cagrilintide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic",
+  "cas": "2489551-48-6",
+  "molecularWeight": "~4,543 Da",
+  "purity": "≥99% by HPLC",
+  "sequence": "—",
+  "molecularFormula": "—",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct Cagrilintide wholesale. CAS 2489551-48-6, ~4543 Da. ≥99% HPLC, lyophilized powder. Long-acting amylin analogue for dual-pathway metabolic research. COA included.",
+  "heroSubtitle": "Long-acting amylin analogue — dual-pathway metabolic research with GLP-1 complementarity",
+  "heroTitle": "Cagrilintide Wholesale",
+  "description": "Cagrilintide is a long-acting acylated amylin analogue incorporating a C20 fatty diacid linker for albumin binding — the same pharmacokinetic strategy used in semaglutide. It targets the amylin pathway (AMY-R) via the area postrema, producing delayed gastric emptying, reduced postprandial glucagon, and central appetite modulation — distinct from and complementary to GLP-1 receptor agonism.",
+  "productImage": "/images/products/cagrilintide-bottle.webp",
+  "sku": "PSH-CAGRI-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "2489551-48-6"
+    },
+    {
+      "label": "Peptide Class",
+      "value": "Amylin Analogue"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,543 Da"
+    },
+    {
+      "label": "Structural Feature",
+      "value": "C20 fatty diacid linker for albumin binding"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Standard research configuration"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Higher-dose single molecule"
+    },
+    {
+      "name": "Cag/Sema Stack",
+      "content": "Cagrilintide 5mg + Semaglutide 5mg × 10",
+      "bestFor": "Dual-pathway fixed-dose combination"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Gastric Emptying",
+      "description": "Slows nutrient delivery via AP → DVC pathway; extended duration with acylated format"
+    },
+    {
+      "area": "Glucagon Suppression",
+      "description": "Inhibits postprandial glucagon — complementary to GLP-1-mediated insulin secretion"
+    },
+    {
+      "area": "Appetite Modulation",
+      "description": "Central signaling via area postrema neurons — distinct satiety circuit from GLP-1 pathways"
+    },
+    {
+      "area": "Dual-Pathway Synergy",
+      "description": "Combined GLP-1 + amylin engagement for non-overlapping metabolic effects"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Amylin Receptor Agonism",
+      "description": "Selective AMY-R activation via area postrema → delayed gastric emptying and appetite reduction"
+    },
+    {
+      "name": "Fatty Acid Acylation",
+      "description": "C20 diacid linker → high-affinity albumin binding → half-life extended from minutes to days"
+    },
+    {
+      "name": "NPY/AgRP Modulation",
+      "description": "Area postrema → DVC → hypothalamic NPY/AgRP suppression → reduced food intake"
+    },
+    {
+      "name": "GLP-1 Complementary",
+      "description": "Independent satiety and nutrient-processing pathways — dual-pathway engagement via GLP-1R + AMY-R"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "RP-HPLC, C18 column, 220nm",
+      "criterion": "≥99.0%"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "MW match within ±1 Da"
+    },
+    {
+      "parameter": "Peptide Content",
+      "method": "Amino Acid Analysis",
+      "criterion": "80–90% (net peptide)"
+    },
+    {
+      "parameter": "Acylation Fidelity",
+      "method": "LC-MS",
+      "criterion": "Confirmed C20 diacid conjugation"
+    },
+    {
+      "parameter": "Water Content",
+      "method": "Karl Fischer",
+      "criterion": "≤8%"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual",
+      "criterion": "White to off-white lyophilized powder"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does Cagrilintide complement GLP-1 receptor agonists?",
+      "answer": "Cagrilintide targets the amylin pathway (AMY-R) via the area postrema, producing distinct effects: delayed gastric emptying, reduced postprandial glucagon, and central appetite modulation. GLP-1 agonists target GLP-1R in the hypothalamus and GI tract. Together, they engage two independent satiety and nutrient-processing pathways — this is the basis for dual-pathway research protocols."
+    },
+    {
+      "question": "What are the recommended storage conditions?",
+      "answer": "Store lyophilized powder at 2–8°C, protected from light and moisture. Under these conditions, stability is maintained for the shelf-life period indicated in the batch COA. Avoid repeated freeze-thaw cycles. After reconstitution, solution stability is protocol-dependent; validate within your laboratory's specific conditions."
+    },
+    {
+      "question": "Do you offer Cagrilintide in combination vials with GLP-1 peptides?",
+      "answer": "Yes. We manufacture custom fixed-dose combination kits — for example, Cagrilintide 5mg + Semaglutide 5mg in a single vial (SKU: PSH-CAGSEMA-5MG). Minimum order quantities apply for custom formulations. This pre-formulated stack simplifies laboratory workflows and ensures batch-to-batch consistency across both molecules."
+    },
+    {
+      "question": "How does Cagrilintide compare to other amylin analogues?",
+      "answer": "Cagrilintide is a long-acting acylated amylin analogue engineered for extended half-life via C20 fatty acid conjugation. Compared to native amylin (t½ ~13 min) or pramlintide (t½ ~50 min), Cagrilintide's structural modifications confer significantly longer residence time, enabling once-weekly dosing in research protocols."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Semaglutide",
+      "subtitle": "GLP-1 receptor agonist",
+      "url": "/products/semaglutide/"
+    },
+    {
+      "name": "Tirzepatide",
+      "subtitle": "Dual GIP/GLP-1",
+      "url": "/products/tirzepatide/"
+    },
+    {
+      "name": "Retatrutide",
+      "subtitle": "Triple agonist",
+      "url": "/products/retatrutide/"
+    },
+    {
+      "name": "Cag/Sema Stack",
+      "subtitle": "Pre-formulated combo",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "⚠️ <strong>Compliance Notice:</strong> Cagrilintide supplied by Peptides Source Hub is intended exclusively for laboratory research and in-vitro study purposes. Not for human or veterinary use. Buyers are responsible for compliance with all applicable local regulations.",
+  "ctaText": "Ready to Add Cagrilintide to Your Portfolio?",
+  "ctaSubtitle": "Bulk pricing, COA, and dual-pathway stack configurations available. Contact Dr. Aaron Wang directly.",
+  "aminoAcids": "—"
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "bpc-157",
+  "name": "BPC-157 Wholesale",
+  "nameShort": "BPC-157",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "137525-51-0",
+  "molecularWeight": "~1419.5 Da (monoisotopic ~1418.7 Da)",
+  "sequence": "H-Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₆₂H₉₈N₁₆O₂₂",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "15 (pentadecapeptide)",
+
+  "metaDescription": "Factory-direct BPC-157 wholesale. CAS 137525-51-0, ~1419.5 Da. ≥99% HPLC, lyophilized powder, 10-vial kits. Bulk pricing 10–70% off. COA included.",
+  "heroSubtitle": "Body Protection Compound-157 — research-grade gastric pentadecapeptide, batch-documented, manufacturer-direct",
+  "heroTitle": "BPC-157 Wholesale",
+  "description": "BPC-157 is a partial sequence of BPC (Body Protection Compound) isolated from human gastric juice. The 15-amino acid pentadecapeptide retains the gastroprotective and healing-promoting properties of the full protein, making it one of the most extensively studied healing peptides in preclinical research.",
+  "productImage": "/images/products/bpc-157-bottle.webp",
+  "sku": "PSH-BPC157-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "137525-51-0" },
+    { "label": "Sequence", "value": "H-Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val-OH" },
+    { "label": "Amino Acids", "value": "15 (pentadecapeptide)" },
+    { "label": "Molecular Formula", "value": "C₆₂H₉₈N₁₆O₂₂" },
+    { "label": "Molecular Weight", "value": "~1419.5 Da (monoisotopic ~1418.7 Da)" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "Protocol validation; evaluation orders" },
+    { "name": "Bulk Kit", "content": "10 mg × 10 vials", "bestFor": "High-throughput research; repeat buyers" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label; protocol-specific" }
+  ],
+
+  "researchAreas": [
+    { "area": "Tendon Healing", "description": "Accelerated Achilles tendon repair; improved biomechanical properties" },
+    { "area": "Ligament Repair", "description": "Enhanced MCL healing; improved collagen fiber organization" },
+    { "area": "Muscle Injury", "description": "Faster crush-injury recovery; reduced fibrosis" },
+    { "area": "Bone Healing", "description": "Promoted callus formation in rabbit fracture models" },
+    { "area": "GI Protection", "description": "NSAID-induced gastric lesion protection; anastomosis healing" },
+    { "area": "Angiogenesis", "description": "VEGF upregulation; capillary formation promotion" },
+    { "area": "CNS Injury", "description": "Neuroprotective effects in TBI and spinal cord injury models" }
+  ],
+
+  "mechanisms": [
+    { "name": "VEGF Upregulation", "description": "Increases vascular endothelial growth factor → angiogenesis at injury sites" },
+    { "name": "GH Receptor Modulation", "description": "Upregulates GH receptors on injured tissue → amplifies local GH response" },
+    { "name": "Nitric Oxide System", "description": "Modulates NO synthesis → vasodilation and tissue perfusion" },
+    { "name": "FAK-Paxillin Pathway", "description": "Activates focal adhesion kinase → fibroblast migration into wound beds" },
+    { "name": "Anti-Inflammatory", "description": "Reduces TNF-α, IL-1β; promotes M2 macrophage polarization" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~1419.5 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" },
+    { "parameter": "Solubility", "method": "Sterile water test", "criterion": "Clear to slightly hazy solution" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is the purity of BPC-157?", "answer": "≥99% by HPLC with ESI-MS identity confirmation. Every batch verified at our Shenzhen facility. Batch-specific COA included with every order." },
+    { "question": "What is the molecular weight and sequence of BPC-157?", "answer": "BPC-157 is a pentadecapeptide with MW ~1419.5 Da. Sequence: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val." },
+    { "question": "How should I reconstitute and store BPC-157?", "answer": "Reconstitute with sterile bacteriostatic water or 0.9% saline. Store lyophilized powder at 2-8°C. After reconstitution, aliquot and store at -20°C for up to 30 days." },
+    { "question": "What is the minimum order quantity?", "answer": "1 kit (5mg × 10 vials). No MOQ. Bulk discounts start at 2 kits (10-20% off) and scale to 70% at 50+ kits." },
+    { "question": "What documentation is included with BPC-157?", "answer": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request." },
+    { "question": "Is BPC-157 stable in solution after reconstitution?", "answer": "Relatively stable in sterile water or PBS at 4°C for 1–2 weeks, but pH-dependent. Best practice: reconstitute in sterile water/PBS (pH 7.0–7.4), aliquot single-use portions, freeze at -20°C. Avoid freeze-thaw cycles. Lyophilized powder is significantly more stable than solution." },
+    { "question": "What is the recommended solvent for reconstitution?", "answer": "Sterile water for injection or phosphate-buffered saline (PBS, pH 7.4). BPC-157 is freely soluble in aqueous buffers at neutral pH. Avoid strongly acidic/basic solvents (catalyze hydrolysis). Do not use DMSO — it can interfere with bioassays." },
+    { "question": "Do you offer BPC-157 + TB-500 as a single-vial stack?", "answer": "Yes — one of our most popular pre-formulated stacks. Our R&D team has validated chemical compatibility in a single lyophilized vial. Ships with combined COA covering both peptides. See <a href=\"/products/specialty-stacks/\" class=\"text-accent-dark hover:underline\">Specialty Stacks</a> or <a href=\"/contact/\" class=\"text-accent-dark hover:underline\">contact us</a> for a quote." }
+  ],
+
+  "relatedProducts": [
+    { "name": "TB-500", "subtitle": "Cell migration & remodeling", "url": "/products/tb-500/" },
+    { "name": "GHK-Cu", "subtitle": "Collagen & angiogenesis", "url": "/products/ghk-cu/" },
+    { "name": "Healing Category", "subtitle": "All repair peptides", "url": "/products/healing-recovery/" },
+    { "name": "BPC+TB Stack", "subtitle": "Pre-formulated blend", "url": "/products/specialty-stacks/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. BPC-157 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source BPC-157?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

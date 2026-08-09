@@ -1,0 +1,88 @@
+{
+  "slug": "dsip",
+  "name": "DSIP Wholesale",
+  "nameShort": "DSIP",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "62568-57-4",
+  "molecularWeight": "~848.8 Da",
+  "sequence": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₅H₄₈N₁₀O₁₅",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "9",
+
+  "metaDescription": "Factory-direct DSIP wholesale. CAS 62568-57-4, ~848.8 Da. ≥99% HPLC. Delta sleep-inducing peptide — sleep modulation. COA included.",
+  "heroSubtitle": "Delta sleep-inducing peptide nonapeptide — sleep architecture & circadian rhythm research, manufacturer-direct",
+  "heroTitle": "DSIP Wholesale",
+  "description": "DSIP (Delta Sleep-Inducing Peptide) was first isolated from rabbit cerebral venous blood during electrically-induced sleep in the 1970s by Monnier and Schoenenberger. The isolated nonapeptide (Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu) was found to induce slow-wave (delta) sleep. Subsequent research expanded its profile beyond sleep: it modulates the HPA stress axis, produces opioid-independent analgesia, and influences circadian regulation.",
+  "sku": "PSH-DSIP-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "62568-57-4" },
+    { "label": "Sequence", "value": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu-OH" },
+    { "label": "Amino Acids", "value": "9" },
+    { "label": "Molecular Formula", "value": "C₃₅H₄₈N₁₀O₁₅" },
+    { "label": "Molecular Weight", "value": "~848.8 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "Sleep research; evaluation" },
+    { "name": "Bulk Kit", "content": "10 mg × 10 vials", "bestFor": "Chronic sleep models; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Delta Sleep Promotion", "description": "Slow-wave sleep enhancement; sleep efficiency improvement" },
+    { "area": "Circadian Rhythm", "description": "Sleep-wake cycle regulation in jet lag and shift work models" },
+    { "area": "Stress Response", "description": "ACTH and corticosterone modulation under stress conditions" },
+    { "area": "Pain Modulation", "description": "Opioid-independent analgesic effects in chronic pain models" }
+  ],
+
+  "mechanisms": [
+    { "name": "Delta Wave Induction", "description": "Slow-wave (0.5–4 Hz) EEG activity promotion → restorative sleep architecture" },
+    { "name": "HPA Axis Modulation", "description": "Reduced ACTH release → lower corticosterone; stress axis dampening" },
+    { "name": "Opioid-Independent Analgesia", "description": "Pain threshold elevation without μ-opioid receptor activation" },
+    { "name": "Neurotransmitter Balance", "description": "Modulation of serotonin, GABA, and glutamate in sleep-regulating nuclei" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~848.8 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is Delta Sleep-Inducing Peptide (DSIP)?", "answer": "DSIP is a naturally occurring nonapeptide first isolated from rabbit cerebral blood during induced slow-wave sleep. It promotes delta wave (0.5–4 Hz) EEG activity characteristic of deep, restorative sleep. Also modulates HPA stress axis and produces opioid-independent analgesia." },
+    { "question": "How was DSIP discovered?", "answer": "Discovered in the 1970s by Monnier and Schoenenberger, who electrically stimulated rabbit thalamus to induce sleep, collected cerebral venous blood, and isolated the factor that transferred sleep-inducing activity to recipient animals. Identified as the nonapeptide Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu." },
+    { "question": "Does DSIP work through opioid receptors?", "answer": "No — a key research distinction. DSIP produces analgesic effects but does not bind μ, δ, or κ opioid receptors. Its analgesic mechanism involves central serotonin and GABA pathways. This opioid-independent pain modulation makes it a unique research tool." },
+    { "question": "How does DSIP compare to melatonin for sleep research?", "answer": "Melatonin primarily regulates sleep timing (circadian phase shifting). DSIP primarily affects sleep depth (delta wave promotion). Different aspects of sleep physiology — can be studied in complementary protocols." },
+    { "question": "What purity and QC is provided for DSIP?", "answer": "≥99% HPLC with ESI-MS identity. Trp¹ residue monitored for oxidation. Batch-specific COA included. Full analytical documentation for bulk orders." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Semax", "subtitle": "ACTH-derived nootropic", "url": "/products/semax/" },
+    { "name": "Selank", "subtitle": "Tuftsin anxiolytic", "url": "/products/selank/" },
+    { "name": "Epithalon", "subtitle": "Telomerase activator", "url": "/products/epithalon/" },
+    { "name": "Nootropic Category", "subtitle": "All cognitive peptides", "url": "/products/nootropic-anti-aging/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. DSIP is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source DSIP?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

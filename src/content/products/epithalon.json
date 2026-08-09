@@ -1,0 +1,88 @@
+{
+  "slug": "epithalon",
+  "name": "Epithalon Wholesale",
+  "nameShort": "Epithalon",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "307297-39-8",
+  "molecularWeight": "~390.4 Da",
+  "sequence": "Ala-Glu-Asp-Gly-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₁₄H₂₂N₄O₉",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "4",
+
+  "metaDescription": "Factory-direct Epithalon wholesale. CAS 307297-39-8, ~390.4 Da. ≥99% HPLC. Pineal tetrapeptide — telomerase activation for longevity research. COA included.",
+  "heroSubtitle": "Ala-Glu-Asp-Gly tetrapeptide — telomerase activation & replicative lifespan research, manufacturer-direct",
+  "heroTitle": "Epithalon Wholesale",
+  "description": "Epithalon (Ala-Glu-Asp-Gly) is a synthetic tetrapeptide designed by Prof. Vladimir Khavinson at the Saint Petersburg Institute of Bioregulation and Gerontology. Derived from epithalamin — a polypeptide complex extracted from bovine pineal glands — through structure-activity optimization to identify the minimal active sequence. The resulting tetrapeptide has become one of the most studied peptide bioregulators in longevity research, with published data demonstrating telomerase activation via hTERT gene expression and telomere length preservation.",
+  "sku": "PSH-EPITH-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "307297-39-8" },
+    { "label": "Sequence", "value": "Ala-Glu-Asp-Gly-OH" },
+    { "label": "Amino Acids", "value": "4" },
+    { "label": "Molecular Formula", "value": "C₁₄H₂₂N₄O₉" },
+    { "label": "Molecular Weight", "value": "~390.4 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "Longevity research; evaluation" },
+    { "name": "Bulk Kit", "content": "30 mg × 10 vials", "bestFor": "Chronic aging models; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Telomerase Activation", "description": "hTERT gene expression → telomere length maintenance in somatic cells" },
+    { "area": "Replicative Lifespan", "description": "Cellular senescence delay; population doubling increase" },
+    { "area": "Pineal Regulation", "description": "Pineal peptide extract-derived → circadian and neuroendocrine modulation" },
+    { "area": "Aging Biomarkers", "description": "Melatonin rhythm preservation; oxidative stress marker reduction" }
+  ],
+
+  "mechanisms": [
+    { "name": "hTERT Activation", "description": "Upregulation of telomerase catalytic subunit gene expression → telomere maintenance" },
+    { "name": "Pineal Peptide Activity", "description": "Epithalamin-derived → pinealocyte function preservation → circadian melatonin rhythm" },
+    { "name": "Gene Expression Modulation", "description": "Chromatin remodeling at senescence-associated gene loci" },
+    { "name": "Anti-Oxidative", "description": "Reduced ROS; increased antioxidant enzyme activity (SOD, catalase)" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~390.4 ± 0.5 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is the evidence for Epithalon's effect on telomeres?", "answer": "Khavinson et al. demonstrated that Epithalon activates hTERT gene expression in human somatic cell cultures, leading to telomere length maintenance and extended replicative lifespan. The proposed mechanism involves chromatin remodeling at the hTERT promoter region." },
+    { "question": "How does Epithalon relate to epithalamin?", "answer": "Epithalamin is a crude polypeptide complex from bovine pineal glands. Epithalon (Ala-Glu-Asp-Gly) is the synthetic tetrapeptide capturing the active sequence identified through systematic fragmentation of epithalamin." },
+    { "question": "Is Epithalon the same as Epitalon?", "answer": "Yes. 'Epithalon,' 'Epitalon,' and 'AEDG peptide' all refer to the same Ala-Glu-Asp-Gly tetrapeptide. Name variations arise from transliteration differences from Russian (Эпиталон)." },
+    { "question": "What is the pineal peptide hypothesis of aging?", "answer": "The hypothesis proposes that the pineal gland produces peptide bioregulators coordinating circadian rhythms, neuroendocrine function, and cellular maintenance. Age-related pineal decline → reduced signaling → accelerated aging. Epithalon is proposed to restore this signaling deficiency." },
+    { "question": "What purity specification applies to Epithalon?", "answer": "≥99% by HPLC at 214 nm. As a simple tetrapeptide, synthesis is straightforward but the C-terminal glycine requires careful handling to avoid racemization. ESI-MS and amino acid analysis in every COA." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Semax", "subtitle": "ACTH-derived nootropic", "url": "/products/semax/" },
+    { "name": "Selank", "subtitle": "Tuftsin-derived anxiolytic", "url": "/products/selank/" },
+    { "name": "FOXO4-DRI", "subtitle": "Senolytic peptide", "url": "/products/foxo4-dri/" },
+    { "name": "Nootropic Category", "subtitle": "All anti-aging peptides", "url": "/products/nootropic-anti-aging/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Epithalon is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Epithalon?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

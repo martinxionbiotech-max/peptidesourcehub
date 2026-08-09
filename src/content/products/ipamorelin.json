@@ -1,0 +1,87 @@
+{
+  "slug": "ipamorelin",
+  "name": "Ipamorelin Wholesale",
+  "nameShort": "Ipamorelin",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "170851-70-4",
+  "molecularWeight": "~711.9 Da",
+  "sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₈H₄₉N₉O₅",
+  "solubility": "Soluble in sterile or bacteriostatic water",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "5 (Aib¹, D-2-Nal³, D-Phe⁴ modified)",
+
+  "metaDescription": "Factory-direct Ipamorelin wholesale. CAS 170851-70-4, ~711.9 Da. ≥99% HPLC. Selective GHS-R1a agonist. COA included.",
+  "heroSubtitle": "Selective ghrelin receptor (GHS-R1a) agonist — minimal hunger signaling, clean GH pulse, manufacturer-direct",
+  "heroTitle": "Ipamorelin Wholesale",
+  "description": "Ipamorelin is a synthetic pentapeptide GH secretagogue that selectively activates the ghrelin receptor (GHS-R1a). What distinguishes it from earlier GHS peptides is receptor selectivity — it produces a clean GH pulse with minimal activation of ACTH/cortisol, prolactin, or hunger-signaling pathways. This selectivity is achieved through strategic incorporation of non-proteinogenic amino acids: Aib at position 1, D-2-Nal at position 3, and D-Phe at position 4.",
+  "sku": "PSH-IPAM-2MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "170851-70-4" },
+    { "label": "Sequence", "value": "Aib-His-D-2-Nal-D-Phe-Lys-NH₂" },
+    { "label": "Amino Acids", "value": "5 (Aib¹, D-2-Nal³, D-Phe⁴ modified)" },
+    { "label": "Molecular Formula", "value": "C₃₈H₄₉N₉O₅" },
+    { "label": "Molecular Weight", "value": "~711.9 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile or bacteriostatic water" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "2 mg × 10 vials", "bestFor": "GH pulse studies; evaluation" },
+    { "name": "Bulk Kit", "content": "5 mg × 10 vials", "bestFor": "Chronic protocols; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Selective GH Release", "description": "Clean GH pulse with minimal prolactin, ACTH, or cortisol elevation" },
+    { "area": "GH Secretagogue Research", "description": "GHS-R1a pharmacology — receptor selectivity profiling" },
+    { "area": "Body Composition", "description": "Lean mass preservation in caloric deficit models" },
+    { "area": "Combination Protocols", "description": "Synergistic GH elevation with GHRH analogues (CJC-1295)" }
+  ],
+
+  "mechanisms": [
+    { "name": "GHS-R1a Agonism", "description": "Selective ghrelin receptor activation on pituitary somatotrophs → GH release" },
+    { "name": "Somatostatin Suppression", "description": "GHS-R activation reduces hypothalamic somatostatin tone → permissive GH secretion" },
+    { "name": "Minimal Off-Target", "description": "Unlike GHRP-2/GHRP-6, Ipamorelin does not significantly activate ACTH/cortisol or hunger pathways" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~711.9 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Chiral Purity", "method": "Chiral HPLC", "criterion": "≥99% (Aib, D-2-Nal, D-Phe verified)" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What makes Ipamorelin different from GHRP-2/GHRP-6?", "answer": "Selectivity. Ipamorelin is the most selective ghrelin receptor agonist of the GHRP family. At research concentrations, it produces GH release without significant ACTH, cortisol, prolactin, or hunger elevation. GHRP-2/6 are more potent GH releasers but with broader receptor profiles." },
+    { "question": "Why is Ipamorelin paired with CJC-1295?", "answer": "CJC-1295 provides the GHRH signal (the 'on' switch). Ipamorelin suppresses somatostatin tone (the 'off' switch). Together they produce synergistic GH pulse — the most studied GH secretagogue protocol in preclinical research." },
+    { "question": "What are the unique amino acid modifications?", "answer": "Aib (α-aminoisobutyric acid) at position 1 for protease resistance; D-2-Nal at position 3 for GHS-R binding selectivity; D-Phe at position 4 to further refine selectivity. Confirmed by chiral HPLC in every batch." },
+    { "question": "How does Ipamorelin affect appetite vs GHRP-6?", "answer": "Minimally. GHRP-6 is a potent ghrelin mimetic that strongly activates hunger signaling. Ipamorelin was specifically designed to reduce this off-target effect while maintaining GH release." },
+    { "question": "What purity and QC documentation is provided?", "answer": "≥99% HPLC purity, ESI-MS identity, and chiral HPLC verification of D-amino acid content. Batch-specific COA included." }
+  ],
+
+  "relatedProducts": [
+    { "name": "CJC-1295 (DAC)", "subtitle": "Sustained GHRH", "url": "/products/cjc-1295-dac/" },
+    { "name": "GHRP-2", "subtitle": "Potent GHS-R agonist", "url": "/products/ghrp-2/" },
+    { "name": "HGH", "subtitle": "Direct GH receptor agonist", "url": "/products/hgh/" },
+    { "name": "Muscle Category", "subtitle": "All GH peptides", "url": "/products/muscle-growth/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Ipamorelin is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Ipamorelin?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

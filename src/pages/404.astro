@@ -1,17 +1,21 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import PageLayout from "../layouts/PageLayout.astro";
+
+const currentPath = "/404";
 ---
 
-<BaseLayout
+<PageLayout
   title="Page Not Found — Peptides Source Hub"
   description="The page you requested could not be found. Browse our wholesale peptide catalog instead."
-  schema={{
+  currentPath={currentPath}
+  jsonLd={{
+    "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Peptides Source Hub",
     "url": "https://peptidesourcehub.net",
   }}
 >
-  <main class="max-w-3xl mx-auto px-4 py-24 text-center">
+  <div class="max-w-3xl mx-auto px-4 py-24 text-center">
     <h1 class="text-5xl font-bold text-gray-900 mb-4">404</h1>
     <p class="text-xl text-gray-600 mb-8">
       The page you requested could not be found.
@@ -33,5 +37,5 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <p class="mt-12 text-sm text-gray-400">
       If you believe this is an error, please <a href="/contact/" class="text-blue-600 underline">contact us</a>.
     </p>
-  </main>
-</BaseLayout>
+  </div>
+</PageLayout>

@@ -1,0 +1,216 @@
+{
+  "slug": "retatrutide",
+  "name": "Retatrutide Wholesale",
+  "nameShort": "Retatrutide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic",
+  "cas": "2381089-83-2",
+  "molecularWeight": "~4,845.5 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "39",
+  "metaDescription": "Factory-direct Retatrutide wholesale. CAS 2381089-83-2, ~4845.5 Da. ≥99% HPLC, lyophilized powder. Triple GIP/GLP-1/Glucagon agonist. Tiered pricing. COA.",
+  "heroSubtitle": "Triple receptor agonist — the next frontier in multi-pathway metabolic research",
+  "heroTitle": "Retatrutide Wholesale",
+  "description": "Retatrutide is a 39-amino acid single-chain peptide engineered with balanced triple agonism at GIP, GLP-1, and glucagon receptors. The addition of GCGR agonism — driving energy expenditure through thermogenesis and lipolysis — distinguishes Retatrutide from dual agonists. A C20 fatty diacid linker provides albumin binding for extended half-life, enabling sustained triple-receptor engagement from a single molecule.",
+  "productImage": "/images/products/retatrutide-bottle.webp",
+  "sku": "PSH-RETA-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "2381089-83-2"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "39 residues"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,845.5 Da"
+    },
+    {
+      "label": "Linker",
+      "value": "C20 Fatty Diacid"
+    },
+    {
+      "label": "Receptor Targets",
+      "value": "GIPR · GLP-1R · GCGR"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Standard research format"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Higher-dose configuration"
+    },
+    {
+      "name": "Extended Kit",
+      "content": "15 mg × 10 vials",
+      "bestFor": "Extended research format"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Energy Expenditure",
+      "description": "GCGR component uniquely boosts thermogenesis — absent in GLP-1-only agents"
+    },
+    {
+      "area": "Body Weight",
+      "description": "~24% mean reduction at maximum research doses — triple-receptor mediated"
+    },
+    {
+      "area": "Glucose Homeostasis",
+      "description": "Triple-redundant glucose control via GIPR insulin sensitivity, GLP-1R insulin secretion, GCGR hepatic output"
+    },
+    {
+      "area": "Lipid Metabolism",
+      "description": "Coordinated lipid mobilization across WAT lipolysis (GCGR) and lipid buffering (GIPR)"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GIPR Agonism",
+      "description": "Enhanced insulin sensitivity and lipid buffering in white adipose tissue"
+    },
+    {
+      "name": "GLP-1R Agonism",
+      "description": "Strong CNS-mediated appetite suppression; glucose-dependent insulin secretion"
+    },
+    {
+      "name": "GCGR Agonism",
+      "description": "Thermogenesis and lipolysis via hepatic FGF21 and direct adipocyte signaling"
+    },
+    {
+      "name": "C20 Fatty Diacid Linker",
+      "description": "Albumin-binding for extended half-life while maintaining balanced triple-receptor activity"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "RP-HPLC, C18 column, 220nm",
+      "criterion": "≥99.0%"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "MW match within ±1 Da"
+    },
+    {
+      "parameter": "Peptide Content",
+      "method": "Amino Acid Analysis",
+      "criterion": "80–90% (net peptide)"
+    },
+    {
+      "parameter": "Acylation Fidelity",
+      "method": "LC-MS",
+      "criterion": "Confirmed C20 diacid conjugation"
+    },
+    {
+      "parameter": "Water Content",
+      "method": "Karl Fischer",
+      "criterion": "≤8%"
+    },
+    {
+      "parameter": "Trifluoroacetate (TFA)",
+      "method": "Ion Chromatography",
+      "criterion": "≤1%"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual",
+      "criterion": "White to off-white lyophilized powder"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Retatrutide and Tirzepatide?",
+      "answer": "Retatrutide adds a third receptor target — the glucagon receptor (GCGR) — to the GIP/GLP-1 dual agonism of Tirzepatide. The glucagon component drives increased energy expenditure and lipolysis. Published data show ~24% body weight reduction with Retatrutide compared to ~21% with Tirzepatide at maximum research doses."
+    },
+    {
+      "question": "Why is Retatrutide more difficult to manufacture?",
+      "answer": "Retatrutide's complexity arises from engineering balanced triple-receptor agonism into a single 39-amino-acid peptide. Achieving the correct potency ratio across GIP, GLP-1, and glucagon receptors requires precise amino acid substitutions and the C20 fatty diacid linker. Each receptor's activation profile must be tuned so that none dominates or is suppressed."
+    },
+    {
+      "question": "How should Retatrutide be reconstituted for research?",
+      "answer": "Retatrutide is supplied as a lyophilized powder and is typically reconstituted in bacteriostatic water or sterile buffer at your laboratory's validated concentration. Full solubility data is included in the batch-specific COA. After reconstitution, use within your protocol-validated timeframe."
+    },
+    {
+      "question": "Can I order Retatrutide with private labeling?",
+      "answer": "Yes. We offer OEM/private-label services for Retatrutide with custom vial branding, labeling, and packaging. Minimum order quantities apply for private-label runs. Contact Dr. Aaron Wang for a private-label quotation including lead times, artwork specifications, and MOQ details."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Semaglutide",
+      "subtitle": "GLP-1 receptor agonist",
+      "url": "/products/semaglutide/"
+    },
+    {
+      "name": "Tirzepatide",
+      "subtitle": "Dual GIP/GLP-1 agonist",
+      "url": "/products/tirzepatide/"
+    },
+    {
+      "name": "Cagrilintide",
+      "subtitle": "Long-acting amylin analogue",
+      "url": "/products/cagrilintide/"
+    },
+    {
+      "name": "AOD-9604",
+      "subtitle": "hGH fragment 177-191",
+      "url": "/products/aod-9604/"
+    }
+  ],
+  "complianceText": "⚠️ <strong>Compliance Notice:</strong> Retatrutide supplied by Peptides Source Hub is intended exclusively for laboratory research and in-vitro study purposes. Not for human or veterinary use. Buyers are responsible for compliance with all applicable local regulations.",
+  "ctaText": "Ready to Source Third-Generation Metabolic Peptides?",
+  "ctaSubtitle": "Triple agonism, batch-traceable, ≥99% purity. Contact Dr. Aaron Wang for pricing and availability.",
+  "sequence": "—",
+  "molecularFormula": "—"
+}

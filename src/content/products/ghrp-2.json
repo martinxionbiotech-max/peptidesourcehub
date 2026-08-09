@@ -1,0 +1,87 @@
+{
+  "slug": "ghrp-2",
+  "name": "GHRP-2 Wholesale",
+  "nameShort": "GHRP-2",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "158861-67-7",
+  "molecularWeight": "~817.0 Da",
+  "sequence": "D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₄₅H₅₅N₉O₆",
+  "solubility": "Soluble in sterile or bacteriostatic water",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "6 (D-Ala¹, D-2-Nal², D-Phe⁵)",
+
+  "metaDescription": "Factory-direct GHRP-2 wholesale. CAS 158861-67-7, ~817.0 Da. ≥99% HPLC. Potent GHS-R1a agonist. COA included.",
+  "heroSubtitle": "Growth Hormone Releasing Peptide-2 — potent ghrelin mimetic for GH pulse research, manufacturer-direct",
+  "heroTitle": "GHRP-2 Wholesale",
+  "description": "GHRP-2 (also known as Pralmorelin) is a synthetic hexapeptide ghrelin receptor agonist. It is one of the most potent GH secretagogues in the GHRP family, producing a rapid, robust GH pulse. Developed through structure-activity relationship studies of met-enkephalin derivatives, GHRP-2 features D-amino acid modifications (D-Ala¹, D-2-Nal², D-Phe⁵) that confer both metabolic stability and high receptor affinity.",
+  "sku": "PSH-GHRP2-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "158861-67-7" },
+    { "label": "Sequence", "value": "D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH₂" },
+    { "label": "Amino Acids", "value": "6 (D-Ala¹, D-2-Nal², D-Phe⁵)" },
+    { "label": "Molecular Formula", "value": "C₄₅H₅₅N₉O₆" },
+    { "label": "Molecular Weight", "value": "~817.0 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile or bacteriostatic water" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "GH pulse research; evaluation" },
+    { "name": "Bulk Kit", "content": "10 mg × 10 vials", "bestFor": "Chronic protocols; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "GH Pulse Induction", "description": "Rapid, potent GH release via GHS-R1a activation on pituitary" },
+    { "area": "Pulsatile GH Research", "description": "Sharp GH spikes — compatible with post-exercise window protocols" },
+    { "area": "Appetite Signaling", "description": "Ghrelin pathway activation — feeding behavior studies" },
+    { "area": "IGF-1 Axis", "description": "GH-mediated hepatic IGF-1 production cascade" }
+  ],
+
+  "mechanisms": [
+    { "name": "GHS-R1a Agonism", "description": "Potent ghrelin receptor activation → PLC → IP₃ → Ca²⁺ mobilization → GH exocytosis" },
+    { "name": "GHRH Potentiation", "description": "GHS-R and GHRH-R signaling converge on somatotroph → synergistic cAMP/Ca²⁺ response" },
+    { "name": "Somatostatin Antagonism", "description": "GHS-R activation reduces hypothalamic somatostatin release → permissive GH secretion" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~817.0 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Chiral Purity", "method": "Chiral HPLC", "criterion": "D-amino acids verified" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "How potent is GHRP-2 vs other GH secretagogues?", "answer": "GHRP-2 is among the most potent GHS-R1a agonists, producing GH elevations exceeding GHRP-6 and Ipamorelin at equivalent doses. However, this potency comes with broader receptor profile including stronger appetite stimulation." },
+    { "question": "What distinguishes GHRP-2 from Ipamorelin?", "answer": "GHRP-2: more potent GH release, stronger hunger signaling, potential cortisol elevation. Ipamorelin: cleaner GH pulse, minimal hunger, minimal cortisol. Choice depends on whether maximum amplitude or receptor selectivity is the priority." },
+    { "question": "What is the origin of GHRP-2?", "answer": "GHRP-2 (Pralmorelin) was developed by Kaken Pharmaceutical in Japan through systematic modification of met-enkephalin derivatives. D-amino acid substitutions provide enzymatic resistance while maintaining high GHS-R1a binding affinity." },
+    { "question": "How should GHRP-2 be stored?", "answer": "Lyophilized: 2–8°C, desiccated, 24-month stability. After reconstitution, aliquot and store at -20°C. Avoid freeze-thaw cycles. D-amino acid modifications provide good solution stability." },
+    { "question": "Can GHRP-2 be combined with CJC-1295?", "answer": "Yes — common research combination. CJC-1295 provides sustained GHRH signal; GHRP-2 provides potent ghrelin receptor pulse. CJC-1295 (no DAC) + GHRP-2 is particularly suited for pulsatile GH protocol research." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Ipamorelin", "subtitle": "Selective GHS-R agonist", "url": "/products/ipamorelin/" },
+    { "name": "GHRP-6", "subtitle": "Ghrelin mimetic", "url": "/products/ghrp-6/" },
+    { "name": "CJC-1295 (DAC)", "subtitle": "Sustained GHRH", "url": "/products/cjc-1295-dac/" },
+    { "name": "HGH", "subtitle": "Direct GH receptor agonist", "url": "/products/hgh/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. GHRP-2 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source GHRP-2?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

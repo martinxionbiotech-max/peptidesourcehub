@@ -1,0 +1,100 @@
+{
+  "slug": "ghk-cu",
+  "name": "GHK-Cu Wholesale",
+  "nameShort": "GHK-Cu",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "49557-75-7",
+  "molecularWeight": "~340.38 Da (free peptide)",
+  "sequence": "H-Gly-His-Lys-OH complexed with Cu²⁺ (square-planar, log K ~16)",
+  "purity": "≥99% by HPLC",
+  "appearance": "Blue to blue-purple lyophilized powder (Cu²⁺ complex)",
+  "molecularFormula": "C₁₄H₂₄N₆O₄ · Cu",
+  "solubility": "Freely soluble in water or PBS",
+  "storage": "2–8°C, desiccated, protect from light (light-sensitive)",
+  "aminoAcids": "3 (tripeptide)",
+
+  "metaDescription": "Factory-direct GHK-Cu wholesale. CAS 49557-75-7, ~340.4 Da. ≥99% HPLC, lyophilized powder. Copper peptide for collagen synthesis & skin research. Tiered pricing. COA.",
+  "heroSubtitle": "Copper Tripeptide-1 — the most extensively studied copper peptide in dermatological research, batch-documented, manufacturer-direct",
+  "heroTitle": "GHK-Cu Wholesale",
+  "description": "GHK was first isolated from human plasma in 1973 by Dr. Loren Pickart. The tripeptide has an exceptionally high affinity for copper(II) ions — the GHK-Cu complex is what drives its biological activities.",
+  "productImage": "/images/products/ghk-cu-bottle.webp",
+  "sku": "PSH-GHKCU-50MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "49557-75-7" },
+    { "label": "Sequence", "value": "H-Gly-His-Lys-OH complexed with Cu²⁺ (square-planar, log K ~16)" },
+    { "label": "Amino Acids", "value": "3 (tripeptide)" },
+    { "label": "Molecular Weight", "value": "~340.38 Da (free peptide)" },
+    { "label": "Appearance", "value": "Blue to blue-purple lyophilized powder (Cu²⁺ complex)" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Freely soluble in water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light (light-sensitive)" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "50 mg × 10 vials", "bestFor": "Dermatological/cosmetic research" },
+    { "name": "Bulk Kit", "content": "100 mg × 10 vials", "bestFor": "High-volume; formulation studies" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; cosmetic ingredient supply" }
+  ],
+
+  "researchAreas": [
+    { "area": "Collagen Synthesis", "description": "Stimulates Type I, III, IV collagen in fibroblasts" },
+    { "area": "Wound Healing", "description": "Accelerated closure in full/partial-thickness models" },
+    { "area": "Angiogenesis", "description": "Endothelial proliferation; capillary tube formation" },
+    { "area": "Antioxidant", "description": "SOD-like activity; ROS reduction" },
+    { "area": "ECM Remodeling", "description": "Upregulates decorin for collagen fibril organization" },
+    { "area": "Anti-Inflammatory", "description": "Reduces TNF-α and TGF-β1 in skin inflammation models" },
+    { "area": "Hair Follicle", "description": "Dermal papilla cell proliferation; anagen phase extension" },
+    { "area": "Skin Remodeling", "description": "Increases epidermal thickness; dermal collagen density" }
+  ],
+
+  "applications": [
+    { "field": "Dermatological Research", "application": "Fibroblast collagen synthesis", "concentration": "1–10 μg/mL" },
+    { "field": "Cosmetic Formulation", "application": "Topical formulation; transdermal penetration", "concentration": "0.05–0.5% w/w" },
+    { "field": "Wound Healing", "application": "Scratch assay; wound contraction", "concentration": "1–100 μg/mL" },
+    { "field": "Anti-Aging", "application": "Senescence markers; antioxidant capacity", "concentration": "Varies by model" },
+    { "field": "Hair Research", "application": "Dermal papilla proliferation; follicle organ culture", "concentration": "0.1–10 μg/mL" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity (HPLC)", "method": "HPLC at 214 nm", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~340.4 Da; Cu complex confirmed" },
+    { "parameter": "Copper Content", "method": "ICP-OES / colorimetric", "criterion": "1:1 Cu:peptide ±5%" },
+    { "parameter": "Appearance", "method": "Visual", "criterion": "Blue to blue-purple powder" },
+    { "parameter": "Peptide Content", "method": "AAA / nitrogen", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "qualityNote": "GHK-Cu analysis requires a dedicated HPLC gradient — the copper complex can interact with standard C18 stationary phases. Our method is optimized for copper-peptide purity determination.",
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is GHK-Cu and how is quality verified?", "answer": "Copper tripeptide complex (MW ~340.4 Da). Sequence Gly-His-Lys chelating Cu²⁺. ≥99% HPLC, ESI-MS, UV-Vis 600nm verifies copper chelation." },
+    { "question": "Why does GHK-Cu appear blue?", "answer": "The characteristic blue color confirms Cu²⁺ chelation — a quality indicator, not a contaminant. 600nm absorbance peak." },
+    { "question": "How should GHK-Cu be stored?", "answer": "Lyophilized: 2-8°C, desiccated, protected from light. The copper complex is photolabile. Reconstituted: use tinted vials or wrap in foil." },
+    { "question": "What concentrations of GHK-Cu are available?", "answer": "Standard: 50mg (single vial). Bulk: 50mg × 10 vials kit. Custom concentrations available on request." },
+    { "question": "What documentation is included with GHK-Cu?", "answer": "COA, commercial invoice, packing list. Additional analytical data (HPLC chromatogram, MS spectrum, UV-Vis) on request." },
+    { "question": "Why is GHK-Cu blue? Is the color an indicator of quality?", "answer": "The blue color is from Cu²⁺ in square-planar coordination — absorbing red light and reflecting blue. A blue to blue-purple powder = properly complexed copper. Faded or absent blue suggests copper loss or incomplete complexation. We verify with both color assessment and quantitative copper content (ICP-OES) to confirm 1:1 stoichiometry." },
+    { "question": "Is GHK-Cu stable in solution?", "answer": "Stable in aqueous solution at neutral pH for several days at 4°C. The copper complex (log K ~16) remains intact. For quantitative cell culture: prepare fresh or aliquot and freeze at -20°C. Avoid chelating agents (EDTA, citrate) — they strip copper from the complex." },
+    { "question": "What's the difference between GHK and GHK-Cu?", "answer": "Chemically distinct. GHK (free peptide, CAS 72957-37-0) lacks Cu²⁺ and doesn't exhibit the same biological activities. Virtually all published research uses GHK-Cu (the copper-complexed form). We supply GHK-Cu as standard. If you need copper-free GHK, specify in your inquiry." },
+    { "question": "Can GHK-Cu be combined with other cosmetic peptides?", "answer": "Yes — commonly studied with Matrixyl (collagen), Argireline/Snap-8 (neurotransmitter inhibition). Peptides are chemically compatible. Expect blue tint in formulations — this is normal. Avoid strong chelators (EDTA) and reducing agents (high-concentration ascorbic acid) which disrupt the Cu complex." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Cosmetic Skin", "subtitle": "All cosmetic peptides", "url": "/products/cosmetic-skin/" },
+    { "name": "BPC-157", "subtitle": "Angiogenesis + repair", "url": "/products/bpc-157/" },
+    { "name": "TB-500", "subtitle": "Actin regulation", "url": "/products/tb-500/" },
+    { "name": "GHK+BPC Stack", "subtitle": "Wound healing combo", "url": "/products/specialty-stacks/" }
+  ],
+
+  "complianceText": "<strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, or clinical use. Not a cosmetic ingredient for consumer use, dietary supplement, or approved drug substance.",
+  "ctaText": "Ready to Source GHK-Cu?",
+  "ctaSubtitle": "Bulk pricing up to 70% off. Copper content verified by ICP-OES. COA with every order."
+}

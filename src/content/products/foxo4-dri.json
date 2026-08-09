@@ -1,0 +1,204 @@
+{
+  "slug": "foxo4-dri",
+  "name": "FOXO4-DRI Wholesale",
+  "nameShort": "FOXO4-DRI",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "— (D-Retro-Inverso peptide)",
+  "molecularWeight": "~4,316.0 Da",
+  "sequence": "D-Retro-Inverso 47-mer (all D-amino acids, reversed sequence)",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "47 (all D-amino acids, retro-inverso)",
+  "metaDescription": "Factory-direct FOXO4-DRI wholesale. MW ~4,316.0 Da. ≥99% HPLC. Senolytic peptide — FOXO4-p53 disruption for senescent cell apoptosis. COA included.",
+  "heroSubtitle": "D-Retro-Inverso FOXO4-p53 interaction inhibitor — targeted senescent cell clearance research, manufacturer-direct",
+  "heroTitle": "FOXO4-DRI Wholesale",
+  "description": "FOXO4-DRI (D-Retro-Inverso) is a modified peptide that disrupts the FOXO4-p53 interaction in senescent cells — a mechanism for targeted senescent cell clearance (senolysis). It represents a fundamentally different approach from signaling peptides: rather than modulating a pathway, it targets a specific protein-protein interaction. The D-Retro-Inverso modification (all D-amino acids, reversed sequence) makes the peptide essentially invisible to proteases, conferring dramatically extended half-life. Developed by the de Keizer lab, FOXO4-DRI is a landmark tool in cellular senescence research.",
+  "sku": "PSH-FOXO4-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "— (D-Retro-Inverso peptide)"
+    },
+    {
+      "label": "Sequence",
+      "value": "D-Retro-Inverso 47-mer (all D-amino acids, reversed sequence)"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "47 (all D-amino acids, retro-inverso)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,316.0 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Senolytic research; evaluation"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Aging models; repeat orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Cellular Senescence",
+      "description": "p53-mediated senescent cell apoptosis induction"
+    },
+    {
+      "area": "Senolytic Research",
+      "description": "Selective elimination of senescent cells without affecting proliferating cells"
+    },
+    {
+      "area": "Aging Models",
+      "description": "Age-related pathology reduction; healthspan extension in rodent models"
+    },
+    {
+      "area": "Chemotherapy Protection",
+      "description": "Doxorubicin-induced senescence and cardiotoxicity mitigation"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "FOXO4-p53 Disruption",
+      "description": "Competes with FOXO4 for p53 binding → releases nuclear p53 → triggers apoptosis"
+    },
+    {
+      "name": "Senescent Cell Selectivity",
+      "description": "Senescent cells have elevated FOXO4-p53 complexes — DRI selectively disrupts these"
+    },
+    {
+      "name": "D-Retro-Inverso Design",
+      "description": "All-D-amino acid, reversed sequence → complete protease resistance → extended half-life"
+    },
+    {
+      "name": "BAX/BAK Activation",
+      "description": "Released p53 → mitochondrial BAX/BAK → cytochrome c → caspase cascade → apoptosis"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity (MW)",
+      "method": "MALDI-TOF MS",
+      "criterion": "~4,316.0 ± 2.0 Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Chiral Purity",
+      "method": "Chiral amino acid analysis",
+      "criterion": "All D-amino acids confirmed"
+    },
+    {
+      "parameter": "Residual Moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is FOXO4-DRI and how does it work?",
+      "answer": "FOXO4-DRI is a 47-amino acid D-Retro-Inverso peptide that disrupts the FOXO4-p53 interaction in senescent cells. FOXO4 normally sequesters p53 in the nucleus of senescent cells, preventing apoptosis. DRI displaces FOXO4 → releases p53 → triggers mitochondrial apoptosis cascade → selectively eliminates senescent cells."
+    },
+    {
+      "question": "What does D-Retro-Inverso mean?",
+      "answer": "The peptide is synthesized from all D-amino acids (not natural L-form) in reversed sequence order. Result: same 3D side-chain topology as natural L-peptide but completely resistant to proteolytic degradation — proteases only recognize L-amino acids."
+    },
+    {
+      "question": "How does FOXO4-DRI selectively target senescent cells?",
+      "answer": "Senescent cells accumulate high FOXO4-p53 complexes as part of their anti-apoptotic survival program. DRI specifically disrupts these. Healthy, proliferating cells have much lower complex levels and are correspondingly less affected."
+    },
+    {
+      "question": "What is the difference vs other senolytics?",
+      "answer": "Most senolytics (dasatinib, quercetin) target BCL-2 family proteins broadly. FOXO4-DRI targets a specific protein-protein interaction unique to senescent cell biology — the FOXO4-p53 nuclear complex — potentially providing greater senescent cell selectivity."
+    },
+    {
+      "question": "What QC is unique to FOXO4-DRI?",
+      "answer": "Beyond standard tests: chiral amino acid analysis confirms all D-configuration residues; MALDI-TOF MS for accurate mass of this larger 47-amino acid peptide. All in batch-specific COA."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Epithalon",
+      "subtitle": "Telomerase activator",
+      "url": "/products/epithalon/"
+    },
+    {
+      "name": "Semax",
+      "subtitle": "BDNF upregulator",
+      "url": "/products/semax/"
+    },
+    {
+      "name": "DSIP",
+      "subtitle": "Sleep peptide",
+      "url": "/products/dsip/"
+    },
+    {
+      "name": "Nootropic Category",
+      "subtitle": "All anti-aging peptides",
+      "url": "/products/nootropic-anti-aging/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. FOXO4-DRI is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source FOXO4-DRI?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order.",
+  "molecularFormula": "—"
+}

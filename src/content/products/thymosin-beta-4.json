@@ -1,0 +1,88 @@
+{
+  "slug": "thymosin-beta-4",
+  "name": "Thymosin Beta-4 Wholesale",
+  "nameShort": "Thymosin Beta-4",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "77591-33-4",
+  "molecularWeight": "~4,963.5 Da",
+  "sequence": "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₂₁₂H₃₅₀N₅₆O₇₈S",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "43",
+
+  "metaDescription": "Factory-direct Thymosin Beta-4 wholesale. CAS 77591-33-4, ~4,963.5 Da. ≥99% HPLC. Full-length tissue regeneration peptide. COA included.",
+  "heroSubtitle": "Full-length thymosin β4 — 43-amino acid actin-sequestering polypeptide for tissue regeneration research, manufacturer-direct",
+  "heroTitle": "Thymosin Beta-4 Wholesale",
+  "description": "Thymosin Beta-4 is a naturally occurring 43-amino acid polypeptide found in virtually all mammalian cells. It was originally identified as the thymic hormone responsible for T-cell maturation, but subsequent research revealed its primary intracellular function: G-actin sequestration. By maintaining the cellular actin monomer pool, Thymosin Beta-4 regulates cytoskeletal dynamics critical for cell migration, wound healing, and angiogenesis. Unlike its synthetic fragment TB-500, full-length Thymosin Beta-4 retains the complete N-terminal actin-binding domain and C-terminal regulatory regions, offering the full biological activity of the native protein.",
+  "sku": "PSH-TB4-5MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "77591-33-4" },
+    { "label": "Sequence", "value": "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES-OH" },
+    { "label": "Amino Acids", "value": "43" },
+    { "label": "Molecular Formula", "value": "C₂₁₂H₃₅₀N₅₆O₇₈S" },
+    { "label": "Molecular Weight", "value": "~4,963.5 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "5 mg × 10 vials", "bestFor": "Tissue regeneration models; evaluation" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label; bulk research" }
+  ],
+
+  "researchAreas": [
+    { "area": "Angiogenesis", "description": "Endothelial cell migration & capillary tube formation in wound models" },
+    { "area": "Dermal Wound Healing", "description": "Keratinocyte migration; accelerated re-epithelialization" },
+    { "area": "Cardiac Protection", "description": "Cardiomyocyte survival post-ischemia; Akt activation" },
+    { "area": "Inflammation Resolution", "description": "NF-κB suppression; M2 macrophage polarization" },
+    { "area": "Hair Follicle Cycling", "description": "Dermal papilla cell activation; anagen phase promotion" }
+  ],
+
+  "mechanisms": [
+    { "name": "G-Actin Sequestration", "description": "1:1 binding to monomeric actin (Kd ~0.7 μM) → maintains actin monomer pool for rapid filament assembly" },
+    { "name": "Cell Migration", "description": "Actin dynamics → lamellipodia formation in keratinocytes and endothelial cells" },
+    { "name": "Anti-Apoptotic Signaling", "description": "Akt/Bad pathway activation → mitochondrial outer membrane stabilization" },
+    { "name": "Anti-Inflammatory", "description": "Reduces TNF-α, IL-6; promotes M2 macrophage polarization via NF-κB modulation" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~4,963.5 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is the difference between TB-500 and Thymosin Beta-4?", "answer": "TB-500 is the synthetic N-terminal fragment (Ac-LKKTETQ, ~889 Da) of the full 43-amino acid Thymosin Beta-4 protein. TB-500 retains the core actin-binding motif but lacks the full C-terminal regulatory sequence. Thymosin Beta-4 is the complete native protein with broader biological activity including additional binding domains and post-translational interaction sites." },
+    { "question": "What research applications is Thymosin Beta-4 used for?", "answer": "Primarily wound healing, angiogenesis, cardiac protection, and tissue regeneration research. Its actin-sequestering activity makes it a key tool in cytoskeletal dynamics studies. Also investigated in dermal repair, corneal healing, and hair follicle biology." },
+    { "question": "How should Thymosin Beta-4 be stored and reconstituted?", "answer": "Reconstitute with sterile water or PBS (pH 7.0–7.4). The full-length protein is slightly more complex to handle than TB-500 due to its larger size. Aliquot single-use portions and store at -20°C. Avoid freeze-thaw cycles. Lyophilized powder: 24-month stability at 2–8°C." },
+    { "question": "Is Thymosin Beta-4 the same as Thymosin α1?", "answer": "No. Thymosin α1 (28 amino acids, ~3,108 Da) and Thymosin β4 (43 amino acids, ~4,964 Da) are distinct proteins with different biological roles. Thymosin α1 is primarily immunomodulatory, while Thymosin β4 is primarily involved in actin dynamics and tissue repair." },
+    { "question": "Do you offer custom Thymosin Beta-4 configurations?", "answer": "Yes. Standard kit is 5mg × 10 vials. Custom mg per vial and vial count available for qualifying wholesale orders. Contact us for a custom quotation including private-label options." }
+  ],
+
+  "relatedProducts": [
+    { "name": "TB-500", "subtitle": "Synthetic actin fragment", "url": "/products/tb-500/" },
+    { "name": "BPC-157", "subtitle": "Cytoprotective peptide", "url": "/products/bpc-157/" },
+    { "name": "Healing Category", "subtitle": "All repair peptides", "url": "/products/healing-recovery/" },
+    { "name": "Recovery Stack", "subtitle": "BPC+TB blend", "url": "/products/specialty-stacks/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Thymosin Beta-4 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Thymosin Beta-4?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

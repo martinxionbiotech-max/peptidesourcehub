@@ -1,0 +1,223 @@
+{
+  "slug": "hgh",
+  "name": "HGH Wholesale",
+  "nameShort": "HGH",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "12629-01-5",
+  "molecularWeight": "~22,125 Da",
+  "sequence": "191-amino acid polypeptide with 2 disulfide bonds (Cys⁵³-Cys¹⁶⁵, Cys¹⁸²-Cys¹⁸⁹)",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₉₉₀H₁₅₂₈N₂₆₂O₃₀₀S₇",
+  "solubility": "Sterile water or bacteriostatic water; gentle swirling",
+  "storage": "2–8°C (lyophilized); use promptly after reconstitution",
+  "metaDescription": "Human Growth Hormone (somatropin) lyophilized powder. CAS 12629-01-5, ~22125 Da. ≥99% HPLC purity. 191-amino acid polypeptide. 100/150/200 IU kit configurations. COA included. Tiered wholesale pricing.",
+  "heroSubtitle": "Human Growth Hormone (somatropin) — 191-amino acid central regulator of the GH/IGF-1 axis, batch-documented, manufacturer-direct",
+  "heroTitle": "HGH Wholesale",
+  "description": "Human Growth Hormone is a 191-amino acid, single-chain polypeptide synthesized by somatotroph cells in the anterior pituitary. It is the primary regulator of postnatal somatic growth and a key metabolic hormone — controlling the GH/IGF-1 axis via hypothalamic GHRH (+) and somatostatin (-) regulation.",
+  "sku": "PSH-HGH-100IU",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "12629-01-5"
+    },
+    {
+      "label": "Sequence",
+      "value": "191-amino acid polypeptide with 2 disulfide bonds (Cys⁵³-Cys¹⁶⁵, Cys¹⁸²-Cys¹⁸⁹)"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₉₉₀H₁₅₂₈N₂₆₂O₃₀₀S₇"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~22,125 Da"
+    },
+    {
+      "label": "Isoelectric Point",
+      "value": "~5.2"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Sterile water or bacteriostatic water; gentle swirling"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C (lyophilized); use promptly after reconstitution"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "100 IU Kit",
+      "content": "10 IU (~3.3mg) × 10 vials",
+      "bestFor": "Evaluation; small-scale research"
+    },
+    {
+      "name": "150 IU Kit",
+      "content": "15 IU (~5mg) × 10 vials",
+      "bestFor": "Medium-scale protocols"
+    },
+    {
+      "name": "200 IU Kit",
+      "content": "20 IU (~6.7mg) × 10 vials",
+      "bestFor": "High-throughput; bulk research"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom IU × custom vials",
+      "bestFor": "OEM; specific protocols"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Body Composition",
+      "description": "GH effects on lean mass, fat mass, bone density"
+    },
+    {
+      "area": "Muscle Protein",
+      "description": "Anabolic signaling; fractional synthetic rate"
+    },
+    {
+      "area": "Aging Research",
+      "description": "Age-related GH decline (somatopause); IGF-1 models"
+    },
+    {
+      "area": "Metabolism",
+      "description": "Lipolytic effects; insulin sensitivity modulation"
+    },
+    {
+      "area": "Recovery & Repair",
+      "description": "GH effects on tissue repair; collagen synthesis"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "JAK-STAT Signaling",
+      "description": "GH→GHR dimerization→JAK2→STAT5→IGF-1 transcription"
+    },
+    {
+      "name": "IGF-1 Cascade",
+      "description": "Hepatic IGF-1 production → systemic anabolic and growth effects"
+    },
+    {
+      "name": "Lipolysis",
+      "description": "Direct GH receptor activation on adipocytes → enhanced fat mobilization"
+    },
+    {
+      "name": "Protein Synthesis",
+      "description": "GH + IGF-1 → amino acid uptake and protein synthesis in skeletal muscle"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity (HPLC)",
+      "method": "RP-HPLC, C18",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity (MW)",
+      "method": "ESI-MS / MALDI-TOF",
+      "criterion": "~22,125 ± 5.0 Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Protein Content",
+      "method": "UV A₂₈₀ / Bradford",
+      "criterion": "≥90% of labeled content"
+    },
+    {
+      "parameter": "Purity (SDS-PAGE)",
+      "method": "Reducing SDS-PAGE",
+      "criterion": "Single band at ~22 kDa (bulk orders)"
+    },
+    {
+      "parameter": "Residual Moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Endotoxin",
+      "method": "LAL assay",
+      "criterion": "≤1.0 EU/mg (on request)"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What's the difference between HGH and GHS peptides (CJC-1295, Ipamorelin)?",
+      "answer": "HGH directly activates GH receptors on target tissues and stimulates IGF-1. GHS peptides (CJC-1295, Ipamorelin) stimulate pituitary release of endogenous GH. For direct GH receptor studies: use HGH. For GH axis regulation studies: use GHS peptides. In body composition research, HGH gives precise dose control; GHS peptides produce more physiological but less controllable responses."
+    },
+    {
+      "question": "How should HGH be reconstituted and stored?",
+      "answer": "Reconstitute with sterile or bacteriostatic water — add diluent gently down vial wall, don't squirt onto powder. Swirl gently (never shake or vortex — denatures protein). Store reconstituted at 2–8°C, use within 7–14 days. Never freeze-thaw — causes aggregation and bioactivity loss."
+    },
+    {
+      "question": "Which kit size should I order?",
+      "answer": "Rodent research: 100 IU kit (10 IU vials) for weight-based dosing. Larger animal models or high-concentration cell culture: 150 IU or 200 IU kits. Uncertain? Start with 100 IU evaluation. Contact us — share your model and we'll recommend the right configuration."
+    },
+    {
+      "question": "How do you verify it's actually intact HGH and not a fragment?",
+      "answer": "Three methods: (1) Mass spectrometry confirms MW ~22,125 Da ±5 Da — a fragment would show different mass. (2) SDS-PAGE shows single band at ~22 kDa — multiple bands = impurities or degradation. (3) RP-HPLC confirms ≥99% single-peak purity. All three in our QC release testing for research-grade HGH."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Semaglutide",
+      "subtitle": "Metabolic synergy",
+      "url": "/products/semaglutide/"
+    },
+    {
+      "name": "Tirzepatide",
+      "subtitle": "Dual GIP/GLP-1",
+      "url": "/products/tirzepatide/"
+    },
+    {
+      "name": "BPC-157",
+      "subtitle": "Healing + repair",
+      "url": "/products/bpc-157/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis peptides",
+      "url": "/products/muscle-growth/"
+    }
+  ],
+  "complianceText": "<strong>FOR LABORATORY RESEARCH USE ONLY.</strong> Not for human or veterinary diagnostic, therapeutic, or clinical use. <strong>HGH is a controlled substance in some jurisdictions</strong> — buyers are responsible for verifying the legal status of importation and possession in their country.",
+  "ctaText": "Ready to Source HGH?",
+  "ctaSubtitle": "Three kit configurations. Tiered pricing up to 70%. Full analytical QC: MS + SDS-PAGE + HPLC with every bulk order.",
+  "aminoAcids": "—"
+}

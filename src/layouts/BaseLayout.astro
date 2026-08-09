@@ -58,8 +58,7 @@ const pageDesc = description || title;
         { "@type": "ContactPoint", "contactType": "customer service", "email": "aaron@senobiocorp.com", "availableLanguage": ["English"] }
       ],
       "sameAs": [
-        "https://wa.me/64204310558",
-        "https://t.me/DrAaronWang"
+        "https://wa.me/64204310558"
       ]
     }
   </script>
@@ -71,6 +70,7 @@ const pageDesc = description || title;
 </head>
 
 <body class="font-sans bg-white text-dark min-h-screen flex flex-col">
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-navy-900 focus:rounded">Skip to content</a>
   <slot />
 
   <!-- Scroll-Reveal via Intersection Observer -->

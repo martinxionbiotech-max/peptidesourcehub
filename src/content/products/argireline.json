@@ -1,0 +1,87 @@
+{
+  "slug": "argireline",
+  "name": "Argireline Wholesale",
+  "nameShort": "Argireline",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "616204-22-9",
+  "molecularWeight": "~889.0 Da",
+  "sequence": "Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₄H₆₀N₁₄O₁₂S",
+  "solubility": "Soluble in sterile water; cosmetic formulation-compatible",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "6 (N-terminal acetyl, C-terminal amide)",
+
+  "metaDescription": "Factory-direct Argireline wholesale. CAS 616204-22-9, ~889.0 Da. ≥99% HPLC. Acetyl hexapeptide-8 — neurotransmitter release inhibitor. COA included.",
+  "heroSubtitle": "Acetyl hexapeptide-8 — SNARE complex formation inhibitor for expression line research, manufacturer-direct",
+  "heroTitle": "Argireline Wholesale",
+  "description": "Argireline (Acetyl Hexapeptide-8) is the most extensively studied anti-wrinkle peptide in cosmetic research. It functions as a competitive inhibitor of SNARE complex formation — the protein machinery that mediates synaptic vesicle docking and neurotransmitter release. By mimicking the N-terminal domain of SNAP-25, Argireline prevents formation of the ternary SNARE complex, reducing acetylcholine release at the neuromuscular junction. This produces a topical 'botulinum-mimetic' effect in research models.",
+  "sku": "PSH-ARGIR-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "616204-22-9" },
+    { "label": "Sequence", "value": "Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂" },
+    { "label": "Amino Acids", "value": "6 (N-terminal acetyl, C-terminal amide)" },
+    { "label": "Molecular Formula", "value": "C₃₄H₆₀N₁₄O₁₂S" },
+    { "label": "Molecular Weight", "value": "~889.0 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water; cosmetic formulation-compatible" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "Anti-wrinkle formulation research; evaluation" },
+    { "name": "Bulk Kit", "content": "50 mg × 10 vials", "bestFor": "Product development; pilot production" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label cosmetics" }
+  ],
+
+  "researchAreas": [
+    { "area": "Expression Lines", "description": "SNARE complex inhibition → reduced vesicle docking → decreased ACh release" },
+    { "area": "Forehead Wrinkles", "description": "Frontalis muscle relaxation in topical formulation models" },
+    { "area": "Crow's Feet", "description": "Periorbital wrinkle severity reduction in split-face studies" },
+    { "area": "Topical Botulinum-Mimetic", "description": "Non-invasive neurotransmitter modulation for cosmetic research" }
+  ],
+
+  "mechanisms": [
+    { "name": "SNARE Complex Disruption", "description": "Mimics SNAP-25 N-terminal → competes for ternary SNARE complex formation" },
+    { "name": "Vesicle Docking Inhibition", "description": "Prevents stable vesicle-membrane association → reduced exocytosis" },
+    { "name": "ACh Release Suppression", "description": "Decreased quantal acetylcholine release at neuromuscular junction" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~889.0 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "How does Argireline work in anti-wrinkle research?", "answer": "Argireline mimics the N-terminal domain of SNAP-25, competitively inhibiting formation of the SNARE complex. Without a functional SNARE complex, synaptic vesicles cannot dock — ACh release is reduced, muscle fibers relax, and expression lines diminish in topical models." },
+    { "question": "What distinguishes Argireline from Snap-8?", "answer": "Both target SNARE-mediated neurotransmitter release. Argireline prevents initial formation of the ternary SNARE complex. Snap-8 specifically targets the SNAP-25 binding site within an already-assembling complex. Argireline is the most-studied peptide in this class." },
+    { "question": "Is Argireline considered a 'topical Botox'?", "answer": "In research terminology, Argireline is described as a 'topical botulinum-mimetic' because both reduce ACh release at the NMJ. However, mechanisms differ: botulinum toxin proteolytically cleaves SNARE proteins, while Argireline competitively inhibits SNARE assembly. Non-invasive topical delivery is the key distinction." },
+    { "question": "What is the optimal pH for Argireline in formulations?", "answer": "Stable at pH 5.0–7.0. N-terminal acetylation and C-terminal amidation protect against exopeptidase degradation. Avoid strongly acidic (pH < 4) or alkaline (pH > 8) conditions." },
+    { "question": "What documentation is provided with Argireline?", "answer": "Batch-specific COA: HPLC purity (≥99%), ESI-MS identity, peptide content by amino acid analysis. Commercial invoice and packing list included. Full analytical package for bulk orders." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Snap-8", "subtitle": "Acetyl octapeptide-3", "url": "/products/snap-8/" },
+    { "name": "Leuphasyl", "subtitle": "Pentapeptide-18", "url": "/products/leuphasyl/" },
+    { "name": "GHK-Cu", "subtitle": "Copper tripeptide", "url": "/products/ghk-cu/" },
+    { "name": "Matrixyl", "subtitle": "Collagen signal peptide", "url": "/products/matrixyl/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Argireline is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Argireline?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

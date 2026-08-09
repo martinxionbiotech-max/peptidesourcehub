@@ -1,0 +1,200 @@
+{
+  "slug": "peg-mgf",
+  "name": "PEG-MGF Wholesale",
+  "nameShort": "PEG-MGF",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "— (IGF-1Ec splice variant, PEGylated)",
+  "molecularWeight": "~11,500 Da (PEG-protein conjugate)",
+  "sequence": "IGF-1Ec E-domain peptide (24-aa insert), PEGylated",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "~94 + PEG moiety",
+  "metaDescription": "Factory-direct PEG-MGF wholesale. MW ~11,500 Da. ≥99% HPLC. PEGylated IGF-1Ec — satellite cell activation. COA included.",
+  "heroSubtitle": "PEGylated IGF-1Ec splice variant — muscle stem cell (satellite cell) activation research, manufacturer-direct",
+  "heroTitle": "PEG-MGF Wholesale",
+  "description": "PEG-MGF (PEGylated Mechano Growth Factor) is a modified form of IGF-1Ec — the splice variant of IGF-1 preferentially expressed in skeletal muscle in response to mechanical load. MGF differs from systemic IGF-1 by a 24-amino acid C-terminal E-domain insert that confers distinct receptor binding and specifically activates muscle satellite (stem) cells. PEGylation extends the peptide's half-life from minutes to ~24 hours, making it viable for chronic muscle regeneration research.",
+  "sku": "PSH-PEGMGF-1MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "— (IGF-1Ec splice variant, PEGylated)"
+    },
+    {
+      "label": "Sequence",
+      "value": "IGF-1Ec E-domain peptide (24-aa insert), PEGylated"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "~94 + PEG moiety"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~11,500 Da (PEG-protein conjugate)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "1 mg × 10 vials",
+      "bestFor": "Satellite cell research; evaluation"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "2 mg × 10 vials",
+      "bestFor": "Muscle regeneration protocols; repeat orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Satellite Cell Activation",
+      "description": "Muscle stem cell proliferation and differentiation"
+    },
+    {
+      "area": "Muscle Regeneration",
+      "description": "Post-damage myofiber repair and hypertrophy models"
+    },
+    {
+      "area": "Sarcopenia Research",
+      "description": "Age-related muscle stem cell depletion countermeasures"
+    },
+    {
+      "area": "Exercise Recovery",
+      "description": "Mechanical load-induced MGF expression simulation"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "IGF-1Ec Signaling",
+      "description": "E-domain peptide binds distinct receptor from IGF-1 → satellite cell-specific activation"
+    },
+    {
+      "name": "PEG Conjugation",
+      "description": "Polyethylene glycol chain extends half-life from minutes to ~24 hours"
+    },
+    {
+      "name": "Myoblast Proliferation",
+      "description": "Satellite cell → myoblast → myotube fusion → new myofiber nuclei"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity (MW)",
+      "method": "MALDI-TOF MS",
+      "criterion": "~11,500 ± 500 Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "PEGylation",
+      "method": "SDS-PAGE",
+      "criterion": "Band shift confirmed"
+    },
+    {
+      "parameter": "Endotoxin",
+      "method": "LAL assay",
+      "criterion": "≤0.5 EU/mg"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Mechano Growth Factor (MGF)?",
+      "answer": "MGF is the IGF-1Ec splice variant expressed locally in skeletal muscle following mechanical load or damage. It contains a 24-amino acid E-domain that targets muscle satellite cells specifically. The 'mechano' prefix refers to its induction by mechanical stress."
+    },
+    {
+      "question": "Why is PEGylation necessary for MGF?",
+      "answer": "Native MGF has a very short half-life (minutes). PEGylation increases hydrodynamic radius, reduces renal clearance, and extends half-life to ~24 hours. Without PEGylation, MGF would not be viable for most research protocols."
+    },
+    {
+      "question": "How does MGF differ from standard IGF-1?",
+      "answer": "(1) MGF is a local splice variant expressed in muscle, not liver-derived; (2) the E-domain insert confers satellite cell receptor specificity; (3) MGF's primary role is stem cell activation/myoblast proliferation, while systemic IGF-1 primarily drives protein synthesis in mature myofibers."
+    },
+    {
+      "question": "What research applications use PEG-MGF?",
+      "answer": "Satellite cell (muscle stem cell) biology, muscle regeneration/repair following injury models, sarcopenia research, and exercise physiology studies exploring the MGF response to mechanical loading."
+    },
+    {
+      "question": "What QC is unique to PEG-MGF?",
+      "answer": "Beyond standard HPLC and MS: SDS-PAGE confirms PEGylation band shift; LAL endotoxin testing; NMR or colorimetric PEG verification. All in batch-specific COA."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "HGH",
+      "subtitle": "Growth hormone",
+      "url": "/products/hgh/"
+    },
+    {
+      "name": "CJC-1295 (DAC)",
+      "subtitle": "Sustained GHRH",
+      "url": "/products/cjc-1295-dac/"
+    },
+    {
+      "name": "Ipamorelin",
+      "subtitle": "Selective GHS-R agonist",
+      "url": "/products/ipamorelin/"
+    },
+    {
+      "name": "Muscle Category",
+      "subtitle": "All GH/IGF peptides",
+      "url": "/products/muscle-growth/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. PEG-MGF is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source PEG-MGF?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order.",
+  "molecularFormula": "—"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "semax",
+  "name": "Semax Wholesale",
+  "nameShort": "Semax",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "80714-61-0",
+  "molecularWeight": "~813.9 Da",
+  "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₇H₅₁N₉O₁₀S",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "7 (ACTH(4-7) + Pro-Gly-Pro C-terminal)",
+
+  "metaDescription": "Factory-direct Semax wholesale. CAS 80714-61-0, ~813.9 Da. ≥99% HPLC. BDNF/NGF upregulator — neuroprotection &amp; cognitive enhancement. COA included.",
+  "heroSubtitle": "ACTH(4–7)-Pro-Gly-Pro heptapeptide — BDNF upregulation & neuroprotection research, manufacturer-direct",
+  "heroTitle": "Semax Wholesale",
+  "description": "Semax is a synthetic heptapeptide developed at the Institute of Molecular Genetics of the Russian Academy of Sciences. It consists of the ACTH(4–7) fragment (Met-Glu-His-Phe) — the active core of adrenocorticotropic hormone that mediates neurotrophic effects without steroidogenic activity — extended with a C-terminal Pro-Gly-Pro tripeptide. Semax is the most extensively characterized nootropic peptide in the literature, with documented effects on BDNF and NGF expression, cognitive function, and neuroprotection across multiple paradigms.",
+  "sku": "PSH-SEMAX-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "80714-61-0" },
+    { "label": "Sequence", "value": "Met-Glu-His-Phe-Pro-Gly-Pro-OH" },
+    { "label": "Amino Acids", "value": "7 (ACTH(4-7) + Pro-Gly-Pro C-terminal)" },
+    { "label": "Molecular Formula", "value": "C₃₇H₅₁N₉O₁₀S" },
+    { "label": "Molecular Weight", "value": "~813.9 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "Neuroprotection studies; evaluation" },
+    { "name": "Bulk Kit", "content": "30 mg × 10 vials", "bestFor": "Chronic cognitive models; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Neuroprotection", "description": "Ischemia/hypoxia models — neuronal survival enhancement" },
+    { "area": "Cognitive Enhancement", "description": "Learning & memory consolidation in rodent models" },
+    { "area": "BDNF/NGF Upregulation", "description": "Neurotrophin expression — synaptic plasticity support" },
+    { "area": "Stroke Recovery", "description": "Post-ischemic neurological function improvement" },
+    { "area": "Optic Nerve Protection", "description": "Retinal ganglion cell survival in glaucoma models" }
+  ],
+
+  "mechanisms": [
+    { "name": "BDNF/NGF Upregulation", "description": "Enhanced transcription of neurotrophins → synaptic plasticity" },
+    { "name": "Melanocortin Receptor", "description": "MC4/MC5 receptor agonism → cAMP → CREB-mediated neurotrophin gene expression" },
+    { "name": "C-terminal PGP Motif", "description": "Pro-Gly-Pro extension enhances metabolic stability and BBB penetration" },
+    { "name": "Anti-Inflammatory", "description": "Reduced microglial activation; decreased IL-1β and TNF-α in CNS" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~813.9 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Met Oxidation", "method": "HPLC-MS", "criterion": "Met(O) ≤ 1%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is Semax and how does it relate to ACTH?", "answer": "Semax is a synthetic heptapeptide based on ACTH(4–7), the N-terminal fragment of ACTH that mediates neurotrophic effects without adrenal steroidogenesis. The C-terminal Pro-Gly-Pro extension confers metabolic stability and CNS penetration." },
+    { "question": "What is the mechanism of Semax's cognitive effects?", "answer": "Semax primarily upregulates BDNF and NGF via melanocortin receptor activation. Elevated neurotrophins support synaptic plasticity, neuronal survival, and cognitive function. Additional effects include anti-inflammatory microglial modulation and improved cerebral blood flow." },
+    { "question": "How does the Pro-Gly-Pro extension work?", "answer": "The C-terminal PGP tripeptide protects from carboxypeptidase degradation and enhances blood-brain barrier penetration. The Pro-Gly-Pro sequence itself has reported glyproline activity that may contribute to neuroprotection." },
+    { "question": "How does Semax differ from Selank?", "answer": "Both are Russian-developed nootropics with distinct mechanisms. Semax (ACTH-derived) → melanocortin receptors → BDNF/NGF → cognition. Selank (tuftsin-derived) → GABAergic/dopaminergic → anxiolysis. Complementary: Semax for cognition, Selank for anxiety." },
+    { "question": "What purity and QC is provided for Semax?", "answer": "≥99% HPLC with ESI-MS identity. Special QC: Met(O) content ≤ 1% (N-terminal methionine is oxidation-sensitive). Batch-specific COA included." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Selank", "subtitle": "Tuftsin-derived anxiolytic", "url": "/products/selank/" },
+    { "name": "Epithalon", "subtitle": "Telomerase activator", "url": "/products/epithalon/" },
+    { "name": "DSIP", "subtitle": "Sleep architecture peptide", "url": "/products/dsip/" },
+    { "name": "Nootropic Category", "subtitle": "All cognitive peptides", "url": "/products/nootropic-anti-aging/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Semax is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Semax?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

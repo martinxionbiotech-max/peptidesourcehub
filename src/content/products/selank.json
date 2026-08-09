@@ -1,0 +1,89 @@
+{
+  "slug": "selank",
+  "name": "Selank Wholesale",
+  "nameShort": "Selank",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "129954-34-1",
+  "molecularWeight": "~751.9 Da",
+  "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro-OH",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₃₃H₅₇N₁₁O₉",
+  "solubility": "Soluble in sterile water or PBS",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "7 (tuftsin analogue + Pro-Gly-Pro)",
+
+  "metaDescription": "Factory-direct Selank wholesale. CAS 129954-34-1, ~751.9 Da. ≥99% HPLC. Tuftsin analogue — anxiolytic without sedation. COA included.",
+  "heroSubtitle": "Tuftsin-derived heptapeptide — GABAergic/dopaminergic anxiolytic without sedation, manufacturer-direct",
+  "heroTitle": "Selank Wholesale",
+  "description": "Selank is a synthetic heptapeptide sharing the same Pro-Gly-Pro C-terminal extension design as Semax. While Semax derives from ACTH, Selank derives from tuftsin (Thr-Lys-Pro-Arg) — a natural immunomodulatory tetrapeptide. The Pro-Gly-Pro tail transforms tuftsin from a pure immune peptide into a dual-function molecule engaging the immune-neural interface while enabling CNS penetration. Selank's primary research application is anxiolysis through GABAergic and dopaminergic modulation — producing anxiety reduction without sedation, cognitive impairment, or dependence liability.",
+  "sku": "PSH-SELANK-10MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "129954-34-1" },
+    { "label": "Sequence", "value": "Thr-Lys-Pro-Arg-Pro-Gly-Pro-OH" },
+    { "label": "Amino Acids", "value": "7 (tuftsin analogue + Pro-Gly-Pro)" },
+    { "label": "Molecular Formula", "value": "C₃₃H₅₇N₁₁O₉" },
+    { "label": "Molecular Weight", "value": "~751.9 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile water or PBS" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "10 mg × 10 vials", "bestFor": "Anxiolytic research; evaluation" },
+    { "name": "Bulk Kit", "content": "30 mg × 10 vials", "bestFor": "Chronic anxiety models; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label" }
+  ],
+
+  "researchAreas": [
+    { "area": "Anxiolysis", "description": "GABAergic modulation — anxiety reduction without sedation in models" },
+    { "area": "Cognitive Function", "description": "Learning & memory preservation under stress conditions" },
+    { "area": "Immune-Neural Bridge", "description": "Tuftsin-derived immunomodulation → CNS effects" },
+    { "area": "Stress Resilience", "description": "HPA axis modulation; cortisol reduction in stress models" },
+    { "area": "Antiviral Research", "description": "Tuftsin-mediated immune enhancement against viral challenges" }
+  ],
+
+  "mechanisms": [
+    { "name": "GABAergic Modulation", "description": "Positive modulation of GABA-A receptor function → anxiolysis without sedation" },
+    { "name": "Dopaminergic System", "description": "Modulation of dopamine turnover → cognitive preservation under stress" },
+    { "name": "Immune Modulation", "description": "Tuftsin-derived Thr-Lys-Pro-Arg motif → macrophage/neutrophil activation" },
+    { "name": "C-terminal PGP", "description": "Pro-Gly-Pro extension → enhanced stability and BBB penetration (shared with Semax)" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~751.9 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "How does Selank compare to benzodiazepines?", "answer": "Selank produces anxiolytic effects through GABAergic modulation without sedation, amnesia, tolerance, or withdrawal. Rather than directly agonizing GABA-A, Selank modulates endogenous GABA tone — a more subtle mechanism preserving cognitive function and alertness." },
+    { "question": "What is the connection between tuftsin and Selank?", "answer": "Tuftsin (Thr-Lys-Pro-Arg) is a natural splenic tetrapeptide that activates macrophages. Selank adds Pro-Gly-Pro to tuftsin, creating dual functionality: immunomodulation + CNS delivery. This immune-neural bridge is a defining feature of Selank's pharmacology." },
+    { "question": "How does Selank differ from Semax?", "answer": "Both are PGP-extended heptapeptides but from different parents. Semax (ACTH-derived) → melanocortin → BDNF/NGF → cognition. Selank (tuftsin-derived) → GABA/dopamine → anxiolysis. Complementary: Semax for cognition, Selank for anxiety." },
+    { "question": "Does Selank cause sedation?", "answer": "No — a significant distinction from benzodiazepines. In animal models, Selank produces anxiolytic effects at doses that do not cause sedation, motor impairment, or amnesia. Attributed to modulation of endogenous GABA tone rather than direct receptor agonism." },
+    { "question": "What purity and QC is provided?", "answer": "≥99% HPLC purity, ESI-MS identity, amino acid analysis. Pro-Gly-Pro extension verified by MS/MS fragmentation. Batch-specific COA included." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Semax", "subtitle": "ACTH-derived nootropic", "url": "/products/semax/" },
+    { "name": "Epithalon", "subtitle": "Telomerase activator", "url": "/products/epithalon/" },
+    { "name": "DSIP", "subtitle": "Sleep architecture peptide", "url": "/products/dsip/" },
+    { "name": "Nootropic Category", "subtitle": "All cognitive peptides", "url": "/products/nootropic-anti-aging/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Selank is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source Selank?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}

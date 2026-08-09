@@ -1,0 +1,87 @@
+{
+  "slug": "cjc-1295-dac",
+  "name": "CJC-1295 (DAC) Wholesale",
+  "nameShort": "CJC-1295 (DAC)",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "863288-34-0",
+  "molecularWeight": "~3,649.2 Da",
+  "sequence": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys(Maleimidopropionyl)-NH₂",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "molecularFormula": "C₁₅₂H₂₅₂N₄₄O₄₂",
+  "solubility": "Soluble in sterile or bacteriostatic water",
+  "storage": "2–8°C, desiccated, protect from light",
+  "aminoAcids": "30 (C-terminal DAC linker)",
+
+  "metaDescription": "Factory-direct CJC-1295 with DAC wholesale. CAS 863288-34-0, ~3,649.2 Da. ≥99% HPLC. Long-acting GHRH analogue. COA included.",
+  "heroSubtitle": "Long-acting GHRH analogue with Drug Affinity Complex — sustained GH pulse research, manufacturer-direct",
+  "heroTitle": "CJC-1295 (DAC) Wholesale",
+  "description": "CJC-1295 is a synthetic analogue of Growth Hormone-Releasing Hormone (GHRH) engineered with four amino acid substitutions that enhance receptor binding and proteolytic stability. The defining feature of the DAC (Drug Affinity Complex) variant is a maleimidopropionyl linker on the C-terminal lysine that covalently binds to Cys³⁴ of serum albumin — extending circulating half-life from ~7 minutes to ~8 days. For research protocols requiring chronic GH/IGF-1 axis activation, CJC-1295 with DAC is the tool of choice.",
+  "sku": "PSH-CJC1295D-2MG",
+
+  "specifications": [
+    { "label": "CAS Number", "value": "863288-34-0" },
+    { "label": "Sequence", "value": "Tyr-D-Ala-Asp-Ala-Ile-Phe-Thr-Gln-Ser-Tyr-Arg-Lys-Val-Leu-Ala-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Leu-Ser-Arg-Lys(Maleimidopropionyl)-NH₂" },
+    { "label": "Amino Acids", "value": "30 (C-terminal DAC linker)" },
+    { "label": "Molecular Formula", "value": "C₁₅₂H₂₅₂N₄₄O₄₂" },
+    { "label": "Molecular Weight", "value": "~3,649.2 Da" },
+    { "label": "Appearance", "value": "White to off-white lyophilized powder" },
+    { "label": "Purity", "value": "≥99% by HPLC" },
+    { "label": "Solubility", "value": "Soluble in sterile or bacteriostatic water" },
+    { "label": "Storage", "value": "2–8°C, desiccated, protect from light" }
+  ],
+
+  "configurations": [
+    { "name": "Standard Kit", "content": "2 mg × 10 vials", "bestFor": "GH pulse research; evaluation" },
+    { "name": "Bulk Kit", "content": "5 mg × 10 vials", "bestFor": "Chronic GH axis studies; repeat orders" },
+    { "name": "Custom", "content": "Custom mg × custom vials", "bestFor": "OEM; private-label; protocol-specific" }
+  ],
+
+  "researchAreas": [
+    { "area": "GH Secretion", "description": "Sustained GHRH receptor activation → prolonged GH elevation" },
+    { "area": "Body Composition", "description": "Lean mass preservation; fat mass reduction models" },
+    { "area": "Muscle Protein Synthesis", "description": "GH/IGF-1 axis-mediated anabolic signaling" },
+    { "area": "Recovery Research", "description": "Post-exercise GH pulse augmentation in trained models" }
+  ],
+
+  "mechanisms": [
+    { "name": "GHRH-R Agonism", "description": "Full GHRH receptor activation → cAMP → GH synthesis and release from pituitary" },
+    { "name": "DAC-Albumin Conjugation", "description": "Maleimidopropionyl linker covalently binds Cys³⁴ of serum albumin → half-life extended from ~7 min to ~8 days" },
+    { "name": "IGF-1 Cascade", "description": "Sustained GH → hepatic IGF-1 production → systemic anabolic signaling" }
+  ],
+
+  "qualitySpecs": [
+    { "parameter": "Purity", "method": "HPLC at 214 nm, C18 column", "criterion": "≥99.0% peak area" },
+    { "parameter": "Identity (MW)", "method": "ESI-MS", "criterion": "~3,649.2 ± 1.0 Da" },
+    { "parameter": "Appearance", "method": "Visual inspection", "criterion": "White to off-white powder" },
+    { "parameter": "Peptide Content", "method": "Amino acid analysis", "criterion": "≥80% net peptide" },
+    { "parameter": "Residual Moisture", "method": "Karl Fischer", "criterion": "≤3%" }
+  ],
+
+  "pricingTiers": [
+    { "volume": "1 kit", "discount": "List price", "audience": "Evaluation; competitive analysis" },
+    { "volume": "5+ kits", "discount": "10% off", "audience": "Initial portfolio expansion" },
+    { "volume": "20+ kits", "discount": "20% off", "audience": "Mid-size distributors" },
+    { "volume": "50+ kits", "discount": "30% off", "audience": "Regional distributors" }
+  ],
+
+  "faq": [
+    { "question": "What is the DAC in CJC-1295?", "answer": "DAC stands for Drug Affinity Complex — a maleimidopropionyl linker that covalently binds to Cys³⁴ of serum albumin. This conjugation extends half-life from minutes to ~8 days by preventing renal clearance and enzymatic degradation." },
+    { "question": "Difference between CJC-1295 with DAC and without DAC?", "answer": "With DAC: ~8 day half-life → sustained GHRH activation → chronic GH/IGF-1. Without DAC: ~30 min half-life → discrete GH pulse → mimics endogenous pulsatile secretion. Choice depends on research objective." },
+    { "question": "Why pair CJC-1295 with Ipamorelin?", "answer": "CJC-1295 amplifies the GHRH signal (the 'on' switch). Ipamorelin suppresses somatostatin tone (the 'off' switch). Together they produce a larger net GH pulse than either alone — well-characterized synergism." },
+    { "question": "How should CJC-1295 (DAC) be stored?", "answer": "Lyophilized: 2–8°C, desiccated, 24-month stability. After reconstitution, store at 2–8°C. The DAC-albumin conjugate forms spontaneously — this is expected and part of the molecule's designed mechanism." },
+    { "question": "What configurations are available?", "answer": "Standard: 2mg × 10 vials. Bulk: 5mg × 10 vials. Custom mg/vial for OEM/private-label. CJC-1295 (no DAC) also available as a separate SKU for pulsatile GH protocols." }
+  ],
+
+  "relatedProducts": [
+    { "name": "Ipamorelin", "subtitle": "Selective GHS-R agonist", "url": "/products/ipamorelin/" },
+    { "name": "GHRP-2", "subtitle": "Potent GHS-R agonist", "url": "/products/ghrp-2/" },
+    { "name": "HGH", "subtitle": "Direct GH receptor agonist", "url": "/products/hgh/" },
+    { "name": "Muscle Category", "subtitle": "All GH peptides", "url": "/products/muscle-growth/" }
+  ],
+
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. CJC-1295 (DAC) is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary diagnostic/therapeutic/prophylactic use. Not a dietary supplement, pharmaceutical ingredient, or approved drug substance.",
+  "ctaText": "Ready to Source CJC-1295 (DAC)?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 70%, COA with every order."
+}
