@@ -32,13 +32,14 @@ const channels = [
     cta: "Send Email"
   },
 ];
-const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How quickly will I receive a quote?", "acceptedAnswer": {"@type": "Answer", "text": "We respond to all inquiries within 24 hours. For urgent wholesale quotes, contact Dr. Aaron Wang via WhatsApp (+64 20 431 0558)."}}, {"@type": "Question", "name": "What information should I include in my inquiry?", "acceptedAnswer": {"@type": "Answer", "text": "Peptide(s) of interest, quantity, purity requirements, documentation needs, and shipping destination. The more detail, the faster we can provide an accurate quote."}}, {"@type": "Question", "name": "Do you ship to my country?", "acceptedAnswer": {"@type": "Answer", "text": "North America, EU, UK, Australia, NZ, Japan, South Korea, Singapore, and most APAC via DHL/FedEx/UPS/TNT. Contact us to confirm your specific location."}}, {"@type": "Question", "name": "Can I schedule a video call?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Video consultations via WhatsApp or Zoom with Dr. Aaron Wang for technical discussions bridging requirements with manufacturing capabilities."}}, {"@type": "Question", "name": "What payment methods do you accept?", "acceptedAnswer": {"@type": "Answer", "text": "Wire transfer (preferred), credit card via secure processor, PayPal for evaluation orders under $1,000. Net-30 terms for approved institutional accounts."}}]};
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How quickly will I receive a quote?", "acceptedAnswer": {"@type": "Answer", "text": "We respond to all inquiries within 24 hours. For urgent wholesale quotes, contact Dr. Aaron Wang via WhatsApp (+64 20 431 0558) or Telegram (@DrAaronWang)."}}, {"@type": "Question", "name": "What information should I include in my inquiry?", "acceptedAnswer": {"@type": "Answer", "text": "Peptide(s) of interest, quantity, purity requirements, documentation needs, and shipping destination. The more detail, the faster we can provide an accurate quote."}}, {"@type": "Question", "name": "Do you ship to my country?", "acceptedAnswer": {"@type": "Answer", "text": "North America, EU, UK, Australia, NZ, Japan, South Korea, Singapore, and most APAC via DHL/FedEx/UPS/TNT. Contact us to confirm your specific location."}}, {"@type": "Question", "name": "Can I schedule a video call?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Video consultations via WhatsApp, Telegram, or Zoom with Dr. Aaron Wang for technical discussions bridging requirements with manufacturing capabilities."}}, {"@type": "Question", "name": "What payment methods do you accept?", "acceptedAnswer": {"@type": "Answer", "text": "Wire transfer (preferred), credit card via secure processor, PayPal for evaluation orders under $1,000. Net-30 terms for approved institutional accounts."}}]};
+const allJsonLd = [jsonLd, faqJson];
 ---
 
 <PageLayout
   title="Contact Dr. Aaron Wang — Peptides Source Hub"
-  description="Contact Dr. Aaron Wang for wholesale peptide pricing and technical inquiries. WhatsApp, email. PhD biologist with 15 years international experience."
-  {jsonLd}
+  description="Contact Dr. Aaron Wang for wholesale peptide pricing and technical inquiries. WhatsApp, Telegram, email. PhD biologist with 15 years international experience."
+  jsonLd={allJsonLd}
 >
 
 <!-- Page Header -->

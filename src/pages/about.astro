@@ -31,12 +31,13 @@ const team = [
   ["Kevin Zhang", "Global Logistics & Fulfillment Manager", "Coordinates international order fulfillment, export documentation, and logistics partner relationships."],
 ];
 const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where are your peptides manufactured?", "acceptedAnswer": {"@type": "Answer", "text": "All synthesis, purification, lyophilization, and vial filling at our Shenzhen, China facility. We are a factory-direct manufacturer, not a reseller."}}, {"@type": "Question", "name": "What quality certifications do you hold?", "acceptedAnswer": {"@type": "Answer", "text": "Our facility operates under ISO 9001 quality management standards. Every batch: HPLC purity analysis and ESI-MS identity confirmation. Batch-specific COA."}}, {"@type": "Question", "name": "How many products do you manufacture?", "acceptedAnswer": {"@type": "Answer", "text": "58 standard peptide SKUs across 6 research categories. Over 2 million vials produced since 2009, serving 3,000+ B2B customers globally."}}, {"@type": "Question", "name": "Who leads the team at Peptides Source Hub?", "acceptedAnswer": {"@type": "Answer", "text": "Dr. Aaron Wang (PhD Biology, 15 years New Zealand life sciences) leads international sales. Daniel Chen (15 years peptide synthesis) oversees manufacturing and QC."}}, {"@type": "Question", "name": "What is your production capacity?", "acceptedAnswer": {"@type": "Answer", "text": "2M+ vials produced since 2009. Standard order-to-dispatch lead time: 5-7 business days. Annual contracts with priority scheduling available."}}]};
+const allJsonLd = [jsonLd, faqJson];
 ---
 
 <PageLayout
   title="About Our Factory"
   description="Since 2009, Peptides Source Hub has manufactured research-grade lyophilized peptides from our Shenzhen, China facility. Meet our team and quality workflow."
-  {jsonLd}
+  jsonLd={allJsonLd}
 >
 
 <!-- Page Header -->
