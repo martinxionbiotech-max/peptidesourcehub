@@ -21,11 +21,21 @@ const jsonLd = {
   "name": p.name,
   "description": p.metaDescription,
   "sku": p.sku,
+  // Inquiry-mode Offer: the page shows no price (wholesale list price lives in a
+  // downloadable PDF), so price/priceCurrency must NOT be emitted. An AggregateOffer
+  // without lowPrice is invalid for Google, which surfaced as
+  // "Either \"offers\", \"review\", or \"aggregateRating\" should be specified".
   "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "offerCount": 5,
+    "@type": "Offer",
+    "url": `https://peptidesourcehub.net/products/${p.slug}/`,
     "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "businessFunction": "https://schema.org/Sell",
+    "seller": {
+      "@type": "Organization",
+      "name": "Peptides Source Hub",
+      "url": "https://peptidesourcehub.net",
+    },
   },
   "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
 };
