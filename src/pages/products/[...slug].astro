@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import PageLayout from "../../layouts/PageLayout.astro";
+import { PRICE_TEXT, productOffers } from "../../data/pricing";
 
 export async function getStaticPaths() {
   const products = await getCollection("products");
@@ -21,22 +22,15 @@ const jsonLd = {
   "name": p.name,
   "description": p.metaDescription,
   "sku": p.sku,
-  // Inquiry-mode Offer: the page shows no price (wholesale list price lives in a
-  // downloadable PDF), so price/priceCurrency must NOT be emitted. An AggregateOffer
-  // without lowPrice is invalid for Google, which surfaced as
+  // Priced AggregateOffer: lowPrice/highPrice come from src/data/pricing.ts — the same
+  // constants the page renders below, so structured data and visible content cannot drift.
+  // Google requires Product-family nodes to carry offers (and an Offer without a price is
+  // not a valid price declaration), which is what surfaced as
   // "Either \"offers\", \"review\", or \"aggregateRating\" should be specified".
-  "offers": {
-    "@type": "Offer",
-    "url": `https://peptidesourcehub.net/products/${p.slug}/`,
-    "availability": "https://schema.org/InStock",
-    "itemCondition": "https://schema.org/NewCondition",
-    "businessFunction": "https://schema.org/Sell",
-    "seller": {
-      "@type": "Organization",
-      "name": "Peptides Source Hub",
-      "url": "https://peptidesourcehub.net",
-    },
-  },
+  "offers": productOffers(
+    `https://peptidesourcehub.net/products/${p.slug}/`,
+    p.configurations.length
+  ),
   "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
 };
 
@@ -317,6 +311,7 @@ const title = `${p.nameShort} | Buy Wholesale`;
 <section class="section bg-white">
   <div class="container-wide mx-auto px-4">
     <h2 class="text-center mb-6">Tiered Wholesale Pricing</h2>
+    <p class="text-center text-gray-600 mb-6">List price: {PRICE_TEXT}</p>
     <div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
       <table class="w-full text-sm bg-white">
         <thead>

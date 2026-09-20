@@ -1,0 +1,46 @@
+import { getCollection } from 'astro:content';
+import { DATASET_DESCRIPTION, DATASET_NAME } from '../../data/pricing';
+
+/**
+ * /data/peptides.json —— 由产品内容集合构建的机器可读数据集。
+ * 与产品页共享同一数据源，不额外维护一份。
+ */
+export async function GET() {
+  const products = await getCollection('products');
+  const sorted = [...products].sort((a, b) => a.data.nameShort.localeCompare(b.data.nameShort));
+
+  const records = sorted.map((p) => ({
+    slug: p.data.slug,
+    name: p.data.nameShort,
+    catalogName: p.data.name,
+    category: p.data.categoryLabel,
+    cas: p.data.cas,
+    molecularFormula: p.data.molecularFormula,
+    molecularWeight: p.data.molecularWeight,
+    sequence: p.data.sequence,
+    aminoAcids: p.data.aminoAcids,
+    purityCriterion: p.data.purity,
+    appearance: p.data.appearance,
+    solubility: p.data.solubility,
+    storage: p.data.storage,
+    kitConfigurations: p.data.configurations.map((c) => `${c.name}: ${c.content}`).join('; '),
+    productUrl: `https://peptidesourcehub.net/products/${p.data.slug}/`,
+  }));
+
+  return new Response(
+    JSON.stringify(
+      {
+        name: DATASET_NAME,
+        description: DATASET_DESCRIPTION,
+        recordCount: records.length,
+        license: 'https://peptidesourcehub.net/terms/',
+        publisher: 'Peptides Source Hub',
+        source: 'https://peptidesourcehub.net/products/',
+        records,
+      },
+      null,
+      2
+    ),
+    { headers: { 'Content-Type': 'application/json; charset=utf-8' } }
+  );
+}
