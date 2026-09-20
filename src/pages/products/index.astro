@@ -2,12 +2,13 @@
 import PageLayout from "../../layouts/PageLayout.astro";
 import { getCollection } from "astro:content";
 import {
+  CATALOG_PRICE_TEXT,
   DATASET_DESCRIPTION,
   DATASET_KEYWORDS,
   DATASET_NAME,
   DATASET_PATH,
   DATASET_VARIABLES,
-  PRICE_TEXT,
+  priceBand,
   productOffers,
 } from "../../data/pricing";
 
@@ -17,15 +18,15 @@ const collectionPageLd = {
   "@type": "CollectionPage",
   "name": "Research Peptides & HGH — Products Catalog",
   "description": "58+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, Cagrilintide, Retatrutide, GHK-Cu, HGH.",
-  "hasPart": [
-    { "@type": "Product", "name": "BPC-157", "url": "https://peptidesourcehub.net/products/bpc-157/", "offers": productOffers("https://peptidesourcehub.net/products/bpc-157/") },
-    { "@type": "Product", "name": "TB-500", "url": "https://peptidesourcehub.net/products/tb-500/", "offers": productOffers("https://peptidesourcehub.net/products/tb-500/") },
-    { "@type": "Product", "name": "Semaglutide", "url": "https://peptidesourcehub.net/products/semaglutide/", "offers": productOffers("https://peptidesourcehub.net/products/semaglutide/") },
-    { "@type": "Product", "name": "Tirzepatide", "url": "https://peptidesourcehub.net/products/tirzepatide/", "offers": productOffers("https://peptidesourcehub.net/products/tirzepatide/") },
-    { "@type": "Product", "name": "Cagrilintide", "url": "https://peptidesourcehub.net/products/cagrilintide/", "offers": productOffers("https://peptidesourcehub.net/products/cagrilintide/") },
-    { "@type": "Product", "name": "Retatrutide", "url": "https://peptidesourcehub.net/products/retatrutide/", "offers": productOffers("https://peptidesourcehub.net/products/retatrutide/") },
-    { "@type": "Product", "name": "GHK-Cu", "url": "https://peptidesourcehub.net/products/ghk-cu/", "offers": productOffers("https://peptidesourcehub.net/products/ghk-cu/") },
-    { "@type": "Product", "name": "HGH", "url": "https://peptidesourcehub.net/products/hgh/", "offers": productOffers("https://peptidesourcehub.net/products/hgh/") },
+    "hasPart": [
+    { "@type": "Product", "name": "BPC-157", "url": "https://peptidesourcehub.net/products/bpc-157/", "offers": productOffers("https://peptidesourcehub.net/products/bpc-157/", priceBand("bpc-157")) },
+    { "@type": "Product", "name": "TB-500", "url": "https://peptidesourcehub.net/products/tb-500/", "offers": productOffers("https://peptidesourcehub.net/products/tb-500/", priceBand("tb-500")) },
+    { "@type": "Product", "name": "Semaglutide", "url": "https://peptidesourcehub.net/products/semaglutide/", "offers": productOffers("https://peptidesourcehub.net/products/semaglutide/", priceBand("semaglutide")) },
+    { "@type": "Product", "name": "Tirzepatide", "url": "https://peptidesourcehub.net/products/tirzepatide/", "offers": productOffers("https://peptidesourcehub.net/products/tirzepatide/", priceBand("tirzepatide")) },
+    { "@type": "Product", "name": "Cagrilintide", "url": "https://peptidesourcehub.net/products/cagrilintide/", "offers": productOffers("https://peptidesourcehub.net/products/cagrilintide/", priceBand("cagrilintide")) },
+    { "@type": "Product", "name": "Retatrutide", "url": "https://peptidesourcehub.net/products/retatrutide/", "offers": productOffers("https://peptidesourcehub.net/products/retatrutide/", priceBand("retatrutide")) },
+    { "@type": "Product", "name": "GHK-Cu", "url": "https://peptidesourcehub.net/products/ghk-cu/", "offers": productOffers("https://peptidesourcehub.net/products/ghk-cu/", priceBand("ghk-cu")) },
+    { "@type": "Product", "name": "HGH", "url": "https://peptidesourcehub.net/products/hgh/", "offers": productOffers("https://peptidesourcehub.net/products/hgh/", priceBand("hgh")) },
   ],
 };
 
@@ -70,7 +71,7 @@ const categories = [
   <div class="container-wide mx-auto px-4 text-center relative z-10 animate-on-scroll">
     <h1 class="text-white text-4xl md:text-5xl">Research Peptides & HGH</h1>
     <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">58+ peptides across 6 research categories. ≥99% HPLC purity standard. Every kit includes a Certificate of Analysis. Factory-direct from Shenzhen.</p>
-    <p class="mt-3 text-gray-200 text-sm">Wholesale list price: {PRICE_TEXT}</p>
+    <p class="mt-3 text-gray-200 text-sm">Wholesale list price: {CATALOG_PRICE_TEXT}</p>
     <div class="flex flex-wrap justify-center gap-3 mt-6">
       {["≥99% HPLC","COA with every order","Batch traceability","Tiered pricing"].map(b=>(<span class="px-3 py-1 rounded-full bg-white/10 text-gray-200 text-xs">{b}</span>))}
     </div>

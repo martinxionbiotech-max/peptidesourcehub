@@ -2,7 +2,14 @@
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import PageLayout from "../../layouts/PageLayout.astro";
-import { PRICE_TEXT, productOffers } from "../../data/pricing";
+import {
+  PRICE_LIST_UPDATED,
+  PRICE_LIST_URL,
+  VOLUME_DISCOUNT_TEXT,
+  priceBand,
+  priceText,
+  productOffers,
+} from "../../data/pricing";
 
 export async function getStaticPaths() {
   const products = await getCollection("products");
@@ -15,6 +22,7 @@ const product = products.find((p) => p.data.slug === slug);
 if (!product) return Astro.redirect("/404");
 
 const p = product.data;
+const band = priceBand(p.slug);
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -29,6 +37,7 @@ const jsonLd = {
   // "Either \"offers\", \"review\", or \"aggregateRating\" should be specified".
   "offers": productOffers(
     `https://peptidesourcehub.net/products/${p.slug}/`,
+    band,
     p.configurations.length
   ),
   "manufacturer": { "@type": "Organization", "name": "Peptides Source Hub" },
@@ -311,7 +320,32 @@ const title = `${p.nameShort} | Buy Wholesale`;
 <section class="section bg-white">
   <div class="container-wide mx-auto px-4">
     <h2 class="text-center mb-6">Tiered Wholesale Pricing</h2>
-    <p class="text-center text-gray-600 mb-6">List price: {PRICE_TEXT}</p>
+    {band.specific ? (
+      <div class="max-w-2xl mx-auto mb-3 overflow-x-auto rounded-2xl border border-gray-200">
+        <table class="w-full text-sm bg-white">
+          <thead>
+            <tr class="bg-surface">
+              <th class="text-left py-2 px-4 font-semibold text-primary">Kit size</th>
+              <th class="text-left py-2 px-4 font-semibold text-primary">Code</th>
+              <th class="text-right py-2 px-4 font-semibold text-primary">List price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {band.rows.map((r) => (
+              <tr class="border-t border-gray-100">
+                <td class="py-2 px-4">{r.spec}</td>
+                <td class="py-2 px-4 text-gray-500">{r.code}</td>
+                <td class="py-2 px-4 text-right font-semibold text-accent-dark">US${r.usd}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ) : null}
+    <p class="text-center text-gray-600 mb-6 text-sm">
+      {priceText(band)} — source:
+      <a href={PRICE_LIST_URL} class="underline">wholesale price list (PDF, updated {PRICE_LIST_UPDATED})</a>.
+    </p>
     <div class="max-w-2xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
       <table class="w-full text-sm bg-white">
         <thead>
