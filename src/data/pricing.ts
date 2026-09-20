@@ -21,8 +21,12 @@ export interface PriceRow {
 export const PRICE_LIST_URL = '/download/product-list-price.pdf';
 export const PRICE_LIST_UPDATED = '2026-08-08';
 
-/** 阶梯折扣口径（与页面 Tiered Wholesale Pricing 表一致） */
-export const VOLUME_DISCOUNT_TEXT = 'volume discounts of 10–70% from 5 kits';
+/**
+ * 阶梯折扣口径。
+ * 站点现有文案自称「up to 70%」，而 Tiered Wholesale Pricing 表最高只到 30%（50+ kits）——
+ * 二者矛盾（既有内容问题，需用户裁定）。这里不引具体数字，避免替其背书，也不与页面冲突。
+ */
+export const VOLUME_DISCOUNT_TEXT = 'tiered volume discounts apply (see the tier table)';
 
 /**
  * 站点产品 slug → 价目表行。
