@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
+import RuoNotice from "../../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -24,7 +25,7 @@ const pathways = [
   ["Sleep Architecture","DSIP","Delta wave promotion → restorative sleep regulation"],
   ["Cellular Senescence","FOXO4-DRI","p53-mediated senescent cell clearance"],
 ];
-const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What nootropic and anti-aging peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "A curated selection of peptides for cognitive function, neuroprotection, and longevity research. All ≥99% HPLC purity with batch-specific COA. Contact us for complete catalog listing."}}, {"@type": "Question", "name": "What purity standard applies to nootropic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all nootropic and anti-aging research peptides. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "How are nootropic peptides shipped?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized powder via DHL/FedEx international priority (2-6 business days). Temperature-controlled packaging. Tracking number within 3 business days."}}, {"@type": "Question", "name": "What is the minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "1 kit (standard configuration) for evaluation. No MOQ. Bulk tiered pricing: 10-70% off depending on volume. Mixed-molecule orders qualify for combined tiers."}}, {"@type": "Question", "name": "How should nootropic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. 12-24 month stability depending on peptide. Reconstituted: aliquot at -20°C to -80°C. Avoid freeze-thaw cycles."}}]};
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What nootropic and anti-aging peptides are available?", "acceptedAnswer": {"@type": "Answer", "text": "A curated selection of peptides for cognitive function, neuroprotection, and longevity research. All ≥99% HPLC purity with batch-specific COA. Contact us for complete catalog listing."}}, {"@type": "Question", "name": "What purity standard applies to nootropic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all nootropic and anti-aging research peptides. Batch-specific COA included with every order."}}, {"@type": "Question", "name": "How are nootropic peptides shipped?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized powder via DHL/FedEx international priority (2-6 business days). Temperature-controlled packaging. Tracking number within 3 business days."}}, {"@type": "Question", "name": "What is the minimum order quantity?", "acceptedAnswer": {"@type": "Answer", "text": "1 kit (standard configuration) for evaluation. No MOQ. Bulk tiered pricing: 10-30% off depending on volume (5+, 20+, 50+ kit tiers). Mixed-molecule orders qualify for combined tiers."}}, {"@type": "Question", "name": "How should nootropic peptides be stored?", "acceptedAnswer": {"@type": "Answer", "text": "Lyophilized: 2-8°C, desiccated, protected from light. 12-24 month stability depending on peptide. Reconstituted: aliquot at -20°C to -80°C. Avoid freeze-thaw cycles."}}]};
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -42,6 +43,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
   description="Factory-direct Semax, Selank, Epithalon, DSIP, FOXO4-DRI. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
@@ -67,7 +69,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
         <div><span class="block text-2xl font-bold text-primary">5</span><span class="text-xs text-gray-500">Research Peptides</span></div>
         <div><span class="block text-2xl font-bold text-primary">≥99%</span><span class="text-xs text-gray-500">HPLC Purity Standard</span></div>
         <div><span class="block text-2xl font-bold text-primary">3</span><span class="text-xs text-gray-500">Mechanism Classes</span></div>
-        <div><span class="block text-2xl font-bold text-primary">10-70%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10–30%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
       </div>
     </div>
 

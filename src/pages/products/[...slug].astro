@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
 import {
   PRICE_LIST_UPDATED,
   PRICE_LIST_URL,
@@ -69,6 +70,7 @@ const title = `${p.nameShort} | Buy Wholesale`;
 ---
 
 <PageLayout {title} description={p.metaDescription} jsonLd={allJsonLd} image={p.ogImage}>
+<RuoNotice />
 
 <!-- Hero -->
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

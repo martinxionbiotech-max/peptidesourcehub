@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
+import RuoNotice from "../../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -42,6 +43,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
   description="Factory-direct GHK-Cu, Snap-8, Leuphasyl, Argireline, Matrixyl. ≥99% HPLC purity, tiered wholesale pricing. COA with every order."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
@@ -67,7 +69,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
         <div><span class="block text-2xl font-bold text-primary">5</span><span class="text-xs text-gray-500">Core Peptides</span></div>
         <div><span class="block text-2xl font-bold text-primary">≥99%</span><span class="text-xs text-gray-500">HPLC Purity Standard</span></div>
         <div><span class="block text-2xl font-bold text-primary">Cu²⁺</span><span class="text-xs text-gray-500">Bioactive Complex (GHK-Cu)</span></div>
-        <div><span class="block text-2xl font-bold text-primary">10-70%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10–30%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
       </div>
     </div>
 

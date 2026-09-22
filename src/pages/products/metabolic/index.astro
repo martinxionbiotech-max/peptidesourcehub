@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
+import RuoNotice from "../../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -16,7 +17,7 @@ const products = [
   ["Cagrilintide","1415456-99-3","4,100.7","Long-acting amylin analogue","5 mg × 10 vials","/products/cagrilintide/"],
   ["AOD-9604","221231-10-3","1,815.1","hGH fragment 177-191 — lipolytic","2 mg × 10 vials","/products/aod-9604/"],
 ];
-const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity standard for metabolic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all metabolic research peptides including Semaglutide, Tirzepatide, Retatrutide, and Cagrilintide."}}, {"@type": "Question", "name": "Can I order mixed metabolic peptide kits?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Combined orders qualify for merged volume tiers — e.g., 3 Semaglutide + 2 Tirzepatide + 1 Retatrutide = 6 kits eligible for the 25-40% off tier."}}, {"@type": "Question", "name": "What documentation is provided with orders?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request."}}, {"@type": "Question", "name": "How are GLP-1 peptides shipped and stored?", "acceptedAnswer": {"@type": "Answer", "text": "All metabolic peptides ship as lyophilized powder via DHL/FedEx (2-6 business days). Temperature-controlled packaging. 24-month stability at 2-8°C."}}, {"@type": "Question", "name": "Do you offer pre-formulated GLP-1 stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Cagrilintide + Semaglutide fixed-dose kits are available in our Specialty Stacks category. Custom metabolic stacks on request for bulk wholesale orders."}}]};
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity standard for metabolic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all metabolic research peptides including Semaglutide, Tirzepatide, Retatrutide, and Cagrilintide."}}, {"@type": "Question", "name": "Can I order mixed metabolic peptide kits?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Combined orders qualify for merged volume tiers — e.g., 3 Semaglutide + 2 Tirzepatide + 1 Retatrutide = 6 kits eligible for the 10% off bulk tier (5+ kits)."}}, {"@type": "Question", "name": "What documentation is provided with orders?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request."}}, {"@type": "Question", "name": "How are GLP-1 peptides shipped and stored?", "acceptedAnswer": {"@type": "Answer", "text": "All metabolic peptides ship as lyophilized powder via DHL/FedEx (2-6 business days). Temperature-controlled packaging. 24-month stability at 2-8°C."}}, {"@type": "Question", "name": "Do you offer pre-formulated GLP-1 stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Cagrilintide + Semaglutide fixed-dose kits are available in our Specialty Stacks category. Custom metabolic stacks on request for bulk wholesale orders."}}]};
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -34,6 +35,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
   description="Factory-direct metabolic research peptides: Semaglutide, Tirzepatide, Retatrutide, Cagrilintide, AOD-9604. ≥99% HPLC purity, tiered wholesale pricing. COA included."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
@@ -59,7 +61,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
         <div><span class="block text-2xl font-bold text-primary">5</span><span class="text-xs text-gray-500">Research Peptides</span></div>
         <div><span class="block text-2xl font-bold text-primary">3</span><span class="text-xs text-gray-500">Receptor Tiers (1/2/3)</span></div>
         <div><span class="block text-2xl font-bold text-primary">$125B</span><span class="text-xs text-gray-500">Market by 2030 [Source: Industry]</span></div>
-        <div><span class="block text-2xl font-bold text-primary">10-70%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
+        <div><span class="block text-2xl font-bold text-primary">10–30%</span><span class="text-xs text-gray-500">Bulk Discount Range</span></div>
       </div>
     </div>
 
