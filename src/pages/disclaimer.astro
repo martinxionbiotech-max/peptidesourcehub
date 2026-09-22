@@ -1,0 +1,100 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://peptidesourcehub.net/disclaimer/#webpage",
+  "name": "Disclaimer",
+  "description": "No medical or professional advice, no claims of human safety or efficacy, and no warranty for research information published on peptidesourcehub.net.",
+  "url": "https://peptidesourcehub.net/disclaimer/",
+  "isPartOf": { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  "publisher": { "@id": "https://peptidesourcehub.net/#organization" }
+};
+---
+
+<PageLayout
+  title="Disclaimer"
+  description="No medical or professional advice, no claims of human safety or efficacy, and no warranty for the research information published on peptidesourcehub.net."
+  jsonLd={jsonLd}
+>
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Disclaimer</h1>
+
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Read This First</h2>
+      <p class="text-sm text-gray-600">Nothing on this website is medical, veterinary or professional advice, and nothing here is a claim that any product is safe or effective for use in humans or animals. All products are research chemicals for laboratory use only — see our <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only Statement</a>.</p>
+    </div>
+
+    <div class="mt-8 space-y-6 text-gray-700">
+      <div class="card">
+        <h2 class="font-bold mb-2">1. No Medical, Veterinary or Professional Advice</h2>
+        <p>The content on peptidesourcehub.net — including product descriptions, technical articles, guides, FAQs and analytical data — is published as <strong>general technical information for research professionals</strong>. It is not medical, veterinary, pharmaceutical or clinical advice, and it is not a recommendation to use any substance in humans or animals.</p>
+        <p class="mt-2">We do not diagnose, treat or advise on any health condition, and no correspondence with us creates a professional or advisory relationship of any kind.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">2. No Claim of Human or Veterinary Safety or Efficacy</h2>
+        <p>We make <strong>no representation or claim</strong> that any product is safe, effective, lawful or suitable for human or veterinary use, for any condition or at any dose. Nothing on this site should be interpreted as such a claim.</p>
+        <p class="mt-2">Where published scientific literature or research findings are referenced, they are cited for <strong>scientific context only</strong> — to describe the state of research on a compound. Such citations describe third-party research, are not evidence about our products, and are not claims about the safety or effectiveness of any product we sell.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">3. Analytical Data and Specifications</h2>
+        <p>Analytical specifications — purity, identity, molecular weight, appearance and related values — are stated on the <strong>batch-specific Certificate of Analysis (COA)</strong> issued for the material you receive. Where a figure differs between this website and the COA supplied with your order, the COA prevails.</p>
+        <p class="mt-2">Product availability, packaging, pricing and specifications may change without notice. Prices and tier structures published on the site are indicative; the terms stated in your quotation and order confirmation govern the order.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">4. Limitation of Liability</h2>
+        <p>To the fullest extent permitted by applicable law, Peptides Source Hub is not liable for any direct, indirect, incidental, consequential or punitive loss arising from the use of, or reliance on, information published on this website, or from the handling, storage, use or disposal of any product outside its intended laboratory research purpose.</p>
+        <p class="mt-2">Our total liability for any claim relating to a product is limited to the purchase price of that product, as set out in our <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a>. Nothing in this disclaimer excludes liability that cannot lawfully be excluded.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">5. Accuracy, Completeness and Changes</h2>
+        <p>We take reasonable care to keep the information on this site accurate and current, but we make no warranty that it is complete, error-free, or up to date at all times. Technical content may be revised as new research is published; the version on this site, with any date shown on the page, is the current one.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">6. Third-Party Content and External Links</h2>
+        <p>This site may reference third-party publications, standards or websites, and may link to external resources. Those materials are the property and responsibility of their respective owners. We do not control them, and a reference or link does not imply endorsement, verification or affiliation.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">7. Trademarks</h2>
+        <p>"Peptides Source Hub" and the Peptides Source Hub logo are our trademarks. All other product, company and trade names referenced on this site are the property of their respective owners and are used for identification purposes only.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">8. Not an Offer Where Prohibited</h2>
+        <p>Nothing on this website constitutes an offer, solicitation or invitation to purchase where such a sale would be unlawful. We may decline, restrict or cancel any order — including where a product is regulated, restricted or prohibited in the destination country, or where we believe the intended use is not lawful laboratory research. See <a href="/compliance/" class="text-accent-dark hover:underline">Compliance &amp; Buyer Eligibility</a>.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">9. Changes to This Disclaimer</h2>
+        <p>We may update this disclaimer as our products, documentation or legal obligations change. The version published on this page is the current version.</p>
+      </div>
+
+      <div class="card bg-surface border-accent/20">
+        <h2 class="font-bold mb-2">Contact</h2>
+        <p>Questions about this disclaimer, our analytical documentation or intended use? Contact Dr. Aaron Wang at <a href="mailto:aaronwong2023@gmail.com" class="text-accent-dark hover:underline">aaronwong2023@gmail.com</a> or via <a href="/contact/" class="text-accent-dark hover:underline">our contact page</a>. Related: <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only</a> · <a href="/compliance/" class="text-accent-dark hover:underline">Compliance</a> · <a href="/privacy/" class="text-accent-dark hover:underline">Privacy Policy</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-gray-50">
+  <div class="container-wide mx-auto px-4 text-center">
+    <h2 class="mb-4">Documentation With Every Order</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-6">Batch-specific COA, invoice and packing list — plus additional analytical data on request:</p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/quality-and-testing/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Quality &amp; Testing</a>
+      <a href="/research-use-only/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Research Use Only</a>
+      <a href="/blog/peptide-quality-guide/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Peptide Quality Guide</a>
+      <a href="/products/" class="card px-5 py-3 bg-accent/5 border-accent/30 transition-colors text-sm font-bold text-accent">All Products &rarr;</a>
+    </div>
+  </div>
+</section>
+</PageLayout>

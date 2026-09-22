@@ -1,0 +1,114 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://peptidesourcehub.net/research-use-only/#webpage",
+  "name": "Research Use Only (RUO) Statement",
+  "description": "All products sold by Peptides Source Hub are for laboratory research use only — not for human or veterinary use, diagnosis, treatment or cosmetic application.",
+  "url": "https://peptidesourcehub.net/research-use-only/",
+  "isPartOf": { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  "publisher": { "@id": "https://peptidesourcehub.net/#organization" }
+};
+---
+
+<PageLayout
+  title="Research Use Only (RUO) Statement"
+  description="All products sold by Peptides Source Hub are for laboratory research use only — not for human or veterinary use, diagnosis, treatment or cosmetic application."
+  jsonLd={jsonLd}
+>
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Research Use Only (RUO) Statement</h1>
+
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">The Rule That Governs Every Product We Sell</h2>
+      <p class="text-sm text-gray-600"><strong>All products sold by Peptides Source Hub are chemical materials for laboratory research use only.</strong> They are not medicines, supplements, cosmetics or food, and they are not intended for use in humans or animals in any form. By purchasing, you confirm that you are acquiring them solely for lawful laboratory research.</p>
+    </div>
+
+    <div class="mt-8 space-y-6 text-gray-700">
+      <div class="card">
+        <h2 class="font-bold mb-2">1. Intended Use</h2>
+        <p>Products are supplied as research chemicals for <strong>in-vitro laboratory research</strong> by qualified personnel at research institutions, laboratories and businesses. They are sold for the purpose of scientific investigation — analytical work, assay development, method validation and similar laboratory activity.</p>
+        <p class="mt-2">They are <strong>not</strong> intended for:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>human or veterinary use of any kind;</li>
+          <li>diagnostic, therapeutic, prophylactic or clinical use;</li>
+          <li>cosmetic, personal-care, dietary or food use;</li>
+          <li>use as, or as an ingredient in, a drug, medicine, supplement or food additive.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">2. Prohibited Uses</h2>
+        <p>The following uses are expressly prohibited, and purchasing from us constitutes your agreement not to engage in them:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>administering any product to a human or an animal, by any route;</li>
+          <li>using products for the diagnosis, prevention, treatment or management of any condition in humans or animals;</li>
+          <li>reselling or relabelling products as a drug, medicine, supplement, cosmetic, food or "pharmaceutical grade" material;</li>
+          <li>repackaging products under another name, or issuing documentation that misrepresents their identity, purity or intended use;</li>
+          <li>providing products to any person or organisation that intends to use them contrary to this statement.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">3. What We Do Not Provide</h2>
+        <p>We do not provide — and will not provide — information for human use. That specifically includes:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>dosing or dosage guidance for humans or animals;</li>
+          <li>administration routes, injection protocols, cycle lengths or "stack" protocols for human use;</li>
+          <li>medical, veterinary or clinical advice of any kind;</li>
+          <li>assistance in obtaining prescription medicines or circumventing prescription requirements.</li>
+        </ul>
+        <p class="mt-2">Storage, reconstitution-for-laboratory-use and stability information published on this site is provided strictly for laboratory handling of research material by qualified personnel.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">4. Buyer Responsibilities</h2>
+        <p>By ordering, you represent and warrant that:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>you are acquiring products for lawful laboratory research only;</li>
+          <li>you (or your institution) are equipped and qualified to receive, store, handle and dispose of research chemicals safely;</li>
+          <li>all work will be performed by qualified personnel under appropriate safety and containment protocols;</li>
+          <li>you will comply with every applicable law and regulation in your jurisdiction, including import, licensing and handling requirements;</li>
+          <li>you will not use, and will not permit others to use, the products for any purpose prohibited in this statement.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">5. Documentation and Labelling</h2>
+        <p>Every order is shipped with a batch-specific <strong>Certificate of Analysis (COA)</strong> that identifies the peptide, the batch or lot number, the quantity, the analytical methods used and the storage conditions. Product documentation identifies the material as research-use-only. See <a href="/quality-and-testing/" class="text-accent-dark hover:underline">Quality &amp; Testing</a> for what our analyses cover.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">6. No Regulatory Approval</h2>
+        <p>Our products are research chemicals. They have <strong>not</strong> been evaluated, approved, licensed or authorised by any regulatory authority — including the FDA, EMA, MHRA, TGA, Health Canada, NMPA or any equivalent body — for human or veterinary use, and they are not manufactured as approved drug products. No statement on this website should be read as a claim of regulatory approval, of safety or efficacy in humans or animals, or of suitability for any clinical purpose.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">7. Order Refusal</h2>
+        <p>We reserve the right to refuse, cancel or terminate any order where we have reason to believe the products will be used outside laboratory research — including orders that suggest human consumption, resale as a medicine, misrepresentation of product identity, or breach of this statement. See <a href="/compliance/" class="text-accent-dark hover:underline">Compliance &amp; Buyer Eligibility</a> for how eligibility is assessed, and <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a> for the terms that govern an order.</p>
+      </div>
+
+      <div class="card bg-surface border-accent/20">
+        <h2 class="font-bold mb-2">Contact</h2>
+        <p>Questions about intended use, documentation or eligibility? Contact Dr. Aaron Wang at <a href="mailto:aaronwong2023@gmail.com" class="text-accent-dark hover:underline">aaronwong2023@gmail.com</a> or via <a href="/contact/" class="text-accent-dark hover:underline">our contact page</a>. Related: <a href="/disclaimer/" class="text-accent-dark hover:underline">Disclaimer</a> · <a href="/compliance/" class="text-accent-dark hover:underline">Compliance</a> · <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-gray-50">
+  <div class="container-wide mx-auto px-4 text-center">
+    <h2 class="mb-4">Catalog and Documentation</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-6">Batch-specific COA with every order. Browse the research catalog:</p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/products/metabolic/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Metabolic Research</a>
+      <a href="/products/healing-recovery/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Healing &amp; Recovery</a>
+      <a href="/quality-and-testing/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Quality &amp; Testing</a>
+      <a href="/products/" class="card px-5 py-3 bg-accent/5 border-accent/30 transition-colors text-sm font-bold text-accent">All Products &rarr;</a>
+    </div>
+  </div>
+</section>
+</PageLayout>

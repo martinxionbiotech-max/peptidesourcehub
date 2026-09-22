@@ -1,0 +1,114 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://peptidesourcehub.net/quality-and-testing/#webpage",
+  "name": "Quality & Testing — Certificate of Analysis",
+  "description": "How Peptides Source Hub tests research peptides: HPLC purity, mass-spectrometry identity, SDS-PAGE for proteins, batch-specific COA, and what our documentation does not claim.",
+  "url": "https://peptidesourcehub.net/quality-and-testing/",
+  "isPartOf": { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  "publisher": { "@id": "https://peptidesourcehub.net/#organization" }
+};
+---
+
+<PageLayout
+  title="Quality & Testing — Certificate of Analysis"
+  description="How we test research peptides: HPLC purity, mass-spectrometry identity, SDS-PAGE for proteins, batch-specific COA, and what our documentation does not claim."
+  jsonLd={jsonLd}
+>
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Quality &amp; Testing</h1>
+
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Documentation, Not Marketing Claims</h2>
+      <p class="text-sm text-gray-600">Every order ships with a <strong>batch-specific Certificate of Analysis (COA)</strong> covering the analytical tests below. This page explains what we test and — just as importantly — <strong>what our documentation does not claim</strong>. Our products are research chemicals: they are not medicines, and the COA is an analytical record, not a regulatory approval.</p>
+    </div>
+
+    <div class="mt-8 space-y-6 text-gray-700">
+      <div class="card">
+        <h2 class="font-bold mb-2">1. Standard Testing on Every Batch</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">Test</th>
+                <th class="py-2 pr-3">What it establishes</th>
+                <th class="py-2">Applied to</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-3 font-medium">HPLC purity</td><td class="py-2 pr-3">Percentage of the target peptide in the material (≥99% standard)</td><td class="py-2">All peptides</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-3 font-medium">Mass spectrometry (ESI-MS)</td><td class="py-2 pr-3">Identity — that the measured molecular mass matches the expected sequence</td><td class="py-2">All peptides</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-3 font-medium">SDS-PAGE</td><td class="py-2 pr-3">Molecular weight confirmation for protein products (e.g. ~22,125 Da for HGH)</td><td class="py-2">Recombinant proteins</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-3 font-medium">UV-Vis (600 nm)</td><td class="py-2 pr-3">Copper chelation in copper-peptide complexes such as GHK-Cu</td><td class="py-2">Copper peptides</td></tr>
+              <tr><td class="py-2 pr-3 font-medium">Appearance and fill</td><td class="py-2 pr-3">Physical form, colour and quantity per vial</td><td class="py-2">All products</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">2. Batch-Specific COA</h2>
+        <p>The COA supplied with your order is issued for <strong>the batch you receive</strong> — not a generic template or a sample from another lot. It identifies the peptide, batch or lot number, quantity per vial, the analytical methods used, the results obtained and the recommended storage conditions, so that the document in your records corresponds to the material in your freezer.</p>
+        <p class="mt-2">Additional testing is available on request — including <strong>endotoxin, residual solvents and amino-acid analysis (AAA)</strong> — and is included with bulk orders where specified. Request it at the time of inquiry so that it can be scheduled with production.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">3. What Our Documentation Does Not Claim</h2>
+        <p>To avoid any misunderstanding:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>Our products are <strong>not</strong> manufactured as approved pharmaceutical products, and we do <strong>not</strong> claim GMP certification, "pharmaceutical grade", pharmacy compounding status or a drug licence for the materials we sell;</li>
+          <li>The COA is an <strong>analytical record of the research material — it is not a regulatory approval</strong>, and it does not authorise human or veterinary use;</li>
+          <li>We make <strong>no claim</strong> that any product is safe, effective or lawful for human or veterinary use, at any dose, for any condition;</li>
+          <li>Purity and identity results describe the material supplied. They are not a statement about biological activity, clinical performance or suitability for any particular research model.</li>
+        </ul>
+        <p class="mt-2">See the <a href="/disclaimer/" class="text-accent-dark hover:underline">Disclaimer</a> and the <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only Statement</a> for the full intended-use position.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">4. Storage and Handling (Laboratory)</h2>
+        <ul class="list-disc pl-5 space-y-1">
+          <li><strong>Lyophilized peptides</strong> — store at 2–8 °C, desiccated and protected from light; typical stability 12–24 months depending on the peptide;</li>
+          <li><strong>Recombinant proteins (e.g. HGH)</strong> — store lyophilized at 2–8 °C protected from light; they are agitation-sensitive, so handle gently and do not vortex;</li>
+          <li><strong>Copper peptides (e.g. GHK-Cu)</strong> — photolabile; protect from direct light during storage;</li>
+          <li><strong>After reconstitution (laboratory use)</strong> — aliquot and store at −20 °C, avoid repeated freeze–thaw cycles, and follow the product's COA and technical documentation.</li>
+        </ul>
+        <p class="mt-2">Batch-specific storage conditions on the COA prevail. Storage, handling and disposal must be carried out by qualified personnel under your institution's safety protocols.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">5. Verifying Our Documentation</h2>
+        <p>We encourage buyers to verify rather than take our word for it:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>check that the COA batch or lot number matches the vials received;</li>
+          <li>confirm the tested parameters cover what your protocol requires;</li>
+          <li>ask for the underlying chromatograms or spectra if your use case needs them;</li>
+          <li>request additional testing before ordering if your protocol has specific requirements.</li>
+        </ul>
+        <p class="mt-2">Documentation requests are handled through <a href="/contact/" class="text-accent-dark hover:underline">our contact page</a> or by email.</p>
+      </div>
+
+      <div class="card bg-surface border-accent/20">
+        <h2 class="font-bold mb-2">Request Documentation</h2>
+        <p>For a sample COA, additional analytical data or a technical dossier for a bulk order, contact Dr. Aaron Wang at <a href="mailto:aaronwong2023@gmail.com" class="text-accent-dark hover:underline">aaronwong2023@gmail.com</a>. Related: <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only</a> · <a href="/compliance/" class="text-accent-dark hover:underline">Compliance</a> · <a href="/shipping/" class="text-accent-dark hover:underline">Shipping &amp; Delivery</a> · <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-gray-50">
+  <div class="container-wide mx-auto px-4 text-center">
+    <h2 class="mb-4">Browse the Research Catalog</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-6">Batch-specific COA with every order, additional testing on request:</p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/products/metabolic/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Metabolic Research</a>
+      <a href="/products/cosmetic-skin/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Cosmetic Peptides</a>
+      <a href="/blog/peptide-quality-guide/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Peptide Quality Guide</a>
+      <a href="/products/" class="card px-5 py-3 bg-accent/5 border-accent/30 transition-colors text-sm font-bold text-accent">All Products &rarr;</a>
+    </div>
+  </div>
+</section>
+</PageLayout>

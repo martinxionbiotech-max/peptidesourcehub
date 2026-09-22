@@ -1,0 +1,111 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://peptidesourcehub.net/compliance/#webpage",
+  "name": "Compliance & Buyer Eligibility",
+  "description": "Who may buy from Peptides Source Hub, buyer representations, destination and import restrictions, regulated substances, and how we handle suspected misuse.",
+  "url": "https://peptidesourcehub.net/compliance/",
+  "isPartOf": { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  "publisher": { "@id": "https://peptidesourcehub.net/#organization" }
+};
+---
+
+<PageLayout
+  title="Compliance & Buyer Eligibility"
+  description="Who may buy, buyer representations, destination and import restrictions, regulated substances, and how we handle suspected misuse of research peptides."
+  jsonLd={jsonLd}
+>
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Compliance &amp; Buyer Eligibility</h1>
+
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Eligibility</h2>
+      <p class="text-sm text-gray-600">We supply research chemicals to <strong>businesses, institutions, laboratories and qualified researchers</strong> for lawful laboratory research. Individual buyers must be at least <strong>21 years old</strong>. By ordering, you confirm that your purchase and the product's use are lawful in your jurisdiction.</p>
+    </div>
+
+    <div class="mt-8 space-y-6 text-gray-700">
+      <div class="card">
+        <h2 class="font-bold mb-2">1. Who May Purchase</h2>
+        <ul class="list-disc pl-5 space-y-1">
+          <li><strong>Institutions and companies</strong> — research organisations, laboratories, universities, CROs and businesses purchasing for legitimate research or manufacturing use;</li>
+          <li><strong>Qualified researchers</strong> — individuals with the training, facilities and authorisation to handle research chemicals;</li>
+          <li><strong>Individual buyers</strong> — must be 21 years or older and legally permitted to purchase and possess the material in their jurisdiction.</li>
+        </ul>
+        <p class="mt-2">We may ask for details that allow us to verify eligibility — including your institution, role, intended research purpose and destination country.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">2. Buyer Representations and Warranties</h2>
+        <p>By placing an order you represent and warrant that:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>you are authorised to purchase on behalf of yourself or your organisation, and the information you give us is accurate;</li>
+          <li>products are acquired solely for <strong>lawful laboratory research</strong> and not for human or veterinary use, diagnosis, treatment, cosmetic or dietary use;</li>
+          <li>you hold any licence, permit, certificate or institutional approval required in your jurisdiction to purchase, import, store, use and dispose of the material;</li>
+          <li>you will not resell, redistribute or relabel products as a medicine, supplement, cosmetic, food or "pharmaceutical grade" material, and will not misrepresent their identity, purity or intended use;</li>
+          <li>you will comply with all applicable laws, including import controls, chemical-handling regulations and waste-disposal requirements.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">3. Regulated and Restricted Substances</h2>
+        <p>Several categories in our catalog are regulated — or prohibited — in many countries, even where they are sold as research chemicals. These include, but are not limited to:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li><strong>GLP-1 and incretin analogues</strong> — e.g. semaglutide, tirzepatide, cagrilintide;</li>
+          <li><strong>Recombinant human growth hormone (HGH)</strong> and other GH-axis materials;</li>
+          <li>other peptides that are prescription-only medicines, controlled substances, or subject to import licensing in the destination country.</li>
+        </ul>
+        <p class="mt-2"><strong>It is the buyer's responsibility to confirm the legal status of a product in the destination country before ordering.</strong> We may require documentation of institutional authorisation or of a licence to import, and we will decline or cancel orders where supply or import would be unlawful. Buyers are responsible for customs clearance, duties and any permit required at the point of import — we do not falsify customs declarations or invoice values.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">4. Destination Restrictions</h2>
+        <p>We may be unable to ship to certain destinations because of export controls, sanctions, national import restrictions on specific substances, or carrier policy. Where an order cannot lawfully be fulfilled, we will decline it and any payment received is refunded. If a shipment is refused or destroyed by customs because the buyer lacked a required permit or the import was prohibited, the loss is the buyer's responsibility.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">5. Documentation and Record Keeping</h2>
+        <p>Every order is accompanied by a batch-specific <a href="/quality-and-testing/" class="text-accent-dark hover:underline">Certificate of Analysis</a>, commercial invoice and packing list. We keep order and analytical records for the material we supply. Institutions requiring additional documentation — full analytical dossiers, technical data sheets or institutional invoicing — should request them at the time of inquiry.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">6. Order Refusal, Cancellation and Termination</h2>
+        <p>We reserve the right to refuse service, decline an order, cancel a shipment or terminate an account at our discretion where we have reason to believe that:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>products will be used outside lawful laboratory research — including any indication of human consumption;</li>
+          <li>the buyer has misrepresented their identity, eligibility, intended use or the destination;</li>
+          <li>products are intended for resale as a medicine, supplement or cosmetic, or under documentation that misstates their identity or purity;</li>
+          <li>the order would breach export controls, sanctions, import restrictions or carrier policy.</li>
+        </ul>
+        <p class="mt-2">Where we suspect products are being resold under false documentation or mislabelled as pharmaceutical grade, we will terminate the relationship and may report the matter to the relevant authorities. This mirrors the account-termination provisions in our <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a>.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="font-bold mb-2">7. Reporting Concerns</h2>
+        <p>If you become aware of anyone using, reselling or promoting our products for human consumption, as a medicine, or in any way inconsistent with our <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only Statement</a>, please tell us. Reports can be sent in confidence to <a href="mailto:aaronwong2023@gmail.com" class="text-accent-dark hover:underline">aaronwong2023@gmail.com</a>.</p>
+      </div>
+
+      <div class="card bg-surface border-accent/20">
+        <h2 class="font-bold mb-2">Compliance Questions</h2>
+        <p>Unsure whether your organisation qualifies, or whether a product can lawfully be imported into your country? Ask before you order — contact Dr. Aaron Wang at <a href="mailto:aaronwong2023@gmail.com" class="text-accent-dark hover:underline">aaronwong2023@gmail.com</a> or via <a href="/contact/" class="text-accent-dark hover:underline">our contact page</a>. Related: <a href="/research-use-only/" class="text-accent-dark hover:underline">Research Use Only</a> · <a href="/disclaimer/" class="text-accent-dark hover:underline">Disclaimer</a> · <a href="/shipping/" class="text-accent-dark hover:underline">Shipping &amp; Delivery</a> · <a href="/terms/" class="text-accent-dark hover:underline">Terms &amp; Conditions</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-gray-50">
+  <div class="container-wide mx-auto px-4 text-center">
+    <h2 class="mb-4">Before You Order</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-6">Confirm eligibility, intended use and documentation requirements, then request a quote:</p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/research-use-only/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Research Use Only</a>
+      <a href="/quality-and-testing/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Quality &amp; Testing</a>
+      <a href="/contact/" class="card px-5 py-3 hover:border-accent/30 transition-colors text-sm font-medium text-primary">Request a Quote</a>
+      <a href="/products/" class="card px-5 py-3 bg-accent/5 border-accent/30 transition-colors text-sm font-bold text-accent">All Products &rarr;</a>
+    </div>
+  </div>
+</section>
+</PageLayout>
