@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+import RuoNotice from "../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -58,6 +59,7 @@ const allJsonLd = [jsonLd, faqJson];
   description="China-based GMP peptide manufacturer since 2009. 58+ research peptides & HGH kits in bulk. Tiered wholesale pricing, batch traceability, global fulfillment."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <!-- ━━━━━ HERO SECTION ━━━━━ -->
 <section class="relative overflow-hidden bg-primary min-h-[90vh] flex items-center">

@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -68,6 +69,7 @@ const allJsonLd = [jsonLd, faqJson];
   description="Learn how to read a peptide Certificate of Analysis, understand HPLC vs MS, identify impurity sources, and evaluate suppliers with our 10-question checklist."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <article class="prose-content">
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">

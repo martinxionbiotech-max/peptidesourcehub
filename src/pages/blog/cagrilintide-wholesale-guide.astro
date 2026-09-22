@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -15,6 +16,7 @@ const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEnti
 const allJsonLd = [jsonLd, faqJson];
 ---
 <PageLayout title="Cagrilintide Wholesale Guide" description="How peptide distributors and research buyers use Cagrilintide alongside GLP-1 portfolios. Mechanism, protocol design, OEM stack development, and sourcing checklist." jsonLd={allJsonLd}>
+<RuoNotice />
 <article class="section bg-white">
   <div class="container-narrow mx-auto px-4">
     <h1>Cagrilintide Wholesale Guide: Strategic Portfolio Planning for B2B Buyers</h1>

@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -20,6 +21,7 @@ const allJsonLd = [jsonLd, faqJson];
   description="Compare GLP-1 receptor agonists for wholesale procurement. Receptor pharmacology, clinical data, market trends, and a 5-step procurement decision framework."
   jsonLd={allJsonLd}
 >
+<RuoNotice />
 
 <article class="prose-content">
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
