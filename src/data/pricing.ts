@@ -157,8 +157,10 @@ export function productOffers(url: string, band: { low: number; high: number }, 
   return {
     '@type': 'AggregateOffer',
     priceCurrency: 'USD',
-    lowPrice: band.low,
-    highPrice: band.high,
+    // Schema.org 定义 lowPrice/highPrice 为 Text；GSC 对数字字面量报
+    // "Invalid price format"，必须输出字符串（整数不带小数位）。
+    lowPrice: String(band.low),
+    highPrice: String(band.high),
     ...(offerCount ? { offerCount } : {}),
     availability: 'https://schema.org/InStock',
     itemCondition: 'https://schema.org/NewCondition',
