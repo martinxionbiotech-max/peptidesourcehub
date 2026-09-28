@@ -199,6 +199,31 @@ export const PEPTIDE_PRICES: Record<string, PriceRow[]> = {
     { code: 'BA10', spec: '10 mL × 10 vials', usd: 8 },
     { code: 'BA3', spec: '3 mL × 10 vials', usd: 7 },
   ],
+  'vip': [
+    { code: 'VIP5', spec: '5 mg × 10 vials', usd: 79 },
+    { code: 'VIP10', spec: '10 mg × 10 vials', usd: 146 },
+  ],
+  'vitamin-b12': [
+    { code: 'B12', spec: '10 mL × 10 vials', usd: 26 },
+  ],
+  'igf-1-lr3': [
+    { code: 'IG01', spec: '0.1 mg × 10 vials', usd: 42 },
+  ],
+  'thymalin': [
+    { code: 'TY10', spec: '10 mg × 10 vials', usd: 64 },
+  ],
+  'lipo-c': [
+    { code: 'LC600', spec: '10 mL × 10 vials', usd: 53 },
+  ],
+  'lipo-c-with-b12': [
+    { code: 'LC216', spec: '10 mL × 10 vials', usd: 53 },
+  ],
+  'sterile-water': [
+    { code: 'WA10', spec: '10 mL × 10 vials', usd: 8 },
+  ],
+  'acetic-acid-water': [
+    { code: 'AA10', spec: '10 mL × 10 vials', usd: 8 },
+  ],
   'bpc-tb-blend': [
     { code: 'BB10', spec: 'BPC-157 5 mg + TB-500 5 mg (10 mg total) × 10 vials', usd: 98 },
     { code: 'BB20', spec: 'BPC-157 10 mg + TB-500 10 mg (20 mg total) × 10 vials', usd: 180 },

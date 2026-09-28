@@ -1,0 +1,195 @@
+{
+  "slug": "thymalin",
+  "name": "Thymalin Wholesale",
+  "nameShort": "Thymalin",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "Confirmed on batch COA (not fixed in catalogue)",
+  "molecularWeight": "Confirmed per batch COA",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Thymalin wholesale: thymic peptide preparation, 10 mg × 10 vials, ≥99% HPLC, identity confirmed per batch COA, bulk pricing 10–30% off.",
+  "heroTitle": "Thymalin Wholesale",
+  "heroSubtitle": "Thymic peptide preparation supplied for immune-modulation and neuroendocrine-immune axis research",
+  "description": "Thymalin is a thymic peptide preparation used in published immune-modulation research, particularly studies of T-cell maturation and of the neuroendocrine–immune interface. Note that the name is applied inconsistently in the literature and in public databases: some records resolve it to the nonapeptide thymulin, while commercial preparations may be defined as thymus-derived peptide complexes. Because of that ambiguity, this catalogue does not publish a fixed CAS number and instead confirms identity per batch.",
+  "sku": "PSH-THYMALIN-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not fixed in catalogue — confirmed on batch COA"
+    },
+    {
+      "label": "Composition",
+      "value": "Thymic peptide preparation — composition per COA"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Confirmed per batch COA"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Identity confirmed on each batch COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Thymic peptide signalling",
+      "description": "Studied for effects on T-cell maturation and differentiation markers"
+    },
+    {
+      "name": "Immune modulation",
+      "description": "Research on cytokine and lymphocyte-population endpoints"
+    },
+    {
+      "name": "Neuroendocrine–immune axis",
+      "description": "Investigations linking thymic factors with endocrine signalling"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Immunology",
+      "description": "T-cell maturation and lymphocyte-population research"
+    },
+    {
+      "area": "Neuroendocrine research",
+      "description": "Thymic factors and endocrine cross-talk"
+    },
+    {
+      "area": "Ageing research",
+      "description": "Thymic involution and immune-senescence models"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Thymalin is a thymic peptide preparation whose nomenclature is not standardised across databases; this catalogue therefore publishes no fixed CAS number and confirms identity per batch on the Certificate of Analysis. Confirm the composition printed on the COA matches the publication you intend to replicate.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why is there no fixed CAS number for Thymalin?",
+      "answer": "The name is used for more than one type of thymic peptide preparation, and public databases resolve it inconsistently. Identity is therefore confirmed per batch on the COA rather than quoted as a catalogue CAS number."
+    },
+    {
+      "question": "Is Thymalin the same as thymulin?",
+      "answer": "Not necessarily. Some database entries list the two names as synonyms, but commercial thymic preparations can be defined differently. Check the composition statement on the COA against the publication you are replicating."
+    },
+    {
+      "question": "What is the purity specification?",
+      "answer": "The catalogue specification is ≥99% by HPLC, with the measured value for your lot stated on the batch Certificate of Analysis."
+    },
+    {
+      "question": "How should Thymalin be handled?",
+      "answer": "Store the lyophilized powder at 2–8 °C, desiccated and protected from light. Reconstitute with sterile or bacteriostatic water and establish your own solution-stability data."
+    },
+    {
+      "question": "What kit sizes are available?",
+      "answer": "Thymalin is supplied as 10 mg × 10 vials, with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits; custom configurations are available for OEM projects."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Nootropic & Anti-Aging Range",
+      "subtitle": "All neuro/anti-aging peptides",
+      "url": "/products/nootropic-anti-aging/"
+    },
+    {
+      "name": "Epithalon",
+      "subtitle": "Telomerase research peptide",
+      "url": "/products/epithalon/"
+    },
+    {
+      "name": "Semax vs Selank",
+      "subtitle": "Comparison guide",
+      "url": "/products/compare/selank-vs-semax/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "COA verification",
+      "url": "/quality-and-testing/coa-verification/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "Thymic peptide preparation (composition per COA)"
+}

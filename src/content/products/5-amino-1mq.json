@@ -1,15 +1,15 @@
 {
   "slug": "5-amino-1mq",
   "name": "5-Amino-1MQ Wholesale",
-  "nameShort": "5-Amino-1MQ",
+  "nameShort": "5-Amino-1MQ (iodide)",
   "category": "metabolic",
   "categoryLabel": "Metabolic Research",
-  "cas": "685079-15-6",
-  "molecularWeight": "~159.2 Da",
+  "cas": "42464-96-0",
+  "molecularWeight": "~286.1 Da",
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "5-Amino-1MQ wholesale: CAS 685079-15-6, ~159.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "metaDescription": "5-Amino-1MQ wholesale: CAS 42464-96-0, ~286.1 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
   "heroTitle": "5-Amino-1MQ Wholesale",
   "heroSubtitle": "Small-molecule nicotinamide N-methyltransferase (NNMT) inhibitor — supplied as a research reagent, not a peptide",
   "description": "5-Amino-1MQ is a small-molecule inhibitor of nicotinamide N-methyltransferase (NNMT), an enzyme that consumes methyl groups and NAD+ precursors. It is used in cell and animal research models investigating adipocyte lipid handling, NAD+ availability and NNMT-dependent methylation flux. Because it is not a peptide, it is supplied as a powder for laboratory reconstitution rather than as a lyophilized peptide vial standard.",
@@ -17,15 +17,15 @@
   "specifications": [
     {
       "label": "CAS Number",
-      "value": "685079-15-6"
+      "value": "42464-96-0"
     },
     {
       "label": "Molecular Formula",
-      "value": "C₁₀H₁₁N₂+"
+      "value": "C₁₀H₁₁IN₂"
     },
     {
       "label": "Molecular Weight",
-      "value": "~159.2 Da"
+      "value": "~286.1 Da"
     },
     {
       "label": "Appearance",
@@ -125,7 +125,7 @@
       "criterion": "Soluble in water or aqueous buffer"
     }
   ],
-  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 950107. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 66522933 (5-amino-1-methylquinolinium iodide, NNMTi). Batch-specific analytical values are stated on each Certificate of Analysis.",
   "pricingTiers": [
     {
       "volume": "1 kit",
@@ -151,7 +151,7 @@
   "faq": [
     {
       "question": "What is 5-Amino-1MQ and is it a peptide?",
-      "answer": "5-Amino-1MQ is a small-molecule quinolinium compound (CAS 685079-15-6), not a peptide. It is a nicotinamide N-methyltransferase (NNMT) inhibitor used as a laboratory research reagent."
+      "answer": "5-Amino-1MQ is a small-molecule quinolinium iodide salt (CAS 42464-96-0), not a peptide. It is a nicotinamide N-methyltransferase (NNMT) inhibitor used as a laboratory research reagent."
     },
     {
       "question": "What purity is supplied?",
@@ -191,5 +191,5 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. 5-Amino-1MQ is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source 5-Amino-1MQ?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₁₀H₁₁N₂+"
+  "molecularFormula": "C₁₀H₁₁IN₂"
 }

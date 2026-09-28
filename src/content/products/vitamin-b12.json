@@ -1,0 +1,199 @@
+{
+  "slug": "vitamin-b12",
+  "name": "Vitamin B12 (Cyanocobalamin) Wholesale",
+  "nameShort": "Vitamin B12",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "68-19-9",
+  "molecularWeight": "1,355.4 Da",
+  "purity": "Assay stated on batch COA",
+  "appearance": "Clear, red-coloured aqueous solution (multi-dose vial)",
+  "storage": "2–8°C, protect from light (photolabile)",
+  "metaDescription": "Vitamin B12 (cyanocobalamin) wholesale: CAS 68-19-9, 1,355.4 Da, 10 mL multi-dose vials. Batch COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "Vitamin B12 (Cyanocobalamin) Wholesale",
+  "heroSubtitle": "Cobamide cofactor supplied as a 10 mL multi-dose solution for analytical and cell-culture research",
+  "description": "Vitamin B12 is the commercial name for cyanocobalamin, a cobalt-containing cobamide (C₆₃H₈₈CoN₁₄O₁₄P, 1,355.4 Da). In research it is used as a cofactor source in one-carbon and methyl-transfer studies, as a reference standard in analytical method development, and as a medium supplement in cell-culture work. Solutions are photolabile, which is why handling and storage conditions are stated explicitly on every batch document.",
+  "sku": "PSH-B12-10ML",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "68-19-9"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₆₃H₈₈CoN₁₄O₁₄P"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "1,355.4 Da"
+    },
+    {
+      "label": "Form",
+      "value": "10 mL multi-dose aqueous solution"
+    },
+    {
+      "label": "Concentration",
+      "value": "As stated on the batch Certificate of Analysis"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, red-coloured solution"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Batch identity confirmed by UV-Vis / HPLC per COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Cofactor function",
+      "description": "Precursor of methylcobalamin and adenosylcobalamin coenzymes in one-carbon transfer"
+    },
+    {
+      "name": "Methionine synthase pathway",
+      "description": "Studied in folate–methionine cycle and methylation-flux models"
+    },
+    {
+      "name": "Methylmalonyl-CoA mutase",
+      "description": "Cofactor of the mitochondrial mutase step in propionate metabolism"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "One-carbon metabolism",
+      "description": "Folate and methionine cycle research"
+    },
+    {
+      "area": "Analytical chemistry",
+      "description": "Reference standard for vitamin assay method development"
+    },
+    {
+      "area": "Cell culture",
+      "description": "Medium supplementation for cobalamin-dependent cell lines"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 165339223. Because this item is a solution rather than a lyophilized powder, concentration and assay values are stated on the batch COA and are not fixed catalogue constants.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this product a lyophilized powder?",
+      "answer": "No. Vitamin B12 is supplied as a 10 mL multi-dose aqueous solution, so it is handled and stored differently from the lyophilized peptides in the catalogue."
+    },
+    {
+      "question": "What concentration is the solution?",
+      "answer": "The concentration is stated on the Certificate of Analysis for each batch rather than being fixed in the catalogue, because the product is a formulated solution."
+    },
+    {
+      "question": "Why must B12 be protected from light?",
+      "answer": "Cyanocobalamin is photolabile; exposure to light degrades the molecule, so vials are shipped and stored at 2–8 °C away from direct light."
+    },
+    {
+      "question": "What is the CAS number of this product?",
+      "answer": "The catalogue lists CAS 68-19-9 with molecular formula C₆₃H₈₈CoN₁₄O₁₄P and a molecular weight of 1,355.4 Da."
+    },
+    {
+      "question": "Can B12 be ordered with other items in one shipment?",
+      "answer": "Yes. Solution items ship alongside lyophilized kits in the same order; the tiered wholesale discounts apply to the combined kit count, not per product line."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Metabolic Research Range",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Category procurement",
+      "url": "/blog/glp1-buyers-guide/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "COA verification",
+      "url": "/quality-and-testing/coa-verification/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₆₃H₈₈CoN₁₄O₁₄P"
+}

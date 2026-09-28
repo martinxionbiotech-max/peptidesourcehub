@@ -1,0 +1,199 @@
+{
+  "slug": "igf-1-lr3",
+  "name": "IGF-1 LR3 Wholesale",
+  "nameShort": "IGF-1 LR3",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "Confirmed on batch COA (not fixed in catalogue)",
+  "molecularWeight": "Mass confirmed per batch COA",
+  "purity": "≥95% by HPLC (recombinant protein)",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "−20°C long term, desiccated, protect from light",
+  "metaDescription": "IGF-1 LR3 wholesale: recombinant long R3 analogue, 0.1 mg × 10 vials, ≥95% HPLC, batch COA with mass confirmation, bulk pricing 10–30% off.",
+  "heroTitle": "IGF-1 LR3 Wholesale",
+  "heroSubtitle": "Recombinant long R3 IGF-1 analogue with reduced IGFBP affinity for cell-culture and IGF-1R signalling research",
+  "description": "IGF-1 LR3 is a recombinant analogue of insulin-like growth factor 1: an 83-amino-acid single-chain protein carrying an N-terminal extension and an arginine substitution at position 3. The modification reduces affinity for IGF-binding proteins, which is why it is preferred over native IGF-1 in cell-culture and receptor-signalling experiments where free-ligand availability matters. Because it is a recombinant protein rather than a synthetic peptide, identity and mass are confirmed batch by batch.",
+  "sku": "PSH-IGF1LR3-0.1MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not fixed in catalogue — confirmed on batch COA"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "Recombinant 83-amino-acid analogue — composition per COA"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Mass confirmed per batch COA"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "83 (long R3 analogue)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥95% by HPLC (recombinant protein)"
+    },
+    {
+      "label": "Storage",
+      "value": "−20°C long term, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Mass confirmation on each batch COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "IGF-1 receptor signalling",
+      "description": "Type-1 IGF receptor activation studied in proliferation and differentiation models"
+    },
+    {
+      "name": "Reduced IGFBP affinity",
+      "description": "The LR3 modification lowers binding-protein sequestration, increasing free-ligand availability in culture"
+    },
+    {
+      "name": "Extended culture activity",
+      "description": "Used where a longer effective exposure than native IGF-1 is required in vitro"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Muscle biology",
+      "description": "Myoblast proliferation and differentiation models"
+    },
+    {
+      "area": "IGF-1R signalling",
+      "description": "Receptor-level and downstream pathway research"
+    },
+    {
+      "area": "Cell culture",
+      "description": "Serum-free media supplementation and growth-factor studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "IGF-1 LR3 is a recombinant protein; this catalogue does not publish a fixed CAS number for it because identity is established per batch by mass confirmation and is reported on the Certificate of Analysis. Do not rely on third-party catalogue CAS values for this molecule — verify the mass on the COA you receive.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why is no fixed CAS number listed for IGF-1 LR3?",
+      "answer": "It is a recombinant protein rather than a small synthetic molecule, so identity is established batch by batch through mass confirmation and reported on the COA instead of being quoted as a fixed catalogue CAS number."
+    },
+    {
+      "question": "How is IGF-1 LR3 different from native IGF-1?",
+      "answer": "The LR3 analogue carries an N-terminal extension and an arginine substitution at position 3, which reduces affinity for IGF-binding proteins and increases the fraction of free ligand available in culture systems."
+    },
+    {
+      "question": "What is the purity specification?",
+      "answer": "Recombinant proteins in this catalogue are specified as ≥95% by HPLC, with the actual value for your lot printed on the Certificate of Analysis."
+    },
+    {
+      "question": "How should the lyophilized protein be stored?",
+      "answer": "Store the lyophilized powder desiccated at −20 °C for long-term stability, protected from light; avoid repeated freeze–thaw cycles of reconstituted solution."
+    },
+    {
+      "question": "What kit sizes are available?",
+      "answer": "IGF-1 LR3 is supplied as 0.1 mg × 10 vials, with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits and custom configurations for OEM projects."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Muscle Growth Range",
+      "subtitle": "GH-axis and IGF research",
+      "url": "/products/muscle-growth/"
+    },
+    {
+      "name": "PEG-MGF",
+      "subtitle": "Related growth-factor research",
+      "url": "/products/peg-mgf/"
+    },
+    {
+      "name": "Storage & Stability",
+      "subtitle": "Reconstitution guidance",
+      "url": "/blog/peptide-storage-reconstitution-stability/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "Recombinant 83-amino-acid analogue (composition per COA)"
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "vip",
+  "name": "VIP (Vasoactive Intestinal Peptide) Wholesale",
+  "nameShort": "VIP",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "37221-79-7",
+  "molecularWeight": "~3,326.8 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "VIP (vasoactive intestinal peptide) wholesale: CAS 37221-79-7, 28 aa, ~3,326.8 Da. ≥99% HPLC, 10-vial kits, batch COA, bulk pricing.",
+  "heroTitle": "VIP (Vasoactive Intestinal Peptide) Wholesale",
+  "heroSubtitle": "28-amino-acid neuroendocrine peptide studied in vascular, gastrointestinal and circadian-signalling models",
+  "description": "VIP is a 28-amino-acid peptide of the secretin/glucagon superfamily, acting through the class-B GPCRs VPAC1 and VPAC2. It is the standard reference agonist in research on smooth-muscle relaxation and vascular tone, intestinal secretion, and suprachiasmatic-nucleus circadian signalling. Because it is rapidly cleaved in vivo, published protocols commonly compare it with VPAC-selective analogues to separate receptor-subtype effects from clearance effects.",
+  "sku": "PSH-VIP-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "37221-79-7"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₄₇H₂₃₇N₄₃O₄₃S"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~3,326.8 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "28"
+    },
+    {
+      "label": "Sequence",
+      "value": "HSDAVFTDNYTRLRKQMAVKKYLNSILN"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "VPAC1 / VPAC2 signalling",
+      "description": "Class-B GPCR activation with cAMP accumulation reported across vascular and intestinal models"
+    },
+    {
+      "name": "Smooth-muscle relaxation",
+      "description": "Studied as the reference mediator of non-adrenergic, non-cholinergic relaxation"
+    },
+    {
+      "name": "Circadian signalling",
+      "description": "Used in suprachiasmatic-nucleus research on light-entrainment and clock-gene output"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Neuroendocrinology",
+      "description": "Peptidergic control of pituitary and hypothalamic signalling"
+    },
+    {
+      "area": "Vascular & GI physiology",
+      "description": "Vasodilation, secretion and motility models"
+    },
+    {
+      "area": "Circadian biology",
+      "description": "SCN entrainment and clock-output studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 53314964. Sequence as listed for the 28-amino-acid form. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is VIP used for in research?",
+      "answer": "VIP is used as the reference agonist in VPAC1/VPAC2 signalling studies, smooth-muscle relaxation and vascular-tone models, intestinal secretion research, and suprachiasmatic-nucleus circadian work."
+    },
+    {
+      "question": "What is the CAS number and molecular weight of VIP?",
+      "answer": "The catalogue lists CAS 37221-79-7 with a molecular weight of approximately 3,326.8 Da for the 28-amino-acid peptide; the sequence is stated on the specification table and on each Certificate of Analysis."
+    },
+    {
+      "question": "Is VIP human or porcine sequence in this catalogue?",
+      "answer": "The 28-amino-acid sequence listed here matches the human/porcine form, which differ only at position 5 in some species variants. Confirm the exact sequence printed on the COA for your batch."
+    },
+    {
+      "question": "How should VIP be stored?",
+      "answer": "Lyophilized powder is shipped and stored at 2–8 °C, desiccated and protected from light. Reconstituted solution stability is protocol-dependent and should be established in your own laboratory."
+    },
+    {
+      "question": "What kit sizes and bulk pricing are available?",
+      "answer": "VIP is supplied as 5 mg × 10 vials and 10 mg × 10 vials, with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits; custom kit configurations are available for OEM projects."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Nootropic & Anti-Aging Range",
+      "subtitle": "All neuro/anti-aging peptides",
+      "url": "/products/nootropic-anti-aging/"
+    },
+    {
+      "name": "Epithalon",
+      "subtitle": "Telomerase research peptide",
+      "url": "/products/epithalon/"
+    },
+    {
+      "name": "Semax vs Selank",
+      "subtitle": "Comparison guide",
+      "url": "/products/compare/selank-vs-semax/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "COA verification",
+      "url": "/quality-and-testing/coa-verification/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₄₇H₂₃₇N₄₃O₄₃S",
+  "sequence": "HSDAVFTDNYTRLRKQMAVKKYLNSILN (28 aa)",
+  "aminoAcids": "28"
+}

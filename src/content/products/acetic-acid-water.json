@@ -1,0 +1,172 @@
+{
+  "slug": "acetic-acid-water",
+  "name": "Acetic Acid Water Wholesale",
+  "nameShort": "Acetic acid water",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "64-19-7 (acetic acid)",
+  "molecularWeight": "60.05 (acetic acid)",
+  "purity": "Dilute aqueous acetic acid — concentration per batch COA",
+  "appearance": "Clear, colourless solution with characteristic odour",
+  "storage": "2–8°C, protect from light",
+  "metaDescription": "Dilute acetic acid water wholesale for laboratory use: 10 mL × 10 vials, concentration documented per batch COA, bulk pricing 10–30% off.",
+  "heroTitle": "Acetic Acid Water Wholesale",
+  "heroSubtitle": "Dilute acetic acid solution used as a laboratory diluent for peptides with limited water solubility",
+  "description": "Acetic acid water is a dilute aqueous acetic acid solution supplied as a laboratory diluent. It is used when a peptide reconstitutes poorly or gels in neutral water, a situation where a mildly acidic vehicle improves dissolution; it is also used as a solvent in analytical work. The concentration is documented per batch on the Certificate of Analysis because the catalogue does not fix a single strength for all applications.",
+  "sku": "PSH-ACETIC-WATER-10ML",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "64-19-7 (acetic acid)"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₂H₄O₂ (acetic acid)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "60.05 (acetic acid)"
+    },
+    {
+      "label": "Form",
+      "value": "10 mL × 10 vials"
+    },
+    {
+      "label": "Concentration",
+      "value": "As stated on the batch Certificate of Analysis"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, colourless solution with characteristic odour"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Batch identity confirmed per COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mL × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "3 mL × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [],
+  "researchAreas": [
+    {
+      "area": "Reconstitution",
+      "description": "Peptides that are poorly soluble or gel in neutral aqueous vehicles"
+    },
+    {
+      "area": "Analytical chemistry",
+      "description": "Acidic diluent for HPLC and sample-preparation workflows"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Concentration",
+      "method": "Titrimetric assay",
+      "criterion": "Per batch documentation"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Clear, colourless, free of particulates"
+    },
+    {
+      "parameter": "pH",
+      "method": "Potentiometric",
+      "criterion": "Acidic, value per batch COA"
+    },
+    {
+      "parameter": "Sterility",
+      "method": "Membrane filtration test",
+      "criterion": "Sterile"
+    }
+  ],
+  "qualityNote": "Acetic acid water is a diluent rather than a peptide; the identity data listed here refer to the acetic acid component (CAS 64-19-7). Concentration and pH for each lot are stated on the Certificate of Analysis. The solution should be handled in a ventilated area and kept away from incompatible reagents.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "When should acetic acid water be used instead of sterile water?",
+      "answer": "It is used when a peptide dissolves poorly or gels in a neutral vehicle; a mildly acidic solution often improves dissolution. Confirm the choice against the solubility notes for your specific peptide."
+    },
+    {
+      "question": "What concentration is the solution?",
+      "answer": "The catalogue does not fix a single strength: the concentration of each lot is stated on the batch Certificate of Analysis so that the exact value is traceable for your protocol."
+    },
+    {
+      "question": "Is it safe to handle without special precautions?",
+      "answer": "Acetic acid solutions should be handled in a ventilated area with appropriate personal protective equipment and kept away from incompatible reagents; the pH is stated on the batch COA."
+    },
+    {
+      "question": "What kit size is supplied?",
+      "answer": "Acetic acid water is supplied as 10 mL × 10 vials, with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits."
+    },
+    {
+      "question": "Is this product for human or veterinary use?",
+      "answer": "No. All catalogue items are supplied strictly for laboratory research use only and are not for human or veterinary use, diagnosis, treatment or cosmetic application."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Specialty Range",
+      "subtitle": "Stacks and lab reagents",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Product Catalog",
+      "subtitle": "Full peptide catalogue",
+      "url": "/products/"
+    },
+    {
+      "name": "Storage & Stability",
+      "subtitle": "Reconstitution guidance",
+      "url": "/blog/peptide-storage-reconstitution-stability/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Bacteriostatic water?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₂H₄O₂ (acetic acid)"
+}

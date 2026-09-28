@@ -1,6 +1,6 @@
 # Peptide Source Hub — Factory-Direct Wholesale Peptides
 > https://peptidesourcehub.net
-> China-based peptide manufacturer since 2009. 50+ research peptides & HGH kits in bulk; identity data sourced from public databases and published per product.
+> China-based GMP peptide manufacturer since 2009. 50+ research peptides & HGH kits in bulk; identity data sourced from public databases and published per product.
 
 ## Core Pages
 - [Homepage](https://peptidesourcehub.net/): Wholesale peptides, 6 categories, specs, FAQ
@@ -22,7 +22,7 @@
 - [TB-500](https://peptidesourcehub.net/products/tb-500/): Thymosin Beta-4 fragment, CAS 77591-33-4, cell migration research
 - [Semaglutide](https://peptidesourcehub.net/products/semaglutide/): GLP-1 receptor agonist, CAS 910463-68-2, ~4113.6 Da, metabolic research
 - [Tirzepatide](https://peptidesourcehub.net/products/tirzepatide/): Dual GIP/GLP-1 agonist, CAS 2023788-19-2, ~4813.5 Da
-- [Cagrilintide](https://peptidesourcehub.net/products/cagrilintide/): Long-acting amylin analogue, CAS 1415456-99-3 (NCBI PubChem CID 171397054), dual-pathway metabolic
+- [Cagrilintide](https://peptidesourcehub.net/products/cagrilintide/): Long-acting amylin analogue, CAS 2489551-48-6, dual-pathway metabolic
 - [Retatrutide](https://peptidesourcehub.net/products/retatrutide/): Triple GIP/GLP-1/GCGR agonist, CAS 2381089-83-2, next-gen metabolic
 - [GHK-Cu](https://peptidesourcehub.net/products/ghk-cu/): Copper tripeptide-1, CAS 49557-75-7, collagen synthesis & skin research
 - [HGH](https://peptidesourcehub.net/products/hgh/): Human Growth Hormone, CAS 12629-01-5, ~22125 Da, GH/IGF-1 axis research
@@ -48,6 +48,17 @@
 - [Import compliance](https://peptidesourcehub.net/import-compliance/): document pack and regional notes (EU/US/JP/GCC)
 - [OEM & private label](https://peptidesourcehub.net/oem-custom/): process, customisation options and documentation
 - [Glossary](https://peptidesourcehub.net/glossary/): analytical, handling and procurement terminology
+
+## Additional Products
+
+- [VIP](https://peptidesourcehub.net/products/vip/): Vasoactive intestinal peptide, CAS 37221-79-7, 28 aa, ~3,326.8 Da, VPAC1/VPAC2 research
+- [Vitamin B12](https://peptidesourcehub.net/products/vitamin-b12/): Cyanocobalamin, CAS 68-19-9, 1,355.4 Da, 10 mL multi-dose solution
+- [IGF-1 LR3](https://peptidesourcehub.net/products/igf-1-lr3/): Recombinant long R3 analogue (83 aa), 0.1 mg kits, identity per batch COA
+- [Thymalin](https://peptidesourcehub.net/products/thymalin/): Thymic peptide preparation, 10 mg kits, identity per batch COA
+- [Lipo-C](https://peptidesourcehub.net/products/lipo-c/): Multi-component lipotropic solution, 10 mL kits, composition per batch COA
+- [Lipo-C with B12](https://peptidesourcehub.net/products/lipo-c-with-b12/): Lipotropic solution with cyanocobalamin, 10 mL kits
+- [Sterile water](https://peptidesourcehub.net/products/sterile-water/): Preservative-free diluent, CAS 7732-18-5, 10 mL kits
+- [Acetic acid water](https://peptidesourcehub.net/products/acetic-acid-water/): Dilute acetic acid diluent, CAS 64-19-7, 10 mL kits
 
 ## Reference Data
 - [Specification dataset (CSV)](https://peptidesourcehub.net/data/peptides.csv) / [JSON](https://peptidesourcehub.net/data/peptides.json): CAS, formula, molecular weight, purity criterion, kit sizes

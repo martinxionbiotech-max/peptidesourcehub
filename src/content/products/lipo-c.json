@@ -1,0 +1,191 @@
+{
+  "slug": "lipo-c",
+  "name": "Lipo-C Wholesale",
+  "nameShort": "Lipo-C",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "Not applicable (multi-component blend)",
+  "molecularWeight": "Not applicable (blend)",
+  "purity": "Assay per batch COA",
+  "appearance": "Clear, colourless to pale yellow solution",
+  "storage": "2–8°C, protect from light",
+  "metaDescription": "Lipo-C wholesale: multi-component lipotropic blend, 10 mL × 10 vials, batch COA with component list, bulk tiered pricing 10–30% off.",
+  "heroTitle": "Lipo-C Wholesale",
+  "heroSubtitle": "Multi-component lipotropic solution supplied as a defined liquid vehicle for metabolic and formulation research",
+  "description": "Lipo-C is a multi-component lipotropic preparation supplied as a ready-to-use solution rather than a lyophilized powder. Research use centres on lipid-transport and hepatic-metabolism models, where a defined liquid vehicle containing methyl-donor and lipotropic cofactors is required. Because the formulation is a blend, no single CAS number applies: the component list and the concentration of each component are stated on the batch Certificate of Analysis.",
+  "sku": "PSH-LIPOC-10ML",
+  "specifications": [
+    {
+      "label": "Composition",
+      "value": "Multi-component lipotropic blend — component list and concentrations per batch COA"
+    },
+    {
+      "label": "Form",
+      "value": "10 mL multi-dose vial"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, colourless to pale yellow solution"
+    },
+    {
+      "label": "Assay",
+      "value": "Per batch Certificate of Analysis"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Batch identity confirmed per COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Lipotropic cofactor supply",
+      "description": "Methionine-, inositol- and choline-type cofactors studied in lipid-transport models"
+    },
+    {
+      "name": "One-carbon supply",
+      "description": "Methyl-donor availability in hepatic and metabolic research systems"
+    },
+    {
+      "name": "Formulation research",
+      "description": "Used as a defined liquid vehicle in comparative formulation work"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Metabolic research",
+      "description": "Lipid-transport and hepatic metabolism models"
+    },
+    {
+      "area": "Formulation science",
+      "description": "Liquid multi-component vehicle comparability"
+    },
+    {
+      "area": "Analytical reference work",
+      "description": "Blend comparability and stability studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "As a multi-component formulation, Lipo-C has no single CAS number. The composition and concentrations are stated on the batch Certificate of Analysis, which is the authoritative identity document for this item. The catalogue intentionally does not publish an assumed formula.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Lipo-C?",
+      "answer": "Lipo-C is a multi-component lipotropic solution supplied for research use as a defined liquid vehicle; the component list and concentrations are stated on the batch COA rather than fixed in the catalogue."
+    },
+    {
+      "question": "Why is there no CAS number for Lipo-C?",
+      "answer": "It is a blend of several components, so no single CAS number applies. Identity and composition are documented per batch on the Certificate of Analysis."
+    },
+    {
+      "question": "How is Lipo-C shipped and stored?",
+      "answer": "It ships as a 10 mL multi-dose solution and should be stored at 2–8 °C protected from light; do not freeze unless your own stability data supports it."
+    },
+    {
+      "question": "Can the formulation be customised?",
+      "answer": "Yes. Custom component ratios and labelling are available for OEM projects, subject to a written specification agreed before production."
+    },
+    {
+      "question": "What bulk pricing applies?",
+      "answer": "Lipo-C is priced per 10-vial kit with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Metabolic Research Range",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Category procurement",
+      "url": "/blog/glp1-buyers-guide/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "COA verification",
+      "url": "/quality-and-testing/coa-verification/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "Multi-component blend — composition per COA"
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "sterile-water",
+  "name": "Sterile Water Wholesale",
+  "nameShort": "Sterile water",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "7732-18-5 (water)",
+  "molecularWeight": "18.02",
+  "purity": "Sterile, preservative-free",
+  "appearance": "Clear, colourless solution",
+  "storage": "2–8°C, protect from light",
+  "metaDescription": "Sterile water wholesale for laboratory use: preservative-free H₂O, 10 mL × 10 vials, batch documentation, bulk pricing 10–30% off.",
+  "heroTitle": "Sterile Water Wholesale",
+  "heroSubtitle": "Preservative-free sterile water for reconstitution and dilution in laboratory workflows",
+  "description": "Sterile water is the preservative-free option among laboratory diluents: unlike bacteriostatic water it contains no antimicrobial additive, so it is intended for single-use dilution and for applications where an added preservative would interfere with the assay. It is supplied in multi-vial kits alongside the lyophilized peptides in this catalogue, and it is the conventional choice when a formulation must be preservative-free.",
+  "sku": "PSH-STERILE-WATER-10ML",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "7732-18-5"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "H₂O"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "18.02"
+    },
+    {
+      "label": "Form",
+      "value": "10 mL × 10 vials"
+    },
+    {
+      "label": "Preservative",
+      "value": "None (preservative-free)"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, colourless solution"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Sterility and identity documentation per batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mL × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "3 mL × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [],
+  "researchAreas": [
+    {
+      "area": "Reconstitution",
+      "description": "Dilution of lyophilized peptides where no preservative is acceptable"
+    },
+    {
+      "area": "Analytical workflows",
+      "description": "Preservative-free blanks and diluent preparation"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Sterility",
+      "method": "Membrane filtration test",
+      "criterion": "Sterile"
+    },
+    {
+      "parameter": "Preservative content",
+      "method": "Absence of antimicrobial additive",
+      "criterion": "None added"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Clear, colourless, free of particulates"
+    },
+    {
+      "parameter": "pH",
+      "method": "Potentiometric",
+      "criterion": "Per batch documentation"
+    }
+  ],
+  "qualityNote": "Sterile water is a diluent rather than a peptide, so the identity data listed here refer to water itself (CAS 7732-18-5). Sterility and pH documentation for each lot is provided with the Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does sterile water differ from bacteriostatic water?",
+      "answer": "Sterile water contains no antimicrobial preservative, whereas bacteriostatic water includes one. Choose sterile water for single-use dilution or when a preservative would interfere with the assay."
+    },
+    {
+      "question": "Can sterile water be used to reconstitute the peptides in this catalogue?",
+      "answer": "Yes — it is the conventional choice when a preservative-free vehicle is required. Solubility of the individual peptide should always be checked before adopting a routine protocol."
+    },
+    {
+      "question": "Is this product for human or veterinary use?",
+      "answer": "No. All catalogue items are supplied strictly for laboratory research use only and are not for human or veterinary use, diagnosis, treatment or cosmetic application."
+    },
+    {
+      "question": "What kit size is supplied?",
+      "answer": "Sterile water is supplied as 10 mL × 10 vials, with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits."
+    },
+    {
+      "question": "How should the vials be stored?",
+      "answer": "Store at 2–8 °C protected from light, and do not use vials with damaged seals or visible particulates."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Specialty Range",
+      "subtitle": "Stacks and lab reagents",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Product Catalog",
+      "subtitle": "Full peptide catalogue",
+      "url": "/products/"
+    },
+    {
+      "name": "Storage & Stability",
+      "subtitle": "Reconstitution guidance",
+      "url": "/blog/peptide-storage-reconstitution-stability/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Bacteriostatic water?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "H₂O"
+}

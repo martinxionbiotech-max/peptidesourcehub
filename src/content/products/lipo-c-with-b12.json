@@ -1,0 +1,195 @@
+{
+  "slug": "lipo-c-with-b12",
+  "name": "Lipo-C with B12 Wholesale",
+  "nameShort": "Lipo-C with B12",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "Not applicable (multi-component blend)",
+  "molecularWeight": "Not applicable (blend)",
+  "purity": "Assay per batch COA",
+  "appearance": "Clear, red-tinted solution (B12-containing)",
+  "storage": "2–8°C, protect from light",
+  "metaDescription": "Lipo-C with B12 wholesale: lipotropic blend plus cyanocobalamin, 10 mL × 10 vials, batch COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "Lipo-C with B12 Wholesale",
+  "heroSubtitle": "Lipotropic solution with cyanocobalamin, supplied as a defined liquid vehicle for metabolic research",
+  "description": "Lipo-C with B12 is the same lipotropic liquid formulation with cyanocobalamin included as the cobalamin component. The addition makes the solution visibly red-tinted, which is a useful handling indicator but also means the product is photolabile and must be protected from light. As with the plain Lipo-C, the exact component list and concentrations are stated on the batch Certificate of Analysis rather than fixed in the catalogue.",
+  "sku": "PSH-LIPOCB12-10ML",
+  "specifications": [
+    {
+      "label": "Composition",
+      "value": "Multi-component lipotropic blend — component list and concentrations per batch COA"
+    },
+    {
+      "label": "Form",
+      "value": "10 mL multi-dose vial (B12-containing)"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, colourless to pale yellow solution"
+    },
+    {
+      "label": "Assay",
+      "value": "Per batch Certificate of Analysis"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "Batch identity confirmed per COA"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Lipotropic cofactor supply",
+      "description": "Methionine-, inositol- and choline-type cofactors studied in lipid-transport models"
+    },
+    {
+      "name": "One-carbon supply",
+      "description": "Methyl-donor availability in hepatic and metabolic research systems"
+    },
+    {
+      "name": "Formulation research",
+      "description": "Used as a defined liquid vehicle in comparative formulation work"
+    },
+    {
+      "name": "Cobalamin cofactor supply",
+      "description": "Cyanocobalamin as the cobalamin component of the blend"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Metabolic research",
+      "description": "Lipid-transport and hepatic metabolism models"
+    },
+    {
+      "area": "Formulation science",
+      "description": "Liquid multi-component vehicle comparability"
+    },
+    {
+      "area": "Cofactor research",
+      "description": "Cobalamin-dependent metabolic endpoints in liquid vehicles"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "A multi-component formulation including cyanocobalamin; no single CAS number applies. Component identity and concentrations are stated on the batch COA, which is the authoritative identity document for this item.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does Lipo-C with B12 differ from plain Lipo-C?",
+      "answer": "It is the same lipotropic vehicle with cyanocobalamin included as the cobalamin component, which gives the solution its red tint and makes light protection more important."
+    },
+    {
+      "question": "Why is no CAS number listed?",
+      "answer": "The product is a blend of several components, so no single CAS number applies; composition is documented per batch on the Certificate of Analysis."
+    },
+    {
+      "question": "Does the B12 content change storage requirements?",
+      "answer": "Yes — cyanocobalamin is photolabile, so the solution must be stored at 2–8 °C protected from light and should not be left exposed during handling."
+    },
+    {
+      "question": "Can the B12 concentration be adjusted?",
+      "answer": "Custom component concentrations are available for OEM orders when a written specification is agreed in advance."
+    },
+    {
+      "question": "What bulk pricing applies?",
+      "answer": "Pricing is per 10-vial kit with tiered wholesale discounts from 10% at 5+ kits to 30% at 50+ kits, combined across your order."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Metabolic Research Range",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Category procurement",
+      "url": "/blog/glp1-buyers-guide/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "COA verification",
+      "url": "/quality-and-testing/coa-verification/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "Multi-component blend including cyanocobalamin — composition per COA"
+}

@@ -25,7 +25,7 @@ export const CLUSTERS: Cluster[] = [
     description:
       "Compare the GHRP family for research use: sequence length, receptor, published GH potency, ACTH/cortisol effects, appetite endpoints and list prices.",
     intro:
-      "All three molecules are ghrelin-receptor (GHS-R1a) agonists, but they are not interchangeable tools. The comparison below uses the published comparative characterisation of the family (Raun et al., 1998, European Journal of Endocrinology, in conscious swine) plus the sequences and catalogue data listed for each product on this site.",
+      "All three molecules are ghrelin-receptor (GHS-R1a) agonists, but they are not interchangeable tools. The comparison below uses the published comparative characterisation of the family (Raun et al., 1998, European Journal of Endocrinology, in conscious swine; DOI 10.1530/eje.0.1390552) plus the sequences and catalogue data listed for each product on this site.",
     columns: ["Parameter", "GHRP-2", "GHRP-6", "Ipamorelin"],
     rows: [
       ["Structure", "Hexapeptide: D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH₂", "Hexapeptide: His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂", "Pentapeptide: Aib-His-D-2-Nal-D-Phe-Lys-NH₂"],
@@ -75,7 +75,7 @@ export const CLUSTERS: Cluster[] = [
       { slug: "sermorelin", label: "Sermorelin" },
     ],
     sourceNote:
-      "Published comparative data: Raun K. et al., Ipamorelin, the first selective growth hormone secretagogue, Eur J Endocrinol 139(5):552-561 (1998). Catalogue sequences and kit sizes are as listed on each product page.",
+      "Published comparative data: Raun K. et al., Ipamorelin, the first selective growth hormone secretagogue, Eur J Endocrinol 139(5):552-561 (1998). DOI: 10.1530/eje.0.1390552 Catalogue sequences and kit sizes are as listed on each product page.",
   },
   {
     slug: "cjc-1295-dac-vs-no-dac",
@@ -112,7 +112,7 @@ export const CLUSTERS: Cluster[] = [
     faq: [
       {
         q: "What exactly is the DAC in CJC-1295?",
-        a: "The Drug Affinity Complex is a maleimidopropionic acid linker attached at the C-terminus. After administration it reacts with the free thiol of Cys34 on serum albumin, forming a covalent thioether bond that converts the peptide into an albumin-bound conjugate (Jetté et al., 2005).",
+        a: "The Drug Affinity Complex is a maleimidopropionic acid linker attached at the C-terminus. After administration it reacts with the free thiol of Cys34 on serum albumin, forming a covalent thioether bond that converts the peptide into an albumin-bound conjugate (Jetté et al., 2005; DOI 10.1210/en.2004-1286).",
       },
       {
         q: "Why is the half-life difference so large?",
@@ -135,7 +135,7 @@ export const CLUSTERS: Cluster[] = [
       { slug: "cjc-ipamorelin-blend", label: "CJC-1295 + Ipamorelin blend" },
     ],
     sourceNote:
-      "DAC bioconjugation chemistry: Jetté L. et al. (2005) and the published DAC platform literature. Half-life ranges: published pharmacokinetic summaries for the two forms. Catalogue masses are as listed on each product page.",
+      "DAC bioconjugation chemistry: Jetté L. et al., Endocrinology 146(7):3052-3058 (2005), DOI 10.1210/en.2004-1286, and the published DAC platform literature. Half-life ranges: published pharmacokinetic summaries for the two forms. Catalogue masses are as listed on each product page.",
   },
   {
     slug: "selank-vs-semax",
@@ -195,7 +195,7 @@ export const CLUSTERS: Cluster[] = [
       { slug: "pinealon", label: "Pinealon" },
     ],
     sourceNote:
-      "Sequences and stabilisation rationale: published reviews of Semax and Selank (Russian regulatory-peptide literature). Human imaging endpoints: Panikratova et al. (2020), 52 healthy participants. Rates and potencies are not compared because none are published as head-to-head human outcomes.",
+      "Sequences and stabilisation rationale: published reviews of Semax and Selank (Russian regulatory-peptide literature). Human imaging endpoints: Panikratova et al., Doklady Biological Sciences 490:9-11 (2020), DOI 10.1134/s001249662001007x, 52 healthy participants. Rates and potencies are not compared because none are published as head-to-head human outcomes.",
   },
   {
     slug: "argireline-vs-snap-8",
