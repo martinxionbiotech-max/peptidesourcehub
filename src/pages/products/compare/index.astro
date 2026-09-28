@@ -1,0 +1,129 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import RuoNotice from "../../../components/RuoNotice.astro";
+
+/** 对比页索引（P3）—— 汇总 5 组同族分子对比，全部指向 /products/compare/<cluster>/ */
+
+const comparisons = [
+  {
+    slug: "ghrp-family",
+    title: "GHRP-2 vs GHRP-6 vs Ipamorelin",
+    desc: "Sequence length, published GH potency and efficacy, ACTH/cortisol effects and appetite endpoints across the GHRP family.",
+    tags: ["GH secretagogues", "Receptor selectivity"],
+  },
+  {
+    slug: "cjc-1295-dac-vs-no-dac",
+    title: "CJC-1295 with DAC vs without DAC",
+    desc: "One linker, three orders of magnitude in half-life: albumin binding, GH stimulation pattern and analytical mass difference.",
+    tags: ["GHRH analogues", "Pharmacokinetics"],
+  },
+  {
+    slug: "selank-vs-semax",
+    title: "Selank vs Semax",
+    desc: "Tuftsin-derived vs ACTH(4-7)-derived heptapeptides, the shared Pro-Gly-Pro stabilisation motif, and what human studies measured.",
+    tags: ["Neuropeptides", "Neurotrophin research"],
+  },
+  {
+    slug: "argireline-vs-snap-8",
+    title: "Argireline vs SNAP-8",
+    desc: "The SNAP-25 N-terminal mimetic pair: six residues vs eight, terminal protection, and how chain length changes the assay.",
+    tags: ["Vesicle-docking research", "Structure–activity"],
+  },
+  {
+    slug: "bpc-157-vs-tb-500",
+    title: "BPC-157 vs TB-500",
+    desc: "Two repair-research peptides with unrelated origins: gastric pentadecapeptide vs thymosin β4-derived fragment, plus the mass check that catches mislabelled material.",
+    tags: ["Repair research", "Identity verification"],
+  },
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://peptidesourcehub.net/products/compare/#webpage",
+    name: "Research Peptide Comparisons",
+    description:
+      "Side-by-side comparisons of closely related research peptides: GHRP family, CJC-1295 with and without DAC, Selank vs Semax, Argireline vs SNAP-8, BPC-157 vs TB-500.",
+    url: "https://peptidesourcehub.net/products/compare/",
+    isPartOf: { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+    hasPart: comparisons.map((c) => ({
+      "@type": "WebPage",
+      name: c.title,
+      url: `https://peptidesourcehub.net/products/compare/${c.slug}/`,
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://peptidesourcehub.net/" },
+      { "@type": "ListItem", position: 2, name: "Products", item: "https://peptidesourcehub.net/products/" },
+      { "@type": "ListItem", position: 3, name: "Comparisons" },
+    ],
+  },
+];
+---
+
+<PageLayout
+  title="Compare Research Peptides"
+  description="Side-by-side comparisons of closely related research peptides: receptor selectivity, half-life, mechanism class and list prices."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Comparisons</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Research Peptide Comparisons</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-3xl">
+      Five groups of molecules that buyers and researchers most often confuse. Each page compares them on the parameters that actually differ — receptor pharmacology, half-life, mechanism class, documented identity data and list price — with the published source for every comparative claim.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto stagger-children">
+      {comparisons.map((c) => (
+        <a href={`/products/compare/${c.slug}/`} class="card p-6 hover:-translate-y-1 transition-all duration-300">
+          <h2 class="font-bold text-lg mb-2">{c.title}</h2>
+          <p class="text-gray-600 text-sm mb-4">{c.desc}</p>
+          <div class="flex flex-wrap gap-2">
+            {c.tags.map((t) => (
+              <span class="px-2.5 py-1 rounded-full bg-accent/10 text-accent-dark text-xs">{t}</span>
+            ))}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4 text-center">
+    <h2 class="mb-4">Why we publish comparisons instead of one catalogue page</h2>
+    <p class="text-gray-600 text-sm max-w-3xl mx-auto">
+      Two molecules with different research profiles should not be described with the same paragraph. Each comparison states what is documented about each molecule, cites the published source, and names the parameters where the evidence is thin — including the points where a vendor's own catalogue data needs a second look.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3 mt-6">
+      <a href="/quality-and-testing/coa-verification/" class="btn-outline">How to verify a COA</a>
+      <a href="/products/" class="btn-outline">Full catalogue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Sourcing a whole cluster?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">One quotation, one COA set, matched batch documentation across all molecules in the group.</p>
+    <a href="/contact/" class="btn-primary text-lg">Request a Quote</a>
+  </div>
+</section>
+
+</PageLayout>

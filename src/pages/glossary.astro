@@ -1,0 +1,173 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import RuoNotice from "../components/RuoNotice.astro";
+
+/** 术语表（P3）—— 定义取自通用分析化学 / 药理学用法；研究用化学品语境下列出，不构成医学信息。 */
+
+const groups = [
+  {
+    name: "Identity & analytics",
+    terms: [
+      ["Peptide", "A chain of amino acids linked by peptide bonds. Short chains (roughly under 50 residues) are conventionally called peptides; longer ones are proteins. Research peptides are supplied as the defined synthetic sequence, not as a biological extract."],
+      ["Amino acid sequence", "The order of residues in the chain, written N-terminus to C-terminus. The sequence defines the molecule's mass and, in most cases, its receptor pharmacology — which is why a two-residue difference between two peptides is a real difference, not a labelling detail."],
+      ["CAS Registry Number", "A unique numeric identifier for a chemical substance, in the form NNN-NN-N. It identifies the substance, not the grade, the salt form or the supplier. Identity is only complete when the CAS number is read together with the stated salt/free-base form and purity method."],
+      ["Molecular weight (Da / g·mol⁻¹)", "The sum of atomic masses for the defined structure. For peptides it is reported as the monoisotopic or average mass; the two differ slightly, which matters when a COA is compared against a theoretical value."],
+      ["Acetate salt / free base", "The counter-ion form in which a peptide is supplied. The same peptide as an acetate salt and as a free base have different masses, so the form must be stated before masses are compared."],
+      ["HPLC (high-performance liquid chromatography)", "The standard separation technique used to measure peptide purity. Meaningful purity figures require the column, mobile phase, gradient and detection wavelength to be stated — “≥99% by HPLC” alone is not a complete method statement."],
+      ["Peak area purity vs peptide content", "Peak-area purity (the percentage of integrated UV signal) and net peptide content (the mass fraction that is actually peptide, measured by amino-acid analysis) are different quantities. A high purity percentage does not by itself mean a high content figure, which is why both belong on a COA."],
+      ["ESI-MS (electrospray ionisation mass spectrometry)", "The technique used to confirm that the synthesized molecule is the intended one, by comparing observed mass against the theoretical mass of the sequence — including the expected adducts."],
+      ["Lyophilization", "Freeze-drying: the peptide is supplied as a dry powder to slow degradation. It is the standard presentation for research peptides."],
+    ],
+  },
+  {
+    name: "Handling & storage",
+    terms: [
+      ["Reconstitution", "Dissolving the lyophilized powder in a solvent, usually sterile water, bacteriostatic water or buffer. Solubility and stability depend on the peptide, the pH and the ionic strength — the batch COA states the solvent tested."],
+      ["Bacteriostatic water", "Sterile water containing an antimicrobial preservative, used as a multi-dose laboratory diluent. Unpreserved sterile water is preferred where a preservative could interfere with the assay."],
+      ["Aliquot", "A single-use portion of a reconstituted solution, frozen separately so that a vial is thawed once only. Aliquoting is the standard practice for limiting freeze–thaw degradation."],
+      ["Freeze–thaw cycle", "One round of freezing and thawing. Repeated cycles are associated with aggregation and loss of activity for many peptides, which is the reason single-use aliquots are recommended."],
+      ["Desiccated storage", "Storage with a moisture-absorbing sachet, typically at 2–8 °C for lyophilized peptide and protected from light. Moisture uptake is one of the main degradation routes for lyophilized powders."],
+    ],
+  },
+  {
+    name: "Pharmacology & research context",
+    terms: [
+      ["Receptor agonist", "A compound that binds a receptor and activates it. A selective agonist activates one receptor subtype at the concentrations studied; a non-selective one activates several. In the GHRP family, selectivity is the property that separates the members."],
+      ["Half-life", "The time in which the circulating concentration of a compound falls by half. It determines whether a research protocol produces a discrete pulse or a sustained stimulus — the CJC-1295 forms differ by roughly three orders of magnitude here."],
+      ["DPP-IV", "Dipeptidyl peptidase-4, the enzyme that cleaves many peptide hormones at the second residue from the N-terminus. It is the principal reason native GHRH has a half-life of about seven minutes and the reason stabilised analogues carry substitutions at that position."],
+      ["Albumin binding (DAC)", "Covalent attachment of a peptide to serum albumin, which shields it from proteolysis and renal filtration and extends its half-life from minutes to days. The Drug Affinity Complex used in CJC-1295 with DAC works this way. Note that a peptide esterified or acylated simply to prolong action is a different mechanism from conjugation to albumin."],
+      ["GHRH receptor vs ghrelin (GHS-R1a) receptor", "Two distinct receptors on pituitary somatotrophs that both stimulate GH release. GHRH analogues act at the GHRH receptor; GHRP-family peptides act at the ghrelin receptor. Comparing them requires the distinction to be kept straight, because their downstream signalling and side-effect profiles differ."],
+      ["Secretagogue", "A substance that stimulates secretion. In this catalogue it applies to peptides studied for their effect on GH secretion; it says nothing about any clinical use."],
+      ["Secretory pathway / SNARE complex", "The protein machinery that docks vesicles and enables their fusion with the plasma membrane. Peptides that mimic part of the SNAP-25 protein are used in research on this machinery, which is why the Argireline/SNAP-8 pair is described in those terms rather than as a receptor agonist."],
+      ["Matrikine", "A peptide fragment of an extracellular-matrix protein that can signal to cells. The term is descriptive of a mechanism class, not a regulated category or a quality grade."],
+    ],
+  },
+  {
+    name: "Quality & compliance",
+    terms: [
+      ["Certificate of Analysis (COA)", "A batch-specific analytical record stating what was tested, by which method, against which specification and with which measured result. It is not a regulatory approval. See the verification guide for how to check one."],
+      ["Safety Data Sheet (SDS)", "A structured hazard and handling document, usually in GHS format. Section 14 covers transport classification, and an SDS with that section left blank is a common cause of carrier refusal."],
+      ["Research Use Only (RUO)", "A designation meaning the material is supplied for laboratory investigation and not for human or veterinary use, diagnosis, treatment or cosmetic application. RUO material is not a medicine, is not subject to the quality standards of a medicine, and its documentation is analytical rather than regulatory."],
+      ["End-use statement", "A declaration describing the intended use of a shipment as laboratory research. Routinely requested by customs brokers."],
+      ["GMP", "Good Manufacturing Practice: a manufacturing quality framework for medicinal products. Its scope is pharmaceutical production. A research chemical is not GMP-manufactured by virtue of being made in a controlled facility, so GMP claims should be read against the certificate that supposedly supports them."],
+    ],
+  },
+  {
+    name: "Commercial",
+    terms: [
+      ["Kit", "This catalogue's selling unit: 10 vials at the stated fill, supplied with a batch COA. All list prices are per kit unless stated otherwise."],
+      ["List price vs quotation", "The published list price is the per-kit figure on the price list. Quotations add the volume discount applicable at your order size and, where relevant, freight and documentation."],
+      ["Volume discount tiers", "Quantity-based discount steps published on the price list: 10% from 5 kits, 20% from 20 kits and 30% from 50 kits. Tier boundaries are stated on the price list itself, not inferred from marketing copy."],
+      ["OEM / private label", "Supply under the buyer's brand, with the buyer's artwork on vials and cartons, always retaining the research-use statement. See the OEM page for the process."],
+    ],
+  },
+];
+
+const faq = [
+  ["Where can I find the technical documentation behind these definitions?", "The knowledge base at docs.peptidesourcehub.net contains the specification pages, quality-control framework and supplier-qualification guides that sit behind this glossary. This page is the short-form version for procurement readers."],
+  ["Do these definitions constitute medical or legal information?", "No. They describe standard analytical, handling and regulatory terminology as used in research-chemical supply. Nothing here is medical advice, a dosing guide or a legal opinion on import or possession."],
+  ["Why does the glossary mention what a term does not include?", "Because most procurement errors in this category come from a term being used more broadly than it should be — a purity figure without a method, a GMP claim on a research chemical, or a half-life quoted for the wrong analogue. Stating the limits is the point of the entry."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://peptidesourcehub.net/glossary/#webpage",
+    name: "Peptide Research & Procurement Glossary",
+    description:
+      "Definitions of the analytical, handling, pharmacology and compliance terms used in research-peptide procurement, with notes on how each term is commonly misused.",
+    url: "https://peptidesourcehub.net/glossary/",
+    isPartOf: { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://peptidesourcehub.net/" },
+      { "@type": "ListItem", position: 2, name: "Glossary" },
+    ],
+  },
+];
+---
+
+<PageLayout
+  title="Peptide Research Glossary"
+  description="Analytical, handling, pharmacology and compliance terms used in research-peptide procurement — defined, with notes on how each term is commonly misused."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Glossary</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Peptide Research &amp; Procurement Glossary</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-3xl">
+      The vocabulary that decides whether a specification, a COA or a supplier claim actually means what it appears to mean. Entries state the limits of each term as well as its definition, because that is where procurement errors start.
+    </p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="https://docs.peptidesourcehub.net/glossary/" class="btn-outline text-white border-white/40 hover:bg-white/10" target="_blank" rel="noopener">Full knowledge base glossary →</a>
+      <a href="/quality-and-testing/coa-verification/" class="btn-outline text-white border-white/40 hover:bg-white/10">How to verify a COA</a>
+    </div>
+  </div>
+</section>
+
+{groups.map((g) => (
+  <section class="section bg-white border-b border-gray-100">
+    <div class="container-wide mx-auto px-4">
+      <h2 class="mb-6">{g.name}</h2>
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+        {g.terms.map((t) => (
+          <div class="card p-5">
+            <h3 class="font-bold text-primary text-sm mb-2">{t[0]}</h3>
+            <p class="text-gray-600 text-sm">{t[1]}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4 text-center">
+    <h2 class="mb-4">Where to go next</h2>
+    <p class="text-gray-600 text-sm max-w-2xl mx-auto mb-6">
+      Terms in this glossary are used with their specific meanings across the site: comparison pages for receptor and half-life differences, the COA verification guide for analytical documentation, and the product pages for per-molecule identity data.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3">
+      <a href="/products/compare/" class="btn-outline">Peptide comparisons</a>
+      <a href="/quality-and-testing/" class="btn-outline">Quality &amp; testing</a>
+      <a href="/import-compliance/" class="btn-outline">Import compliance</a>
+      <a href="/oem-custom/" class="btn-outline">OEM &amp; private label</a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      {faq.map((f) => (
+        <details class="card group cursor-pointer">
+          <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+          <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+</PageLayout>

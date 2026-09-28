@@ -1,0 +1,239 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+import { PRICE_LIST_URL, PRICE_LIST_UPDATED } from "../../data/pricing";
+
+/**
+ * COA 样例与验真指南（P3）
+ * 说明：本页的样例 COA 是「模板/示例」，使用占位符，不含任何真实批号或检测数据 —— 不得据此当作批次记录。
+ */
+
+const fields = [
+  ["Document control", "COA number, issue date, page x of y", "A COA that cannot be traced back to a document number and issue date is not a controlled record."],
+  ["Product identity", "Product name, catalogue code, CAS number, molecular formula, molecular weight", "The CAS and molar mass must match the material you ordered. A COA whose mass belongs to a different analogue is the most common silent mismatch."],
+  ["Batch / lot number", "Unique lot identifier printed on the vial label and the COA", "The lot on the document must equal the lot on the label. Same product, different lot = a copy-paste COA."],
+  ["Test items", "Purity (HPLC), identity (MS), appearance, moisture, peptide content", "Each item needs a method, a specification and a measured result — three columns, not one number."],
+  ["Method detail", "HPLC: column, wavelength, gradient. MS: ionisation mode, instrument", "“HPLC ≥99%” with no wavelength or column is not a verifiable method statement."],
+  ["Specification vs result", "Acceptance criterion and the value actually measured", "A COA showing only “≥99%” without a result figure cannot be checked against raw data."],
+  ["Release signature", "Analyst and QC approver, plus laboratory identity", "An in-house release is fine, but the laboratory name and address must be stated — an unnamed “third-party lab” is not verifiable."],
+];
+
+const thirdParty = [
+  "Check that the laboratory is a named, contactable entity with an address and a report number you can quote when you call or email to confirm the report exists.",
+  "Verify the report number with the laboratory directly rather than through the vendor. A laboratory will confirm whether a report number was issued for that sample.",
+  "Read the chromatogram axes: retention time, absorbance scale and integration baseline. A screenshot without axes is an illustration, not data.",
+  "Check the mass spectrum against the theoretical mass and expected adducts. A correct ESI-MS trace for the wrong adduct pattern is a mismatch.",
+  "Ask for the raw data file (instrument export) rather than a PDF image when the decision is large enough to justify it.",
+];
+
+const redFlags = [
+  "The same COA PDF is offered for several different products, with only the product name changed.",
+  "No lot number, or a lot number that does not appear on the vial label.",
+  "Purity claimed without stating the method, wavelength and column.",
+  "Molecular weight on the COA does not match the theoretical mass of the named sequence.",
+  "The COA issue date precedes the manufacturing or fill date, or is identical across batches ordered months apart.",
+  "A chromatogram with no axis labels, or an integration baseline that clearly does not correspond to the peaks shown.",
+  "Certification claims on the letterhead (ISO, GMP, pharmacopoeia) that no certificate number or issuing body can be matched to.",
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://peptidesourcehub.net/quality-and-testing/coa-verification/#webpage",
+    name: "Certificate of Analysis: Sample Structure & Verification Guide",
+    description:
+      "How to read a peptide Certificate of Analysis field by field, how to verify a third-party laboratory report, and the common fraud patterns buyers should check for.",
+    url: "https://peptidesourcehub.net/quality-and-testing/coa-verification/",
+    isPartOf: { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Is the sample COA on this page a real batch record?",
+        a: "No. It is a labelled template using placeholders such as [Batch No.] to show which fields must be present and populated. It contains no real lot number and no measured analytical data, and it must not be presented as a batch record.",
+      },
+      {
+        "@type": "Question",
+        name: "What is the single most useful check on a peptide COA?",
+        a: "The lot number, matched against the vial label. A COA that cannot be tied to the physical container in your hands is not evidence about that container — regardless of how good the chromatogram looks.",
+      },
+      {
+        "@type": "Question",
+        name: "Does Peptides Source Hub use a third-party laboratory?",
+        a: "Every kit ships with a batch-specific COA stating the method and result for the lot supplied, and the laboratory that issued it. Full chromatograms and mass spectra are available on request so the data can be checked rather than taken on trust.",
+      },
+      {
+        "@type": "Question",
+        name: "What should I do if the COA does not match the delivered material?",
+        a: "Quarantine the kit, do not consume or use it further, and send the lot number, the COA reference and photographs of the labels to us. We will trace the lot against the original QC record and reissue or replace documentation as the trace shows.",
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://peptidesourcehub.net/" },
+      { "@type": "ListItem", position: 2, name: "Quality & Testing", item: "https://peptidesourcehub.net/quality-and-testing/" },
+      { "@type": "ListItem", position: 3, name: "COA Verification" },
+    ],
+  },
+];
+---
+
+<PageLayout
+  title="How to Verify a Peptide COA"
+  description="Read a peptide COA field by field, verify a third-party lab report with the lab itself, and check seven red flags of a copied certificate."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/quality-and-testing/" class="text-gray-400 hover:text-white">Quality &amp; Testing</a><span class="text-gray-600">/</span>
+      <span class="text-accent">COA Verification</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">How to Verify a Peptide COA</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-3xl">
+      A Certificate of Analysis is a claim about one specific container of material. This page shows the fields a usable COA must contain, how to check a third-party report without trusting the vendor's PDF, and the patterns that indicate a document was written for a different lot.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">What a COA is — and what it is not</h2>
+      <p class="text-sm text-gray-600">
+        It is an <strong>analytical record for a specific lot</strong>: what was tested, by which method, against which specification, with which measured result. It is <strong>not</strong> a regulatory approval, not a certificate of pharmaceutical quality, and not evidence of sterility or suitability for any human or veterinary application. Research-use materials are not medicines, and a COA cannot make them so.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">1. Field-by-field: what must be on the document</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-4 font-semibold text-primary">Section</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Required content</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Why it matters</th>
+          </tr>
+        </thead>
+        <tbody>
+          {fields.map((f, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-4 font-semibold text-primary text-sm">{f[0]}</td>
+              <td class="py-3 px-4 text-gray-600 text-sm">{f[1]}</td>
+              <td class="py-3 px-4 text-gray-600 text-sm">{f[2]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-3">2. Sample structure (template — illustrative only)</h2>
+    <p class="text-gray-600 text-sm max-w-3xl mb-6">
+      The table below shows how a batch COA is laid out. <strong>Every value is a placeholder.</strong> No real lot number, no measured result and no laboratory name is shown, because a fabricated example is exactly the artefact this page warns against.
+    </p>
+    <div class="max-w-4xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <tbody>
+          <tr class="border-b border-gray-100"><td class="py-3 px-4 font-semibold text-primary w-1/3">COA number</td><td class="py-3 px-4 text-gray-600 font-mono text-xs">[COA-YYYY-NNNN]</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-4 font-semibold text-primary">Product</td><td class="py-3 px-4 text-gray-600">[Product name]</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-4 font-semibold text-primary">Catalogue code / CAS</td><td class="py-3 px-4 text-gray-600 font-mono text-xs">[code] / [CAS number]</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-4 font-semibold text-primary">Batch / lot</td><td class="py-3 px-4 text-gray-600 font-mono text-xs">[Lot number — must equal the label]</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-4 font-semibold text-primary">Purity (HPLC)</td><td class="py-3 px-4 text-gray-600">Method [column, wavelength, gradient] · Specification [≥99.0% peak area] · Result [__ %]</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-4 font-semibold text-primary">Identity (MS)</td><td class="py-3 px-4 text-gray-600">Method [ionisation mode, instrument] · Theoretical mass [__ Da] · Observed [__ Da]</td></tr>
+          <tr class="border-b border-gray-100"><td class="py-3 px-4 font-semibold text-primary">Appearance / moisture / content</td><td class="py-3 px-4 text-gray-600">Specification and result for each item</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-4 font-semibold text-primary">Laboratory</td><td class="py-3 px-4 text-gray-600">[Name, address, report number]</td></tr>
+          <tr><td class="py-3 px-4 font-semibold text-primary">Release</td><td class="py-3 px-4 text-gray-600">[Analyst] · [QC approver] · [Issue date]</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="mb-6">3. Verifying a third-party laboratory report</h2>
+    <ol class="space-y-3 max-w-3xl">
+      {thirdParty.map((s, i) => (
+        <li class="card p-4 text-sm text-gray-700"><span class="font-semibold text-primary mr-2">{i + 1}.</span>{s}</li>
+      ))}
+    </ol>
+    <p class="text-gray-500 text-xs mt-4 max-w-3xl">
+      Verification is a phone call or an email to the laboratory, not a search engine. If a report number cannot be confirmed by the laboratory that allegedly issued it, treat the document as unverified.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="mb-6">4. Seven red flags</h2>
+    <ul class="space-y-3 max-w-3xl">
+      {redFlags.map((r) => (
+        <li class="card p-4 text-sm text-gray-700 flex gap-3"><span class="text-amber-600 font-bold shrink-0">▲</span><span>{r}</span></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="mb-4">5. What we ship, and how to check it</h2>
+    <div class="max-w-3xl text-gray-700 text-sm space-y-3">
+      <p>Every kit leaves with a batch-specific COA covering the lot supplied, plus a commercial invoice and packing list. The catalogue's reference data — CAS number, molecular formula, molecular weight, purity criterion — is published as a downloadable dataset so the COA figures can be compared against the specification without asking us for it.</p>
+      <p>If a figure on a COA looks wrong, send the lot number and the document reference. We trace the lot to the original QC record; if the document and the record disagree, we reissue. We do not edit a result to match an expectation.</p>
+      <div class="flex flex-wrap gap-3 pt-2">
+        <a href="/data/peptides.csv" download class="btn-outline">Reference dataset (CSV)</a>
+        <a href="/quality-and-testing/" class="btn-outline">Full quality &amp; testing method</a>
+        <a href={PRICE_LIST_URL} download class="btn-outline">Price list (PDF, {PRICE_LIST_UPDATED})</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">Is the sample COA on this page a real batch record?</summary>
+        <p class="mt-3 text-gray-600 text-sm">No. It is a labelled template using placeholders such as [Batch No.] to show which fields must be present and populated. It contains no real lot number and no measured analytical data, and it must not be presented as a batch record.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">What is the single most useful check on a peptide COA?</summary>
+        <p class="mt-3 text-gray-600 text-sm">The lot number, matched against the vial label. A COA that cannot be tied to the physical container in your hands is not evidence about that container — regardless of how good the chromatogram looks.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">Does Peptides Source Hub use a third-party laboratory?</summary>
+        <p class="mt-3 text-gray-600 text-sm">Every kit ships with a batch-specific COA stating the method and result for the lot supplied, and the laboratory that issued it. Full chromatograms and mass spectra are available on request so the data can be checked rather than taken on trust.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">What should I do if the COA does not match the delivered material?</summary>
+        <p class="mt-3 text-gray-600 text-sm">Quarantine the kit, do not consume or use it further, and send the lot number, the COA reference and photographs of the labels to us. We will trace the lot against the original QC record and reissue or replace documentation as the trace shows.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface">
+  <a href="/quality-and-testing/" class="text-accent-dark font-medium hover:underline">← Back to Quality &amp; Testing</a>
+</div>
+
+</PageLayout>

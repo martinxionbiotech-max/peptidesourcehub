@@ -1,0 +1,191 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import RuoNotice from "../../../components/RuoNotice.astro";
+import { priceBand, priceText, PRICE_LIST_URL, PRICE_LIST_UPDATED } from "../../../data/pricing";
+import { CLUSTERS } from "../../../data/compare";
+
+/**
+ * 对比页（P3）
+ * 每个簇一页：同族分子的可核实差异 + 选型建议 + 该簇产品的价目表价格。
+ * 价格一律取自 src/data/pricing.ts（站内唯一价格源），页面不写死数字。
+ */
+
+export function getStaticPaths() {
+  return CLUSTERS.map((c) => ({ params: { cluster: c.slug } }));
+}
+
+const { cluster } = Astro.params;
+const c = CLUSTERS.find((x) => x.slug === cluster);
+if (!c) return Astro.redirect("/404");
+
+const priced = c.products.map((p) => {
+  const band = priceBand(p.slug);
+  return { ...p, band, text: priceText(band) };
+});
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `https://peptidesourcehub.net/products/compare/${c.slug}/#webpage`,
+    name: c.title,
+    description: c.description,
+    url: `https://peptidesourcehub.net/products/compare/${c.slug}/`,
+    isPartOf: { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: c.faq.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://peptidesourcehub.net/" },
+      { "@type": "ListItem", position: 2, name: "Products", item: "https://peptidesourcehub.net/products/" },
+      { "@type": "ListItem", position: 3, name: "Comparisons", item: "https://peptidesourcehub.net/products/compare/" },
+      { "@type": "ListItem", position: 4, name: c.title },
+    ],
+  },
+];
+
+const COMPARE_INDEX = [
+  { slug: "ghrp-family", label: "GHRP-2 vs GHRP-6 vs Ipamorelin" },
+  { slug: "cjc-1295-dac-vs-no-dac", label: "CJC-1295 with DAC vs without DAC" },
+  { slug: "selank-vs-semax", label: "Selank vs Semax" },
+  { slug: "argireline-vs-snap-8", label: "Argireline vs SNAP-8" },
+  { slug: "bpc-157-vs-tb-500", label: "BPC-157 vs TB-500" },
+];
+---
+
+<PageLayout title={c.title} description={c.description} jsonLd={jsonLd}>
+<RuoNotice />
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/products/" class="text-gray-400 hover:text-white">Products</a><span class="text-gray-600">/</span>
+      <a href="/products/compare/" class="text-gray-400 hover:text-white">Comparisons</a><span class="text-gray-600">/</span>
+      <span class="text-accent">{c.title}</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">{c.h1}</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-3xl">{c.intro}</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">Side-by-side comparison</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            {c.columns.map((col) => (
+              <th class="text-left py-3 px-4 font-semibold text-primary">{col}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {c.rows.map((row, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              {row.map((cell, j) => (
+                <td class={j === 0 ? "py-3 px-4 font-semibold text-primary text-sm" : "py-3 px-4 text-gray-600 text-sm"}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-xs mt-4 max-w-3xl mx-auto">{c.sourceNote}</p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-8">How to choose between them</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-5xl mx-auto">
+      {c.guidance.map((g) => (
+        <div class="card p-5">
+          <h3 class="font-bold mb-2 text-sm">{g.title}</h3>
+          <p class="text-gray-600 text-sm">{g.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-8">Products in this comparison</h2>
+    <div class="max-w-3xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-5 font-semibold text-primary">Product</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">List price (per kit of 10 vials)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {priced.map((p, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-5 font-semibold text-primary"><a href={`/products/${p.slug}/`} class="hover:text-accent transition-colors">{p.label}</a></td>
+              <td class="py-3 px-5 text-gray-600 text-sm">{p.text}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center">
+      Source: <a href={PRICE_LIST_URL} class="underline">wholesale price list (PDF, updated {PRICE_LIST_UPDATED})</a>.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      {c.faq.map((f) => (
+        <details class="card group cursor-pointer">
+          <summary class="font-semibold text-primary hover:text-accent">{f.q}</summary>
+          <p class="mt-3 text-gray-600 text-sm">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Other comparisons</h2>
+    <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+      {COMPARE_INDEX.filter((x) => x.slug !== c.slug).map((x) => (
+        <a href={`/products/compare/${x.slug}/`} class="card px-4 py-2 text-sm text-primary hover:border-accent/40">{x.label}</a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary py-16 text-center">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-white text-3xl mb-4">Need a quote for this group?</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-8">Component specifications, batch COAs and volume pricing for the whole cluster — quoted within one business day.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="/contact/" class="btn-primary text-lg">Request a Quote</a>
+      <a href="/quality-and-testing/coa-verification/" class="btn-outline text-white border-white/40 hover:bg-white/10 text-lg">How to verify a COA →</a>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface">
+  <a href="/products/" class="text-accent-dark font-medium hover:underline">← Back to All Products</a>
+</div>
+
+</PageLayout>

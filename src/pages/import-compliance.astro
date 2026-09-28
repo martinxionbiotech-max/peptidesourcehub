@@ -1,0 +1,261 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import RuoNotice from "../components/RuoNotice.astro";
+
+/**
+ * 目的国进口合规页（P3）
+ * 只写可核实的通用要求与常见清关问题，不构成法律意见，不替任何一方做合规判断。
+ */
+
+const docPack = [
+  ["Commercial invoice", "Accurate product description, catalogue code, quantity, unit value and total value", "The description on the invoice must match the material in the box. A vague description such as “chemical samples” invites inspection."],
+  ["Packing list", "Vial counts, kit configuration, net weight, package dimensions", "Customs reconciles the physical count against the packing list; mismatches stop the shipment."],
+  ["Certificate of Analysis (COA)", "Batch-specific, with method and result for the lot supplied", "Importers and their customers use the COA to confirm what the material is. Generic COAs raise questions at the border and in audits."],
+  ["Safety Data Sheet (SDS)", "GHS-formatted, section 14 transport information completed", "Required by carriers for classification; missing section 14 data is a common cause of carrier refusal."],
+  ["Non-hazardous / non-controlled declaration", "Statement by the exporter describing classification status of the specific material", "Many consignments are delayed simply because no classification statement was included."],
+  ["End-use / research-use statement", "Statements that the material is for laboratory research and not for human or veterinary use", "Supports the research-use basis of the shipment and is routinely requested by customs brokers."],
+  ["Certificate of origin", "Country of manufacture", "Needed for duty calculation in several jurisdictions and for preferential treatment where applicable."],
+];
+
+const regions = [
+  {
+    name: "European Union",
+    points: [
+      "Chemical substances placed on the EU market are subject to REACH obligations, which fall primarily on the importer of record — the buyer, not the exporter. Importers handling more than one tonne per year of a substance have registration duties.",
+      "Classification, labelling and packaging rules also apply to hazardous substances; for research-use chemicals the practical requirement is an accurate SDS and label.",
+      "National customs practice varies between member states, and some member states apply additional controls to specific compound classes. Confirm with a customs broker in the country of import.",
+    ],
+  },
+  {
+    name: "United States",
+    points: [
+      "Research chemicals are not approved drug substances. If a shipment's description or intended use suggests a drug or a dietary supplement, FDA import review applies and the material can be refused entry.",
+      "Where a compound is a controlled substance or an analogue, DEA scheduling governs import and the importer must hold the appropriate registration. Buyers are responsible for checking scheduling status.",
+      "Commercial importers are expected to use an accurate HTS classification and to keep records supporting the declared value and use. We do not mis-declare material to bypass any of these requirements.",
+    ],
+  },
+  {
+    name: "Japan",
+    points: [
+      "Import of substances that fall within pharmaceutical or poisons legislation may require a licence, notification or import approval depending on the classification and the quantity — including for research use.",
+      "Customs may request the COA, SDS and a statement of intended use. Consignments with an incomplete document set are held rather than rejected, which is slower but recoverable.",
+      "Confirm the classification of the specific compound with your customs broker or the relevant authority before ordering in quantity.",
+    ],
+  },
+  {
+    name: "Middle East & GCC",
+    points: [
+      "Requirements differ by country. Several GCC states regulate pharmaceutical and health-related imports strictly and require an import permit issued to a licensed entity.",
+      "Customs classification and pre-approval are commonly handled by the importer's clearing agent. Documentation requirements are frequently updated, so a broker with current local knowledge is essential.",
+      "For research institutions, an end-use letter from the institution often speeds clearance; expect it to be requested.",
+    ],
+  },
+];
+
+const problems = [
+  ["Invoice description does not match the material", "Use the catalogue code and the exact product name on both the invoice and the label."],
+  ["No SDS, or an SDS missing transport information", "Request the SDS with the quotation so it is ready before dispatch."],
+  ["Declared value inconsistent with the price list", "Declare the actual transaction value; under-declaration creates a customs liability for the importer."],
+  ["No end-use statement", "Ask us for a research-use statement at order stage; it costs nothing to include."],
+  ["Material actually controlled in the destination country", "This is the buyer's check to make. If a compound is scheduled in your jurisdiction, the shipment must not be ordered without the relevant authorisation."],
+  ["Split shipments with conflicting paperwork", "Keep one document set per consignment; partial shipments with mismatched COAs are the most common cause of a held lot."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://peptidesourcehub.net/import-compliance/#webpage",
+    name: "Import Compliance for Research Peptides",
+    description:
+      "The document pack importers need for research peptides, per-region points for the EU, US, Japan and the GCC, and the six clearance problems that hold shipments most often.",
+    url: "https://peptidesourcehub.net/import-compliance/",
+    isPartOf: { "@type": "WebSite", "@id": "https://peptidesourcehub.net/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Who is legally responsible for import compliance?",
+        a: "The importer of record — the buyer. Exporters provide accurate documentation, but classification, licensing, registration and permission to import in the destination country are the importer's obligations. This page describes common requirements; it is not legal advice.",
+      },
+      {
+        "@type": "Question",
+        name: "Will you declare a shipment as something other than what it is?",
+        a: "No. We ship accurately described material with accurate documentation. We will not mis-describe a product, under-state a value or omit a required classification statement to help a consignment through customs.",
+      },
+      {
+        "@type": "Question",
+        name: "What documents ship with an order?",
+        a: "Commercial invoice, packing list and batch-specific COA as standard. SDS, end-use statement and certificate of origin are supplied on request — ask for them with the quotation so they travel with the shipment.",
+      },
+      {
+        "@type": "Question",
+        name: "What happens if customs holds a shipment?",
+        a: "Holds are usually document-driven: a missing SDS, an unclear description or an end-use statement that was not requested. We supply the missing documents to the importer and their broker. If the material is controlled in the destination country, that is a matter for the importer's authorisation and cannot be resolved by paperwork.",
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://peptidesourcehub.net/" },
+      { "@type": "ListItem", position: 2, name: "Shipping & Delivery", item: "https://peptidesourcehub.net/shipping/" },
+      { "@type": "ListItem", position: 3, name: "Import Compliance" },
+    ],
+  },
+];
+---
+
+<PageLayout
+  title="Research Peptide Import Compliance"
+  description="Documents importers need for research peptides, per-region points for the EU, US, Japan and the GCC, and the clearance problems that hold shipments most often."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+
+<section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="container-wide mx-auto px-4 relative z-10 animate-on-scroll">
+    <nav class="flex items-center gap-2 mb-4 text-sm" aria-label="Breadcrumb">
+      <a href="/" class="text-gray-400 hover:text-white">Home</a><span class="text-gray-600">/</span>
+      <a href="/shipping/" class="text-gray-400 hover:text-white">Shipping</a><span class="text-gray-600">/</span>
+      <span class="text-accent">Import Compliance</span>
+    </nav>
+    <h1 class="text-white text-3xl md:text-5xl">Import Compliance for Research Peptides</h1>
+    <p class="text-xl text-gray-300 mt-4 max-w-3xl">
+      What is in the document pack, what changes between the EU, the United States, Japan and the GCC, and the six problems that hold consignments most often. Written for the importer of record — because that is where the obligations sit.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <div class="card bg-gradient-to-br from-amber-50 to-white border-amber-200 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">Scope and status of this page</h2>
+      <p class="text-sm text-gray-600">
+        This page describes the documentation an importer usually needs and the general regulatory environment for research chemicals in four regions. It is <strong>general information, not legal advice</strong>, and it does not tell you whether a specific compound may lawfully be imported into your country. Classification and licensing requirements change; confirm the current position with a customs broker or the relevant authority before ordering.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">1. The document pack</h2>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-4 font-semibold text-primary">Document</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">What it must contain</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Why customs or the carrier asks for it</th>
+          </tr>
+        </thead>
+        <tbody>
+          {docPack.map((d, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-4 font-semibold text-primary text-sm">{d[0]}</td>
+              <td class="py-3 px-4 text-gray-600 text-sm">{d[1]}</td>
+              <td class="py-3 px-4 text-gray-600 text-sm">{d[2]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-xs mt-4 max-w-3xl mx-auto">
+      Invoice, packing list and COA are included as standard. SDS, end-use statement and certificate of origin are supplied on request — ask when you request the quotation.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-8">2. Region by region</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
+      {regions.map((r) => (
+        <div class="card p-6">
+          <h3 class="font-bold mb-3">{r.name}</h3>
+          <ul class="space-y-2 list-disc pl-5">
+            {r.points.map((p) => (
+              <li class="text-gray-600 text-sm">{p}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="mb-6">3. The six problems that hold shipments</h2>
+    <div class="max-w-4xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-4 font-semibold text-primary">Problem</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Prevention</th>
+          </tr>
+        </thead>
+        <tbody>
+          {problems.map((p, i) => (
+            <tr class={`border-b border-gray-100 ${i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}`}>
+              <td class="py-3 px-4 font-semibold text-primary text-sm">{p[0]}</td>
+              <td class="py-3 px-4 text-gray-600 text-sm">{p[1]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="mb-4">4. What we will and will not do</h2>
+    <div class="max-w-3xl space-y-3 text-sm text-gray-700">
+      <p><strong>We will:</strong> describe the material accurately on every document; supply the COA, SDS and end-use statement you need; put your broker in touch with our documentation; and tell you plainly when a compound's legal status in your country is something you must confirm yourself.</p>
+      <p><strong>We will not:</strong> mis-describe a product, under-state a value, omit a classification statement, or ship a compound we have reason to believe is controlled in the destination country without the relevant authorisation from the importer. Orders that require a false declaration are declined.</p>
+      <p>Research-use materials are not medicines. Importing them does not make them medicines, and the RUO labelling travels with them for that reason.</p>
+    </div>
+    <div class="flex flex-wrap gap-3 mt-6">
+      <a href="/shipping/" class="btn-outline">Shipping &amp; delivery timelines</a>
+      <a href="/shipping/" class="btn-outline">Cold-chain &amp; packaging</a>
+      <a href="/contact/" class="btn-outline">Ask for the document pack</a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">FAQ</h2>
+    <div class="space-y-3 max-w-3xl mx-auto">
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">Who is legally responsible for import compliance?</summary>
+        <p class="mt-3 text-gray-600 text-sm">The importer of record — the buyer. Exporters provide accurate documentation, but classification, licensing, registration and permission to import in the destination country are the importer's obligations. This page describes common requirements; it is not legal advice.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">Will you declare a shipment as something other than what it is?</summary>
+        <p class="mt-3 text-gray-600 text-sm">No. We ship accurately described material with accurate documentation. We will not mis-describe a product, under-state a value or omit a required classification statement to help a consignment through customs.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">What documents ship with an order?</summary>
+        <p class="mt-3 text-gray-600 text-sm">Commercial invoice, packing list and batch-specific COA as standard. SDS, end-use statement and certificate of origin are supplied on request — ask for them with the quotation so they travel with the shipment.</p>
+      </details>
+      <details class="card group cursor-pointer">
+        <summary class="font-semibold text-primary hover:text-accent">What happens if customs holds a shipment?</summary>
+        <p class="mt-3 text-gray-600 text-sm">Holds are usually document-driven: a missing SDS, an unclear description or an end-use statement that was not requested. We supply the missing documents to the importer and their broker. If the material is controlled in the destination country, that is a matter for the importer's authorisation and cannot be resolved by paperwork.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="text-center py-6 bg-surface">
+  <a href="/shipping/" class="text-accent-dark font-medium hover:underline">← Back to Shipping &amp; Delivery</a>
+</div>
+
+</PageLayout>
