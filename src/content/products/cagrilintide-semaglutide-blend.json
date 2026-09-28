@@ -1,0 +1,190 @@
+{
+  "slug": "cagrilintide-semaglutide-blend",
+  "name": "Cagrilintide + Semaglutide Blend Wholesale",
+  "nameShort": "Cagrilintide + Semaglutide blend",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (two-component blend)",
+  "molecularWeight": "Component-dependent — see each component's specification page",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct Cagrilintide + Semaglutide blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "Cagrilintide + Semaglutide Blend Wholesale",
+  "heroSubtitle": "Amylin analogue plus GLP-1 agonist in one vial — a dual-pathway metabolic research kit",
+  "description": "This kit combines Cagrilintide (a long-acting amylin analogue) with Semaglutide (a GLP-1 receptor agonist) in a single co-lyophilized vial, matching the combination that dominates current dual-pathway metabolic research designs. Component-level identity data are supplied for both peptides in the blend.",
+  "sku": "PSH-CAGS-2.5-2.5",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (two-component blend)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Component-dependent — see each component's specification page"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "Cagrilintide 2.5 mg + Semaglutide 2.5 mg (5 mg total) × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "Cagrilintide 5 mg + Semaglutide 5 mg (10 mg total) × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Dual-pathway design",
+      "description": "Combines amylin-receptor and GLP-1-receptor signalling in one preparation"
+    },
+    {
+      "name": "Fixed-ratio convenience",
+      "description": "Fixed 1:1 ratios remove a reconstitution and mixing step"
+    },
+    {
+      "name": "Component documentation",
+      "description": "Each peptide is identity-confirmed before co-lyophilization"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Metabolic Research",
+      "description": "Dual-pathway model systems"
+    },
+    {
+      "area": "Comparative Pharmacology",
+      "description": "Amylin vs incretin pathway research"
+    },
+    {
+      "area": "Portfolio Design",
+      "description": "Blend vs separate-kit evaluation for distributors"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "— see each component's specification page"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Blend composition from our published price list (codes CS5 / CS10). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is in this blend?",
+      "answer": "Cagrilintide and Semaglutide at fixed 1:1 ratios: 2.5+2.5 mg (code CS5) and 5+5 mg (CS10) per vial, 10 vials per kit."
+    },
+    {
+      "question": "Can the ratio be changed?",
+      "answer": "Yes — custom fixed-dose ratios are an OEM configuration; minimum order quantity and lead time are confirmed at quotation."
+    },
+    {
+      "question": "Why would a buyer choose the blend over separate kits?",
+      "answer": "The blend removes a handling step and guarantees a fixed ratio in every vial, which suits comparative protocols. Buyers who need independent concentration control should order the components separately."
+    },
+    {
+      "question": "What analytical documentation is provided?",
+      "answer": "Component COAs (HPLC purity and MS identity for each peptide), invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Cagrilintide",
+      "subtitle": "Long-acting amylin analogue",
+      "url": "/products/cagrilintide/"
+    },
+    {
+      "name": "Semaglutide",
+      "subtitle": "GLP-1 receptor agonist",
+      "url": "/products/semaglutide/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Receptor comparison",
+      "url": "/blog/glp1-buyers-guide/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Cagrilintide + Semaglutide blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Cagrilintide + Semaglutide blend?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

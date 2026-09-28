@@ -1,0 +1,199 @@
+{
+  "slug": "tesamorelin",
+  "name": "Tesamorelin Wholesale",
+  "nameShort": "Tesamorelin",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "218949-48-5",
+  "molecularWeight": "~5,136 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Tesamorelin wholesale: CAS 218949-48-5, ~5,136 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Tesamorelin Wholesale",
+  "heroSubtitle": "Stabilised GHRH(1-44) analogue — long-acting GHRH-receptor agonist for GH-axis research",
+  "description": "Tesamorelin is a 44-amino-acid GHRH analogue: the full-length GHRH(1-44) sequence with a trans-3-hexenoyl modification at the N-terminus that increases resistance to DPP-IV cleavage. That stability difference is the reason it is used in GH-axis research where a longer-acting GHRH-receptor stimulus is required, as distinct from the shorter GHRH(1-29) analogue Sermorelin.",
+  "sku": "PSH-TESAM-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "218949-48-5"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₂₂₁H₃₆₆N₇₂O₆₇S"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~5,136 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "44"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "20 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GHRH-receptor agonism",
+      "description": "Full-length GHRH-receptor activation studied in pituitary somatotroph models"
+    },
+    {
+      "name": "Enhanced stability",
+      "description": "N-terminal acylation reduces DPP-IV-mediated degradation relative to unmodified GHRH"
+    },
+    {
+      "name": "GH-axis endpoints",
+      "description": "Research on pulsatile GH release and downstream IGF-1-axis markers in animal models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "GH-Axis Research",
+      "description": "Long-acting GHRH-receptor stimulation models"
+    },
+    {
+      "area": "Peptide Stability Engineering",
+      "description": "DPP-IV resistance in GHRH analogue design"
+    },
+    {
+      "area": "Comparative Pharmacology",
+      "description": "GHRH(1-29) vs GHRH(1-44) analogue studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 16137828 / Wikidata Q7705415. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Tesamorelin?",
+      "answer": "Tesamorelin (CAS 218949-48-5) is a stabilised GHRH(1-44) analogue used as a research reagent in growth-hormone-axis studies."
+    },
+    {
+      "question": "How does it differ from Sermorelin?",
+      "answer": "Sermorelin is GHRH(1-29); Tesamorelin is the full-length GHRH(1-44) with an N-terminal modification that slows enzymatic degradation, so research designs differ in the duration of receptor stimulation."
+    },
+    {
+      "question": "Which kit sizes are available?",
+      "answer": "5 mg, 10 mg and 20 mg × 10-vial kits — the widest configuration range in our GH-axis portfolio."
+    },
+    {
+      "question": "Do you supply research documentation?",
+      "answer": "Yes: batch-specific COA, and MS/HPLC data on request. Our documentation is analytical, not regulatory — these are research reagents."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Sermorelin",
+      "subtitle": "GHRH(1-29) analogue",
+      "url": "/products/sermorelin/"
+    },
+    {
+      "name": "PEG-MGF",
+      "subtitle": "IGF-axis research peptide",
+      "url": "/products/peg-mgf/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis research peptides",
+      "url": "/products/muscle-growth/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis research peptides",
+      "url": "/products/muscle-growth/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Tesamorelin is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Tesamorelin?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₂₂₁H₃₆₆N₇₂O₆₇S"
+}

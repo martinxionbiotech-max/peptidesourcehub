@@ -1,0 +1,190 @@
+{
+  "slug": "bacteriostatic-water",
+  "name": "Bacteriostatic Water Wholesale",
+  "nameShort": "Bacteriostatic water",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (aqueous diluent)",
+  "molecularWeight": "Not applicable (aqueous diluent)",
+  "purity": "≥99% by HPLC",
+  "appearance": "Clear, colourless solution",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct Bacteriostatic water in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "Bacteriostatic Water Wholesale",
+  "heroSubtitle": "Sterile aqueous diluent with a bacteriostatic preservative — the companion reagent for lyophilized peptides",
+  "description": "Bacteriostatic water is sterile water containing an antimicrobial preservative, used as a laboratory diluent for reconstituting lyophilized peptides where a preserved diluent is preferred over unpreserved sterile water. This listing is the 10 mL and 3 mL vial presentation in 10-vial kits, priced per kit on our published wholesale list.",
+  "sku": "PSH-BA-WATER-10ML",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (aqueous diluent)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Not applicable (aqueous diluent)"
+    },
+    {
+      "label": "Appearance",
+      "value": "Clear, colourless solution"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Miscible with water in all proportions"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mL × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "3 mL × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Diluent function",
+      "description": "Provides a sterile aqueous vehicle for dissolving lyophilized peptide powder"
+    },
+    {
+      "name": "Preservation",
+      "description": "A bacteriostatic preservative suppresses microbial growth in the reconstituted diluent"
+    },
+    {
+      "name": "Compatibility note",
+      "description": "Preserved diluents are intended for multi-dose laboratory handling; unpreserved sterile water is used where no preservative can be tolerated"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Laboratory Reagent Supply",
+      "description": "Reconstitution and dilution workflows"
+    },
+    {
+      "area": "Analytical Sample Preparation",
+      "description": "Diluent for assay and instrument work"
+    },
+    {
+      "area": "Kit Packaging",
+      "description": "Companion diluent supplied with peptide kits"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "matches theoretical mass"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Clear, colourless solution"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "Not applicable — non-peptide reagent"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Miscible with water in all proportions"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Product identity from our published price list (codes BA10 / BA3); no CAS registry number applies to an aqueous diluent. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is bacteriostatic water?",
+      "answer": "It is sterile water containing a bacteriostatic preservative, supplied as a laboratory diluent for reconstituting lyophilized research peptides. Exact composition is stated on the product label and COA."
+    },
+    {
+      "question": "How does it differ from sterile water?",
+      "answer": "Bacteriostatic water contains a preservative that limits microbial growth, while sterile water (price-list code WA10) is unpreserved and intended for single-use laboratory preparation."
+    },
+    {
+      "question": "Is it supplied with peptide orders?",
+      "answer": "Yes — diluent kits can be added to any peptide order; many buyers include one 10-vial diluent kit per peptide kit."
+    },
+    {
+      "question": "Which kit sizes are available?",
+      "answer": "10 mL × 10 vials (code BA10, US$8 per kit) and 3 mL × 10 vials (code BA3, US$7 per kit)."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Product Catalog",
+      "subtitle": "Full peptide catalogue",
+      "url": "/products/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Shipping & Delivery",
+      "subtitle": "Reagent transport notes",
+      "url": "/shipping/"
+    },
+    {
+      "name": "FAQ",
+      "subtitle": "Ordering questions",
+      "url": "/faq/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Bacteriostatic water?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

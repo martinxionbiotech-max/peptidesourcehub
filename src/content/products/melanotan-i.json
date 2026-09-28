@@ -1,0 +1,190 @@
+{
+  "slug": "melanotan-i",
+  "name": "Melanotan I (Afamelanotide) Wholesale",
+  "nameShort": "Melanotan I",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "75921-69-6",
+  "molecularWeight": "~1,646.8 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Melanotan I wholesale: CAS 75921-69-6, ~1,646.8 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Melanotan I (Afamelanotide) Wholesale",
+  "heroSubtitle": "α-MSH analogue (13 aa) — MC1R-selective agonist for melanocortin receptor research",
+  "description": "Melanotan I (afamelanotide) is a 13-amino-acid analogue of α-melanocyte-stimulating hormone designed for increased stability and MC1 receptor selectivity. It is used in receptor-pharmacology and pigment-cell research as a selective melanocortin-1 receptor (MC1R) agonist alongside the broader-spectrum, cyclic analogue Melanotan II.",
+  "sku": "PSH-MT1-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "75921-69-6"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₇₈H₁₁₁N₂₁O₁₉"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~1,646.8 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "MC1R agonism",
+      "description": "Selective activation of the melanocortin-1 receptor in receptor-binding studies"
+    },
+    {
+      "name": "cAMP signalling",
+      "description": "MC1R-mediated cAMP pathway readouts in cultured melanocytes"
+    },
+    {
+      "name": "Stability engineering",
+      "description": "N-terminal and sequence modifications used in this analogue class to resist enzymatic degradation"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Receptor Pharmacology",
+      "description": "MC1R selectivity and binding-characterisation studies"
+    },
+    {
+      "area": "Pigment Cell Biology",
+      "description": "Melanocyte-culture research models"
+    },
+    {
+      "area": "Melanocortin Research",
+      "description": "Comparison of linear vs cyclic α-MSH analogues"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 16197727 / Wikidata Q410794. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Melanotan I and Melanotan II?",
+      "answer": "Melanotan I (afamelanotide) is a linear 13-amino-acid α-MSH analogue with selectivity for MC1R. Melanotan II is a cyclic 7-amino-acid analogue with a broader melanocortin receptor profile (including MC3R/MC4R) in receptor research."
+    },
+    {
+      "question": "Is this product for human use?",
+      "answer": "No. It is supplied strictly as a laboratory research reagent, FOR RESEARCH USE ONLY. It is not for human or veterinary use, and no human application, cosmetic use or clinical claim is made or implied."
+    },
+    {
+      "question": "What do you document for each batch?",
+      "answer": "A batch-specific COA with HPLC purity and mass-spectrometry identity, plus commercial invoice and packing list."
+    },
+    {
+      "question": "Which kit sizes are available?",
+      "answer": "10 mg × 10 vials as standard; custom vial sizes and OEM presentation are available on request."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Melanotan II",
+      "subtitle": "Cyclic α-MSH analogue",
+      "url": "/products/melanotan-ii/"
+    },
+    {
+      "name": "PT-141",
+      "subtitle": "Melanocortin receptor research peptide",
+      "url": "/products/pt-141/"
+    },
+    {
+      "name": "Cosmetic & Skin",
+      "subtitle": "All cosmetic-research peptides",
+      "url": "/products/cosmetic-skin/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Melanotan I is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Melanotan I?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₇₈H₁₁₁N₂₁O₁₉"
+}

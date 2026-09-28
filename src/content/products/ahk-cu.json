@@ -1,0 +1,195 @@
+{
+  "slug": "ahk-cu",
+  "name": "AHK-Cu Wholesale",
+  "nameShort": "AHK-Cu",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "682809-81-0",
+  "molecularWeight": "~451.4 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "Blue to blue-violet crystalline powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "AHK-Cu wholesale: CAS 682809-81-0, ~451.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "AHK-Cu Wholesale",
+  "heroSubtitle": "Copper tripeptide complex (Ala-His-Lys : Cu) for extracellular-matrix and dermal-cell research",
+  "description": "AHK-Cu is a copper(II) tripeptide complex of alanine, histidine and lysine. Copper-peptide complexes are standard in vitro research tools for studying extracellular-matrix synthesis, collagen-related signalling and dermal fibroblast biology, where the peptide sequence acts as a delivery vehicle for copper ions. It is supplied as a research reagent only — cosmetic and clinical applications are outside its intended use.",
+  "sku": "PSH-AHKCU-50MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "682809-81-0"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₅H₂₄ClCuN₆O₄"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~451.4 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "Blue to blue-violet crystalline powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in water"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "50 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "100 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Copper ion delivery",
+      "description": "The tripeptide chelates Cu(II) and is studied as a carrier for copper in cell-culture models"
+    },
+    {
+      "name": "Extracellular matrix research",
+      "description": "In vitro models of collagen and glycosaminoglycan synthesis"
+    },
+    {
+      "name": "Dermal cell biology",
+      "description": "Fibroblast and keratinocyte research systems"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Dermal Cell Research",
+      "description": "Fibroblast and keratinocyte in vitro models"
+    },
+    {
+      "area": "Extracellular Matrix",
+      "description": "Collagen-synthesis signalling studies"
+    },
+    {
+      "area": "Cosmetic Ingredient Research",
+      "description": "In vitro evaluation of copper-peptide complexes"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Blue to blue-violet crystalline powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in water"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 168431292. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is AHK-Cu?",
+      "answer": "AHK-Cu is a copper tripeptide complex formed from alanine, histidine and lysine with Cu(II) (CAS 682809-81-0). It is a research reagent for laboratory use, not a cosmetic ingredient for human application in this catalogue."
+    },
+    {
+      "question": "How does AHK-Cu differ from GHK-Cu?",
+      "answer": "Both are copper tripeptides, but the sequences differ: GHK-Cu is glycyl-L-histidyl-L-lysine : Cu, while AHK-Cu is alanyl-L-histidyl-L-lysine : Cu. Sequence-specific differences make them different tools in in vitro matrix-biology research."
+    },
+    {
+      "question": "What purity is supplied?",
+      "answer": "≥99% by HPLC; identity is confirmed by mass spectrometry and the copper content is reported per batch on the COA."
+    },
+    {
+      "question": "What documentation is included?",
+      "answer": "Batch-specific COA, commercial invoice and packing list. Elemental copper analysis can be requested for research documentation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "GHK-Cu",
+      "subtitle": "Copper tripeptide (GHK)",
+      "url": "/products/ghk-cu/"
+    },
+    {
+      "name": "Glutathione",
+      "subtitle": "Redox research reagent",
+      "url": "/products/glutathione/"
+    },
+    {
+      "name": "Cosmetic & Skin",
+      "subtitle": "All cosmetic-research peptides",
+      "url": "/products/cosmetic-skin/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "Analytical documentation",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. AHK-Cu is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source AHK-Cu?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₅H₂₄ClCuN₆O₄"
+}

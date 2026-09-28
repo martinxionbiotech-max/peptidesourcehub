@@ -1,0 +1,199 @@
+{
+  "slug": "ss-31",
+  "name": "SS-31 (Elamipretide) Wholesale",
+  "nameShort": "SS-31",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "736992-21-5",
+  "molecularWeight": "~639.8 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "SS-31 wholesale: CAS 736992-21-5, ~639.8 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "SS-31 (Elamipretide) Wholesale",
+  "heroSubtitle": "Mitochondria-targeted tetrapeptide (elamipretide) — cardiolipin-binding research peptide",
+  "description": "SS-31 (elamipretide) is a mitochondria-targeted tetrapeptide containing D-arginine and 2′,6′-dimethyltyrosine. Its design gives it affinity for cardiolipin on the inner mitochondrial membrane, and it is one of the most-cited tool peptides in mitochondrial-dysfunction and bioenergetics research, where it is used to probe electron-transport-chain efficiency and reactive-oxygen-species endpoints in cell and animal models.",
+  "sku": "PSH-SS31-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "736992-21-5"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₃₂H₄₉N₉O₅"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~639.8 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "4 (tetrapeptide, D-amino-acid and 2',6'-dimethyltyrosine containing)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "50 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Cardiolipin binding",
+      "description": "Selective interaction with cardiolipin at the inner mitochondrial membrane"
+    },
+    {
+      "name": "Electron-transport-chain research",
+      "description": "Studied for effects on respiratory-chain efficiency in mitochondrial preparations"
+    },
+    {
+      "name": "Reactive oxygen species endpoints",
+      "description": "Reported reduction of mitochondrial ROS production in research models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Mitochondrial Biology",
+      "description": "Bioenergetics and respiratory-chain research"
+    },
+    {
+      "area": "Oxidative Stress Research",
+      "description": "Mitochondrial ROS endpoint studies"
+    },
+    {
+      "area": "Cell-Death Research",
+      "description": "Mitochondrial-pathway apoptosis models"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 11764719 / Wikidata Q27269822. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is SS-31?",
+      "answer": "SS-31 (elamipretide) is a mitochondria-targeted tetrapeptide, CAS 736992-21-5, used as a research reagent in mitochondrial-biology studies."
+    },
+    {
+      "question": "Why does SS-31 contain D-amino acids?",
+      "answer": "The D-arginine and dimethyltyrosine residues improve metabolic stability and give the peptide its cardiolipin-binding character, which is why it is used as a targeted mitochondrial tool rather than a signalling peptide."
+    },
+    {
+      "question": "How does SS-31 differ from MOTS-c?",
+      "answer": "Both are studied in mitochondrial research, but MOTS-c is a mitochondrial-DNA-encoded 16-residue peptide studied for metabolic signalling, while SS-31 is a synthetic, cell-penetrating tetrapeptide that binds cardiolipin."
+    },
+    {
+      "question": "Which kit sizes and pricing are available?",
+      "answer": "10 mg and 50 mg × 10-vial kits, on the published price list, with volume discounts from 5 kits."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "MOTS-c",
+      "subtitle": "Mitochondrial-derived peptide",
+      "url": "/products/mots-c/"
+    },
+    {
+      "name": "NAD+",
+      "subtitle": "Redox coenzyme reagent",
+      "url": "/products/nad-plus/"
+    },
+    {
+      "name": "Nootropic & Anti-Aging",
+      "subtitle": "All cognitive-research peptides",
+      "url": "/products/nootropic-anti-aging/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "Analytical documentation",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. SS-31 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source SS-31?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₃₂H₄₉N₉O₅"
+}

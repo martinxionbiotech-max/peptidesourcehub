@@ -1,0 +1,199 @@
+{
+  "slug": "sermorelin",
+  "name": "Sermorelin Wholesale",
+  "nameShort": "Sermorelin",
+  "category": "muscle-growth",
+  "categoryLabel": "Muscle Growth",
+  "cas": "86168-78-7",
+  "molecularWeight": "~3,357.9 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Sermorelin wholesale: CAS 86168-78-7, ~3,357.9 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Sermorelin Wholesale",
+  "heroSubtitle": "GHRH(1-29) analogue — the standard GHRH-receptor research peptide for GH-axis models",
+  "description": "Sermorelin is the 29-amino-acid N-terminal fragment of growth-hormone-releasing hormone, GHRH(1-29), and corresponds to the shortest sequence that retains full GHRH-receptor activity. Because GHRH acts at the pituitary receptor rather than the ghrelin receptor, sermorelin is the classic comparator in research contrasting GHRH-receptor with ghrelin-receptor secretagogue signalling.",
+  "sku": "PSH-SERM-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "86168-78-7"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₄₉H₂₄₆N₄₄O₄₂S"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~3,357.9 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "29"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GHRH-receptor agonism",
+      "description": "Direct pituitary GHRH-receptor activation studied in GH-axis research models"
+    },
+    {
+      "name": "cAMP/PKA signalling",
+      "description": "GHRH receptor signals through Gs-coupled cAMP pathways in somatotroph models"
+    },
+    {
+      "name": "Receptor-class comparison",
+      "description": "Benchmark for distinguishing GHRH-receptor from ghrelin-receptor secretagogues"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "GH-Axis Research",
+      "description": "Pituitary somatotroph signalling models"
+    },
+    {
+      "area": "Receptor Pharmacology",
+      "description": "GHRH-receptor vs ghrelin-receptor comparisons"
+    },
+    {
+      "area": "Secretagogue Characterisation",
+      "description": "Structure–activity studies of GHRH fragments"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 16132413 / Wikidata Q7455005. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Sermorelin?",
+      "answer": "Sermorelin is the GHRH(1-29) fragment (CAS 86168-78-7), a 29-amino-acid peptide and the classic GHRH-receptor agonist used in growth-hormone-axis research."
+    },
+    {
+      "question": "How does Sermorelin differ from Ipamorelin or GHRP-2?",
+      "answer": "Sermorelin acts on the GHRH receptor. Ipamorelin, GHRP-2 and GHRP-6 act on the ghrelin receptor. Research designs comparing the two classes test different upstream signalling routes to GH release."
+    },
+    {
+      "question": "Which kit sizes are stocked?",
+      "answer": "5 mg and 10 mg × 10-vial kits; custom configurations on request."
+    },
+    {
+      "question": "What documentation ships with the order?",
+      "answer": "Batch-specific COA (HPLC purity, MS identity), commercial invoice and packing list; full spectra on request."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Tesamorelin",
+      "subtitle": "GHRH(1-44) analogue",
+      "url": "/products/tesamorelin/"
+    },
+    {
+      "name": "Ipamorelin",
+      "subtitle": "Ghrelin-receptor secretagogue",
+      "url": "/products/ipamorelin/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis research peptides",
+      "url": "/products/muscle-growth/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis research peptides",
+      "url": "/products/muscle-growth/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Sermorelin is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Sermorelin?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₄₉H₂₄₆N₄₄O₄₂S"
+}

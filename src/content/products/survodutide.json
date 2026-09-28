@@ -1,0 +1,190 @@
+{
+  "slug": "survodutide",
+  "name": "Survodutide Wholesale",
+  "nameShort": "Survodutide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "2805997-46-8",
+  "molecularWeight": "~4,232 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Survodutide wholesale: CAS 2805997-46-8, ~4,232 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Survodutide Wholesale",
+  "heroSubtitle": "Dual glucagon / GLP-1 receptor agonist studied in metabolic and hepatic research models",
+  "description": "Survodutide is a dual glucagon receptor (GCGR) and GLP-1 receptor agonist. Published research on this analogue class focuses on combined incretin and glucagon signalling, including hepatic lipid-handling and fibrosis-related endpoints in animal models, which makes it a reference compound for dual-agonist metabolic research.",
+  "sku": "PSH-SURV-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "2805997-46-8"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₉₂H₂₈₉N₄₇O₆₁"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,232 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GCGR agonism",
+      "description": "Glucagon-receptor activation studied for energy-expenditure and hepatic-lipid endpoints"
+    },
+    {
+      "name": "GLP-1R agonism",
+      "description": "Incretin signalling contributing to the dual-agonist profile"
+    },
+    {
+      "name": "Hepatic lipid handling",
+      "description": "Explored in liver-focused metabolic research models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Dual-Agonist Research",
+      "description": "Combined GCGR/GLP-1R pharmacology"
+    },
+    {
+      "area": "Hepatic Metabolism",
+      "description": "Liver lipid and fibrosis-model research"
+    },
+    {
+      "area": "Metabolic Portfolio Design",
+      "description": "Comparison against single-target incretins"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 171378821 / Wikidata Q123907235. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Survodutide?",
+      "answer": "Survodutide (CAS 2805997-46-8) is a dual glucagon and GLP-1 receptor agonist peptide supplied for laboratory research use only."
+    },
+    {
+      "question": "Which research endpoints is it associated with?",
+      "answer": "Published work on this analogue class reports energy-expenditure, hepatic lipid and fibrosis-related endpoints in animal models. We do not make efficacy or clinical claims for research peptides."
+    },
+    {
+      "question": "What does a kit contain?",
+      "answer": "10 mg × 10 vials per kit, lyophilized, with a batch-specific COA (HPLC purity and MS identity)."
+    },
+    {
+      "question": "How should it be stored?",
+      "answer": "Store lyophilized powder desiccated at 2–8°C protected from light; after reconstitution aliquot and freeze, and avoid repeated freeze–thaw cycles."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Mazdutide",
+      "subtitle": "Dual GCGR/GLP-1 agonist",
+      "url": "/products/mazdutide/"
+    },
+    {
+      "name": "Tirzepatide",
+      "subtitle": "Dual GIP/GLP-1 agonist",
+      "url": "/products/tirzepatide/"
+    },
+    {
+      "name": "Metabolic Category",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "HPLC and MS identity testing",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Survodutide is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Survodutide?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₉₂H₂₈₉N₄₇O₆₁"
+}

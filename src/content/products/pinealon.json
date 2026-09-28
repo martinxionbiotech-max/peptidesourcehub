@@ -1,0 +1,204 @@
+{
+  "slug": "pinealon",
+  "name": "Pinealon Wholesale",
+  "nameShort": "Pinealon",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "175175-23-2",
+  "molecularWeight": "~418.4 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Pinealon wholesale: CAS 175175-23-2, ~418.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Pinealon Wholesale",
+  "heroSubtitle": "Short peptide (Glu-Asp-Arg) from the peptide-bioregulator research tradition",
+  "description": "Pinealon is the tripeptide Glu-Asp-Arg, one of the short peptide bioregulators studied in the Russian peptide-research literature. Published work on this peptide family examines effects on gene-expression and cell-culture viability endpoints in neural and other tissue-derived cell models, making it a reference compound for short-peptide bioregulator research rather than a classical receptor-ligand peptide.",
+  "sku": "PSH-PINE-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "175175-23-2"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₅H₂₆N₆O₈"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~418.4 Da"
+    },
+    {
+      "label": "Sequence",
+      "value": "H-Glu-Asp-Arg-OH"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "3 (tripeptide)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "20 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Gene-expression studies",
+      "description": "Short-peptide bioregulators are studied for effects on transcription profiles in cell models"
+    },
+    {
+      "name": "Cell-viability endpoints",
+      "description": "Reported in vitro work on cultured neural-cell systems"
+    },
+    {
+      "name": "Short-peptide signalling research",
+      "description": "Used as a reference tripeptide in bioregulator comparisons"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Neuroscience Research",
+      "description": "Cultured neural-cell model systems"
+    },
+    {
+      "area": "Short-Peptide Bioregulators",
+      "description": "Comparative studies of tri- and di-peptide series"
+    },
+    {
+      "area": "Cell Biology",
+      "description": "Gene-expression and viability endpoints"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 10273502 / Wikidata Q106026341. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Pinealon?",
+      "answer": "Pinealon is the tripeptide Glu-Asp-Arg (CAS 175175-23-2) used in short-peptide bioregulator research."
+    },
+    {
+      "question": "What is a peptide bioregulator?",
+      "answer": "A short peptide (typically 2–4 residues) studied in a specific research tradition for effects on gene expression in cell models, rather than as a classical high-affinity receptor ligand."
+    },
+    {
+      "question": "Which sizes are stocked?",
+      "answer": "5 mg, 10 mg and 20 mg × 10-vial kits, all with batch-specific COA."
+    },
+    {
+      "question": "Are human-use instructions supplied?",
+      "answer": "No. Pinealon is supplied FOR LABORATORY RESEARCH USE ONLY, with no dosing or administration information, and no human or veterinary-use application is claimed."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Epithalon",
+      "subtitle": "Tetrapeptide research reagent",
+      "url": "/products/epithalon/"
+    },
+    {
+      "name": "NAD+",
+      "subtitle": "Redox coenzyme reagent",
+      "url": "/products/nad-plus/"
+    },
+    {
+      "name": "Nootropic & Anti-Aging",
+      "subtitle": "All cognitive-research peptides",
+      "url": "/products/nootropic-anti-aging/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Pinealon is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Pinealon?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₅H₂₆N₆O₈",
+  "sequence": "H-Glu-Asp-Arg-OH"
+}

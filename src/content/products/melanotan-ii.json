@@ -1,0 +1,190 @@
+{
+  "slug": "melanotan-ii",
+  "name": "Melanotan II Wholesale",
+  "nameShort": "Melanotan II",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "121062-08-6",
+  "molecularWeight": "~1,024.2 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Melanotan II wholesale: CAS 121062-08-6, ~1,024.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Melanotan II Wholesale",
+  "heroSubtitle": "Cyclic α-MSH analogue (7 aa) — broad-spectrum melanocortin receptor agonist for receptor research",
+  "description": "Melanotan II is a cyclic heptapeptide analogue of α-melanocyte-stimulating hormone. It is a broadly acting melanocortin receptor agonist used in receptor-pharmacology research, and its lactam-bridged cyclic structure is the reason it appears in structure–activity studies of α-MSH analogues alongside the linear analogue Melanotan I.",
+  "sku": "PSH-MT2-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "121062-08-6"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₅₀H₆₉N₁₅O₉"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~1,024.2 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Melanocortin receptor agonism",
+      "description": "Broad receptor profile studied across MC1R/MC3R/MC4R in vitro systems"
+    },
+    {
+      "name": "Cyclic-structure stability",
+      "description": "Lactam ring constraint studied for improved resistance to enzymatic degradation"
+    },
+    {
+      "name": "cAMP pathway readouts",
+      "description": "Downstream cAMP signalling in receptor-transfected cell models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Receptor Pharmacology",
+      "description": "Melanocortin receptor selectivity comparisons"
+    },
+    {
+      "area": "Structure–Activity Research",
+      "description": "Cyclic vs linear α-MSH analogue studies"
+    },
+    {
+      "area": "In Vitro Signalling",
+      "description": "Receptor-transfected cell-based assays"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 92432 / Wikidata Q423855. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Melanotan II?",
+      "answer": "Melanotan II is a cyclic heptapeptide α-MSH analogue (CAS 121062-08-6) used as a laboratory research reagent in melanocortin receptor pharmacology."
+    },
+    {
+      "question": "Are human-use or application instructions provided?",
+      "answer": "No. We do not provide dosing, administration or application information of any kind. The product is FOR LABORATORY RESEARCH USE ONLY — not for human or veterinary use, diagnosis, treatment or cosmetic application."
+    },
+    {
+      "question": "How is purity verified?",
+      "answer": "HPLC at 214 nm with a ≥99.0% peak-area criterion, plus ESI-MS identity confirmation; results are stated on the batch COA."
+    },
+    {
+      "question": "Can this be supplied as a private-label presentation?",
+      "answer": "Yes — OEM vial sizes, labels and packaging are available; minimum order quantities and artwork requirements are confirmed at quotation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Melanotan I",
+      "subtitle": "Linear α-MSH analogue",
+      "url": "/products/melanotan-i/"
+    },
+    {
+      "name": "PT-141",
+      "subtitle": "Melanocortin research peptide",
+      "url": "/products/pt-141/"
+    },
+    {
+      "name": "Cosmetic & Skin",
+      "subtitle": "All cosmetic-research peptides",
+      "url": "/products/cosmetic-skin/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Melanotan II is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Melanotan II?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₅₀H₆₉N₁₅O₉"
+}

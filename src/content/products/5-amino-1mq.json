@@ -1,0 +1,195 @@
+{
+  "slug": "5-amino-1mq",
+  "name": "5-Amino-1MQ Wholesale",
+  "nameShort": "5-Amino-1MQ",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "685079-15-6",
+  "molecularWeight": "~159.2 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "5-Amino-1MQ wholesale: CAS 685079-15-6, ~159.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "5-Amino-1MQ Wholesale",
+  "heroSubtitle": "Small-molecule nicotinamide N-methyltransferase (NNMT) inhibitor — supplied as a research reagent, not a peptide",
+  "description": "5-Amino-1MQ is a small-molecule inhibitor of nicotinamide N-methyltransferase (NNMT), an enzyme that consumes methyl groups and NAD+ precursors. It is used in cell and animal research models investigating adipocyte lipid handling, NAD+ availability and NNMT-dependent methylation flux. Because it is not a peptide, it is supplied as a powder for laboratory reconstitution rather than as a lyophilized peptide vial standard.",
+  "sku": "PSH-5AM1MQ-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "685079-15-6"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₀H₁₁N₂+"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~159.2 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in water or aqueous buffer"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "50 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "NNMT inhibition",
+      "description": "Blocks nicotinamide N-methyltransferase, reducing NAD+ consumption via the NNMT route"
+    },
+    {
+      "name": "NAD+ availability",
+      "description": "Studied for its effect on intracellular NAD+ pools in adipocyte models"
+    },
+    {
+      "name": "Adipocyte lipid handling",
+      "description": "Reported effects on lipid accumulation in cultured adipocyte research models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "NAD+ Metabolism",
+      "description": "NNMT-dependent NAD+ flux in cultured cells"
+    },
+    {
+      "area": "Adipocyte Biology",
+      "description": "Lipid accumulation and differentiation models"
+    },
+    {
+      "area": "Metabolic Tool Compounds",
+      "description": "Chemical probes for methylation-flux research"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in water or aqueous buffer"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 950107. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is 5-Amino-1MQ and is it a peptide?",
+      "answer": "5-Amino-1MQ is a small-molecule quinolinium compound (CAS 685079-15-6), not a peptide. It is a nicotinamide N-methyltransferase (NNMT) inhibitor used as a laboratory research reagent."
+    },
+    {
+      "question": "What purity is supplied?",
+      "answer": "≥99% by HPLC, with identity confirmed by mass spectrometry. A batch-specific Certificate of Analysis accompanies every kit."
+    },
+    {
+      "question": "How is 5-Amino-1MQ supplied and stored?",
+      "answer": "Supplied as a powder in 10-vial kits. Store sealed, desiccated at 2–8°C, protected from light. Reconstitution solvent depends on your protocol; the COA states the batch solubility result."
+    },
+    {
+      "question": "Is a COA provided?",
+      "answer": "Yes — a batch-specific COA with HPLC purity and MS identity data ships with every order. Full chromatograms are available on request."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "MOTS-c",
+      "subtitle": "Mitochondrial-derived peptide",
+      "url": "/products/mots-c/"
+    },
+    {
+      "name": "Mazdutide",
+      "subtitle": "Dual GCGR/GLP-1 agonist",
+      "url": "/products/mazdutide/"
+    },
+    {
+      "name": "Metabolic Category",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Procurement framework",
+      "url": "/blog/glp1-buyers-guide/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. 5-Amino-1MQ is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source 5-Amino-1MQ?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₀H₁₁N₂+"
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "kisspeptin-10",
+  "name": "Kisspeptin-10 Wholesale",
+  "nameShort": "Kisspeptin-10",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "374675-21-5",
+  "molecularWeight": "~1,302.4 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Kisspeptin-10 wholesale: CAS 374675-21-5, ~1,302.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Kisspeptin-10 Wholesale",
+  "heroSubtitle": "KISS1-derived decapeptide (Kp-10) — the standard KISS1R / GPR54 agonist research peptide",
+  "description": "Kisspeptin-10 (Kp-10) is the C-terminal decapeptide of the KISS1 precursor and the shortest kisspeptin fragment that retains full agonist activity at the KISS1 receptor (GPR54). It is the standard tool peptide in neuroendocrine research on the hypothalamic regulation of gonadotropin-releasing hormone (GnRH) neurons.",
+  "sku": "PSH-KISS10-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "374675-21-5"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₆₃H₈₃N₁₇O₁₄"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~1,302.4 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "10 (amidated decapeptide)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "KISS1R (GPR54) agonism",
+      "description": "Direct receptor activation studied in GnRH-neuron research models"
+    },
+    {
+      "name": "Gq/11 signalling",
+      "description": "KISS1R couples to phospholipase C signalling in transfected-cell assays"
+    },
+    {
+      "name": "Neuroendocrine endpoints",
+      "description": "Reported effects on GnRH-pulse research models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Neuroendocrine Research",
+      "description": "Hypothalamic GnRH-neuron model systems"
+    },
+    {
+      "area": "Receptor Pharmacology",
+      "description": "KISS1R agonist characterisation"
+    },
+    {
+      "area": "Reproductive Biology Research",
+      "description": "Gonadotropin-axis research models"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 25240297. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Kisspeptin-10?",
+      "answer": "Kisspeptin-10 is the ten-amino-acid C-terminal fragment of the KISS1 precursor (CAS 374675-21-5) and the standard KISS1R/GPR54 agonist used in neuroendocrine research."
+    },
+    {
+      "question": "Why use the 10-residue fragment rather than full-length kisspeptin?",
+      "answer": "Because the decapeptide retains full receptor potency, so it is the practical research-grade fragment for receptor and GnRH-neuron studies."
+    },
+    {
+      "question": "Which kit sizes do you stock?",
+      "answer": "5 mg and 10 mg × 10-vial kits, with volume discounts from 5 kits."
+    },
+    {
+      "question": "What documentation accompanies the order?",
+      "answer": "A batch-specific COA with HPLC purity and MS identity, plus commercial invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "PT-141",
+      "subtitle": "Melanocortin receptor peptide",
+      "url": "/products/pt-141/"
+    },
+    {
+      "name": "Oxytocin Acetate",
+      "subtitle": "Neurohypophyseal peptide",
+      "url": "/products/oxytocin-acetate/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "Batch documentation",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Kisspeptin-10 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Kisspeptin-10?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₆₃H₈₃N₁₇O₁₄"
+}

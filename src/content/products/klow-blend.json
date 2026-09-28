@@ -1,0 +1,185 @@
+{
+  "slug": "klow-blend",
+  "name": "KLOW Blend (KPV + BPC-157 + TB-500 + GHK-Cu) Wholesale",
+  "nameShort": "KLOW blend",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (four-component blend)",
+  "molecularWeight": "Component-dependent — see each component's specification page",
+  "purity": "≥99% by HPLC",
+  "appearance": "Blue-violet to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct KLOW blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "KLOW Blend (KPV + BPC-157 + TB-500 + GHK-Cu) Wholesale",
+  "heroSubtitle": "Four-peptide research blend — KPV, BPC-157, TB-500 and GHK-Cu in a single vial",
+  "description": "The KLOW configuration extends our multi-peptide blend line to four components: KPV (an α-MSH fragment studied in inflammatory-signalling research), BPC-157, TB-500 and GHK-Cu. It is intended for research designs that examine several repair- and inflammation-related pathways within a single reconstituted preparation.",
+  "sku": "PSH-KLOW-80",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (four-component blend)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Component-dependent — see each component's specification page"
+    },
+    {
+      "label": "Appearance",
+      "value": "Blue-violet to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "KPV 10 mg + BPC-157 10 mg + TB-500 10 mg + GHK-Cu 50 mg (80 mg total) × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Four-component design",
+      "description": "Groups anti-inflammatory-fragment, repair-signalling, cell-migration and copper-peptide research tools"
+    },
+    {
+      "name": "Fixed composition",
+      "description": "Identical component ratio per vial, documented batch by batch"
+    },
+    {
+      "name": "Copper-peptide inclusion",
+      "description": "GHK-Cu retains its copper complex, giving the blend its blue-violet tint"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Inflammation Research",
+      "description": "Multi-pathway inflammatory-signalling models"
+    },
+    {
+      "area": "Tissue-Repair Research",
+      "description": "Combined repair-pathway design"
+    },
+    {
+      "area": "Blend Characterisation",
+      "description": "Four-component co-lyophilization studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "— see each component's specification page"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Blue-violet to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Blend composition from our published price list (code KLOW80). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is in the KLOW blend?",
+      "answer": "KPV 10 mg, BPC-157 10 mg, TB-500 10 mg and GHK-Cu 50 mg per vial (80 mg total), 10 vials per kit, price-list code KLOW80."
+    },
+    {
+      "question": "How does KLOW differ from GLOW?",
+      "answer": "KLOW adds the α-MSH fragment KPV to the three components of GLOW (BPC-157, TB-500, GHK-Cu), so it suits designs that also address inflammatory-signalling endpoints."
+    },
+    {
+      "question": "Is component documentation provided?",
+      "answer": "Yes — analytical documentation covers each of the four peptides in the blend."
+    },
+    {
+      "question": "Can I order single vials to evaluate the formulation?",
+      "answer": "Kits are supplied as 10 vials. For evaluation quantities of individual components, we recommend the single-peptide listings, which are also cheaper per mg."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "GLOW Blend",
+      "subtitle": "Three-peptide research blend",
+      "url": "/products/glow-blend/"
+    },
+    {
+      "name": "KPV",
+      "subtitle": "α-MSH fragment",
+      "url": "/products/kpv/"
+    },
+    {
+      "name": "BPC-157 + TB-500 blend",
+      "subtitle": "Two-peptide blend",
+      "url": "/products/bpc-tb-blend/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. KLOW blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source KLOW blend?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

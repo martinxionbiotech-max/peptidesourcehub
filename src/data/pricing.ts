@@ -114,6 +114,110 @@ export const PEPTIDE_PRICES: Record<string, PriceRow[]> = {
     { code: 'TR50', spec: '50 mg × 10 vials', usd: 143 },
     { code: 'TR60', spec: '60 mg × 10 vials', usd: 169 },
   ],
+  '5-amino-1mq': [
+    { code: '5AM', spec: '5 mg × 10 vials', usd: 53 },
+    { code: '10AM', spec: '10 mg × 10 vials', usd: 113 },
+    { code: '50AM', spec: '50 mg × 10 vials', usd: 130 },
+  ],
+  'adipotide': [
+    { code: 'AP5', spec: '5 mg × 10 vials', usd: 172 },
+  ],
+  'mots-c': [
+    { code: 'MS10', spec: '10 mg × 10 vials', usd: 66 },
+    { code: 'MS20', spec: '20 mg × 10 vials', usd: 115 },
+    { code: 'MS40', spec: '40 mg × 10 vials', usd: 193 },
+  ],
+  'mazdutide': [
+    { code: 'MZ10', spec: '10 mg × 10 vials', usd: 193 },
+  ],
+  'survodutide': [
+    { code: 'SUR10', spec: '10 mg × 10 vials', usd: 291 },
+  ],
+  'ahk-cu': [
+    { code: 'AU50', spec: '50 mg × 10 vials', usd: 45 },
+    { code: 'AU100', spec: '100 mg × 10 vials', usd: 58 },
+  ],
+  'glutathione': [
+    { code: 'GT600', spec: '600 mg × 10 vials', usd: 53 },
+    { code: 'GT1500', spec: '1,500 mg × 10 vials', usd: 69 },
+  ],
+  'melanotan-i': [
+    { code: 'MT1', spec: '10 mg × 10 vials', usd: 48 },
+  ],
+  'melanotan-ii': [
+    { code: 'ML10', spec: '10 mg × 10 vials', usd: 48 },
+  ],
+  'hyaluronic-acid': [
+    { code: 'HA5', spec: '5 mg × 10 vials', usd: 21 },
+  ],
+  'kpv': [
+    { code: 'KP5', spec: '5 mg × 10 vials', usd: 53 },
+    { code: 'KP10', spec: '10 mg × 10 vials', usd: 66 },
+  ],
+  'thymosin-alpha-1': [
+    { code: 'TA5', spec: '5 mg × 10 vials', usd: 93 },
+    { code: 'TA10', spec: '10 mg × 10 vials', usd: 172 },
+  ],
+  'll-37': [
+    { code: '375', spec: '10 mg × 10 vials', usd: 93 },
+  ],
+  'sermorelin': [
+    { code: 'SMO5', spec: '5 mg × 10 vials', usd: 69 },
+    { code: 'SMO10', spec: '10 mg × 10 vials', usd: 106 },
+  ],
+  'tesamorelin': [
+    { code: 'TSM5', spec: '5 mg × 10 vials', usd: 111 },
+    { code: 'TSM10', spec: '10 mg × 10 vials', usd: 185 },
+    { code: 'TSM20', spec: '20 mg × 10 vials', usd: 339 },
+  ],
+  'nad-plus': [
+    { code: 'NJ500', spec: '500 mg × 10 vials', usd: 53 },
+    { code: 'NJ1000', spec: '1,000 mg × 10 vials', usd: 66 },
+  ],
+  'pinealon': [
+    { code: 'PI5', spec: '5 mg × 10 vials', usd: 42 },
+    { code: 'PI10', spec: '10 mg × 10 vials', usd: 66 },
+    { code: 'PI20', spec: '20 mg × 10 vials', usd: 93 },
+  ],
+  'ss-31': [
+    { code: '2S10', spec: '10 mg × 10 vials', usd: 79 },
+    { code: '2S50', spec: '50 mg × 10 vials', usd: 291 },
+  ],
+  'pt-141': [
+    { code: 'P41', spec: '10 mg × 10 vials', usd: 58 },
+  ],
+  'kisspeptin-10': [
+    { code: 'KS5', spec: '5 mg × 10 vials', usd: 61 },
+    { code: 'KS10', spec: '10 mg × 10 vials', usd: 106 },
+  ],
+  'oxytocin-acetate': [
+    { code: 'OT2', spec: '2 mg × 10 vials', usd: 40 },
+    { code: 'OT5', spec: '5 mg × 10 vials', usd: 53 },
+    { code: 'OT10', spec: '10 mg × 10 vials', usd: 106 },
+  ],
+  'bacteriostatic-water': [
+    { code: 'BA10', spec: '10 mL × 10 vials', usd: 8 },
+    { code: 'BA3', spec: '3 mL × 10 vials', usd: 7 },
+  ],
+  'bpc-tb-blend': [
+    { code: 'BB10', spec: 'BPC-157 5 mg + TB-500 5 mg (10 mg total) × 10 vials', usd: 98 },
+    { code: 'BB20', spec: 'BPC-157 10 mg + TB-500 10 mg (20 mg total) × 10 vials', usd: 180 },
+    { code: 'BB30', spec: 'BPC-157 15 mg + TB-500 15 mg (30 mg total) × 10 vials', usd: 265 },
+  ],
+  'cjc-ipamorelin-blend': [
+    { code: 'CP10', spec: 'CJC-1295 (no DAC) 5 mg + Ipamorelin 5 mg (10 mg total) × 10 vials', usd: 103 },
+    { code: 'CP20', spec: 'CJC-1295 (no DAC) 10 mg + Ipamorelin 10 mg (20 mg total) × 10 vials', usd: 158 },
+  ],
+  'cagrilintide-semaglutide-blend': [
+    { code: 'CS5', spec: 'Cagrilintide 2.5 mg + Semaglutide 2.5 mg (5 mg total) × 10 vials', usd: 106 },
+    { code: 'CS10', spec: 'Cagrilintide 5 mg + Semaglutide 5 mg (10 mg total) × 10 vials', usd: 146 },
+  ],
+  'glow-blend': [
+    { code: 'GLOW70', spec: 'BPC-157 10 mg + TB-500 10 mg + GHK-Cu 50 mg (70 mg total) × 10 vials', usd: 180 },
+  ],
+  'klow-blend': [
+    { code: 'KLOW80', spec: 'KPV 10 mg + BPC-157 10 mg + TB-500 10 mg + GHK-Cu 50 mg (80 mg total) × 10 vials', usd: 217 },
+  ],
 };
 
 /**

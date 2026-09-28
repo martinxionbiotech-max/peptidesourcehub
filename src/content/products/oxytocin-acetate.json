@@ -1,0 +1,199 @@
+{
+  "slug": "oxytocin-acetate",
+  "name": "Oxytocin Acetate Wholesale",
+  "nameShort": "Oxytocin Acetate",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "50-56-6",
+  "molecularWeight": "~1,007.2 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Oxytocin Acetate wholesale: CAS 50-56-6, ~1,007.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Oxytocin Acetate Wholesale",
+  "heroSubtitle": "Disulfide-bridged nonapeptide — the reference cyclic-neuropeptide standard for receptor research",
+  "description": "Oxytocin is a nine-amino-acid cyclic neurohypophyseal peptide, stabilised by a disulfide bridge between two cysteine residues. It is supplied here as the acetate salt, the standard form for research-grade peptide handling, and is used in receptor-binding and neuroendocrine research on the oxytocin receptor family.",
+  "sku": "PSH-OXY-2MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "50-56-6"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₄₃H₆₆N₁₂O₁₂S₂"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~1,007.2 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "9 (disulfide-bridged cyclic nonapeptide)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "2 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Oxytocin receptor agonism",
+      "description": "Gq-coupled receptor activation studied in in vitro signalling models"
+    },
+    {
+      "name": "Disulfide-bridge structure",
+      "description": "The Cys1–Cys6 bridge defines the cyclic pharmacophore studied in analogue design"
+    },
+    {
+      "name": "Neuroendocrine signalling",
+      "description": "Reported research on central and peripheral neuropeptide pathways"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Receptor Pharmacology",
+      "description": "Oxytocin-receptor binding and signalling assays"
+    },
+    {
+      "area": "Peptide Chemistry",
+      "description": "Cyclic-disulfide peptide handling and stability studies"
+    },
+    {
+      "area": "Neuroendocrine Research",
+      "description": "Neuropeptide-pathway model systems"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 439302 / Wikidata Q169960. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "In what form is oxytocin supplied?",
+      "answer": "As the acetate salt, lyophilized, in 2 mg, 5 mg and 10 mg × 10-vial kits (price-list codes OT2, OT5, OT10)."
+    },
+    {
+      "question": "What analytical documentation is provided?",
+      "answer": "A batch-specific COA with HPLC purity, MS identity and appearance data; the acetate content is stated where measured."
+    },
+    {
+      "question": "How should the lyophilized powder be stored?",
+      "answer": "Desiccated at 2–8°C, protected from light. After reconstitution, aliquot and freeze to avoid repeated freeze–thaw cycles and to limit disulfide-mediated aggregation."
+    },
+    {
+      "question": "Are human or veterinary applications implied?",
+      "answer": "No. This is a laboratory research reagent, FOR RESEARCH USE ONLY, with no dosing or administration information supplied."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Kisspeptin-10",
+      "subtitle": "Neuroendocrine research peptide",
+      "url": "/products/kisspeptin-10/"
+    },
+    {
+      "name": "Selank",
+      "subtitle": "Anxiolytic-peptide research",
+      "url": "/products/selank/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Oxytocin Acetate is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Oxytocin Acetate?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₄₃H₆₆N₁₂O₁₂S₂"
+}

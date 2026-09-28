@@ -1,0 +1,190 @@
+{
+  "slug": "bpc-tb-blend",
+  "name": "BPC-157 + TB-500 Blend Wholesale",
+  "nameShort": "BPC-157 + TB-500 blend",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (two-component blend)",
+  "molecularWeight": "Component-dependent — see each component's specification page",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct BPC-157 + TB-500 blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "BPC-157 + TB-500 Blend Wholesale",
+  "heroSubtitle": "Co-lyophilized BPC-157 and TB-500 in a single vial — a two-peptide research kit",
+  "description": "This kit combines BPC-157 and TB-500 in a single co-lyophilized vial at matched ratios, so that research protocols using both peptides do not need to handle and reconstitute two separate lyophilizates. Both components are independently identity-confirmed, and the combined presentation is supplied with a COA for each component batch used in the blend.",
+  "sku": "PSH-BPCB-5-5",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (two-component blend)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Component-dependent — see each component's specification page"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "BPC-157 5 mg + TB-500 5 mg (10 mg total) × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "BPC-157 15 mg + TB-500 15 mg (30 mg total) × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Two-mechanism research design",
+      "description": "Combines an angiogenic/repair-signalling peptide (BPC-157) with an actin-sequestration and cell-migration peptide (TB-500)"
+    },
+    {
+      "name": "Co-lyophilization",
+      "description": "Both peptides are lyophilized together in one vial; each component retains its own analytical identity data"
+    },
+    {
+      "name": "Protocol simplification",
+      "description": "Fewer reconstitution steps per experiment, reducing handling variability"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Tissue-Repair Research",
+      "description": "Combined repair-pathway model systems"
+    },
+    {
+      "area": "Blend Characterisation",
+      "description": "Co-lyophilized multi-peptide handling"
+    },
+    {
+      "area": "Reproducibility Studies",
+      "description": "Control of handling variability in multi-peptide protocols"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "— see each component's specification page"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Blend composition from our published price list (codes BB10 / BB20 / BB30). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What exactly is in this blend?",
+      "answer": "BPC-157 and TB-500 co-lyophilized in one vial at matched ratios: 5+5 mg (code BB10), 10+10 mg (BB20) and 15+15 mg (BB30) per vial, 10 vials per kit."
+    },
+    {
+      "question": "Does each peptide have its own COA?",
+      "answer": "Yes — the blend ships with analytical documentation for each component batch used, so both peptides are identity-confirmed."
+    },
+    {
+      "question": "Why buy a blend instead of two separate kits?",
+      "answer": "Because it removes one reconstitution and handling step per experiment. Buyers who need independent concentration control often prefer separate kits; the choice is a protocol decision."
+    },
+    {
+      "question": "Can the ratio be customised?",
+      "answer": "Yes — custom ratios and custom vial counts are available as an OEM configuration; minimum order quantity and lead time are confirmed at quotation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "BPC-157",
+      "subtitle": "Pentadecapeptide",
+      "url": "/products/bpc-157/"
+    },
+    {
+      "name": "TB-500",
+      "subtitle": "Thymosin β4 fragment",
+      "url": "/products/tb-500/"
+    },
+    {
+      "name": "Healing & Recovery",
+      "subtitle": "All repair-research peptides",
+      "url": "/products/healing-recovery/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. BPC-157 + TB-500 blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source BPC-157 + TB-500 blend?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

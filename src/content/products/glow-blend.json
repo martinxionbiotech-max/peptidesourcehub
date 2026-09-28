@@ -1,0 +1,185 @@
+{
+  "slug": "glow-blend",
+  "name": "GLOW Blend (BPC-157 + TB-500 + GHK-Cu) Wholesale",
+  "nameShort": "GLOW blend",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (three-component blend)",
+  "molecularWeight": "Component-dependent — see each component's specification page",
+  "purity": "≥99% by HPLC",
+  "appearance": "Blue-violet to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct GLOW blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "GLOW Blend (BPC-157 + TB-500 + GHK-Cu) Wholesale",
+  "heroSubtitle": "Three-peptide repair-research blend — BPC-157, TB-500 and GHK-Cu in one vial",
+  "description": "The GLOW configuration co-lyophilizes BPC-157, TB-500 and GHK-Cu (copper tripeptide) in a single vial. It groups three peptides with distinct research roles — angiogenic and repair signalling, actin sequestration and matrix/copper-dependent research — into one preparation, with component-level analytical documentation for each peptide used.",
+  "sku": "PSH-GLOW-70",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (three-component blend)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Component-dependent — see each component's specification page"
+    },
+    {
+      "label": "Appearance",
+      "value": "Blue-violet to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "BPC-157 10 mg + TB-500 10 mg + GHK-Cu 50 mg (70 mg total) × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Three-component design",
+      "description": "Combines repair-signalling, cell-migration and copper-peptide research tools"
+    },
+    {
+      "name": "Copper-peptide inclusion",
+      "description": "GHK-Cu retains its copper complex within the blend; component ratios are stated per vial"
+    },
+    {
+      "name": "Fixed composition",
+      "description": "Same three components in every vial of the lot, documented on the COA"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Tissue-Repair Research",
+      "description": "Multi-pathway repair model systems"
+    },
+    {
+      "area": "Matrix Biology",
+      "description": "Copper-peptide plus repair-peptide research designs"
+    },
+    {
+      "area": "Blend Characterisation",
+      "description": "Three-component co-lyophilization studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "— see each component's specification page"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "Blue-violet to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Blend composition from our published price list (code GLOW70). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is in the GLOW blend?",
+      "answer": "BPC-157 10 mg, TB-500 10 mg and GHK-Cu 50 mg per vial (70 mg total), 10 vials per kit, price-list code GLOW70."
+    },
+    {
+      "question": "Does the copper content affect handling?",
+      "answer": "The GHK-Cu component carries copper, so the blend has a blue-violet tint. Reconstitute according to your protocol and protect from light; the copper content is documented per component batch."
+    },
+    {
+      "question": "Is a component COA included for each peptide?",
+      "answer": "Yes — analytical documentation covers each of the three peptides in the blend."
+    },
+    {
+      "question": "Can the ratios be customised?",
+      "answer": "Yes, as an OEM configuration; MOQ and lead time are confirmed at quotation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "KLOW Blend",
+      "subtitle": "Four-peptide research blend",
+      "url": "/products/klow-blend/"
+    },
+    {
+      "name": "BPC-157 + TB-500 blend",
+      "subtitle": "Two-peptide blend",
+      "url": "/products/bpc-tb-blend/"
+    },
+    {
+      "name": "GHK-Cu",
+      "subtitle": "Copper tripeptide (GHK)",
+      "url": "/products/ghk-cu/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. GLOW blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source GLOW blend?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

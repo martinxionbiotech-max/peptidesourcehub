@@ -1,0 +1,194 @@
+{
+  "slug": "pt-141",
+  "name": "PT-141 (Bremelanotide) Wholesale",
+  "nameShort": "PT-141",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "189691-06-3",
+  "molecularWeight": "~1,025.2 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "PT-141 wholesale: CAS 189691-06-3, ~1,025.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "PT-141 (Bremelanotide) Wholesale",
+  "heroSubtitle": "Cyclic melanocortin receptor agonist (bremelanotide) for receptor-pharmacology research",
+  "description": "PT-141 (bremelanotide) is a cyclic heptapeptide analogue of α-melanocyte-stimulating hormone. It is used in receptor-pharmacology research as a melanocortin receptor agonist with a different selectivity profile from the linear analogue Melanotan I, which is why the two are commonly compared in structure–activity studies of the α-MSH series.",
+  "sku": "PSH-PT141-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "189691-06-3"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₅₀H₆₈N₁₄O₁₀"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~1,025.2 Da"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "7 (cyclic peptide)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Melanocortin receptor agonism",
+      "description": "Cyclic peptide studied across melanocortin receptor subtypes in vitro"
+    },
+    {
+      "name": "Ring-constraint stability",
+      "description": "Lactam bridge used in this analogue class to improve metabolic stability"
+    },
+    {
+      "name": "cAMP pathway signalling",
+      "description": "Receptor-mediated cAMP readouts in transfected cell models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Receptor Pharmacology",
+      "description": "Melanocortin receptor selectivity studies"
+    },
+    {
+      "area": "Structure–Activity Research",
+      "description": "Cyclic α-MSH analogue comparisons"
+    },
+    {
+      "area": "CNS Receptor Research",
+      "description": "Melanocortin signalling in neurological research models"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 9941379 / Wikidata Q415353. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is PT-141?",
+      "answer": "PT-141 (bremelanotide) is a cyclic melanocortin receptor agonist peptide, CAS 189691-06-3, supplied as a laboratory research reagent."
+    },
+    {
+      "question": "How does PT-141 differ from Melanotan II?",
+      "answer": "Both are cyclic melanocortin agonists studied in the same receptor family; they differ in sequence and in their reported receptor-subtype selectivity profiles, which is why comparative receptor studies use them as separate tools."
+    },
+    {
+      "question": "Is any human-use information provided?",
+      "answer": "No. We supply no dosing, administration or application information. This product is FOR LABORATORY RESEARCH USE ONLY and is not for human or veterinary use."
+    },
+    {
+      "question": "What is the kit configuration and documentation?",
+      "answer": "10 mg × 10 vials per kit, with a batch-specific COA (HPLC purity, MS identity), invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Melanotan I",
+      "subtitle": "Linear α-MSH analogue",
+      "url": "/products/melanotan-i/"
+    },
+    {
+      "name": "Kisspeptin-10",
+      "subtitle": "Neuroendocrine research peptide",
+      "url": "/products/kisspeptin-10/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. PT-141 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source PT-141?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₅₀H₆₈N₁₄O₁₀"
+}

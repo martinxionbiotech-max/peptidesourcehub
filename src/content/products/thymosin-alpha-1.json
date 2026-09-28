@@ -1,0 +1,204 @@
+{
+  "slug": "thymosin-alpha-1",
+  "name": "Thymosin Alpha-1 Wholesale",
+  "nameShort": "Thymosin Alpha-1",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "62304-98-7",
+  "molecularWeight": "~3,108.3 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Thymosin Alpha-1 wholesale: CAS 62304-98-7, ~3,108.3 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Thymosin Alpha-1 Wholesale",
+  "heroSubtitle": "Synthetic 28-residue thymosin α1 — an immune-modulation research peptide",
+  "description": "Thymosin α1 is a 28-amino-acid peptide corresponding to the N-terminal region of prothymosin α, supplied here as the synthetic, N-terminally acetylated peptide. It is one of the most extensively characterised immune-modulating peptides and is used in immunology research models studying T-cell maturation and innate-immune signalling endpoints.",
+  "sku": "PSH-TA1-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "62304-98-7"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₂₉H₂₁₅N₃₃O₅₅"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~3,108.3 Da"
+    },
+    {
+      "label": "Sequence",
+      "value": "Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN-OH (residues 2–29 of human prothymosin α, UniProt P06454)"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "28"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "T-cell maturation research",
+      "description": "Studied in models of thymocyte and T-cell development"
+    },
+    {
+      "name": "Innate immune signalling",
+      "description": "Reported effects on Toll-like receptor-dependent signalling pathways in cell models"
+    },
+    {
+      "name": "Dendritic cell research",
+      "description": "Investigated in antigen-presenting cell models"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Immunology Research",
+      "description": "T-cell development and activation models"
+    },
+    {
+      "area": "Innate Immunity",
+      "description": "TLR-pathway signalling studies"
+    },
+    {
+      "area": "Cytokine Research",
+      "description": "Immune-cell cytokine profiling"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 16130571 / Wikidata Q20817234. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Thymosin Alpha-1?",
+      "answer": "It is a synthetic 28-amino-acid peptide corresponding to residues 2–29 of human prothymosin α (CAS 62304-98-7), used as a research reagent in immunology."
+    },
+    {
+      "question": "Is the sequence documented?",
+      "answer": "Yes — the product page states the sequence and precursor reference (UniProt P06454), and each batch is identity-confirmed by mass spectrometry."
+    },
+    {
+      "question": "What is the difference between Thymosin Alpha-1 and TB-500?",
+      "answer": "They are unrelated peptides that both derive from larger precursor proteins: thymosin α1 comes from prothymosin α and is studied in immune signalling, whereas TB-500 (thymosin β4 fragment) is studied in actin-sequestration and cell-migration models."
+    },
+    {
+      "question": "How is it stored and shipped?",
+      "answer": "Shipped as lyophilized powder in 10-vial kits; store desiccated at 2–8°C protected from light, and aliquot after reconstitution to avoid freeze–thaw cycles."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "TB-500",
+      "subtitle": "Thymosin β4 fragment",
+      "url": "/products/tb-500/"
+    },
+    {
+      "name": "Thymosin Beta-4",
+      "subtitle": "Full-length thymosin β4",
+      "url": "/products/thymosin-beta-4/"
+    },
+    {
+      "name": "Healing & Recovery",
+      "subtitle": "All repair-research peptides",
+      "url": "/products/healing-recovery/"
+    },
+    {
+      "name": "Peptide Quality Guide",
+      "subtitle": "Reading a COA",
+      "url": "/blog/peptide-quality-guide/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Thymosin Alpha-1 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Thymosin Alpha-1?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₂₉H₂₁₅N₃₃O₅₅",
+  "sequence": "Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN-OH (residues 2–29 of human prothymosin α, UniProt P06454)"
+}

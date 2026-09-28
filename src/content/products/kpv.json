@@ -1,0 +1,204 @@
+{
+  "slug": "kpv",
+  "name": "KPV Wholesale",
+  "nameShort": "KPV",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "67727-97-3",
+  "molecularWeight": "~342.4 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "KPV wholesale: CAS 67727-97-3, ~342.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "KPV Wholesale",
+  "heroSubtitle": "C-terminal α-MSH tripeptide fragment (Lys-Pro-Val) for inflammation-pathway research",
+  "description": "KPV is the C-terminal tripeptide fragment of α-melanocyte-stimulating hormone (Lys-Pro-Val). Research on this fragment has focused on melanocortin-linked anti-inflammatory signalling in cell and animal models, where it is studied separately from the full-length hormone because it retains a distinct activity profile without the pigmentation-associated receptor activity of the intact peptide.",
+  "sku": "PSH-KPV-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "67727-97-3"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₆H₃₀N₄O₄"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~342.4 Da"
+    },
+    {
+      "label": "Sequence",
+      "value": "H-Lys-Pro-Val-OH"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "3 (tripeptide)"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Melanocortin-linked anti-inflammatory signalling",
+      "description": "Studied for modulation of NF-κB-dependent inflammatory pathways in research models"
+    },
+    {
+      "name": "Cytokine research endpoints",
+      "description": "Reported effects on pro-inflammatory cytokine release in cell-culture and animal models"
+    },
+    {
+      "name": "Epithelial barrier models",
+      "description": "Investigated in intestinal and dermal epithelial research systems"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Inflammation Research",
+      "description": "NF-κB and cytokine-signalling models"
+    },
+    {
+      "area": "Gut–Barrier Research",
+      "description": "Intestinal epithelial in vitro models"
+    },
+    {
+      "area": "Fragment Pharmacology",
+      "description": "Structure–activity studies of α-MSH fragments"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 125672. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is KPV?",
+      "answer": "KPV is the tripeptide Lys-Pro-Val (CAS 67727-97-3), the C-terminal fragment of α-melanocyte-stimulating hormone, used as a research reagent in inflammation-pathway studies."
+    },
+    {
+      "question": "How does KPV differ from full-length α-MSH?",
+      "answer": "KPV is a three-residue fragment rather than the full hormone, and research focuses on its inflammatory-signalling profile rather than the pigmentation-associated melanocortin activity of the intact peptide."
+    },
+    {
+      "question": "What kit configurations are available?",
+      "answer": "5 mg and 10 mg × 10-vial kits, plus custom vial sizes for OEM and protocol-specific work."
+    },
+    {
+      "question": "Which documentation is supplied?",
+      "answer": "A batch-specific COA with HPLC purity and MS identity, plus invoice and packing list. Full chromatograms on request."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Thymosin Alpha-1",
+      "subtitle": "Immune-pathway research peptide",
+      "url": "/products/thymosin-alpha-1/"
+    },
+    {
+      "name": "BPC-157",
+      "subtitle": "Pentadecapeptide",
+      "url": "/products/bpc-157/"
+    },
+    {
+      "name": "Healing & Recovery",
+      "subtitle": "All repair-research peptides",
+      "url": "/products/healing-recovery/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "Batch documentation",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. KPV is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source KPV?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₆H₃₀N₄O₄",
+  "sequence": "H-Lys-Pro-Val-OH"
+}

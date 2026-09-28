@@ -1,0 +1,190 @@
+{
+  "slug": "cjc-ipamorelin-blend",
+  "name": "CJC-1295 + Ipamorelin Blend Wholesale",
+  "nameShort": "CJC-1295 + Ipamorelin blend",
+  "category": "specialty-stacks",
+  "categoryLabel": "Specialty Stacks",
+  "cas": "Not applicable (two-component blend)",
+  "molecularWeight": "Component-dependent — see each component's specification page",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Factory-direct CJC-1295 + Ipamorelin blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "heroTitle": "CJC-1295 + Ipamorelin Blend Wholesale",
+  "heroSubtitle": "GHRH-receptor plus ghrelin-receptor secretagogue in one vial — a two-route GH-axis research kit",
+  "description": "This blend pairs CJC-1295 without DAC (a GHRH-receptor agonist) with Ipamorelin (a selective ghrelin-receptor agonist) in a single co-lyophilized vial. It is designed for research designs that compare or combine the two upstream routes to GH release without handling two separate lyophilizates.",
+  "sku": "PSH-CJCI-5-5",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "Not applicable (two-component blend)"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Component-dependent — see each component's specification page"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "CJC-1295 (no DAC) 5 mg + Ipamorelin 5 mg (10 mg total) × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "CJC-1295 (no DAC) 10 mg + Ipamorelin 10 mg (20 mg total) × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Dual upstream route",
+      "description": "Combines GHRH-receptor (CJC-1295 no DAC) and ghrelin-receptor (Ipamorelin) stimulation"
+    },
+    {
+      "name": "Selectivity contrast",
+      "description": "Ipamorelin's ghrelin-receptor selectivity is contrasted with GHRH-receptor agonism in the same preparation"
+    },
+    {
+      "name": "Co-lyophilization",
+      "description": "Both peptides are identity-confirmed per component, then lyophilized together"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "GH-Axis Research",
+      "description": "Dual-route secretagogue model systems"
+    },
+    {
+      "area": "Receptor-Class Comparison",
+      "description": "GHRH-receptor vs ghrelin-receptor signalling"
+    },
+    {
+      "area": "Blend Handling Studies",
+      "description": "Co-lyophilized peptide reproducibility"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "— see each component's specification page"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Blend composition from our published price list (codes CP10 / CP20). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is in this blend?",
+      "answer": "CJC-1295 without DAC and Ipamorelin at matched ratios: 5+5 mg (code CP10) and 10+10 mg (CP20) per vial, 10 vials per kit."
+    },
+    {
+      "question": "Why is the no-DAC CJC-1295 used rather than the DAC version?",
+      "answer": "Because the no-DAC analogue has a shorter half-life in research models, which suits protocols designed around a tighter stimulation window; CJC-1295 with DAC is supplied separately as code CD5."
+    },
+    {
+      "question": "How does this compare with the GHRP-2 / GHRP-6 blends?",
+      "answer": "This kit pairs a GHRH-receptor agonist with a selective ghrelin-receptor agonist. GHRP-2 and GHRP-6 are ghrelin-receptor agonists with different receptor-affinity and appetite-related research profiles, and are supplied as individual products."
+    },
+    {
+      "question": "What documentation is supplied?",
+      "answer": "Component-level analytical documentation (HPLC purity, MS identity) for both peptides, plus invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "CJC-1295 (no DAC)",
+      "subtitle": "GHRH-receptor agonist",
+      "url": "/products/cjc-1295-no-dac/"
+    },
+    {
+      "name": "Ipamorelin",
+      "subtitle": "Selective ghrelin-receptor agonist",
+      "url": "/products/ipamorelin/"
+    },
+    {
+      "name": "Muscle Growth",
+      "subtitle": "All GH-axis research peptides",
+      "url": "/products/muscle-growth/"
+    },
+    {
+      "name": "Specialty Stacks",
+      "subtitle": "All specialty research items",
+      "url": "/products/specialty-stacks/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. CJC-1295 + Ipamorelin blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source CJC-1295 + Ipamorelin blend?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

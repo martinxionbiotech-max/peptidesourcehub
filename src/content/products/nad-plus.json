@@ -1,0 +1,195 @@
+{
+  "slug": "nad-plus",
+  "name": "NAD+ Wholesale",
+  "nameShort": "NAD+",
+  "category": "nootropic-anti-aging",
+  "categoryLabel": "Nootropic & Anti-Aging",
+  "cas": "53-84-9",
+  "molecularWeight": "~663.4 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "NAD+ wholesale: CAS 53-84-9, ~663.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "NAD+ Wholesale",
+  "heroSubtitle": "β-Nicotinamide adenine dinucleotide (oxidised form) — the central redox coenzyme research reagent",
+  "description": "NAD+ is the oxidised form of nicotinamide adenine dinucleotide, the central electron carrier of cellular redox metabolism and the substrate for sirtuin and PARP enzyme families. It is a standard reagent in cellular-metabolism, enzymology and ageing-biology research, supplied as the oxidised (NAD⁺) form rather than the reduced NADH form.",
+  "sku": "PSH-NAD-500MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "53-84-9"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₂₁H₂₇N₇O₁₄P₂"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~663.4 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Freely soluble in water"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "500 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "1,000 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Hydride transfer",
+      "description": "Reversible NAD+/NADH redox couple central to glycolysis, TCA-cycle and oxidative phosphorylation assays"
+    },
+    {
+      "name": "Sirtuin substrate",
+      "description": "Cofactor consumed by sirtuin-catalysed deacetylation reactions"
+    },
+    {
+      "name": "PARP substrate",
+      "description": "Substrate for poly(ADP-ribose) polymerase reactions in DNA-repair research"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Cellular Metabolism",
+      "description": "Redox and bioenergetics assay systems"
+    },
+    {
+      "area": "Ageing Biology Research",
+      "description": "NAD+ availability and sirtuin-pathway studies"
+    },
+    {
+      "area": "Enzymology",
+      "description": "Cofactor for dehydrogenase and PARP assays"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Freely soluble in water"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 5892 / Wikidata Q12499775. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this NAD+ or NADH?",
+      "answer": "Oxidised NAD+ (CAS 53-84-9), molecular weight ~663.4 Da. The reduced form NADH is a separate reagent and is not supplied under this listing."
+    },
+    {
+      "question": "Why is NAD+ relevant to ageing research?",
+      "answer": "Because NAD+ is the cofactor consumed by sirtuins and PARPs, so its measured availability is a common endpoint in cellular-ageing research models. We make no human-health claim for this reagent."
+    },
+    {
+      "question": "How should NAD+ be stored?",
+      "answer": "Store the powder sealed and desiccated at 2–8°C, protected from light and moisture. Prepare solutions fresh: NAD+ hydrolyses in aqueous solution and is degraded more quickly at neutral-to-alkaline pH."
+    },
+    {
+      "question": "What documentation is included?",
+      "answer": "Batch-specific COA with purity and identity data, plus invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Glutathione",
+      "subtitle": "Thiol redox research reagent",
+      "url": "/products/glutathione/"
+    },
+    {
+      "name": "Pinealon",
+      "subtitle": "Short-peptide anti-aging research",
+      "url": "/products/pinealon/"
+    },
+    {
+      "name": "Nootropic & Anti-Aging",
+      "subtitle": "All cognitive-research peptides",
+      "url": "/products/nootropic-anti-aging/"
+    },
+    {
+      "name": "Peptide Reference Data",
+      "subtitle": "Downloadable specs dataset",
+      "url": "/products/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. NAD+ is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source NAD+?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₂₁H₂₇N₇O₁₄P₂"
+}

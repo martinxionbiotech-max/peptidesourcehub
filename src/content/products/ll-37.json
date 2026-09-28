@@ -1,0 +1,199 @@
+{
+  "slug": "ll-37",
+  "name": "LL-37 Wholesale",
+  "nameShort": "LL-37",
+  "category": "healing-recovery",
+  "categoryLabel": "Healing & Recovery",
+  "cas": "154947-66-7",
+  "molecularWeight": "~4,493 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "LL-37 wholesale: CAS 154947-66-7, ~4,493 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "LL-37 Wholesale",
+  "heroSubtitle": "Human cathelicidin antimicrobial peptide (37 aa) — host-defence peptide research",
+  "description": "LL-37 is a 37-amino-acid cationic amphipathic peptide derived from the human cathelicidin precursor (CAMP). It is the reference human host-defence peptide and is used in membrane-interaction, antimicrobial-susceptibility and innate-immunity research, where its activity depends strongly on peptide concentration, ionic strength and membrane composition.",
+  "sku": "PSH-LL37-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "154947-66-7"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₂₀₅H₃₄₀N₆₀O₅₃"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,493 Da"
+    },
+    {
+      "label": "Sequence",
+      "value": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES (residues 134–170 of human cathelicidin precursor CAMP, UniProt P49913)"
+    },
+    {
+      "label": "Amino Acids",
+      "value": "37"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Membrane interaction",
+      "description": "Cationic amphipathic helix studied for interaction with model lipid membranes"
+    },
+    {
+      "name": "Antimicrobial-susceptibility research",
+      "description": "Used as a reference host-defence peptide in in vitro susceptibility assays"
+    },
+    {
+      "name": "Immunomodulatory signalling",
+      "description": "Reported effects on innate-immune cell signalling in vitro"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Host-Defence Peptide Research",
+      "description": "Structure–activity and membrane-interaction studies"
+    },
+    {
+      "area": "Microbiology Research",
+      "description": "In vitro susceptibility reference peptide"
+    },
+    {
+      "area": "Immunology Research",
+      "description": "Innate-immune signalling models"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 16198951 / Wikidata Q135995608. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is LL-37?",
+      "answer": "LL-37 is a 37-amino-acid human cathelicidin-derived host-defence peptide (CAS 154947-66-7), supplied as a laboratory reference peptide."
+    },
+    {
+      "question": "Is the sequence and precursor documented?",
+      "answer": "Yes — the page states the full sequence and its position within the human cathelicidin precursor (UniProt P49913). Identity is verified by mass spectrometry per batch."
+    },
+    {
+      "question": "Why does LL-37 activity vary between experiments?",
+      "answer": "Because host-defence peptide activity is sensitive to salt concentration, pH, serum content and membrane composition. We therefore publish no fixed potency figure — the relevant analytical data are the purity and identity results on the COA."
+    },
+    {
+      "question": "What does a kit contain?",
+      "answer": "10 mg × 10 vials per kit (price-list code 375), lyophilized, with a batch-specific COA."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Thymosin Alpha-1",
+      "subtitle": "Immune-pathway research peptide",
+      "url": "/products/thymosin-alpha-1/"
+    },
+    {
+      "name": "KPV",
+      "subtitle": "α-MSH fragment",
+      "url": "/products/kpv/"
+    },
+    {
+      "name": "Healing & Recovery",
+      "subtitle": "All repair-research peptides",
+      "url": "/products/healing-recovery/"
+    },
+    {
+      "name": "Research Use Only",
+      "subtitle": "Site policy and eligibility",
+      "url": "/research-use-only/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. LL-37 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source LL-37?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₂₀₅H₃₄₀N₆₀O₅₃",
+  "sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES (residues 134–170 of human cathelicidin precursor CAMP, UniProt P49913)"
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "hyaluronic-acid",
+  "name": "Hyaluronic Acid Wholesale",
+  "nameShort": "Hyaluronic acid",
+  "category": "cosmetic-skin",
+  "categoryLabel": "Cosmetic & Skin",
+  "cas": "9067-32-7",
+  "molecularWeight": "Polydisperse polymer — molar mass distribution is stated on the batch COA",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Sodium hyaluronate (CAS 9067-32-7) wholesale: 10-vial kits, batch COA with measured MW range, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Hyaluronic Acid Wholesale",
+  "heroSubtitle": "Sodium hyaluronate (hyaluronan) — a glycosaminoglycan reference material for matrix and rheology research",
+  "description": "Hyaluronic acid is a high-molecular-weight glycosaminoglycan built from repeating glucuronic acid/N-acetylglucosamine disaccharide units, supplied here as the sodium salt (sodium hyaluronate). Because molar mass is a distribution rather than a single value, the relevant characterisation parameters are the batch molecular-weight range and the solution viscosity, both stated on the COA.",
+  "sku": "PSH-HA-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "9067-32-7"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "Polydisperse polymer — molar mass distribution is stated on the batch COA"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Forms a viscous solution in water"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Water binding",
+      "description": "Large hydration shells per disaccharide repeat, giving characteristic viscosity in solution"
+    },
+    {
+      "name": "CD44 interaction",
+      "description": "Studied as a ligand for CD44-mediated cell-surface binding in in vitro models"
+    },
+    {
+      "name": "Matrix viscoelasticity",
+      "description": "Used as a reference material in rheology and matrix-scaffold research"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Matrix Biology",
+      "description": "In vitro extracellular-matrix and scaffold research"
+    },
+    {
+      "area": "Rheology & Formulation Science",
+      "description": "Viscosity reference material for formulation studies"
+    },
+    {
+      "area": "Glycosaminoglycan Research",
+      "description": "Structural and analytical reference work"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "polymer — molar mass distribution is stated on the batch COA"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Forms a viscous solution in water"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from Wikidata Q3143635 (sodium hyaluronate, CAS 9067-32-7). Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the CAS number and form supplied?",
+      "answer": "Sodium hyaluronate, CAS 9067-32-7, supplied as a white to off-white powder in 10-vial kits of 5 mg."
+    },
+    {
+      "question": "Why is no single molecular weight quoted?",
+      "answer": "Hyaluronic acid is polydisperse: it has a molecular-weight distribution rather than one exact mass. The batch COA states the measured range for that lot; we do not quote an invented single figure."
+    },
+    {
+      "question": "Is this a cosmetic or injectable product?",
+      "answer": "No. This listing is a laboratory reference material for research use only. It is not an injectable, not a cosmetic ingredient for human application, and no clinical or cosmetic claim is made."
+    },
+    {
+      "question": "What documentation is provided?",
+      "answer": "Batch-specific COA covering identity, purity/appearance and the measured molecular-weight range, plus commercial invoice and packing list."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "AHK-Cu",
+      "subtitle": "Copper tripeptide complex",
+      "url": "/products/ahk-cu/"
+    },
+    {
+      "name": "GHK-Cu",
+      "subtitle": "Copper tripeptide (GHK)",
+      "url": "/products/ghk-cu/"
+    },
+    {
+      "name": "Cosmetic & Skin",
+      "subtitle": "All cosmetic-research peptides",
+      "url": "/products/cosmetic-skin/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "Analytical documentation",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Hyaluronic acid is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Hyaluronic acid?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+}

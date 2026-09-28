@@ -1,4 +1,6 @@
 ---
+import { getCollection } from "astro:content";
+const PRODUCT_COUNT = (await getCollection("products")).length;
 import PageLayout from "../layouts/PageLayout.astro";
 import RuoNotice from "../components/RuoNotice.astro";
 
@@ -7,7 +9,7 @@ const jsonLd = {
   "@type": "WebSite",
   "name": "Peptides Source Hub",
   "url": "https://peptidesourcehub.net",
-  "description": "China-based GMP peptide manufacturer since 2009. 58+ research peptides & HGH kits in bulk. Tiered wholesale pricing, batch traceability, global fulfillment.",
+  "description": "China-based GMP peptide manufacturer since 2009. 50+ research peptides & HGH kits in bulk. Tiered wholesale pricing, batch traceability, global fulfillment.",
   "potentialAction": { "@type": "SearchAction", "target": "https://peptidesourcehub.net/search?q={search_term_string}", "query-input": "required name=search_term_string" },
 };
 
@@ -56,7 +58,7 @@ const allJsonLd = [jsonLd, faqJson];
 
 <PageLayout
   title="Peptides Wholesale & Competitive Price"
-  description="China-based GMP peptide manufacturer since 2009. 58+ research peptides & HGH kits in bulk. Tiered wholesale pricing, batch traceability, global fulfillment."
+  description="China-based GMP peptide manufacturer since 2009. 50+ research peptides & HGH kits in bulk. Tiered wholesale pricing, batch traceability, global fulfillment."
   jsonLd={allJsonLd}
 >
 <RuoNotice />
@@ -102,7 +104,7 @@ const allJsonLd = [jsonLd, faqJson];
           <span class="text-gray-400 text-sm">Customers</span>
         </div>
         <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl px-4 py-2.5">
-          <span class="text-accent font-bold text-lg">58</span>
+          <span class="text-accent font-bold text-lg">{PRODUCT_COUNT}</span>
           <span class="text-gray-400 text-sm">SKUs</span>
         </div>
       </div>
@@ -175,7 +177,7 @@ const allJsonLd = [jsonLd, faqJson];
         </div>
         <div class="px-4">
           <div class="text-3xl md:text-4xl font-extrabold text-primary">
-            <span class="count-up" data-target="58">0</span>
+            <span class="count-up" data-target={PRODUCT_COUNT}>0</span>
           </div>
           <p class="text-gray-500 text-sm mt-1 font-medium">Standard SKUs</p>
         </div>
@@ -269,7 +271,7 @@ const allJsonLd = [jsonLd, faqJson];
     </div>
     <div class="text-center mt-10">
       <a href="/products/" class="btn-outline text-primary border-primary/30 group">
-        View All 58 Products
+        View All {PRODUCT_COUNT} Products
         <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
       </a>
     </div>
@@ -281,7 +283,7 @@ const allJsonLd = [jsonLd, faqJson];
   <div class="container-wide mx-auto px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2>Product Categories</h2>
-      <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-lg">58 research-grade peptides manufactured in our Shenzhen facility. Every product ships with COA documentation.</p>
+      <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-lg">{PRODUCT_COUNT} research-grade peptides manufactured in our Shenzhen facility. Every product ships with COA documentation.</p>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
@@ -303,7 +305,7 @@ const allJsonLd = [jsonLd, faqJson];
 
     <div class="text-center mt-12 animate-on-scroll">
       <a href="/products/" class="btn-primary text-base group">
-        Browse All 58 Products
+        Browse All {PRODUCT_COUNT} Products
         <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
       </a>
     </div>
@@ -378,7 +380,7 @@ const allJsonLd = [jsonLd, faqJson];
     <div class="max-w-4xl mx-auto mt-12 card p-8 bg-gradient-to-r from-primary/5 to-accent/5 border-primary/10 stagger-children">
       <h3 class="text-center font-bold text-lg mb-6">The Numbers Behind Our Manufacturing</h3>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-        <div><div class="text-2xl font-extrabold text-primary">58</div><div class="text-xs text-gray-500 mt-1">Standard SKUs in Continuous Production</div></div>
+        <div><div class="text-2xl font-extrabold text-primary">{PRODUCT_COUNT}</div><div class="text-xs text-gray-500 mt-1">Catalogued Product Lines</div></div>
         <div><div class="text-2xl font-extrabold text-primary">≥99%</div><div class="text-xs text-gray-500 mt-1">HPLC Purity — Every Batch, Every SKU</div></div>
         <div><div class="text-2xl font-extrabold text-primary">24mo</div><div class="text-xs text-gray-500 mt-1">Stability at Recommended Storage</div></div>
         <div><div class="text-2xl font-extrabold text-primary">3-Day</div><div class="text-xs text-gray-500 mt-1">QC Document Review Before Dispatch</div></div>

@@ -1,0 +1,190 @@
+{
+  "slug": "adipotide",
+  "name": "Adipotide Wholesale",
+  "nameShort": "Adipotide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "859216-15-2",
+  "molecularWeight": "~2,557.2 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Adipotide wholesale: CAS 859216-15-2, ~2,557.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Adipotide Wholesale",
+  "heroSubtitle": "Prohibitin-targeting peptidomimetic (FTPP) — a targeted-conjugate tool for adipose-tissue research",
+  "description": "Adipotide (FTPP) is a synthetic peptidomimetic conjugate: a prohibitin-binding sequence coupled to a pro-apoptotic peptide. In rodent research models it has been used to study targeted apoptosis of the vasculature supporting white adipose tissue, making it a reference compound in targeted-peptide-conjugate research rather than a conventional signalling peptide.",
+  "sku": "PSH-ADIP-5MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "859216-15-2"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₁₁H₂₀₆N₃₆O₂₈S₂"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~2,557.2 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "5 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "Prohibitin (PHB) binding",
+      "description": "The targeting sequence binds prohibitin expressed on white-adipose vasculature in research models"
+    },
+    {
+      "name": "Pro-apoptotic payload delivery",
+      "description": "The conjugated peptide sequence is studied for delivery of an apoptotic signal to targeted cells"
+    },
+    {
+      "name": "Vascular targeting",
+      "description": "Reported use in rodent models of adipose-tissue vascular remodelling"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Targeted Peptide Conjugates",
+      "description": "Design and validation of ligand-directed payloads"
+    },
+    {
+      "area": "Adipose Tissue Biology",
+      "description": "White-adipose vasculature models"
+    },
+    {
+      "area": "Metabolic Models",
+      "description": "Rodent metabolic research"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 163360068. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Adipotide?",
+      "answer": "Adipotide (FTPP) is a synthetic peptidomimetic that combines a prohibitin-binding sequence with a pro-apoptotic peptide. CAS 859216-15-2. It is a research reagent for laboratory use only."
+    },
+    {
+      "question": "How is Adipotide different from a signalling peptide like GLP-1?",
+      "answer": "It is a targeted conjugate rather than a receptor agonist: its design targets prohibitin-expressing cells and delivers a pro-apoptotic peptide sequence, so research use centres on targeted delivery rather than metabolic signalling."
+    },
+    {
+      "question": "What documentation accompanies Adipotide?",
+      "answer": "A batch-specific COA (HPLC purity, MS identity) plus commercial invoice and packing list. MS spectra are available on request."
+    },
+    {
+      "question": "What is the minimum order quantity?",
+      "answer": "1 kit (5 mg × 10 vials). Bulk discounts begin at 5 kits (10%), 20+ kits (20%) and 50+ kits (30%)."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "5-Amino-1MQ",
+      "subtitle": "NNMT inhibitor research reagent",
+      "url": "/products/5-amino-1mq/"
+    },
+    {
+      "name": "MOTS-c",
+      "subtitle": "Mitochondrial-derived peptide",
+      "url": "/products/mots-c/"
+    },
+    {
+      "name": "Metabolic Category",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "Quality & Testing",
+      "subtitle": "How batches are tested",
+      "url": "/quality-and-testing/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Adipotide is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Adipotide?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₁₁H₂₀₆N₃₆O₂₈S₂"
+}

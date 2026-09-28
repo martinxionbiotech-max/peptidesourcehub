@@ -1,0 +1,195 @@
+{
+  "slug": "mots-c",
+  "name": "MOTS-c Wholesale",
+  "nameShort": "MOTS-c",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "1627580-64-6",
+  "molecularWeight": "~2,174.6 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "MOTS-c wholesale: CAS 1627580-64-6, ~2,174.6 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "MOTS-c Wholesale",
+  "heroSubtitle": "Mitochondrial-derived peptide (16 aa) studied in metabolic-homeostasis and AMPK-pathway research",
+  "description": "MOTS-c is a 16-amino-acid mitochondrial-derived peptide encoded within the 12S rRNA region of mitochondrial DNA. Published research describes its role in metabolic homeostasis — notably AMPK-pathway signalling, the folate–methionine cycle and muscle insulin-sensitivity models — which is why it is widely used alongside nuclear-encoded peptides in mitochondrial and metabolic research.",
+  "sku": "PSH-MOTSC-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "1627580-64-6"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₁₀₁H₁₅₂N₂₈O₂₂S₂"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~2,174.6 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Bulk Kit",
+      "content": "40 mg × 10 vials",
+      "bestFor": "High-throughput research; repeat buyers"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "AMPK pathway",
+      "description": "Reported activation of AMPK signalling in skeletal-muscle research models"
+    },
+    {
+      "name": "Folate–methionine cycle",
+      "description": "Studied for effects on the methionine cycle and AICAR-related metabolite flux"
+    },
+    {
+      "name": "Metabolic homeostasis",
+      "description": "Research on glucose handling and energy metabolism in muscle tissue"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Mitochondrial Biology",
+      "description": "Retrograde signalling from mitochondrial DNA-encoded peptides"
+    },
+    {
+      "area": "Metabolic Research",
+      "description": "Muscle glucose handling and energy metabolism models"
+    },
+    {
+      "area": "Exercise Physiology Research",
+      "description": "Exercise-mimetic and metabolic-adaptation studies"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 146675088. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is MOTS-c?",
+      "answer": "MOTS-c is a 16-amino-acid peptide encoded in the mitochondrial 12S rRNA region (CAS 1627580-64-6). Research interest centres on its role in metabolic homeostasis and AMPK-pathway signalling."
+    },
+    {
+      "question": "How does MOTS-c differ from other metabolic peptides in your catalogue?",
+      "answer": "Unlike GLP-1 receptor agonists such as Semaglutide, MOTS-c is not a GPCR agonist — it is a mitochondrial-derived peptide studied for intracellular metabolic signalling, so the two are used in different research designs."
+    },
+    {
+      "question": "Is MOTS-c sequence and identity documented?",
+      "answer": "Yes: CAS, molecular formula and molecular weight are stated on the product page and in the downloadable dataset; batch identity is confirmed by mass spectrometry on each COA."
+    },
+    {
+      "question": "What are your kit sizes and pricing tiers?",
+      "answer": "10 mg, 20 mg and 40 mg × 10-vial kits; volume discounts of 10% (5+ kits), 20% (20+) and 30% (50+)."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "5-Amino-1MQ",
+      "subtitle": "NAD+/NNMT research reagent",
+      "url": "/products/5-amino-1mq/"
+    },
+    {
+      "name": "SS-31",
+      "subtitle": "Mitochondria-targeted tetrapeptide",
+      "url": "/products/ss-31/"
+    },
+    {
+      "name": "Metabolic Category",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "Peptide Reference Data",
+      "subtitle": "Downloadable specs dataset",
+      "url": "/products/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source MOTS-c?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₁₀₁H₁₅₂N₂₈O₂₂S₂"
+}

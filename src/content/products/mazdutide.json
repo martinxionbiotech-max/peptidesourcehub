@@ -1,0 +1,190 @@
+{
+  "slug": "mazdutide",
+  "name": "Mazdutide Wholesale",
+  "nameShort": "Mazdutide",
+  "category": "metabolic",
+  "categoryLabel": "Metabolic Research",
+  "cas": "2259884-03-0",
+  "molecularWeight": "~4,476 Da",
+  "purity": "≥99% by HPLC",
+  "appearance": "White to off-white lyophilized powder",
+  "storage": "2–8°C, desiccated, protect from light",
+  "metaDescription": "Mazdutide wholesale: CAS 2259884-03-0, ~4,476 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "heroTitle": "Mazdutide Wholesale",
+  "heroSubtitle": "Long-acting oxyntomodulin analogue — dual GCGR / GLP-1 receptor agonist for metabolic research",
+  "description": "Mazdutide is a long-acting oxyntomodulin analogue engineered as a dual agonist at the glucagon receptor (GCGR) and the GLP-1 receptor. Its reported research profile combines incretin-pathway signalling with glucagon-receptor-mediated energy expenditure, which is the rationale for studying it alongside single-target GLP-1 agonists in metabolic research models.",
+  "sku": "PSH-MAZD-10MG",
+  "specifications": [
+    {
+      "label": "CAS Number",
+      "value": "2259884-03-0"
+    },
+    {
+      "label": "Molecular Formula",
+      "value": "C₂₀₇H₃₁₇N₄₅O₆₅"
+    },
+    {
+      "label": "Molecular Weight",
+      "value": "~4,476 Da"
+    },
+    {
+      "label": "Appearance",
+      "value": "White to off-white lyophilized powder"
+    },
+    {
+      "label": "Purity",
+      "value": "≥99% by HPLC"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in sterile water or PBS"
+    },
+    {
+      "label": "Storage",
+      "value": "2–8°C, desiccated, protect from light"
+    },
+    {
+      "label": "Identification",
+      "value": "ESI-MS identity confirmation on each batch"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Standard Kit",
+      "content": "10 mg × 10 vials",
+      "bestFor": "Protocol validation; evaluation orders"
+    },
+    {
+      "name": "Custom",
+      "content": "Custom mg × custom vials",
+      "bestFor": "OEM; private-label; protocol-specific"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "GLP-1 receptor agonism",
+      "description": "Incretin-pathway signalling studied in metabolic models"
+    },
+    {
+      "name": "Glucagon receptor agonism",
+      "description": "GCGR activation associated with energy-expenditure research endpoints"
+    },
+    {
+      "name": "Extended half-life design",
+      "description": "Fatty-acid acylation and sequence modification are used in this analogue class to slow clearance"
+    }
+  ],
+  "researchAreas": [
+    {
+      "area": "Dual-Agonist Pharmacology",
+      "description": "GCGR + GLP-1R signalling comparisons"
+    },
+    {
+      "area": "Energy Expenditure Research",
+      "description": "Metabolic-rate endpoints in animal models"
+    },
+    {
+      "area": "Metabolic Portfolio Design",
+      "description": "Positioning alongside GLP-1 and amylin analogues"
+    }
+  ],
+  "qualitySpecs": [
+    {
+      "parameter": "Purity",
+      "method": "HPLC at 214 nm, C18 column",
+      "criterion": "≥99.0% peak area"
+    },
+    {
+      "parameter": "Identity",
+      "method": "ESI-MS",
+      "criterion": "Da"
+    },
+    {
+      "parameter": "Appearance",
+      "method": "Visual inspection",
+      "criterion": "White to off-white lyophilized powder"
+    },
+    {
+      "parameter": "Purity assay",
+      "method": "Amino acid analysis",
+      "criterion": "≥80% net peptide"
+    },
+    {
+      "parameter": "Residual moisture",
+      "method": "Karl Fischer",
+      "criterion": "≤3%"
+    },
+    {
+      "parameter": "Solubility",
+      "method": "Reconstitution test",
+      "criterion": "Soluble in sterile water or PBS"
+    }
+  ],
+  "qualityNote": "Identity data (CAS, molecular formula, molecular weight) referenced from NCBI PubChem CID 167312357 / Wikidata Q123248554. Batch-specific analytical values are stated on each Certificate of Analysis.",
+  "pricingTiers": [
+    {
+      "volume": "1 kit",
+      "discount": "List price",
+      "audience": "Evaluation; competitive analysis"
+    },
+    {
+      "volume": "5+ kits",
+      "discount": "10% off",
+      "audience": "Initial portfolio expansion"
+    },
+    {
+      "volume": "20+ kits",
+      "discount": "20% off",
+      "audience": "Mid-size distributors"
+    },
+    {
+      "volume": "50+ kits",
+      "discount": "30% off",
+      "audience": "Regional distributors"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Mazdutide?",
+      "answer": "Mazdutide (CAS 2259884-03-0) is a long-acting oxyntomodulin analogue and dual glucagon/GLP-1 receptor agonist used as a laboratory research peptide."
+    },
+    {
+      "question": "How does it compare with Tirzepatide and Retatrutide?",
+      "answer": "Tirzepatide targets GIP and GLP-1 receptors; Retatrutide adds glucagon-receptor activity to a triple-agonist profile; Mazdutide is an oxyntomodulin-derived dual GLP-1/glucagon agonist. All three are research reagents — none is a medicine in this catalogue."
+    },
+    {
+      "question": "What purity and documentation are supplied?",
+      "answer": "≥99% by HPLC with MS identity confirmation; a batch-specific COA accompanies every kit."
+    },
+    {
+      "question": "Can I combine Mazdutide with other metabolic peptides in one order?",
+      "answer": "Yes — a single shipment can carry multiple metabolic peptides with one consolidated COA set. Contact us for a combined quotation."
+    }
+  ],
+  "relatedProducts": [
+    {
+      "name": "Survodutide",
+      "subtitle": "Dual GCGR/GLP-1 agonist",
+      "url": "/products/survodutide/"
+    },
+    {
+      "name": "Retatrutide",
+      "subtitle": "Triple GIP/GLP-1/GCGR agonist",
+      "url": "/products/retatrutide/"
+    },
+    {
+      "name": "Metabolic Category",
+      "subtitle": "All metabolic peptides",
+      "url": "/products/metabolic/"
+    },
+    {
+      "name": "GLP-1 Buyer's Guide",
+      "subtitle": "Receptor-by-receptor comparison",
+      "url": "/blog/glp1-buyers-guide/"
+    }
+  ],
+  "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Mazdutide is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
+  "ctaText": "Ready to Source Mazdutide?",
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "molecularFormula": "C₂₀₇H₃₁₇N₄₅O₆₅"
+}
