@@ -6,7 +6,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Wholesale Metabolic Research Peptides — GLP-1 & Beyond",
-  "description": "Factory-direct metabolic research peptides: Semaglutide, Tirzepatide, Retatrutide, Cagrilintide, AOD-9604. ≥99% HPLC purity, batch-traceable.",
+  "description": "Factory-direct metabolic research peptides: Semaglutide, Tirzepatide, Retatrutide, Cagrilintide, AOD-9604. ≥99% HPLC, COA included.",
   "isPartOf": { "@type": "WebSite", "name": "Peptides Source Hub", "url": "https://peptidesourcehub.net" },
 };
 
@@ -17,7 +17,7 @@ const products = [
   ["Cagrilintide","1415456-99-3","4,100.7","Long-acting amylin analogue","5 mg × 10 vials","/products/cagrilintide/"],
   ["AOD-9604","221231-10-3","1,815.1","hGH fragment 177-191 — lipolytic","2 mg × 10 vials","/products/aod-9604/"],
 ];
-const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the purity standard for metabolic peptides?", "acceptedAnswer": {"@type": "Answer", "text": "≥99% by HPLC with ESI-MS identity confirmation for all metabolic research peptides including Semaglutide, Tirzepatide, Retatrutide, and Cagrilintide."}}, {"@type": "Question", "name": "Can I order mixed metabolic peptide kits?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Combined orders qualify for merged volume tiers — e.g., 3 Semaglutide + 2 Tirzepatide + 1 Retatrutide = 6 kits eligible for the 10% off bulk tier (5+ kits)."}}, {"@type": "Question", "name": "What documentation is provided with orders?", "acceptedAnswer": {"@type": "Answer", "text": "Batch-specific COA (HPLC purity, MS identity), commercial invoice, packing list. Full chromatogram and MS spectrum on request."}}, {"@type": "Question", "name": "How are GLP-1 peptides shipped and stored?", "acceptedAnswer": {"@type": "Answer", "text": "All metabolic peptides ship as lyophilized powder via DHL/FedEx (2-6 business days). Temperature-controlled packaging. 24-month stability at 2-8°C."}}, {"@type": "Question", "name": "Do you offer pre-formulated GLP-1 stacks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Cagrilintide + Semaglutide fixed-dose kits are available in our Specialty Stacks category. Custom metabolic stacks on request for bulk wholesale orders."}}]};
+const faqJson = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between Semaglutide and Tirzepatide?", "acceptedAnswer": {"@type": "Answer", "text": "Semaglutide activates GLP-1 receptors only. Tirzepatide activates both GLP-1 and GIP receptors. In research, dual agonism shows enhanced metabolic effects compared to GLP-1 alone. Retatrutide adds a third target (GCGR)."}}, {"@type": "Question", "name": "Do you offer fixed-dose combination kits?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We produce custom fixed-dose combinations — for example, Cagrilintide 5mg + Semaglutide 5mg in a single vial. Minimum order quantities apply for custom formulations."}}, {"@type": "Question", "name": "What purity do your GLP-1 peptides meet?", "acceptedAnswer": {"@type": "Answer", "text": "All five products target ≥99% purity by HPLC. Lower-purity material is not released. Full analytical documentation — HPLC chromatogram, mass spectrometry data — available on request with every batch."}}, {"@type": "Question", "name": "How does volume pricing work for bulk orders?", "acceptedAnswer": {"@type": "Answer", "text": "Tiered pricing starts at 1-3 kits, with progressive discounts at 4-9 kits, 10-24 kits, 25-49 kits, and 50+ kits. Contact our sales team for a detailed quotation based on your projected monthly volume."}}]};
 const breadcrumbLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -32,7 +32,7 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
 
 <PageLayout
   title="Metabolic Peptides | Wholesale"
-  description="Factory-direct metabolic research peptides: Semaglutide, Tirzepatide, Retatrutide, Cagrilintide, AOD-9604. ≥99% HPLC purity, tiered wholesale pricing. COA included."
+  description="Factory-direct metabolic research peptides: Semaglutide, Tirzepatide, Retatrutide, Cagrilintide, AOD-9604. ≥99% HPLC, COA included."
   jsonLd={allJsonLd}
 >
 <RuoNotice />

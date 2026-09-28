@@ -1,7 +1,10 @@
 ---
 import "../styles/global.css";
 const { title, description, image, jsonLd } = Astro.props;
-const pageTitle = `${title} — Peptides Source Hub`;
+// 品牌后缀仅在总长不超过 60 字符时追加，避免 SERP 截断
+const SUFFIX = ' — Peptides Source Hub';
+const withSuffix = `${title}${SUFFIX}`;
+const pageTitle = withSuffix.length <= 60 ? withSuffix : title;
 const pageDesc = description || title;
 ---
 
