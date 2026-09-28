@@ -182,6 +182,14 @@
     {
       "question": "What purity and QC is provided?",
       "answer": "≥99% HPLC purity, ESI-MS identity, amino acid analysis. Pro-Gly-Pro extension verified by MS/MS fragmentation. Batch-specific COA included."
+    },
+    {
+      "question": "What is the Selank sequence and where does it come from?",
+      "answer": "Selank is H-Thr-Lys-Pro-Arg-Pro-Gly-Pro-OH: the tuftsin tetrapeptide of the immunoglobulin G heavy chain extended by Pro-Gly-Pro, a modification introduced to improve resistance to peptidases."
+    },
+    {
+      "question": "What do the human studies of Selank actually measure?",
+      "answer": "Short-term CNS endpoints. A 2020 study of 52 healthy participants measured resting-state functional connectivity at 5 and 20 minutes after administration; it did not test anxiolytic or cognitive benefit, and no human-application claim is made here."
     }
   ],
   "relatedProducts": [
@@ -208,5 +216,12 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Selank is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Selank?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "researchNotes": [
+    "Heptapeptide Thr-Lys-Pro-Arg-Pro-Gly-Pro: the tuftsin tetrapeptide (Thr-Lys-Pro-Arg) extended C-terminally by Pro-Gly-Pro, an extension introduced in the Russian regulatory-peptide literature to increase protease resistance.",
+    "Its two research streams are distinct: GABA-related cell experiments on one side, and human-serum assays showing inhibition of enkephalin-degrading enzymes on the other.",
+    "Reported anxiolytic-like and BDNF-related findings come from animal models — in rat hippocampus, Bdnf mRNA and BDNF protein levels were reported to rise after administration at 250–500 µg/kg.",
+    "Human work is limited and measured different endpoints: a 2020 study of 52 healthy participants reported short-term resting-state connectivity differences (5 and 20 minutes after administration), not cognitive or anxiolytic benefit.",
+    "The Pro-Gly-Pro tail is shared with Semax as a stability design element only — the two peptides derive from unrelated precursors (tuftsin vs ACTH(4-7))."
+  ]
 }

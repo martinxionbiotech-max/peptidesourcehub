@@ -155,6 +155,17 @@ const title = `${p.nameShort} | Buy Wholesale`;
     <div class="max-w-4xl">
       <p class="text-gray-600 mb-6">{p.description}</p>
 
+      {p.researchNotes && p.researchNotes.length > 0 && (
+        <>
+          <h3 class="text-lg font-bold mb-3">Molecular Notes</h3>
+          <ul class="space-y-2 mb-6 list-disc pl-5">
+            {p.researchNotes.map((n) => (
+              <li class="text-gray-600 text-sm" set:html={n} />
+            ))}
+          </ul>
+        </>
+      )}
+
       {p.mechanisms && p.mechanisms.length > 0 && (
         <>
           <h3 class="text-lg font-bold mb-3">Proposed Mechanisms</h3>

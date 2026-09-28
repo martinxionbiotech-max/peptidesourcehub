@@ -182,6 +182,14 @@
     {
       "question": "What purity and QC is provided for Semax?",
       "answer": "≥99% HPLC with ESI-MS identity. Special QC: Met(O) content ≤ 1% (N-terminal methionine is oxidation-sensitive). Batch-specific COA included."
+    },
+    {
+      "question": "What is the Semax sequence and what does the Pro-Gly-Pro tail do?",
+      "answer": "Semax is H-Met-Glu-His-Phe-Pro-Gly-Pro-OH: the ACTH(4-7) fragment with a Pro-Gly-Pro extension that protects the molecule from peptidase hydrolysis, extending its useful half-life relative to the bare tetrapeptide."
+    },
+    {
+      "question": "Which neurotrophin endpoints are reported for Semax?",
+      "answer": "Cell and animal studies report increased Bdnf and Ngf gene transcription (approximately 8-fold and 5-fold in glial cell culture) and raised Bdnf/TrkB mRNA in rat hippocampus. These are research findings in animal and cell models, not clinical outcomes."
     }
   ],
   "relatedProducts": [
@@ -208,5 +216,12 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Semax is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Semax?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "researchNotes": [
+    "Heptapeptide Met-Glu-His-Phe-Pro-Gly-Pro: the ACTH(4-7) fragment extended by the Pro-Gly-Pro tripeptide, added specifically to protect the molecule from peptidase hydrolysis.",
+    "The ACTH(4-7) core is the CNS-directed portion of ACTH without the corticotropic activity of the full hormone — the rationale for separating Semax research from adrenal-axis endpoints.",
+    "In rat hippocampus studies, Semax exposure was associated with increased transcription of the neurotrophin genes Bdnf and Ngf (reported as roughly 8-fold and 5-fold in glial cell culture) and with raised Bdnf/TrkB mRNA in vivo.",
+    "Human research endpoints differ from animal ones: a 2020 imaging study of 52 healthy participants measured resting-state connectivity, and clinical reports concern stroke-rehabilitation populations — neither establishes cognitive benefit in healthy users.",
+    "The shared Pro-Gly-Pro C-terminus with Selank is a stabilisation motif, not evidence of interchangeable pharmacology."
+  ]
 }

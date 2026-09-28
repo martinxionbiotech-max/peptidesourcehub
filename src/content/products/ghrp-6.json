@@ -174,6 +174,14 @@
     {
       "question": "How should GHRP-6 be stored?",
       "answer": "Lyophilized: 2–8°C, desiccated, 24-month stability. Reconstitute, aliquot, store at -20°C. D-amino acid modifications provide good solution stability. Protect from freeze-thaw cycles."
+    },
+    {
+      "question": "Why is GHRP-6 considered more orexigenic than GHRP-2?",
+      "answer": "Because ghrelin-receptor activation in animal models is linked to NPY/AgRP-dependent food-intake signalling, and GHRP-6 produces the strongest appetite-related effect reported within the GHRP family; GHRP-2's appetite effect is reported as weaker."
+    },
+    {
+      "question": "How does GHRP-6 maximal GH efficacy compare with GHRP-2?",
+      "answer": "Raun et al. (1998) reported a higher Emax for GHRP-6 (74 ng/mL) than for GHRP-2 (56 ng/mL) in conscious swine — GHRP-2 is the more potent but less efficacious molecule."
     }
   ],
   "relatedProducts": [
@@ -200,5 +208,12 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. GHRP-6 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source GHRP-6?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "researchNotes": [
+    "Prototypical hexapeptide GHRP: His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂, with D-tryptophan at position 2 and D-phenylalanine at position 5 as the key stereochemical features.",
+    "The most orexigenic of the GHRP family: ghrelin-receptor activation is linked to NPY/AgRP-dependent food-intake signalling in animal models, which is why appetite endpoints dominate its research literature.",
+    "In the porcine comparison of Raun et al. (1998) it produced the highest maximal GH release of the family tested (Emax 74 ng/mL) while also raising ACTH and cortisol.",
+    "Its gastric-motility and gastric-emptying effects have been characterised in rodent models, including studies in post-operative ileus.",
+    "Choosing GHRP-6 over GHRP-2 or ipamorelin is therefore a research-design decision about appetite and corticotroph endpoints, not just GH potency."
+  ]
 }

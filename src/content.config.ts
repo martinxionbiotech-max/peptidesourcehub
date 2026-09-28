@@ -30,6 +30,9 @@ const productsCollection = defineCollection({
     configurations: z.array(z.object({ name: z.string(), content: z.string(), bestFor: z.string() })).optional(),
     researchAreas: z.array(z.object({ area: z.string(), description: z.string() })).optional(),
     mechanisms: z.array(z.object({ name: z.string(), description: z.string() })).optional(),
+
+    /** 分子独有研究要点（P2 差异化）：每条为该分子特有的、可核实的差异点 */
+    researchNotes: z.array(z.string()).optional(),
     qualitySpecs: z.array(z.object({ parameter: z.string(), method: z.string(), criterion: z.string() })).optional(),
 
     pricingTiers: z.array(z.object({ volume: z.string(), discount: z.string(), audience: z.string() })).optional(),
