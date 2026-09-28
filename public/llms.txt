@@ -1,12 +1,12 @@
 # Peptide Source Hub — Factory-Direct Wholesale Peptides
 > https://peptidesourcehub.net
-> China-based GMP peptide manufacturer since 2009. 58+ research peptides & HGH kits in bulk.
+> China-based peptide manufacturer since 2009. 50+ research peptides & HGH kits in bulk; identity data sourced from public databases and published per product.
 
 ## Core Pages
 - [Homepage](https://peptidesourcehub.net/): Wholesale peptides, 6 categories, specs, FAQ
 - [About](https://peptidesourcehub.net/about/): Factory story, team, QC workflow, stats
 - [Contact](https://peptidesourcehub.net/contact/): WhatsApp, Telegram, email, factory address
-- [Products](https://peptidesourcehub.net/products/): 58 peptides across 6 categories
+- [Products](https://peptidesourcehub.net/products/): 50+ peptides across 6 categories, with a machine-readable specification dataset
 - [FAQ](https://peptidesourcehub.net/faq/): 14 questions — ordering, quality, shipping, OEM
 
 ## Product Categories
@@ -22,7 +22,7 @@
 - [TB-500](https://peptidesourcehub.net/products/tb-500/): Thymosin Beta-4 fragment, CAS 77591-33-4, cell migration research
 - [Semaglutide](https://peptidesourcehub.net/products/semaglutide/): GLP-1 receptor agonist, CAS 910463-68-2, ~4113.6 Da, metabolic research
 - [Tirzepatide](https://peptidesourcehub.net/products/tirzepatide/): Dual GIP/GLP-1 agonist, CAS 2023788-19-2, ~4813.5 Da
-- [Cagrilintide](https://peptidesourcehub.net/products/cagrilintide/): Long-acting amylin analogue, CAS 2489551-48-6, dual-pathway metabolic
+- [Cagrilintide](https://peptidesourcehub.net/products/cagrilintide/): Long-acting amylin analogue, CAS 1415456-99-3 (NCBI PubChem CID 171397054), dual-pathway metabolic
 - [Retatrutide](https://peptidesourcehub.net/products/retatrutide/): Triple GIP/GLP-1/GCGR agonist, CAS 2381089-83-2, next-gen metabolic
 - [GHK-Cu](https://peptidesourcehub.net/products/ghk-cu/): Copper tripeptide-1, CAS 49557-75-7, collagen synthesis & skin research
 - [HGH](https://peptidesourcehub.net/products/hgh/): Human Growth Hormone, CAS 12629-01-5, ~22125 Da, GH/IGF-1 axis research
@@ -31,6 +31,27 @@
 - [Peptide Quality Guide: COA, HPLC & Supplier Selection](https://peptidesourcehub.net/blog/peptide-quality-guide/)
 - [GLP-1 Buyer's Guide: Semaglutide vs Tirzepatide vs Retatrutide](https://peptidesourcehub.net/blog/glp1-buyers-guide/)
 - [Cagrilintide Wholesale Guide: Strategic Portfolio Planning](https://peptidesourcehub.net/blog/cagrilintide-wholesale-guide/)
+- [What ≥99% by HPLC Actually Means](https://peptidesourcehub.net/blog/peptide-purity-hplc-explained/)
+- [Supplier Due-Diligence Questionnaire (20 questions)](https://peptidesourcehub.net/blog/supplier-due-diligence-questionnaire/)
+- [Batch Consistency & Retest Policy](https://peptidesourcehub.net/blog/batch-consistency-and-retest-policy/)
+- [Storage, Reconstitution & Stability](https://peptidesourcehub.net/blog/peptide-storage-reconstitution-stability/)
+- [Shipping, Customs & Duties Guide](https://peptidesourcehub.net/blog/shipping-customs-duties-guide/)
+
+## Comparisons & Procurement References
+- [Comparisons hub](https://peptidesourcehub.net/products/compare/): 5 side-by-side molecule comparisons with cited sources
+- [GHRP-2 vs GHRP-6 vs Ipamorelin](https://peptidesourcehub.net/products/compare/ghrp-family/): receptor selectivity, published GH potency, ACTH/cortisol data
+- [CJC-1295 with DAC vs without DAC](https://peptidesourcehub.net/products/compare/cjc-1295-dac-vs-no-dac/): albumin binding and half-life compared
+- [Selank vs Semax](https://peptidesourcehub.net/products/compare/selank-vs-semax/): precursor, sequence and research streams compared
+- [Argireline vs SNAP-8](https://peptidesourcehub.net/products/compare/argireline-vs-snap-8/): chain length and SNARE-assay positioning
+- [BPC-157 vs TB-500](https://peptidesourcehub.net/products/compare/bpc-157-vs-tb-500/): mechanism classes, plus an identity-mass check
+- [COA verification guide](https://peptidesourcehub.net/quality-and-testing/coa-verification/): how to read and independently verify a Certificate of Analysis
+- [Import compliance](https://peptidesourcehub.net/import-compliance/): document pack and regional notes (EU/US/JP/GCC)
+- [OEM & private label](https://peptidesourcehub.net/oem-custom/): process, customisation options and documentation
+- [Glossary](https://peptidesourcehub.net/glossary/): analytical, handling and procurement terminology
+
+## Reference Data
+- [Specification dataset (CSV)](https://peptidesourcehub.net/data/peptides.csv) / [JSON](https://peptidesourcehub.net/data/peptides.json): CAS, formula, molecular weight, purity criterion, kit sizes
+- [Wholesale price list (PDF)](https://peptidesourcehub.net/download/product-list-price.pdf): list prices per kit of 10 vials
 
 ## Policies
 - [Shipping & Delivery](https://peptidesourcehub.net/shipping/)
