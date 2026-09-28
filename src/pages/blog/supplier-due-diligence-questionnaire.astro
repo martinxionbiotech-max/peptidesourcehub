@@ -1,0 +1,168 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+
+/** P4 博客：供应商尽调问卷（可直接照抄的 20 问）—— 不杜撰任何厂商数据。 */
+
+const blocks = [
+  {
+    n: "A",
+    title: "Identity and documentation (5 questions)",
+    intro: "These five questions establish whether the vendor can prove what the material is. A supplier that cannot answer them in writing is not a documentation-led supplier, whatever the website says.",
+    items: [
+      ["Can you send a batch-specific COA for the exact lot I will receive, before payment?", "You are testing whether the COA is lot-linked or template-linked. Ask for the COA of a lot already in stock, not a specimen."],
+      ["Which laboratory issued the COA, and is it in-house or third-party?", "An in-house release is acceptable if the laboratory is named and the method is stated. What is not acceptable is an unnamed “third-party lab”."],
+      ["What is the acceptance criterion for purity, and what was the measured result for that lot?", "The answer should give a specification and a result — not just “≥99%”."],
+      ["How is identity confirmed, and can I see the mass spectrum with the expected adducts?", "Identity is a separate test from purity. A vendor who conflates them cannot tell you what is in the vial."],
+      ["Is the salt/free-base form stated, and does the quoted molecular weight match that form?", "The same peptide in two counter-ion forms has two masses. This is where mislabelled analogues usually get caught."],
+    ],
+  },
+  {
+    n: "B",
+    title: "Manufacturing and change control (5 questions)",
+    intro: "These questions are about the process behind the batch, and about what happens when the process changes.",
+    items: [
+      ["Who manufactures the material, and is the vendor the manufacturer or a trader?", "Both models can work, but the answer determines who is accountable for a deviation."],
+      ["What is your change-control process if a synthesis route, supplier or fill line changes?", "You want to hear that a change triggers notification and, where relevant, a re-test — not silence."],
+      ["What is your retest or requalification policy for material held in stock?", "Long-stored material needs a stated policy. “It is stable” is not a policy."],
+      ["How do you record traceability from the kit to the QC data file?", "Batch traceability is what lets a problem be narrowed to one lot instead of one relationship."],
+      ["What happens to a batch that fails specification?", "The expected answer is that it is not released. Ask whether that has happened and how it was communicated."],
+    ],
+  },
+  {
+    n: "C",
+    title: "Commercial, legal and logistical (5 questions)",
+    intro: "These are the questions that decide whether the relationship survives its first customs delay or its first disputed lot.",
+    items: [
+      ["Which documents accompany a shipment as standard, and which are on request?", "Invoice, packing list and COA should be standard. SDS, end-use statement and certificate of origin should be available on request, ideally stated in the quotation."],
+      ["Will you describe the material accurately and completely on the invoice and label?", "Ask directly. A vendor who offers to “simplify” the description for customs is creating a liability that lands on you as importer of record."],
+      ["What are your payment terms, and is any part of the order payable against documents?", "Terms shape your working capital, and document-linked payment reduces exposure on a first order."],
+      ["What is your position on returns and on replacement when documentation and material disagree?", "Get the remedy in writing before it is needed — after a dispute is the wrong time to negotiate."],
+      ["Who is my named contact for a technical question, as opposed to a sales question?", "A supplier with no technical contact will route every analytical question through sales, which is where errors start."],
+    ],
+  },
+  {
+    n: "D",
+    title: "Claims and compliance posture (5 questions)",
+    intro: "The last five questions are about what the supplier says, which matters as much as what it ships.",
+    items: [
+      ["Which certification claims does your documentation make, and what certificate supports each?", "Any ISO, GMP or pharmacopoeia claim should be matched to a certificate with a number and an issuing body."],
+      ["Will you state plainly that the material is for research use only, with no human or veterinary application?", "A vendor who hedges on this in writing is a compliance risk to you, not just to itself."],
+      ["Do you publish your list prices and volume tiers, or are they only available on request?", "Published pricing is a transparency signal; it also makes your own margin modelling possible."],
+      ["How do you handle a request to import a compound that is controlled in my country?", "The correct answer is that the importer confirms status and the vendor does not circumvent it."],
+      ["Can you supply customer references or repeat-order volumes for the specific product?", "This one is optional, and many legitimate vendors decline on confidentiality grounds. The way it is declined tells you something either way."],
+    ],
+  },
+];
+
+const faq = [
+  ["How long does this questionnaire take?", "Twenty questions, and most of it can be answered by email. A documentation-led supplier will typically answer sections A and B in one reply with the COA attached; a supplier that cannot will take longer, which is itself the signal."],
+  ["Should a questionnaire replace a test order?", "No. Send the questionnaire first, then place a small order and check three things against it: the lot number on the label versus the COA, the measured mass versus the specification, and the invoice description versus the material. Behaviour on a small order predicts behaviour on a large one."],
+  ["What is the single most predictive question?", "Question C2 — whether the vendor will describe the material accurately. A supplier willing to shade a customs description for convenience is also willing to shade a specification for a sale."],
+  ["Does Peptides Source Hub answer these questions itself?", "Yes. Batch-specific COAs are supplied per lot, the identity data for every catalogue product is published as a downloadable dataset, and the answers to sections C and D are on the import compliance and OEM pages."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Supplier Due-Diligence Questionnaire for Research Peptides",
+    description:
+      "A copy-and-paste 20-question questionnaire for qualifying a research-peptide supplier: identity and documentation, change control, commercial terms and compliance posture.",
+    author: { "@type": "Organization", name: "Peptides Source Hub" },
+    publisher: { "@type": "Organization", name: "Peptides Source Hub", url: "https://peptidesourcehub.net" },
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+];
+---
+
+<PageLayout
+  title="Supplier Due-Diligence Questionnaire"
+  description="A copy-and-paste 20-question supplier questionnaire for research peptides: identity and documentation, change control, commercial terms and compliance posture."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Supplier Due-Diligence Questionnaire for Research Peptides</h1>
+    <p class="text-gray-500 mt-4">Twenty questions, four sections, copy-and-paste ready. Send them before the first order, not after the first problem.</p>
+
+    <div class="card bg-gradient-to-br from-indigo-50 to-white border-indigo-200 mt-6 p-5">
+      <h2 class="text-sm uppercase tracking-widest text-gray-400 mb-3">How to use this</h2>
+      <p class="text-sm text-gray-600">
+        Sections A and B are documentation and process questions — a supplier either has the answers on file or does not. Sections C and D are commercial and compliance questions — the answers predict how the relationship behaves under pressure. Send all four sections at once; how a supplier answers is more informative than a shortlist of favourable replies.
+      </p>
+    </div>
+
+    <div class="prose-custom max-w-none mt-8 space-y-8">
+      {blocks.map((b) => (
+        <section class="card p-6">
+          <h2 class="text-lg font-bold mb-3">{b.n}. {b.title}</h2>
+          <p class="text-gray-600 text-sm mb-4">{b.intro}</p>
+          <ol class="space-y-4">
+            {b.items.map((it, i) => (
+              <li>
+                <p class="font-semibold text-primary text-sm">{b.n}{i + 1}. {it[0]}</p>
+                <p class="text-gray-600 text-sm mt-1">Why it matters: {it[1]}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+
+    <section class="card p-6 mt-8">
+      <h2 class="text-lg font-bold mb-3">What to do with the answers</h2>
+      <p class="text-gray-600 text-sm">
+        Score nothing. Two patterns matter more than any score. The first is coverage: a supplier that answers five of twenty questions by pointing at its website has told you that its documentation is marketing. The second is consistency between the answers and the paperwork you receive: a vendor that promises batch-linked COAs and then ships a generic document has shown you which of the two is real.
+      </p>
+      <p class="text-gray-600 text-sm mt-3">
+        Then run the small-order test. Check three things against the answers: the lot number on the vial label versus the lot on the COA; the measured mass on the COA versus the molecular weight published for the product; and the invoice description versus the material in the box. Those three checks catch most of the failure modes a questionnaire can only ask about.
+      </p>
+      <div class="flex flex-wrap gap-3 mt-4">
+        <a href="/quality-and-testing/coa-verification/" class="btn-outline">COA verification guide</a>
+        <a href="/data/peptides.csv" download class="btn-outline">Reference identity dataset (CSV)</a>
+        <a href="/import-compliance/" class="btn-outline">Import document pack</a>
+      </div>
+    </section>
+
+    <section class="card p-6 mt-8 bg-surface">
+      <h2 class="text-lg font-bold mb-3">Related reading</h2>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/blog/peptide-quality-guide/" class="text-accent-dark hover:underline">Peptide Quality Guide: COA, HPLC &amp; Supplier Selection</a> — the 10-question checklist this questionnaire expands.</li>
+        <li><a href="/blog/peptide-purity-hplc-explained/" class="text-accent-dark hover:underline">What ≥99% by HPLC actually means</a> — why a purity figure without a method is not a specification.</li>
+        <li><a href="/blog/batch-consistency-and-retest-policy/" class="text-accent-dark hover:underline">Batch consistency and retest policy</a> — how to judge lot-to-lot variation.</li>
+        <li><a href="/products/compare/" class="text-accent-dark hover:underline">Product comparisons</a> — where two similar molecules are separated on documented parameters.</li>
+      </ul>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-center mb-6">FAQ</h2>
+      <div class="space-y-3 max-w-3xl mx-auto">
+        {faq.map((f) => (
+          <details class="card group cursor-pointer">
+            <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+            <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <div class="card p-6 mt-8 text-center bg-surface">
+      <h2 class="font-bold mb-2">Want these answers for our own supply?</h2>
+      <p class="text-gray-600 text-sm mb-4">Send the questionnaire to us and we will answer it in writing, with a batch COA attached.</p>
+      <a href="/contact/" class="btn-primary">Ask us the 20 questions</a>
+    </div>
+  </div>
+</article>
+</PageLayout>

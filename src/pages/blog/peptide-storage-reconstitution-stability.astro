@@ -1,0 +1,136 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+
+/** P4 博客：储运、复溶与稳定性（实验室实务）。 */
+
+const steps = [
+  ["Before opening", "Equilibrate the sealed vial to room temperature before opening it. Opening a cold vial draws in humid air, and moisture uptake is one of the main degradation routes for a lyophilized powder."],
+  ["Reconstitution solvent", "Use the solvent your protocol specifies — typically sterile water, bacteriostatic water or a buffer near neutral pH. The batch COA states the solvent the lot was tested in, which is the reference point when a solution does not go clear."],
+  ["Concentration and mixing", "Add the solvent to the vial wall and swirl rather than shake. Vortexing or vigorous shaking introduces interfacial stress that promotes aggregation, particularly for larger peptides."],
+  ["Aliquot immediately", "Divide the reconstituted solution into single-use portions as soon as it is homogeneous. The point of aliquoting is that each portion is thawed exactly once."],
+  ["Label the aliquots", "Include product, concentration, solvent, date and lot. An unlabelled aliquot three months later is an unusable aliquot."],
+  ["Record what you did", "Reconstitution solvent, concentration and storage temperature belong in the lab notebook. If a result is anomalous later, this is the first thing anyone will ask for."],
+];
+
+const matrix = [
+  ["Lyophilized powder, sealed, desiccated", "2–8 °C, protected from light", "The primary storage state. Cool, dry and dark is the default in this catalogue."],
+  ["Lyophilized powder, opened vial", "2–8 °C, desiccated, use promptly", "Once opened, the powder is exposed to humidity on every subsequent open. Minimise the number of open-close cycles."],
+  ["Reconstituted solution", "Single-use aliquots at −20 °C", "Freeze in portions rather than storing a working vial, which would be thawed repeatedly."],
+  ["Reconstituted solution in use", "Keep at 2–8 °C for the duration of the working session", "Solution stability is peptide-specific and pH-dependent; treat the working portion as short-lived and prepare fresh when a result is critical."],
+  ["Avoid", "Repeated freeze–thaw, alkaline pH, oxidising agents, vigorous shaking", "These are the four interventions most consistently associated with loss of intact peptide."],
+];
+
+const faq = [
+  ["Does the catalogue state a universal shelf life for lyophilized peptides?", "No, and any vendor that does should be asked for the study behind the number. Stability depends on the sequence, the counter-ion, the residual moisture and the storage conditions. What we publish is the storage condition and the analytical result for the lot supplied; protocol-specific stability is established by your own testing."],
+  ["What is the point of single-use aliquots?", "It confines degradation to one portion. If a working vial is frozen and thawed repeatedly, the whole vial is exposed to every cycle, and a failed result at the end of a series is indistinguishable from a handling artefact."],
+  ["Which solvent should I use?", "The one your protocol specifies. Sterile water or a near-neutral buffer is the usual choice; the batch COA states the solvent used in the lot's own solubility test, which is the practical fallback when a solution does not clear."],
+  ["What should I do if the powder does not dissolve completely?", "Do not force it with heat or strong alkali. Check the solvent against the COA, allow more time with gentle swirling, and contact us with the lot number if it still does not clear — incomplete dissolution is a legitimate reason to question a lot."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Storage, Reconstitution and Stability of Research Peptides",
+    description:
+      "A practical handling protocol for lyophilized research peptides: equilibration, solvent choice, aliquoting, a storage matrix, and what is genuinely unknown about stability.",
+    author: { "@type": "Organization", name: "Peptides Source Hub" },
+    publisher: { "@type": "Organization", name: "Peptides Source Hub", url: "https://peptidesourcehub.net" },
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+];
+---
+
+<PageLayout
+  title="Peptide Storage & Reconstitution"
+  description="A practical protocol for storing, reconstituting and aliquoting lyophilized research peptides, plus what is genuinely unknown about shelf life."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Storage, Reconstitution and Stability of Research Peptides</h1>
+    <p class="text-gray-500 mt-4">Most anomalous results in peptide work are handling artefacts. This is the handling protocol we recommend, and the parts of stability that nobody can quote you a number for.</p>
+
+    <div class="prose-custom max-w-none mt-8">
+      <p class="text-gray-600">
+        A lyophilized peptide is a stabilised powder, not an indestructible one. The three interventions that most often damage it are moisture, repeated freeze–thaw cycles and mechanical stress. Everything below is structural: it removes those three exposures from routine handling.
+      </p>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">The reconstitution sequence</h2>
+        <ol class="space-y-4 mt-2">
+          {steps.map((s, i) => (
+            <li class="border-l-2 border-accent/40 pl-4">
+              <h3 class="font-semibold text-primary text-sm">{i + 1}. {s[0]}</h3>
+              <p class="text-gray-600 text-sm">{s[1]}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Storage matrix</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">State</th>
+                <th class="py-2 pr-3">Condition</th>
+                <th class="py-2">Reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              {matrix.map((m) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{m[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{m[1]}</td>
+                  <td class="py-3 text-gray-600">{m[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card p-6 mt-8 bg-surface">
+        <h2 class="text-lg font-bold mb-3">What is genuinely unknown — and why we do not fill the gap</h2>
+        <p class="text-gray-600 text-sm">
+          Shelf-life figures are the easiest thing for a supplier to invent and the hardest for a buyer to check. The honest position is that stability is sequence-specific, counter-ion-specific and moisture-dependent, and that a number quoted without a study protocol behind it is decoration.
+        </p>
+        <p class="text-gray-600 text-sm mt-3">
+          So this site publishes the storage condition and the analytical data for the lot you receive, and treats protocol-specific stability as something you establish in your own system. If a supplier hands you a five-year shelf life for a peptide, ask which study measured it; if the answer is a website, you have your answer.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a href="/quality-and-testing/" class="btn-outline">Quality &amp; testing</a>
+          <a href="/blog/batch-consistency-and-retest-policy/" class="btn-outline">Batch consistency policy</a>
+          <a href="/glossary/" class="btn-outline">Glossary of handling terms</a>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-center mb-6">FAQ</h2>
+        <div class="space-y-3 max-w-3xl mx-auto">
+          {faq.map((f) => (
+            <details class="card group cursor-pointer">
+              <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+              <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+</PageLayout>

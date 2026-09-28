@@ -1,0 +1,138 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+
+/** P4 博客：批间一致性与复测政策（如何判断批间差异、何时要求复测）。 */
+
+const signals = [
+  ["Purity shift beyond the method's own variation", "Purity is method-dependent, so first check whether the two lots were tested on the same method. A move of a few tenths of a percent under an identical method is a batch difference; a move under a different gradient may be a reporting difference.", "Ask which method each lot was run on. If the vendor cannot say, the comparison is not meaningful."],
+  ["Retention-time shift", "A shifted main peak suggests a different column, a different gradient or a different sample preparation rather than a different molecule.", "Request both chromatograms, side by side, with axes labelled."],
+  ["Mass spectrum mismatch", "Observed mass that does not match the theoretical mass for the stated sequence and counter-ion form is a hard stop, not a judgement call.", "Do not accept a replacement COA that changes the stated molecular weight to match the measurement. That is documentation editing, not resolution."],
+  ["Appearance change", "A colour or texture change can indicate moisture exposure, oxidation or a different lyophilization cycle. It is a legitimate reason to ask the question, not proof of a problem.", "Photograph the vial before reconstitution, and quote the lot number in the query."],
+  ["Solubility behaviour", "A lot that does not dissolve in the same solvent as the previous one is worth a documented query.", "Compare against the solvent named on that lot's COA before concluding anything."],
+];
+
+const policy = [
+  ["What 'retest' means", "Re-running the analytical tests on a retained sample of the same lot — not retesting your material, and not testing a different lot."],
+  ["When a retest is justified", "When a lot's result is questioned against the specification, or when a customer's own result conflicts with the COA on a parameter the COA reports."],
+  ["What a retest is not", "It is not a substitute for your own incoming testing, and it is not a mechanism for changing a released specification after the fact."],
+  ["Who holds the retain", "The manufacturer or supplier retains a sample of each lot for the period stated in its quality documentation. Ask for that period in writing."],
+  ["What to send with the query", "Lot number, COA reference, the parameter in question, your own measured value if you have one, and the method you used to produce it."],
+];
+
+const faq = [
+  ["How much lot-to-lot variation is normal?", "For a defined synthetic peptide with a stated specification, the released result should fall inside that specification for every lot. Variation between lots inside the specification is normal; a released result outside it should not exist, and a COA that shows one is a documentation failure worth raising."],
+  ["Can I request a retest of a lot I already received?", "Yes, where the query concerns a parameter the COA reports. Send the lot number, the COA reference and your own measurement, and the retained sample is re-run against the specification. What cannot happen is a specification being rewritten to fit a result."],
+  ["My result differs from the COA. Whose result is wrong?", "Neither result is automatically wrong. Purity figures depend on method, so the first step is comparing methods — column, wavelength and gradient — before comparing numbers. If your method differs from the release method, differing figures are expected rather than alarming."],
+  ["Do you publish a stability or shelf-life figure per batch?", "No. Stability is sequence-, counter-ion- and moisture-dependent, and a figure without a study behind it is not evidence. What is published is the storage condition and the analytical result for the lot supplied; protocol-specific stability is established in your own system."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Batch Consistency and Retest Policy for Research Peptides",
+    description:
+      "How to judge lot-to-lot variation honestly, which signals justify a query, and what a retest can and cannot change.",
+    author: { "@type": "Organization", name: "Peptides Source Hub" },
+    publisher: { "@type": "Organization", name: "Peptides Source Hub", url: "https://peptidesourcehub.net" },
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+];
+---
+
+<PageLayout
+  title="Batch Consistency & Retest Policy"
+  description="How to judge lot-to-lot variation honestly, which signals justify a query, and what a retest can and cannot change for a research peptide batch."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Batch Consistency and the Retest Policy</h1>
+    <p class="text-gray-500 mt-4">Two lots of the same catalogue peptide are two different physical objects. This is how to compare them without inventing a difference — and how to raise a real one.</p>
+
+    <div class="prose-custom max-w-none mt-8">
+      <p class="text-gray-600">
+        Buyers sometimes treat a second lot as a repeat of the first. It is not: it is a separate synthesis, a separate purification and a separate fill, and the useful question is whether both fall inside the specification they claim. Answering that question requires comparing methods before numbers.
+      </p>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Five signals, and what each one actually tells you</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">Signal</th>
+                <th class="py-2 pr-3">What it may mean</th>
+                <th class="py-2">What to do</th>
+              </tr>
+            </thead>
+            <tbody>
+              {signals.map((s) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{s[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{s[1]}</td>
+                  <td class="py-3 text-gray-600">{s[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">What a retest is — and is not</h2>
+        <div class="space-y-3 mt-2">
+          {policy.map((p) => (
+            <div class="border-l-2 border-accent/40 pl-4">
+              <h3 class="font-semibold text-primary text-sm">{p[0]}</h3>
+              <p class="text-gray-600 text-sm">{p[1]}</p>
+            </div>
+          ))}
+        </div>
+        <p class="text-gray-600 text-sm mt-4">
+          The line we will not cross: changing a stated molecular weight or a released specification so that a document matches a measurement. If a lot's measured mass does not match the intended sequence, the answer is that the lot is not released — not that the number in the document is adjusted.
+        </p>
+      </section>
+
+      <section class="card p-6 mt-8 bg-surface">
+        <h2 class="text-lg font-bold mb-3">Practical meaning for a buyer</h2>
+        <p class="text-gray-600 text-sm">
+          Build a lot register from day one: date received, lot number, COA reference, the two or three parameters you care about, and the result of your own incoming check. Six months and ten lots later, that register is the only thing that can tell you whether a shift is normal variability or a supplier change.
+        </p>
+        <p class="text-gray-600 text-sm mt-3">
+          Most disputes in this category are not resolved by argument but by evidence. A buyer with a lot register and the vendor's chromatograms settles a question in one email; a buyer without them ends up comparing two numbers that were produced by different methods.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a href="/quality-and-testing/coa-verification/" class="btn-outline">COA verification guide</a>
+          <a href="/blog/peptide-purity-hplc-explained/" class="btn-outline">What ≥99% HPLC means</a>
+          <a href="/products/compare/" class="btn-outline">Product comparisons</a>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-center mb-6">FAQ</h2>
+        <div class="space-y-3 max-w-3xl mx-auto">
+          {faq.map((f) => (
+            <details class="card group cursor-pointer">
+              <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+              <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+</PageLayout>

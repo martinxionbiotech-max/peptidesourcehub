@@ -1,0 +1,159 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+
+/** P4 博客：≥99% HPLC 到底意味着什么（纯度与含量的区别、方法依赖性）。 */
+
+const anatomy = [
+  ["Column", "The stationary phase that does the separating", "A C18 reverse-phase column is the common choice for peptides. Different column chemistries resolve different impurity classes, which is why the column belongs in the specification."],
+  ["Detection wavelength", "Usually 214 nm for peptides", "Peptide bonds absorb near 214 nm. A purity figure quoted at a different wavelength is measuring a different set of species."],
+  ["Gradient", "How the mobile phase composition changes over the run", "A shallow gradient resolves more closely eluting impurities and typically reports a lower — more honest — purity figure than a steep one."],
+  ["Integration parameters", "How the software draws the baseline and assigns peak area", "Baseline and threshold settings are judgement calls. Two labs can report different numbers for the same sample without either being dishonest."],
+  ["Result expression", "Peak area percentage", "This is the number everyone quotes. It is not the same as mass fraction of peptide, and it does not detect species that do not absorb at the chosen wavelength."],
+];
+
+const comparison = [
+  ["What it measures", "The share of integrated UV signal at the chosen wavelength", "The mass fraction of the sample that is actually the peptide"],
+  ["Method", "HPLC (or UPLC) with UV detection", "Amino-acid analysis or elemental/nitrogen determination"],
+  ["Typical figure", "Often 95–99%", "Frequently lower than the purity figure, because it accounts for counter-ions, water and residual salts"],
+  ["What it does not tell you", "Whether the major peak is the right molecule, or whether co-eluting species are hidden", "Whether the molecule is intact or whether a contaminant is present"],
+];
+
+const faq = [
+  ["Is a 99% HPLC result a guarantee that the material is 99% of what I ordered?", "No. It means 99% of the integrated UV signal at the stated wavelength was assigned to that peak under that method. Identity is a separate test (mass spectrometry), and species that do not absorb at the chosen wavelength are not seen at all."],
+  ["Why do two laboratories report different purity for the same sample?", "Because column chemistry, gradient shape, wavelength and baseline settings are choices. A steeper gradient or stricter integration thresholds will usually report a lower figure. This is why a purity number without the method is not comparable between vendors."],
+  ["What is the difference between purity and peptide content?", "Purity is the share of the UV signal attributable to the main peak. Content is the mass fraction of the material that is peptide, with counter-ions, water and salts accounted for. A high purity figure with a low content figure is possible and not a contradiction."],
+  ["What should I ask for if purity matters to my work?", "The chromatogram itself, with axes and integration, plus the mass spectrum. The chromatogram lets you see whether the main peak is clean, and the spectrum tells you whether it is the right molecule."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "What ≥99% by HPLC Actually Means for a Research Peptide",
+    description:
+      "Why a purity figure depends on the method behind it, how peak-area purity differs from peptide content, and what to ask for instead of a number.",
+    author: { "@type": "Organization", name: "Peptides Source Hub" },
+    publisher: { "@type": "Organization", name: "Peptides Source Hub", url: "https://peptidesourcehub.net" },
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+];
+---
+
+<PageLayout
+  title="What ≥99% by HPLC Actually Means"
+  description="Why a peptide purity figure depends on the method behind it, how peak-area purity differs from peptide content, and what to request instead of a number."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>What “≥99% by HPLC” Actually Means</h1>
+    <p class="text-gray-500 mt-4">Every vendor in this category quotes a purity figure. Almost none quote the method that produced it. Here is what the number does and does not tell you.</p>
+
+    <div class="prose-custom max-w-none mt-8">
+      <p class="text-gray-600">
+        Purity is not a property of a molecule. It is the output of a procedure: separate the sample, detect what elutes, integrate the signal, divide. Change the procedure and the number changes. That is not a technicality — it is the reason two suppliers can both tell the truth and still disagree.
+      </p>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">The five method choices behind every purity figure</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">Parameter</th>
+                <th class="py-2 pr-3">What it is</th>
+                <th class="py-2">Why it changes the reported number</th>
+              </tr>
+            </thead>
+            <tbody>
+              {anatomy.map((a) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{a[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{a[1]}</td>
+                  <td class="py-3 text-gray-600">{a[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Purity and content are two different measurements</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3"></th>
+                <th class="py-2 pr-3">Peak-area purity</th>
+                <th class="py-2">Net peptide content</th>
+              </tr>
+            </thead>
+            <tbody>
+              {comparison.map((c) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{c[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{c[1]}</td>
+                  <td class="py-3 text-gray-600">{c[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-gray-600 text-sm mt-4">
+          A supplier who reports purity but not content has told you the sample is clean, not how much peptide is in the vial. For most research use that is acceptable; for quantitative work with a mass basis, it is not.
+        </p>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Purity does not establish identity</h2>
+        <p class="text-gray-600 text-sm">
+          A single clean peak is consistent with a pure sample of the wrong molecule. That is why mass spectrometry is a separate line on a credible COA: it compares the observed mass against the theoretical mass of the intended sequence, including the expected adducts and the counter-ion form. A vendor that reports “purity &gt;99%” and no mass data has confirmed cleanliness and nothing else.
+        </p>
+        <p class="text-gray-600 text-sm mt-3">
+          The most common real-world failure in this category is not a low purity figure — it is the wrong analogue, or the wrong salt form, delivered at excellent purity. Both are caught by mass, not by HPLC.
+        </p>
+      </section>
+
+      <section class="card p-6 mt-8 bg-surface">
+        <h2 class="text-lg font-bold mb-3">Practical meaning</h2>
+        <p class="text-gray-600 text-sm">
+          When you compare vendors, compare methods rather than numbers. Ask each supplier for the chromatogram with axes and integration, and for the mass spectrum. A supplier that sends both is telling you something a supplier that sends a percentage cannot.
+        </p>
+        <p class="text-gray-600 text-sm mt-3">
+          Internally, decide which figure your work actually needs. If you are weighing material, content matters. If you are confirming that a batch matches a reference, the chromatogram and spectrum matter. If you are comparing two vendors' claims, the method statement matters most of all.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a href="/quality-and-testing/coa-verification/" class="btn-outline">COA verification guide</a>
+          <a href="/data/peptides.csv" download class="btn-outline">Reference identity dataset</a>
+          <a href="/blog/batch-consistency-and-retest-policy/" class="btn-outline">Batch consistency</a>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-center mb-6">FAQ</h2>
+        <div class="space-y-3 max-w-3xl mx-auto">
+          {faq.map((f) => (
+            <details class="card group cursor-pointer">
+              <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+              <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+</PageLayout>

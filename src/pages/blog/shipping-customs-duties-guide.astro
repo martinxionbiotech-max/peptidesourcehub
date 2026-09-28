@@ -1,0 +1,173 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import RuoNotice from "../../components/RuoNotice.astro";
+
+/** P4 博客：国际物流 / 关税 / 清关（按区域）。只写通用实务，不做法律意见。 */
+
+const costRows = [
+  ["Invoice value", "What the shipment is declared at", "Declared at the transaction value; the importer's duty base is this figure, and under-declaring it creates the importer's liability, not the exporter's."],
+  ["Duty rate", "Set by the destination's tariff schedule for the HS code", "Varies by country and by classification. Your broker assigns the code; ask for it in writing before the first shipment so you can model the cost."],
+  ["VAT / GST", "Consumption tax charged on import", "Often the largest single line item, and frequently recoverable for a registered business. For a research institution it may be recoverable or exempt — confirm locally."],
+  ["Clearance fee", "Broker or carrier charge for processing entry", "A fixed per-shipment cost, which is why consolidating orders is usually cheaper than shipping weekly."],
+  ["Storage / demurrage", "Charged when a consignment sits awaiting documents", "Entirely avoidable: it is the cost of a missing SDS or an unanswered customs query."],
+  ["Cold-chain surcharge", "Dry-ice or gel-pack handling where required", "Applies to temperature-sensitive shipments; the surcharge is per shipment, not per vial."],
+];
+
+const regionRows = [
+  ["European Union", "Importer-of-record obligations, classification and labelling rules", "Shipments are commonly held for a missing SDS or an unclear description. Ensure the invoice description matches the material and that GHS documentation travels with it."],
+  ["United States", "FDA import review where a shipment's description implies drug or supplement use; DEA scheduling where applicable", "The description on the paperwork is what triggers review. Accurately described research material and accurate paperwork are the practical defence; a euphemistic description is not."],
+  ["Japan", "Classification-dependent licensing or notification for pharmaceutical/poison categories", "Document requests are common and usually resolvable. Confirm the compound's classification with a broker before ordering in quantity."],
+  ["Middle East & GCC", "Country-specific permits; some states require an import permit issued to a licensed entity", "Approval is normally handled by the importer's clearing agent. Requirements change more frequently than in the EU or US, so current local knowledge matters."],
+];
+
+const planning = [
+  ["Consolidate, don't drip-feed", "One shipment of ten kits usually costs less in duty, clearance fees and admin than ten shipments of one kit — even if the material cost is identical."],
+  ["Ask for the document pack with the quotation", "SDS, end-use statement and certificate of origin should be requested at quotation stage, not discovered missing at the port."],
+  ["Agree the Incoterm explicitly", "DAP and DDP put different obligations on each side, and the difference shows up in who pays the clearance fee. Write it into the order."],
+  ["Have your HS code before you order", "Your broker can provide it in advance. Knowing the code means knowing the duty before the invoice arrives."],
+  ["Track the document trail, not just the parcel", "The tracking number tells you where the box is; the clearance status tells you whether it is moving. A parcel that appears to be “in transit” for five days is usually waiting for a document."],
+];
+
+const faq = [
+  ["Will you declare a lower value to reduce my duty?", "No. The invoice states the transaction value, and the importer of record is liable for duty on it. We will not under-declare, mis-describe or split a shipment to change its classification."],
+  ["Who pays import duty and clearance fees?", "The importer of record, under every Incoterm except DDP, where the exporter arranges clearance and typically prices the cost into the quotation. Confirm which term your quotation uses."],
+  ["Does my institution have to pay VAT on research reagents?", "It depends on the jurisdiction and on your registration status. Many research institutions and registered businesses can recover or are exempt from import VAT; a local broker or accountant can confirm the position."],
+  ["What is the most common cause of a held shipment?", "In our experience, documentation: a missing SDS or section 14 transport information, an invoice description that does not match the label, or an end-use statement that was never requested. None of these are customs disputes — they are paperwork gaps."],
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Shipping, Customs and Duties for Research Peptides: A Buyer's Planning Guide",
+    description:
+      "What importers actually pay for, how the four main destination regions differ, and five planning decisions that remove most clearance delays before they happen.",
+    author: { "@type": "Organization", name: "Peptides Source Hub" },
+    publisher: { "@type": "Organization", name: "Peptides Source Hub", url: "https://peptidesourcehub.net" },
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({
+      "@type": "Question",
+      name: f[0],
+      acceptedAnswer: { "@type": "Answer", text: f[1] },
+    })),
+  },
+];
+---
+
+<PageLayout
+  title="Shipping, Customs & Duties Guide"
+  description="What importers of research peptides actually pay for, how the EU, US, Japan and GCC differ, and five planning decisions that prevent clearance delays."
+  jsonLd={jsonLd}
+>
+<RuoNotice />
+<article class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h1>Shipping, Customs and Duties for Research Peptides</h1>
+    <p class="text-gray-500 mt-4">The landed cost of a peptide order is rarely the list price. Here is what is actually charged, where the four main import regions differ, and how to plan so the shipment clears.</p>
+
+    <div class="prose-custom max-w-none mt-8">
+      <p class="text-gray-600">
+        Buyers who have only bought domestically usually budget for the unit price and the freight. The invoice that arrives from the broker has three more lines on it, and the difference between a two-day clearance and a two-week hold is almost always a document rather than a dispute.
+      </p>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">What you are actually paying for</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">Charge</th>
+                <th class="py-2 pr-3">What it is</th>
+                <th class="py-2">What it means for planning</th>
+              </tr>
+            </thead>
+            <tbody>
+              {costRows.map((r) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{r[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{r[1]}</td>
+                  <td class="py-3 text-gray-600">{r[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-gray-600 text-sm mt-4">
+          The practical reading: three of these six lines scale with the number of shipments rather than with the value of the goods. That is the whole argument for consolidation.
+        </p>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Where the four main regions differ</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm mt-2 border-collapse">
+            <thead>
+              <tr class="border-b border-gray-200 text-left text-gray-500">
+                <th class="py-2 pr-3">Region</th>
+                <th class="py-2 pr-3">The regulatory feature that matters most</th>
+                <th class="py-2">Practical consequence</th>
+              </tr>
+            </thead>
+            <tbody>
+              {regionRows.map((r) => (
+                <tr class="border-b border-gray-100 align-top">
+                  <td class="py-3 pr-3 font-semibold text-primary">{r[0]}</td>
+                  <td class="py-3 pr-3 text-gray-600">{r[1]}</td>
+                  <td class="py-3 text-gray-600">{r[2]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-gray-600 text-sm mt-4">
+          This is general information rather than legal advice, and it does not determine whether a specific compound may be imported into your jurisdiction. That question belongs with a customs broker or the relevant authority, and the answer changes as schedules change.
+        </p>
+      </section>
+
+      <section class="card p-6 mt-8">
+        <h2 class="text-lg font-bold mb-3">Five decisions that remove most delays</h2>
+        <div class="space-y-3 mt-2">
+          {planning.map((p) => (
+            <div class="border-l-2 border-accent/40 pl-4">
+              <h3 class="font-semibold text-primary text-sm">{p[0]}</h3>
+              <p class="text-gray-600 text-sm">{p[1]}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="card p-6 mt-8 bg-surface">
+        <h2 class="text-lg font-bold mb-3">Practical meaning</h2>
+        <p class="text-gray-600 text-sm">
+          Model the landed cost before you compare vendors. Two suppliers quoting the same unit price can differ by the equivalent of several kits per shipment once duty base, consolidation and clearance handling are accounted for — and a vendor whose paperwork is complete saves you the demurrage line entirely.
+        </p>
+        <p class="text-gray-600 text-sm mt-3">
+          Then decide what you actually need from the relationship: if you are buying quarterly in volume, the Incoterm and the document pack are commercial terms worth negotiating, not administrative detail.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a href="/import-compliance/" class="btn-outline">Full import compliance page</a>
+          <a href="/shipping/" class="btn-outline">Shipping &amp; delivery</a>
+          <a href="/blog/supplier-due-diligence-questionnaire/" class="btn-outline">Supplier questionnaire</a>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-center mb-6">FAQ</h2>
+        <div class="space-y-3 max-w-3xl mx-auto">
+          {faq.map((f) => (
+            <details class="card group cursor-pointer">
+              <summary class="font-semibold text-primary hover:text-accent">{f[0]}</summary>
+              <p class="mt-3 text-gray-600 text-sm">{f[1]}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+</PageLayout>
