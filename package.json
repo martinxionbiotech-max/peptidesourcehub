@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && LLMS_BASE=https://peptidesourcehub.net LLMS_TITLE='Peptide Source Hub — Factory-Direct Wholesale Peptides' LLMS_DESC='China-based GMP peptide manufacturer since 2009. 50+ research peptides and HGH kits in bulk; identity data sourced from public databases and published per product.' node scripts/build-llms.mjs",
     "preview": "astro preview",
     "format": "prettier --write src/",
     "format:check": "prettier --check src/"
