@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "Factory-direct BPC-157 + TB-500 blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "metaDescription": "Buy BPC-157 + TB-500 blend: ≥99% by HPLC, white to off-white lyophilized powder, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroTitle": "BPC-157 + TB-500 Blend Wholesale",
   "heroSubtitle": "Co-lyophilized BPC-157 and TB-500 in a single vial — a two-peptide research kit",
   "description": "This kit combines BPC-157 and TB-500 in a single co-lyophilized vial at matched ratios, so that research protocols using both peptides do not need to handle and reconstitute two separate lyophilizates. Both components are independently identity-confirmed, and the combined presentation is supplied with a COA for each component batch used in the blend.",
@@ -186,5 +186,7 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. BPC-157 + TB-500 blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source BPC-157 + TB-500 blend?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "productImage": "/images/products/bpc157-tb500-stack-bottle.webp",
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
 }

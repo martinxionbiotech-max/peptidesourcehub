@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "Thymalin wholesale: thymic peptide preparation, 10 mg × 10 vials, ≥99% HPLC, identity confirmed per batch COA, bulk pricing 10–30% off.",
+  "metaDescription": "Thymalin — ≥99% by HPLC, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. For immunology research. Ships worldwide.",
   "heroTitle": "Thymalin Wholesale",
   "heroSubtitle": "Thymic peptide preparation supplied for immune-modulation and neuroendocrine-immune axis research",
   "description": "Thymalin is a thymic peptide preparation used in published immune-modulation research, particularly studies of T-cell maturation and of the neuroendocrine–immune interface. Note that the name is applied inconsistently in the literature and in public databases: some records resolve it to the nonapeptide thymulin, while commercial preparations may be defined as thymus-derived peptide complexes. Because of that ambiguity, this catalogue does not publish a fixed CAS number and instead confirms identity per batch.",
@@ -191,5 +191,7 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "Thymic peptide preparation (composition per COA)"
+  "molecularFormula": "Thymic peptide preparation (composition per COA)",
+  "productImage": "/images/products/thymalin-bottle.webp",
+  "notFor": "Not a cognitive enhancer or an anti-ageing supplement. Research use only, with no human dosing, cycling or administration guidance — if you want a supplement, this is not it."
 }

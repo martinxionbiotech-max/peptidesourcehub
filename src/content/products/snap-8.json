@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile water; cosmetic formulation-compatible",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "8 (N-terminal acetyl, C-terminal amide)",
-  "metaDescription": "Factory-direct Snap-8 wholesale. MW ~1,073.2 Da. ≥99% HPLC. Acetyl octapeptide-3 — SNAP-25 inhibitor. COA included.",
+  "metaDescription": "Wholesale Snap-8: ≥99% by HPLC, white to off-white lyophilized powder, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing.",
   "heroSubtitle": "Acetyl octapeptide-3 — SNAP-25 SNARE complex inhibitor for expression line research, manufacturer-direct",
   "heroTitle": "Snap-8 Wholesale",
   "description": "Snap-8 (Acetyl Octapeptide-3) is an N-terminal acetylated, C-terminal amidated octapeptide designed to interfere with SNARE complex assembly at the presynaptic membrane. By mimicking the N-terminal domain of SNAP-25 — a critical SNARE protein — Snap-8 competes for binding sites within the ternary SNARE complex (SNAP-25/syntaxin/VAMP). This competition reduces the efficiency of synaptic vesicle docking and fusion, leading to decreased acetylcholine release at the neuromuscular junction.",
@@ -220,5 +220,7 @@
     "The two molecules are used as length variants of the same inhibitory motif in comparative in vitro work — a classic structure–activity design for vesicle-docking research.",
     "Like Argireline it is N-acetylated and C-amidated; the extra molecular mass (~184 Da over Argireline) is the analytical marker distinguishing the two in a mixed sample.",
     "As with all catalogue peptides, this is a laboratory research reagent with no human-application or cosmetic claim made or implied."
-  ]
+  ],
+  "productImage": "/images/products/snap-8-bottle.webp",
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
 }

@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile or bacteriostatic water",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "30 (no DAC linker)",
-  "metaDescription": "Factory-direct CJC-1295 without DAC wholesale. CAS 863288-34-0, ~3,367.1 Da. ≥99% HPLC. Short-acting GHRH analogue. COA included.",
+  "metaDescription": "Wholesale CJC-1295 (no DAC): ≥99% by HPLC, CAS 863288-34-0, supplied as 2 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroSubtitle": "Short-acting GHRH analogue without Drug Affinity Complex — pulsatile GH research, manufacturer-direct",
   "heroTitle": "CJC-1295 (no DAC) Wholesale",
   "description": "CJC-1295 without DAC (also known as Mod GRF 1-29) is the same 30-amino acid GHRH analogue as the DAC variant, but without the C-terminal maleimidopropionyl linker. This single structural difference produces a fundamentally different pharmacokinetic profile: instead of 8-day sustained GH elevation, the no-DAC variant has a short ~30-minute half-life producing a discrete GH pulse that closely mimics endogenous pulsatile secretion patterns.",
@@ -220,5 +220,7 @@
     "Reported plasma half-life is approximately 30 minutes: GH stimulation is therefore a discrete pulse rather than the sustained elevation produced by the albumin-bound form.",
     "The absence of the linker is analytically verifiable by mass: the 29-residue analogue is ~282 Da lighter than the DAC form, which is why the two are quoted with different molecular weights on this site.",
     "Rapid clearance also means exposure ends within hours — a design consideration researchers weigh against the days-long action of the albumin conjugate."
-  ]
+  ],
+  "productImage": "/images/products/cjc-1295-no-dac-bottle.webp",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

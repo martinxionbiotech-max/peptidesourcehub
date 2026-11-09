@@ -20,6 +20,7 @@ const productsCollection = defineCollection({
     aminoAcids: z.string().optional(),
 
     metaDescription: z.string(),
+    notFor: z.string().optional(),
     heroSubtitle: z.string().optional(),
     heroTitle: z.string(),
     description: z.string(),

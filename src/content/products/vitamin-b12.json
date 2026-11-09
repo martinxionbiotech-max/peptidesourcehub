@@ -9,7 +9,7 @@
   "purity": "Assay stated on batch COA",
   "appearance": "Clear, red-coloured aqueous solution (multi-dose vial)",
   "storage": "2–8°C, protect from light (photolabile)",
-  "metaDescription": "Vitamin B12 (cyanocobalamin) wholesale: CAS 68-19-9, 1,355.4 Da, 10 mL multi-dose vials. Batch COA, bulk tiered pricing 10–30% off.",
+  "metaDescription": "Vitamin B12 — Assay stated on batch COA, CAS 68-19-9, supplied as 10 mg × 10 vials, with COA documentation and tiered pricing. Ships worldwide.",
   "heroTitle": "Vitamin B12 (Cyanocobalamin) Wholesale",
   "heroSubtitle": "Cobamide cofactor supplied as a 10 mL multi-dose solution for analytical and cell-culture research",
   "description": "Vitamin B12 is the commercial name for cyanocobalamin, a cobalt-containing cobamide (C₆₃H₈₈CoN₁₄O₁₄P, 1,355.4 Da). In research it is used as a cofactor source in one-carbon and methyl-transfer studies, as a reference standard in analytical method development, and as a medium supplement in cell-culture work. Solutions are photolabile, which is why handling and storage conditions are stated explicitly on every batch document.",
@@ -195,5 +195,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₆₃H₈₈CoN₁₄O₁₄P"
+  "molecularFormula": "C₆₃H₈₈CoN₁₄O₁₄P",
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
 }

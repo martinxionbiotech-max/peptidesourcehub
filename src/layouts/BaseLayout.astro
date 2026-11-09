@@ -25,7 +25,18 @@ const pageDesc = description || title;
   <meta property="og:type" content="website" />
   <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
   <meta property="og:site_name" content="Peptides Source Hub" />
-  {image && <meta property="og:image" content={image} />}
+  {(() => {
+    const src = image ?? "/images/og-default.webp";
+    const abs = src.startsWith("http") ? src : new URL(src, Astro.site).href;
+    return <meta property="og:image" content={abs} />;
+  })()}
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  {(() => {
+    const src = image ?? "/images/og-default.webp";
+    const abs = src.startsWith("http") ? src : new URL(src, Astro.site).href;
+    return <meta name="twitter:image" content={abs} />;
+  })()}
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Favicon -->

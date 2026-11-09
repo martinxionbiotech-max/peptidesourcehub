@@ -9,7 +9,7 @@
   "purity": "Assay per batch COA",
   "appearance": "Clear, colourless to pale yellow solution",
   "storage": "2–8°C, protect from light",
-  "metaDescription": "Lipo-C wholesale: multi-component lipotropic blend, 10 mL × 10 vials, batch COA with component list, bulk tiered pricing 10–30% off.",
+  "metaDescription": "Wholesale Lipo-C: Assay per batch COA, supplied as 10-vial kits, with COA documentation and tiered pricing. For metabolic research. Ships worldwide.",
   "heroTitle": "Lipo-C Wholesale",
   "heroSubtitle": "Multi-component lipotropic solution supplied as a defined liquid vehicle for metabolic and formulation research",
   "description": "Lipo-C is a multi-component lipotropic preparation supplied as a ready-to-use solution rather than a lyophilized powder. Research use centres on lipid-transport and hepatic-metabolism models, where a defined liquid vehicle containing methyl-donor and lipotropic cofactors is required. Because the formulation is a blend, no single CAS number applies: the component list and the concentration of each component are stated on the batch Certificate of Analysis.",
@@ -187,5 +187,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "Multi-component blend — composition per COA"
+  "molecularFormula": "Multi-component blend — composition per COA",
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
 }

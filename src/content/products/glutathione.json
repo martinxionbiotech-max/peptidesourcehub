@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "Glutathione wholesale: CAS 70-18-8, ~307.3 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "metaDescription": "Glutathione — ≥99% by HPLC, CAS 70-18-8, supplied as 600 mg × 10 vials, with a batch COA and tiered wholesale pricing. For redox biology research.",
   "heroTitle": "Glutathione Wholesale",
   "heroSubtitle": "Reduced L-glutathione (γ-Glu-Cys-Gly) — the reference thiol antioxidant for laboratory research",
   "description": "Glutathione (GSH) is the principal intracellular non-protein thiol of eukaryotic cells and one of the most widely used laboratory reagents in redox biology. It serves as a cofactor for glutathione peroxidase and glutathione-S-transferase reactions, as a standard for analytical method development, and as a probe in oxidative-stress, conjugation and detoxification research. Supplied as the reduced (GSH) form.",
@@ -191,5 +191,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Glutathione is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Glutathione?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₁₀H₁₇N₃O₆S"
+  "molecularFormula": "C₁₀H₁₇N₃O₆S",
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
 }

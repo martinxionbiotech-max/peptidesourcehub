@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile or bacteriostatic water",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "30 (C-terminal DAC linker)",
-  "metaDescription": "Factory-direct CJC-1295 with DAC wholesale. CAS 863288-34-0, ~3,649.2 Da. ≥99% HPLC. Long-acting GHRH analogue. COA included.",
+  "metaDescription": "Buy CJC-1295 (DAC): ≥99% by HPLC, CAS 863288-34-0, supplied as 2 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroSubtitle": "Long-acting GHRH analogue with Drug Affinity Complex — sustained GH pulse research, manufacturer-direct",
   "heroTitle": "CJC-1295 (DAC) Wholesale",
   "description": "CJC-1295 is a synthetic analogue of Growth Hormone-Releasing Hormone (GHRH) engineered with four amino acid substitutions that enhance receptor binding and proteolytic stability. The defining feature of the DAC (Drug Affinity Complex) variant is a maleimidopropionyl linker on the C-terminal lysine that covalently binds to Cys³⁴ of serum albumin — extending circulating half-life from ~7 minutes to ~8 days. For research protocols requiring chronic GH/IGF-1 axis activation, CJC-1295 with DAC is the tool of choice.",
@@ -220,5 +220,7 @@
     "Once albumin-conjugated, published pharmacokinetic work reports a circulating half-life of roughly 6–8 days — a window about three orders of magnitude longer than the unconjugated analogue, which is why the two forms are used in different research designs.",
     "The linker sits at the C-terminus, outside the N-terminal receptor-binding domain of GHRH(1-29); receptor-binding pharmacology is reported as unchanged by the DAC modification.",
     "The mature sequence is 30 residues including the linker, versus 29 for Mod GRF(1-29) — the mass difference (~282 Da) is the analytical marker used to distinguish the two forms."
-  ]
+  ],
+  "productImage": "/images/products/cjc-1295-dac-bottle.webp",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

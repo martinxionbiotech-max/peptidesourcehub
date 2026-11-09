@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile or bacteriostatic water",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "6 (D-Trp², D-Phe⁵)",
-  "metaDescription": "Factory-direct GHRP-6 wholesale. CAS 87616-84-0, ~873.0 Da. ≥99% HPLC. Ghrelin mimetic — strong GH release with orexigenic effects. COA included.",
+  "metaDescription": "Wholesale GHRP-6: ≥99% by HPLC, CAS 87616-84-0, supplied as 5 mg × 10 vials, with a batch COA and tiered wholesale pricing. For gh release research.",
   "heroSubtitle": "Growth Hormone Releasing Peptide-6 — strong GH pulse with pronounced hunger signaling, manufacturer-direct",
   "heroTitle": "GHRP-6 Wholesale",
   "description": "GHRP-6 is the prototypical synthetic ghrelin receptor agonist — and the most orexigenic member of the GHRP family. Its hexapeptide sequence (His-D-Trp-Ala-Trp-D-Phe-Lys-NH₂) closely mimics the N-terminal active core of ghrelin, producing potent activation of both the GH-releasing and appetite-stimulating arms of GHS-R1a signaling.",
@@ -220,5 +220,7 @@
     "In the porcine comparison of Raun et al. (1998) it produced the highest maximal GH release of the family tested (Emax 74 ng/mL) while also raising ACTH and cortisol.",
     "Its gastric-motility and gastric-emptying effects have been characterised in rodent models, including studies in post-operative ileus.",
     "Choosing GHRP-6 over GHRP-2 or ipamorelin is therefore a research-design decision about appetite and corticotroph endpoints, not just GH potency."
-  ]
+  ],
+  "productImage": "/images/products/ghrp-6-bottle.webp",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "MOTS-c wholesale: CAS 1627580-64-6, ~2,174.6 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "metaDescription": "Wholesale MOTS-c: ≥99% by HPLC, CAS 1627580-64-6, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroTitle": "MOTS-c Wholesale",
   "heroSubtitle": "Mitochondrial-derived peptide (16 aa) studied in metabolic-homeostasis and AMPK-pathway research",
   "description": "MOTS-c is a 16-amino-acid mitochondrial-derived peptide encoded within the 12S rRNA region of mitochondrial DNA. Published research describes its role in metabolic homeostasis — notably AMPK-pathway signalling, the folate–methionine cycle and muscle insulin-sensitivity models — which is why it is widely used alongside nuclear-encoded peptides in mitochondrial and metabolic research.",
@@ -191,5 +191,7 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₁₀₁H₁₅₂N₂₈O₂₂S₂"
+  "molecularFormula": "C₁₀₁H₁₅₂N₂₈O₂₂S₂",
+  "productImage": "/images/products/mots-c-bottle.webp",
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
 }

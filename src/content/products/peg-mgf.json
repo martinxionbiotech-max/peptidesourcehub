@@ -12,7 +12,7 @@
   "solubility": "Soluble in sterile water or PBS",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "~94 + PEG moiety",
-  "metaDescription": "Factory-direct PEG-MGF wholesale. MW ~11,500 Da. ≥99% HPLC. PEGylated IGF-1Ec — satellite cell activation. COA included.",
+  "metaDescription": "PEG-MGF — ≥99% by HPLC, white to off-white lyophilized powder, supplied as 1 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroSubtitle": "PEGylated IGF-1Ec splice variant — muscle stem cell (satellite cell) activation research, manufacturer-direct",
   "heroTitle": "PEG-MGF Wholesale",
   "description": "PEG-MGF (PEGylated Mechano Growth Factor) is a modified form of IGF-1Ec — the splice variant of IGF-1 preferentially expressed in skeletal muscle in response to mechanical load. MGF differs from systemic IGF-1 by a 24-amino acid C-terminal E-domain insert that confers distinct receptor binding and specifically activates muscle satellite (stem) cells. PEGylation extends the peptide's half-life from minutes to ~24 hours, making it viable for chronic muscle regeneration research.",
@@ -196,5 +196,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. PEG-MGF is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source PEG-MGF?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "—"
+  "molecularFormula": "—",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

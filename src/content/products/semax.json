@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile water or PBS",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "7 (ACTH(4-7) + Pro-Gly-Pro C-terminal)",
-  "metaDescription": "Factory-direct Semax wholesale. CAS 80714-61-0, ~813.9 Da. ≥99% HPLC. BDNF/NGF upregulator — neuroprotection &amp; cognitive enhancement. COA included.",
+  "metaDescription": "Buy Semax: ≥99% by HPLC, CAS 80714-61-0, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. For neuroprotection research.",
   "heroSubtitle": "ACTH(4–7)-Pro-Gly-Pro heptapeptide — BDNF upregulation & neuroprotection research, manufacturer-direct",
   "heroTitle": "Semax Wholesale",
   "description": "Semax is a synthetic heptapeptide developed at the Institute of Molecular Genetics of the Russian Academy of Sciences. It consists of the ACTH(4–7) fragment (Met-Glu-His-Phe) — the active core of adrenocorticotropic hormone that mediates neurotrophic effects without steroidogenic activity — extended with a C-terminal Pro-Gly-Pro tripeptide. Semax is the most extensively characterized nootropic peptide in the literature, with documented effects on BDNF and NGF expression, cognitive function, and neuroprotection across multiple paradigms.",
@@ -228,5 +228,7 @@
     "In rat hippocampus studies, Semax exposure was associated with increased transcription of the neurotrophin genes Bdnf and Ngf (reported as roughly 8-fold and 5-fold in glial cell culture) and with raised Bdnf/TrkB mRNA in vivo.",
     "Human research endpoints differ from animal ones: a 2020 imaging study of 52 healthy participants measured resting-state connectivity, and clinical reports concern stroke-rehabilitation populations — neither establishes cognitive benefit in healthy users.",
     "The shared Pro-Gly-Pro C-terminus with Selank is a stabilisation motif, not evidence of interchangeable pharmacology."
-  ]
+  ],
+  "productImage": "/images/products/semax-bottle.webp",
+  "notFor": "Not a cognitive enhancer or an anti-ageing supplement. Research use only, with no human dosing, cycling or administration guidance — if you want a supplement, this is not it."
 }

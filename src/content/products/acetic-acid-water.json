@@ -9,7 +9,7 @@
   "purity": "Dilute aqueous acetic acid — concentration per batch COA",
   "appearance": "Clear, colourless solution with characteristic odour",
   "storage": "2–8°C, protect from light",
-  "metaDescription": "Dilute acetic acid water wholesale for laboratory use: 10 mL × 10 vials, concentration documented per batch COA, bulk pricing 10–30% off.",
+  "metaDescription": "Buy Acetic acid water: Dilute aqueous acetic acid — concentration per batch COA, with COA documentation and tiered pricing. For reconstitution research.",
   "heroTitle": "Acetic Acid Water Wholesale",
   "heroSubtitle": "Dilute acetic acid solution used as a laboratory diluent for peptides with limited water solubility",
   "description": "Acetic acid water is a dilute aqueous acetic acid solution supplied as a laboratory diluent. It is used when a peptide reconstitutes poorly or gels in neutral water, a situation where a mildly acidic vehicle improves dissolution; it is also used as a solvent in analytical work. The concentration is documented per batch on the Certificate of Analysis because the catalogue does not fix a single strength for all applications.",
@@ -168,5 +168,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Bacteriostatic water?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₂H₄O₂ (acetic acid)"
+  "molecularFormula": "C₂H₄O₂ (acetic acid)",
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
 }

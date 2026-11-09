@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile or bacteriostatic water",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "6 (D-Ala¹, D-2-Nal², D-Phe⁵)",
-  "metaDescription": "Factory-direct GHRP-2 wholesale. CAS 158861-67-7, ~817.0 Da. ≥99% HPLC. Potent GHS-R1a agonist. COA included.",
+  "metaDescription": "GHRP-2 — ≥99% by HPLC, CAS 158861-67-7, supplied as 5 mg × 10 vials, with a batch COA and tiered wholesale pricing. For gh pulse induction research.",
   "heroSubtitle": "Growth Hormone Releasing Peptide-2 — potent ghrelin mimetic for GH pulse research, manufacturer-direct",
   "heroTitle": "GHRP-2 Wholesale",
   "description": "GHRP-2 (also known as Pralmorelin) is a synthetic hexapeptide ghrelin receptor agonist. It is one of the most potent GH secretagogues in the GHRP family, producing a rapid, robust GH pulse. Developed through structure-activity relationship studies of met-enkephalin derivatives, GHRP-2 features D-amino acid modifications (D-Ala¹, D-2-Nal², D-Phe⁵) that confer both metabolic stability and high receptor affinity.",
@@ -220,5 +220,7 @@
     "That same study reported raised plasma ACTH and cortisol after GHRP-2, in contrast to ipamorelin, which did not elevate either above GHRH-stimulated levels.",
     "Appetite-related endpoints are reported as weaker for GHRP-2 than for GHRP-6, which is the most orexigenic member of the family.",
     "Also known as pralmorelin; its short plasma half-life (sub-hour in published summaries) makes it a pulse-oriented tool rather than a sustained-stimulus compound."
-  ]
+  ],
+  "productImage": "/images/products/ghrp-2-bottle.webp",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

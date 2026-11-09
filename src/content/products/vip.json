@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "VIP (vasoactive intestinal peptide) wholesale: CAS 37221-79-7, 28 aa, ~3,326.8 Da. ≥99% HPLC, 10-vial kits, batch COA, bulk pricing.",
+  "metaDescription": "Buy VIP: ≥99% by HPLC, CAS 37221-79-7, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. For neuroendocrinology research.",
   "heroTitle": "VIP (Vasoactive Intestinal Peptide) Wholesale",
   "heroSubtitle": "28-amino-acid neuroendocrine peptide studied in vascular, gastrointestinal and circadian-signalling models",
   "description": "VIP is a 28-amino-acid peptide of the secretin/glucagon superfamily, acting through the class-B GPCRs VPAC1 and VPAC2. It is the standard reference agonist in research on smooth-muscle relaxation and vascular tone, intestinal secretion, and suprachiasmatic-nucleus circadian signalling. Because it is rapidly cleaved in vivo, published protocols commonly compare it with VPAC-selective analogues to separate receptor-subtype effects from clearance effects.",
@@ -201,5 +201,7 @@
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₁₄₇H₂₃₇N₄₃O₄₃S",
   "sequence": "HSDAVFTDNYTRLRKQMAVKKYLNSILN (28 aa)",
-  "aminoAcids": "28"
+  "aminoAcids": "28",
+  "productImage": "/images/products/vip-bottle.webp",
+  "notFor": "Not a cognitive enhancer or an anti-ageing supplement. Research use only, with no human dosing, cycling or administration guidance — if you want a supplement, this is not it."
 }

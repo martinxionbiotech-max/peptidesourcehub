@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile water or PBS",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "11",
-  "metaDescription": "Factory-direct ARA-290 wholesale. CAS 1208243-50-8, ~1,258.4 Da. ≥99% HPLC. Innate Repair Receptor agonist — tissue protection. COA included.",
+  "metaDescription": "Wholesale ARA-290: ≥99% by HPLC, CAS 1208243-50-8, supplied as 5 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroSubtitle": "Erythropoietin-derived 11-mer helix B peptide — tissue protection & repair via IRR agonism without erythropoietic effects, manufacturer-direct",
   "heroTitle": "ARA-290 Wholesale",
   "description": "ARA-290 is an 11-amino acid peptide engineered from the helix B domain of erythropoietin (EPO). The key innovation behind ARA-290 is its receptor selectivity: it activates the Innate Repair Receptor (IRR, also known as the β-common receptor/CD131 heterodimer) but does not bind the classical EPO receptor (EPO-R). This receptor discrimination separates tissue-protective signaling from erythropoietic signaling — in research models, ARA-290 demonstrates tissue protection and anti-inflammatory effects without elevating hematocrit.",
@@ -208,5 +208,6 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. ARA-290 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source ARA-290?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "notFor": "Not a treatment for an injury, a wound or post-surgical recovery. If that is what you need, see a clinician: this vial is a research reagent and we give no human-use guidance."
 }

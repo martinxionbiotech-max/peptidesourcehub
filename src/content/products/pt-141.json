@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "PT-141 wholesale: CAS 189691-06-3, ~1,025.2 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "metaDescription": "PT-141 — ≥99% by HPLC, CAS 189691-06-3, supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. For receptor pharmacology research.",
   "heroTitle": "PT-141 (Bremelanotide) Wholesale",
   "heroSubtitle": "Cyclic melanocortin receptor agonist (bremelanotide) for receptor-pharmacology research",
   "description": "PT-141 (bremelanotide) is a cyclic heptapeptide analogue of α-melanocyte-stimulating hormone. It is used in receptor-pharmacology research as a melanocortin receptor agonist with a different selectivity profile from the linear analogue Melanotan I, which is why the two are commonly compared in structure–activity studies of the α-MSH series.",
@@ -190,5 +190,7 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. PT-141 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source PT-141?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "C₅₀H₆₈N₁₄O₁₀"
+  "molecularFormula": "C₅₀H₆₈N₁₄O₁₀",
+  "productImage": "/images/products/pt-141-bottle.webp",
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
 }

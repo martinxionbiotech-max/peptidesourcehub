@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "White to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "KPV wholesale: CAS 67727-97-3, ~342.4 Da. ≥99% HPLC, 10-vial kits, batch COA, tiered bulk pricing 10–30% off.",
+  "metaDescription": "Wholesale KPV: ≥99% by HPLC, CAS 67727-97-3, supplied as 5 mg × 10 vials, with a batch COA and tiered wholesale pricing. For inflammation research.",
   "heroTitle": "KPV Wholesale",
   "heroSubtitle": "C-terminal α-MSH tripeptide fragment (Lys-Pro-Val) for inflammation-pathway research",
   "description": "KPV is the C-terminal tripeptide fragment of α-melanocyte-stimulating hormone (Lys-Pro-Val). Research on this fragment has focused on melanocortin-linked anti-inflammatory signalling in cell and animal models, where it is studied separately from the full-length hormone because it retains a distinct activity profile without the pigmentation-associated receptor activity of the intact peptide.",
@@ -200,5 +200,7 @@
   "ctaText": "Ready to Source KPV?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₁₆H₃₀N₄O₄",
-  "sequence": "H-Lys-Pro-Val-OH"
+  "sequence": "H-Lys-Pro-Val-OH",
+  "productImage": "/images/products/kpv-bottle.webp",
+  "notFor": "Not a treatment for an injury, a wound or post-surgical recovery. If that is what you need, see a clinician: this vial is a research reagent and we give no human-use guidance."
 }

@@ -13,7 +13,7 @@
   "solubility": "Soluble in sterile water or PBS",
   "storage": "2–8°C, desiccated, protect from light",
   "aminoAcids": "16 (cyclic via disulfide bond)",
-  "metaDescription": "Factory-direct AOD-9604 wholesale. CAS 221231-10-3, ~1,815.1 Da. ≥99% HPLC. hGH fragment 177-191 — selective adipose lipolysis. COA included.",
+  "metaDescription": "AOD-9604 — ≥99% by HPLC, CAS 221231-10-3, supplied as 2 mg × 10 vials, with a batch COA and tiered wholesale pricing. For adipose lipolysis research.",
   "heroSubtitle": "hGH C-terminal fragment 177–191 — selective lipolytic peptide without IGF-1 elevation, manufacturer-direct",
   "heroTitle": "AOD-9604 Wholesale",
   "description": "AOD-9604 is the synthetic C-terminal fragment of human Growth Hormone, spanning amino acids 177 through 191. This 16-amino acid cyclic peptide retains the lipolytic domain of hGH while lacking the N-terminal region required for Growth Hormone Receptor (GHR) binding and subsequent IGF-1 induction. The result is a precision tool for studying adipose tissue lipolysis without the confounding effects of the GH/IGF-1 axis — including insulin resistance, IGF-1 elevation, and growth-promoting activity.",
@@ -200,5 +200,7 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. AOD-9604 is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source AOD-9604?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "productImage": "/images/products/aod-9604-bottle.webp",
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
 }

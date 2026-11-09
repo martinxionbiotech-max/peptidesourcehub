@@ -82,7 +82,7 @@ export const CLUSTERS: Cluster[] = [
     h1: "CJC-1295 with DAC vs without DAC",
     title: "CJC-1295 with DAC vs without DAC",
     description:
-      "The two CJC-1295 forms share a tetrasubstituted GHRH(1-29) backbone but differ by the DAC linker: albumin binding, half-life, GH pattern and price compared.",
+      "CJC-1295 with and without DAC share a GHRH(1-29) backbone but differ in half-life and dosing interval — what that means for a research model.",
     intro:
       "CJC-1295 is sold in two distinct forms that differ by roughly three orders of magnitude in circulating half-life. The difference is a single C-terminal linker: the Drug Affinity Complex (DAC), a maleimidopropionic acid moiety that forms a covalent bond with serum albumin. Choosing between them is a research-design decision about the duration of GHRH-receptor stimulation.",
     columns: ["Parameter", "CJC-1295 with DAC", "CJC-1295 without DAC (Mod GRF 1-29)"],
@@ -142,7 +142,7 @@ export const CLUSTERS: Cluster[] = [
     h1: "Selank vs Semax",
     title: "Selank vs Semax",
     description:
-      "Selank (tuftsin-derived) vs Semax (ACTH(4-7)-derived): sequences, shared Pro-Gly-Pro stabilisation, research streams and what human studies actually measured.",
+      "Selank and Semax share a Pro-Gly-Pro stabilising motif but differ in origin and half-life: a comparison for choosing between them in a study design.",
     intro:
       "Both are synthetic heptapeptides carrying a Pro-Gly-Pro C-terminal extension, and both are widely described as nootropic-adjacent research peptides. Their precursors are unrelated, their literature streams are different, and the shared C-terminal motif is a stabilisation device rather than evidence of interchangeable pharmacology.",
     columns: ["Parameter", "Selank", "Semax"],
@@ -202,7 +202,7 @@ export const CLUSTERS: Cluster[] = [
     h1: "Argireline vs SNAP-8",
     title: "Argireline vs SNAP-8",
     description:
-      "Argireline (acetyl hexapeptide-8) vs SNAP-8 (acetyl octapeptide-3): sequence, chain length, mass and SNARE-assembly assay positioning compared for research use.",
+      "Argireline and SNAP-8 compared: sequence, chain length, mechanism and stability, and which one fits a given cosmetic research question best.",
     intro:
       "Argireline and SNAP-8 are the two most-cited members of the SNAP-25 N-terminal mimetic family used in vesicle-docking research. They carry the same N-terminal hexapeptide motif; SNAP-8 extends it by two residues. The practical difference in an assay is chain length and its physicochemical consequences — not a different mechanism class.",
     columns: ["Parameter", "Argireline", "SNAP-8"],

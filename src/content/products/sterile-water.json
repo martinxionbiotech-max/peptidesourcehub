@@ -9,7 +9,7 @@
   "purity": "Sterile, preservative-free",
   "appearance": "Clear, colourless solution",
   "storage": "2–8°C, protect from light",
-  "metaDescription": "Sterile water wholesale for laboratory use: preservative-free H₂O, 10 mL × 10 vials, batch documentation, bulk pricing 10–30% off.",
+  "metaDescription": "Buy Sterile water: Sterile, preservative-free, clear, colourless solution, with a batch COA and tiered wholesale pricing. For reconstitution research.",
   "heroTitle": "Sterile Water Wholesale",
   "heroSubtitle": "Preservative-free sterile water for reconstitution and dilution in laboratory workflows",
   "description": "Sterile water is the preservative-free option among laboratory diluents: unlike bacteriostatic water it contains no antimicrobial additive, so it is intended for single-use dilution and for applications where an added preservative would interfere with the assay. It is supplied in multi-vial kits alongside the lyophilized peptides in this catalogue, and it is the conventional choice when a formulation must be preservative-free.",
@@ -168,5 +168,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Bacteriostatic water?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "H₂O"
+  "molecularFormula": "H₂O",
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
 }

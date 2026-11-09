@@ -11,7 +11,7 @@
   "appearance": "White to off-white lyophilized powder",
   "solubility": "Freely soluble in sterile water or PBS",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "TB-500 (Thymosin Beta-4 fragment). CAS 77591-33-4. ≥99% HPLC purity. 5mg or 10mg ×10 vials/kit. G-actin sequestration research tool. COA included.",
+  "metaDescription": "TB-500 — ≥99% by HPLC, CAS 77591-33-4, supplied as 5 mg × 10 vials, with a batch COA and tiered wholesale pricing. For wound healing research.",
   "heroSubtitle": "Thymosin Beta-4 fragment (17-43) — G-actin sequestration research tool, batch-documented, manufacturer-direct",
   "heroTitle": "TB-500 Wholesale",
   "description": "Thymosin Beta-4 is a 43-amino acid peptide ubiquitously expressed in mammalian cells. TB-500 is its synthetic fragment containing the G-actin binding domain — making it a critical tool for cell migration and tissue repair research.",
@@ -224,5 +224,6 @@
   "ctaText": "Ready to Source TB-500?",
   "ctaSubtitle": "Tiered discounts up to 30%. COA with every order. Combined BPC-157 + TB-500 ordering available.",
   "molecularFormula": "—",
-  "aminoAcids": "—"
+  "aminoAcids": "—",
+  "notFor": "Not a treatment for an injury, a wound or post-surgical recovery. If that is what you need, see a clinician: this vial is a research reagent and we give no human-use guidance."
 }

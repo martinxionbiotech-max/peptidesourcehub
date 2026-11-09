@@ -9,7 +9,7 @@
   "purity": "Assay per batch COA",
   "appearance": "Clear, red-tinted solution (B12-containing)",
   "storage": "2–8°C, protect from light",
-  "metaDescription": "Lipo-C with B12 wholesale: lipotropic blend plus cyanocobalamin, 10 mL × 10 vials, batch COA, bulk tiered pricing 10–30% off.",
+  "metaDescription": "Lipo-C with B12 — Assay per batch COA, supplied as 10-vial kits, with COA documentation and tiered pricing. For metabolic research. Ships worldwide.",
   "heroTitle": "Lipo-C with B12 Wholesale",
   "heroSubtitle": "Lipotropic solution with cyanocobalamin, supplied as a defined liquid vehicle for metabolic research",
   "description": "Lipo-C with B12 is the same lipotropic liquid formulation with cyanocobalamin included as the cobalamin component. The addition makes the solution visibly red-tinted, which is a useful handling indicator but also means the product is photolabile and must be protected from light. As with the plain Lipo-C, the exact component list and concentrations are stated on the batch Certificate of Analysis rather than fixed in the catalogue.",
@@ -191,5 +191,6 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "Multi-component blend including cyanocobalamin — composition per COA"
+  "molecularFormula": "Multi-component blend including cyanocobalamin — composition per COA",
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
 }

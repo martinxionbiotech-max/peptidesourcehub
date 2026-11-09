@@ -9,7 +9,7 @@
   "purity": "≥95% by HPLC (recombinant protein)",
   "appearance": "White to off-white lyophilized powder",
   "storage": "−20°C long term, desiccated, protect from light",
-  "metaDescription": "IGF-1 LR3 wholesale: recombinant long R3 analogue, 0.1 mg × 10 vials, ≥95% HPLC, batch COA with mass confirmation, bulk pricing 10–30% off.",
+  "metaDescription": "Buy IGF-1 LR3: ≥95% by HPLC (recombinant protein), supplied as 10 mg × 10 vials, with a batch COA and tiered wholesale pricing. Ships worldwide.",
   "heroTitle": "IGF-1 LR3 Wholesale",
   "heroSubtitle": "Recombinant long R3 IGF-1 analogue with reduced IGFBP affinity for cell-culture and IGF-1R signalling research",
   "description": "IGF-1 LR3 is a recombinant analogue of insulin-like growth factor 1: an 83-amino-acid single-chain protein carrying an N-terminal extension and an arginine substitution at position 3. The modification reduces affinity for IGF-binding proteins, which is why it is preferred over native IGF-1 in cell-culture and receptor-signalling experiments where free-ligand availability matters. Because it is a recombinant protein rather than a synthetic peptide, identity and mass are confirmed batch by batch.",
@@ -195,5 +195,7 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. MOTS-c is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "molecularFormula": "Recombinant 83-amino-acid analogue (composition per COA)"
+  "molecularFormula": "Recombinant 83-amino-acid analogue (composition per COA)",
+  "productImage": "/images/products/igf-1-lr3-bottle.webp",
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
 }

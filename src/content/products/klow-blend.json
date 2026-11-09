@@ -9,7 +9,7 @@
   "purity": "≥99% by HPLC",
   "appearance": "Blue-violet to off-white lyophilized powder",
   "storage": "2–8°C, desiccated, protect from light",
-  "metaDescription": "Factory-direct KLOW blend in 10-vial kits, ≥99% HPLC, batch-specific COA, bulk tiered pricing 10–30% off.",
+  "metaDescription": "Buy KLOW blend: ≥99% by HPLC, supplied as 10-vial kits, with a batch COA and tiered wholesale pricing. For inflammation research. Ships worldwide.",
   "heroTitle": "KLOW Blend (KPV + BPC-157 + TB-500 + GHK-Cu) Wholesale",
   "heroSubtitle": "Four-peptide research blend — KPV, BPC-157, TB-500 and GHK-Cu in a single vial",
   "description": "The KLOW configuration extends our multi-peptide blend line to four components: KPV (an α-MSH fragment studied in inflammatory-signalling research), BPC-157, TB-500 and GHK-Cu. It is intended for research designs that examine several repair- and inflammation-related pathways within a single reconstituted preparation.",
@@ -181,5 +181,7 @@
   ],
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. KLOW blend is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source KLOW blend?",
-  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order."
+  "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
+  "productImage": "/images/products/klow80-stack-bottle.webp",
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
 }
