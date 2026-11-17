@@ -57,13 +57,20 @@ function normalizePath(pathname) {
 
 export async function onRequest(context) {
   const { request, env } = context;
+  const url = new URL(request.url);
+
+  // Canonical host: one 301 from www to the apex, preserving path and query.
+  if (url.hostname.startsWith('www.')) {
+    url.hostname = url.hostname.slice(4);
+    return Response.redirect(url.toString(), 301);
+  }
+
   if (request.method !== 'GET' && request.method !== 'HEAD') return context.next();
 
   if (!wantsMarkdown(request.headers.get('Accept') || '')) return context.next();
 
   try {
     const manifest = await getManifest(env);
-    const url = new URL(request.url);
     const key = normalizePath(url.pathname);
     const mdPath = manifest[key];
     if (!mdPath) return context.next();
