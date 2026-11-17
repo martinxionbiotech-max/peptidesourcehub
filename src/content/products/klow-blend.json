@@ -183,5 +183,6 @@
   "ctaText": "Ready to Source KLOW blend?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "productImage": "/images/products/klow80-stack-bottle.webp",
-  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs.",
+  "researchContext": "KLOW adds KPV to the GLOW components, which turns a three-peak separation problem into a four-peak one. KPV is small and can elute close to solvent fronts or injection artifacts, so the method and integration windows matter as much as the headline purity figure. A useful batch package for this product includes the component list, a chromatogram with each peak identified, mass confirmation for the four peptides and the copper assay for GHK-Cu. The formulation is intended for pathway-comparison work, not for replacing four independent single-peptide studies. If a supplier provides one combined purity number without per-component identification, the document cannot support a claim about what is actually in the vial."
 }

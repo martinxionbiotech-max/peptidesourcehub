@@ -196,5 +196,8 @@
   "ctaText": "Ready to Source Sermorelin?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₁₄₉H₂₄₆N₄₄O₄₂S",
-  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide.",
+  "productImage": "/images/products/sermorelin.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Sermorelin is a GRF(1-29) fragment, supplied as a lyophilised powder. Its analytical identity is defined by the 29-residue sequence and the expected mass, not by the broader 'growth hormone secretagogue' category. Because shorter fragments can arise from incomplete synthesis or degradation, the chromatogram should be read for closely eluting species as well as the main peak. Storage follows the usual lyophilised-peptide pattern, but the reconstituted solution is the less stable format and should be aliquoted if the study design allows it."
 }

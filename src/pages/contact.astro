@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../components/BreadcrumbSchema.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -210,7 +211,58 @@ const allJsonLd = [jsonLd, faqJson];
   </div>
 </section>
 
+<!-- RFQ Process + Quoting Requirements -->
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="mb-3">What happens after you send the RFQ</h2>
+    <p class="text-gray-600 mb-8 text-sm max-w-2xl">
+      An inquiry does not sit in a queue waiting for a price list. Four things happen, in this order,
+      and each step ends with something you can check.
+    </p>
+    <ol class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      {[
+        ["01", "Acknowledged within one business day", "We reply to confirm receipt, Monday to Saturday, and say if anything in the request is unclear. If your timeline is tight, put the date in the first message; WhatsApp is the faster channel for that."],
+        ["02", "Specification check", "We match the requested SKU, kit configuration, documentation and destination against the catalog. Questions come back only where something is ambiguous: sequence or salt form, label text, or a test your reviewer needs that the standard COA does not cover."],
+        ["03", "Quotation issued", "The quotation states the unit price at the applicable tier, the documentation list, the dispatch window and the validity period. Quotes run for 30 calendar days; payment methods and Net-30 eligibility are set out in the terms."],
+        ["04", "Confirmation and dispatch", "An order is confirmed on payment or on an accepted purchase order. Tracking is issued within three business days of confirmation, and the COA, commercial invoice, packing list and MSDS travel with the shipment."],
+      ].map(([step, title, detail]) => (
+        <li class="card p-6 flex gap-4">
+          <span class="shrink-0 w-9 h-9 rounded-xl bg-accent/10 flex items-center justify-center text-accent text-xs font-bold">{step}</span>
+          <div>
+            <h3 class="font-bold text-sm mb-1.5">{title}</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">{detail}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
 
+    <div class="card p-6 md:p-8 mt-10 bg-surface">
+      <h2 class="text-lg font-bold mb-2">What we need before quoting</h2>
+      <p class="text-gray-600 text-sm mb-5">
+        The What to Include card covers the technical description. These five answers cover the commercial side,
+        and a quotation cannot be issued without them.
+      </p>
+      <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+        {[
+          ["Product", "Catalog name or SKU, plus the CAS number or sequence if you are comparing equivalents."],
+          ["Quantity", "Kits or vials per shipment, and the monthly or quarterly volume you expect to repeat."],
+          ["Destination", "Country and postcode. Duties, routing and the transit estimate all follow from the address."],
+          ["Documentation", "COA only, or the additional tests your reviewer requires: endotoxin, residual solvents, amino acid analysis."],
+          ["Labeling", "Catalog label, neutral outer label, or private-label artwork with the exact text to print."],
+        ].map(([label, detail]) => (
+          <div class="border-l-2 border-accent/40 pl-4">
+            <dt class="font-semibold text-primary text-sm">{label}</dt>
+            <dd class="text-gray-600 text-sm mt-0.5">{detail}</dd>
+          </div>
+        ))}
+      </dl>
+      <p class="text-gray-500 text-xs mt-5">
+        Anything still undecided can be marked to confirm. A quotation can be revised, but a missing
+        destination usually delays the first issue.
+      </p>
+    </div>
+  </div>
+</section>
 
   <section class="py-14 bg-gray-50">
     <div class="container-page max-w-3xl">
@@ -224,4 +276,5 @@ const allJsonLd = [jsonLd, faqJson];
       </div>
     </div>
   </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Contact", url: "https://peptidesourcehub.net/contact/" }]} />
 </PageLayout>

@@ -187,5 +187,8 @@
   "ctaText": "Ready to Source Melanotan I?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₇₈H₁₁₁N₂₁O₁₉",
-  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one.",
+  "productImage": "/images/products/melanotan-i.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Melanotan I and Melanotan II are not interchangeable names for the same molecule. They differ in sequence and receptor profile, so a study designed around one should not be switched to the other without re-checking the analytical identity. For sourcing, the useful controls are the sequence, the mass confirmation and a batch-specific chromatogram. Because both are often discussed together in informal literature, the main risk is catalogue confusion rather than chemistry; verify the sequence on the COA against the product you intended to order."
 }

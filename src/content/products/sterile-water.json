@@ -169,5 +169,8 @@
   "ctaText": "Ready to Source Bacteriostatic water?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "H₂O",
-  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs.",
+  "productImage": "/images/products/sterile-water.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Sterile water is defined by absence: no preservative, no buffer, no antimicrobial agent. That makes it the preferred diluent when a preservative could interfere with an assay, and a poor choice for a vial that will be entered repeatedly. The specification to verify is sterility (and endotoxin where the application requires it), fill volume and closure integrity. Once the vial is opened, it should be treated as a single-use laboratory reagent unless your own protocol and validation support multi-dose use. Because it contains nothing to inhibit microbial growth, handling technique and the time between opening and use are part of the experimental design, not an afterthought."
 }

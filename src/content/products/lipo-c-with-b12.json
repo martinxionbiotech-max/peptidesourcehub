@@ -192,5 +192,8 @@
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "Multi-component blend including cyanocobalamin — composition per COA",
-  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided.",
+  "productImage": "/images/products/lipo-c-with-b12.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "The B12 variant is not simply 'Lipo-C plus a vitamin'. Cyanocobalamin is a coloured, photolabile molecule, so its presence changes the handling and analytical requirements of the whole preparation. The red tint is a visual indicator, not a purity grade, and it means the vial must be protected from light during storage and preparation. A usable batch record should report the lipotropic components and the cobalamin assay separately; a combined result cannot tell a buyer whether the B12 content is correct. When comparing this product with plain Lipo-C, keep light exposure, storage time and reconstitution volume identical, otherwise the formulation difference is confounded by handling. The two products should not share a single COA template."
 }

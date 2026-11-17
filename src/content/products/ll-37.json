@@ -196,5 +196,7 @@
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₂₀₅H₃₄₀N₆₀O₅₃",
   "sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES (residues 134–170 of human cathelicidin precursor CAMP, UniProt P49913)",
-  "notFor": "Not a treatment for an injury, a wound or post-surgical recovery. If that is what you need, see a clinician: this vial is a research reagent and we give no human-use guidance."
+  "notFor": "Not a treatment for an injury, a wound or post-surgical recovery. If that is what you need, see a clinician: this vial is a research reagent and we give no human-use guidance.",
+  "productImage": "/images/products/ll-37.webp",
+  "imageNote": "Illustrative label render, not a batch photograph"
 }

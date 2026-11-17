@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../../components/BreadcrumbSchema.astro";
 import RuoNotice from "../../components/RuoNotice.astro";
 
 /** P4 博客：供应商尽调问卷（可直接照抄的 20 问）—— 不杜撰任何厂商数据。 */
@@ -95,6 +96,7 @@ const jsonLd = [
 <article class="section bg-white">
   <div class="container-narrow mx-auto px-4">
     <h1>Supplier Due-Diligence Questionnaire for Research Peptides</h1>
+    <p class="text-sm text-gray-400 mt-3 mb-6">By the Peptides Source Hub Technical Team · Updated 17 November 2026</p>
     <p class="text-gray-500 mt-4">Twenty questions, four sections, copy-and-paste ready. Send them before the first order, not after the first problem.</p>
 
     <div class="card bg-gradient-to-br from-indigo-50 to-white border-indigo-200 mt-6 p-5">
@@ -164,5 +166,14 @@ const jsonLd = [
       <a href="/contact/" class="btn-primary">Ask us the 20 questions</a>
     </div>
   </div>
+    <section class="mt-10 pt-6 border-t border-gray-200">
+      <h2 class="text-lg font-bold mb-3">References</h2>
+      <ol class="list-decimal pl-5 text-sm text-gray-600 space-y-2">
+        <li><a class="text-accent underline" href="https://www.ich.org/page/q7" target="_blank" rel="noopener noreferrer">ICH Q7 — Good Manufacturing Practice Guide for Active Pharmaceutical Ingredients</a></li>
+        <li><a class="text-accent underline" href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents" target="_blank" rel="noopener noreferrer">FDA — Guidance documents for drug quality and manufacturing</a></li>
+      </ol>
+    </section>
+
 </article>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Knowledge", url: "https://peptidesourcehub.net/blog/" }, { name: "Supplier Due-Diligence Questionnaire for Research Peptides", url: "https://peptidesourcehub.net/blog/supplier-due-diligence-questionnaire/" }]} />
 </PageLayout>

@@ -188,5 +188,8 @@
   "ctaText": "Ready to Source MOTS-c?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "Multi-component blend — composition per COA",
-  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided."
+  "notFor": "This is a laboratory reagent, not a weight-loss product. If you are looking for something to take, or for dosing guidance, we are the wrong supplier — no human dose, cycle or administration advice is provided.",
+  "productImage": "/images/products/lipo-c.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Lipo-C is a liquid, multi-component lipotropic formulation rather than a single lyophilised peptide. That distinction drives the whole specification: there is no CAS number for the product as a whole, no single molecular weight, and no meaningful 'sequence'. What can be specified is the vehicle, the component list, the concentration of each component and the batch record that ties those values to a lot. For a research group comparing formulations, the useful controls are a retained sample from the same lot, a record of storage temperature and light exposure, and a clear statement of whether the components are measured separately or only as a combined assay. A COA that reports one number for a multi-component liquid is not enough to reconstruct what was in the vial."
 }

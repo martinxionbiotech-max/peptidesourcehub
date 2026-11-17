@@ -188,5 +188,6 @@
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₅₀H₆₉N₁₅O₉",
   "productImage": "/images/products/melanotan-ii-10mg.webp",
-  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one.",
+  "researchContext": "Melanotan II is a cyclic analogue with a different sequence and receptor profile from Melanotan I. The cyclic structure changes the analytical behaviour: expect a different retention time and fragmentation pattern, and do not evaluate it against a Melanotan I method without re-validating the integration. Batch documentation should show the sequence and the mass, not only a purity percentage. If a supplier lists both analogues under one 'melanotan' page, ask for the separate COA for the exact sequence you are buying."
 }

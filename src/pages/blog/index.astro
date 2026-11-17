@@ -1,7 +1,16 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../../components/BreadcrumbSchema.astro";
 
 const posts = [
+  {
+    title: "Cagrilintide Wholesale Guide",
+    slug: "cagrilintide-wholesale-guide",
+    desc: "Amylin analogue sourcing: how cagrilintide differs from GLP-1 agonists, what batch documentation should show, and how to evaluate a wholesale quote.",
+    tags: ["Metabolic Research", "B2B Buyer Guide"],
+    date: "2026-08-01",
+    icon: "🧪",
+  },
   {
     title: "Peptide Quality Guide: COA, HPLC & Supplier Selection",
     slug: "peptide-quality-guide",
@@ -80,7 +89,7 @@ const jsonLd = {
 <PageLayout
   title="Peptide Industry Blog & Buyer Guides"
   description="Technical guides for B2B peptide buyers: quality standards, COA interpretation, GLP-1 sourcing, storage and import documentation, from the lab side."
-  {jsonLd}
+  jsonLd={jsonLd}
 >
 
 <section class="section bg-gradient-to-br from-primary to-primary-light relative overflow-hidden">
@@ -142,4 +151,5 @@ const jsonLd = {
     </div>
   </div>
 </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Knowledge", url: "https://peptidesourcehub.net/blog/" }, { name: "Blog", url: "https://peptidesourcehub.net/blog/" }]} />
 </PageLayout>

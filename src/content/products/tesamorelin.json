@@ -197,5 +197,6 @@
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₂₂₁H₃₆₆N₇₂O₆₇S",
   "productImage": "/images/products/tesamorelin-bottle.webp",
-  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide."
+  "notFor": "Not a substitute for prescribed growth-hormone or testosterone therapy, and not for human use. We supply the reagent with a batch COA; dosing, cycling and injection guidance are outside what we provide.",
+  "researchContext": "Tesamorelin is a modified GRF analogue, not simply a longer or stronger version of sermorelin. The modification changes the molecule's stability and analytical behaviour, so a method validated for sermorelin should not be assumed to fit tesamorelin without checking retention and fragmentation. For procurement, the sequence and mass confirmation are the identity evidence; the purity figure is secondary. If a supplier presents the two GRF analogues as interchangeable, ask for separate sequence-level documentation for each SKU."
 }

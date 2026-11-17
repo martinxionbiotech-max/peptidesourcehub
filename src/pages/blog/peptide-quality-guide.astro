@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../../components/BreadcrumbSchema.astro";
 import RuoNotice from "../../components/RuoNotice.astro";
 
 const jsonLd = {
@@ -10,7 +11,7 @@ const jsonLd = {
   "author": { "@type": "Organization", "name": "Peptides Source Hub" },
   "publisher": { "@type": "Organization", "name": "Peptides Source Hub", "url": "https://peptidesourcehub.net" },
   "datePublished": "2026-08-06",
-  "dateModified": "2026-08-06",
+  "dateModified": "2026-11-17",
 };
 
 const coaFields = [
@@ -80,6 +81,7 @@ const allJsonLd = [jsonLd, faqJson];
       <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/10 text-gray-300 text-xs">Quality & Compliance</span>
     </div>
     <h1 class="text-white">The B2B Peptide Quality Guide:<br/>COA, Purity Analysis & Supplier Selection</h1>
+    <p class="text-sm text-gray-400 mt-3 mb-6">By the Peptides Source Hub Technical Team · Updated 17 November 2026</p>
     <p class="text-xl text-gray-300 mt-4 max-w-2xl">When you order peptides in bulk, you are buying documentation as much as chemistry. Here's how to read it — and how to spot a supplier who's cutting corners.</p>
   </div>
 </section>
@@ -218,6 +220,15 @@ const allJsonLd = [jsonLd, faqJson];
   </div>
 </section>
 
+    <section class="mt-10 pt-6 border-t border-gray-200">
+      <h2 class="text-lg font-bold mb-3">References</h2>
+      <ol class="list-decimal pl-5 text-sm text-gray-600 space-y-2">
+        <li><a class="text-accent underline" href="https://www.ich.org/page/q7" target="_blank" rel="noopener noreferrer">ICH Q7 — Good Manufacturing Practice Guide for Active Pharmaceutical Ingredients</a></li>
+        <li><a class="text-accent underline" href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents" target="_blank" rel="noopener noreferrer">FDA — Guidance documents for drug quality and manufacturing</a></li>
+        <li><a class="text-accent underline" href="https://www.usp.org/" target="_blank" rel="noopener noreferrer">USP — Peptide and protein quality standards</a></li>
+      </ol>
+    </section>
+
 <div class="mt-8 pt-6 border-t border-gray-200">
   <p class="text-sm font-semibold text-primary mb-3">Explore Related Products:</p>
   <div class="flex flex-wrap gap-3">
@@ -230,4 +241,5 @@ const allJsonLd = [jsonLd, faqJson];
 </div>
 </article>
 
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Knowledge", url: "https://peptidesourcehub.net/blog/" }, { name: "The B2B Peptide Quality Guide:COA, Purity Analysis & Supplier Selection", url: "https://peptidesourcehub.net/blog/peptide-quality-guide/" }]} />
 </PageLayout>

@@ -221,5 +221,7 @@
     "Its 6-residue length is the defining difference from SNAP-8, which carries the same N-terminal motif extended by two residues (Ala-Asp).",
     "Because SNARE machinery is a laboratory model system, this catalogue lists it as a research peptide with no human-application claim of any kind."
   ],
-  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one.",
+  "productImage": "/images/products/argireline.webp",
+  "imageNote": "Illustrative label render, not a batch photograph"
 }

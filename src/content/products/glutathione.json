@@ -192,5 +192,7 @@
   "ctaText": "Ready to Source Glutathione?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₁₀H₁₇N₃O₆S",
-  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one.",
+  "productImage": "/images/products/glutathione.webp",
+  "imageNote": "Illustrative label render, not a batch photograph"
 }

@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import BreadcrumbSchema from "../components/BreadcrumbSchema.astro";
 const PRODUCT_COUNT = (await getCollection("products")).length;
 import PageLayout from "../layouts/PageLayout.astro";
 import RuoNotice from "../components/RuoNotice.astro";
@@ -506,6 +507,7 @@ const allJsonLd = [jsonLd, faqJson];
 </section>
 
 
+  <BreadcrumbSchema items={[ { name: "Home", url: "https://peptidesourcehub.net/" } ]} />
 </PageLayout>
 
 <!-- ━━━━━ SCRIPTS ━━━━━ -->

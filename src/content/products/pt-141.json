@@ -192,5 +192,6 @@
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₅₀H₆₈N₁₄O₁₀",
   "productImage": "/images/products/pt-141-bottle.webp",
-  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one."
+  "notFor": "Not for cosmetic injection, mesotherapy or topical human use. The cosmetic literature is a research direction, not a protocol, and we do not supply one.",
+  "researchContext": "PT-141 (bremelanotide) is a cyclic peptide with a different sequence and receptor target from the melanotan analogues, despite the shared melanocortin theme. That distinction matters at the catalogue level: the identity check should be against the PT-141 sequence, not against a generic 'melanocortin' description. The cyclic structure also means the chromatographic method needs to be appropriate for the molecule. Request the sequence, mass and a lot-specific chromatogram, and treat a shared COA across PT-141 and melanotan products as a documentation failure."
 }

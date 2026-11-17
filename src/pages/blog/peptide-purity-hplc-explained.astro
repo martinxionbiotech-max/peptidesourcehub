@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../../components/BreadcrumbSchema.astro";
 import RuoNotice from "../../components/RuoNotice.astro";
 
 /** P4 博客：≥99% HPLC 到底意味着什么（纯度与含量的区别、方法依赖性）。 */
@@ -59,6 +60,7 @@ const jsonLd = [
 <article class="section bg-white">
   <div class="container-narrow mx-auto px-4">
     <h1>What “≥99% by HPLC” Actually Means</h1>
+    <p class="text-sm text-gray-400 mt-3 mb-6">By the Peptides Source Hub Technical Team · Updated 17 November 2026</p>
     <p class="text-gray-500 mt-4">Every vendor in this category quotes a purity figure. Almost none quote the method that produced it. Here is what the number does and does not tell you.</p>
 
     <div class="prose-custom max-w-none mt-8">
@@ -155,5 +157,14 @@ const jsonLd = [
       </section>
     </div>
   </div>
+    <section class="mt-10 pt-6 border-t border-gray-200">
+      <h2 class="text-lg font-bold mb-3">References</h2>
+      <ol class="list-decimal pl-5 text-sm text-gray-600 space-y-2">
+        <li><a class="text-accent underline" href="https://www.ich.org/page/q7" target="_blank" rel="noopener noreferrer">ICH Q7 — Good Manufacturing Practice Guide for Active Pharmaceutical Ingredients</a></li>
+        <li><a class="text-accent underline" href="https://www.usp.org/" target="_blank" rel="noopener noreferrer">USP — Peptide and protein quality standards</a></li>
+      </ol>
+    </section>
+
 </article>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Knowledge", url: "https://peptidesourcehub.net/blog/" }, { name: "What “≥99% by HPLC” Actually Means", url: "https://peptidesourcehub.net/blog/peptide-purity-hplc-explained/" }]} />
 </PageLayout>

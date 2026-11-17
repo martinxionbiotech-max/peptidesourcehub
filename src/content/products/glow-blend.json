@@ -183,5 +183,6 @@
   "ctaText": "Ready to Source GLOW blend?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "productImage": "/images/products/glow70-stack-bottle.webp",
-  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs.",
+  "researchContext": "GLOW is a co-lyophilised three-component preparation, so the analytical question is not 'what is the purity of the blend' but 'can each component be resolved and quantified in the presence of the others'. BPC-157, TB-500 and GHK-Cu differ enough in size and chemistry that a single integration window is unlikely to be adequate; ask for the component list, the mass confirmation for each peptide and the copper assay for GHK-Cu. Reconstitution also behaves differently from a single-peptide vial: each component has its own solubility limit, and the copper-containing component can change the colour of the solution. The blend is appropriate when a study needs one reconstituted stock; it is a poor choice when each peptide needs an independent concentration series."
 }

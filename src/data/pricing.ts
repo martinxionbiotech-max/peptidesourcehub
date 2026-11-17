@@ -252,6 +252,9 @@ export const PEPTIDE_PRICES: Record<string, PriceRow[]> = {
  */
 export const FALLBACK_BAND = { low: 24, high: 339 } as const;
 
+/** Google Product rich results: one catalog-wide offer band (user decision, 2026-11). */
+export const SCHEMA_PRICE_BAND = { low: 60, high: 180 } as const;
+
 export interface PriceBand {
   low: number;
   high: number;
@@ -282,14 +285,14 @@ export const CATALOG_BAND = FALLBACK_BAND;
 export const CATALOG_PRICE_TEXT = `US$${CATALOG_BAND.low}–${CATALOG_BAND.high} per kit (10 vials), from our published wholesale price list; ${VOLUME_DISCOUNT_TEXT}`;
 
 /** 与页面可见价格区间同源的 AggregateOffer（Google 要求 Product 家族必须带 offers） */
-export function productOffers(url: string, band: { low: number; high: number }, offerCount?: number) {
+export function productOffers(url: string, _band: { low: number; high: number }, offerCount?: number) {
   return {
     '@type': 'AggregateOffer',
     priceCurrency: 'USD',
     // Schema.org 定义 lowPrice/highPrice 为 Text；GSC 对数字字面量报
     // "Invalid price format"，必须输出字符串（整数不带小数位）。
-    lowPrice: String(band.low),
-    highPrice: String(band.high),
+    lowPrice: String(SCHEMA_PRICE_BAND.low),
+    highPrice: String(SCHEMA_PRICE_BAND.high),
     ...(offerCount ? { offerCount } : {}),
     availability: 'https://schema.org/InStock',
     itemCondition: 'https://schema.org/NewCondition',

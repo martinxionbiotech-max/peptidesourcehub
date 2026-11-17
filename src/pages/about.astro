@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../components/BreadcrumbSchema.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -257,4 +258,5 @@ const allJsonLd = [jsonLd, faqJson];
       </div>
     </div>
   </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "About", url: "https://peptidesourcehub.net/about/" }]} />
 </PageLayout>

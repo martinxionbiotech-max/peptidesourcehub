@@ -135,6 +135,19 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
   </div>
 </section>
 
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-6">Diluents and Fixed-Ratio Blends</h2>
+    <p class="text-gray-600 text-sm text-center max-w-2xl mx-auto mb-6">Laboratory diluents and pre-formulated blends are catalogued separately from the stack table. Each is a standalone SKU with its own batch COA.</p>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+      <a href="/products/bacteriostatic-water/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">Bacteriostatic Water</span><span class="text-gray-500 text-xs">Reconstitution diluent</span></a>
+      <a href="/products/sterile-water/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">Sterile Water</span><span class="text-gray-500 text-xs">Preservative-free diluent</span></a>
+      <a href="/products/acetic-acid-water/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">Acetic Acid Water</span><span class="text-gray-500 text-xs">Diluent for poorly soluble peptides</span></a>
+      <a href="/products/cagrilintide-semaglutide-blend/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">Cagrilintide + Semaglutide</span><span class="text-gray-500 text-xs">Fixed-ratio metabolic blend</span></a>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-white">
   <div class="container-narrow mx-auto px-4">
     <h2 class="text-center mb-10">FAQ</h2>
@@ -155,6 +168,59 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
       <a href="/products/cagrilintide/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">Cagrilintide</span><span class="text-gray-500 text-xs">Amylin Analogue</span></a>
       <a href="/products/bpc-157/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">BPC-157</span><span class="text-gray-500 text-xs">Healing Peptide</span></a>
       <a href="/products/tb-500/" class="card p-4 text-center hover:border-accent/30 hover:-translate-y-1 transition-all"><span class="font-semibold text-primary block">TB-500</span><span class="text-gray-500 text-xs">Actin Fragment</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-4">Standard Stack or Custom Build?</h2>
+    <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">A stack is a procurement format, not a new molecule. The decision is whether a published fixed ratio is acceptable or whether the study needs a ratio that does not yet exist in the catalog, and that choice sets the lead time, the documentation and the way the kit is released.</p>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-5 font-semibold text-primary">Buyer situation</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Format</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">What the quote should include</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">First evaluation order</td><td class="py-3 px-4 text-gray-600 text-sm">Standard two-peptide stack</td><td class="py-3 px-4 text-gray-600 text-sm">One batch number, per-peptide COAs</td><td class="py-3 px-4 text-gray-600 text-sm">Ships within 5 business days</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium text-primary">Multi-arm repair study</td><td class="py-3 px-4 text-gray-600 text-sm">GLOW or KLOW blend</td><td class="py-3 px-4 text-gray-600 text-sm">Per-component chromatogram in one document</td><td class="py-3 px-4 text-gray-600 text-sm">Standard catalog item</td></tr>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">Branded product launch</td><td class="py-3 px-4 text-gray-600 text-sm">Custom OEM stack</td><td class="py-3 px-4 text-gray-600 text-sm">Label and packaging specification, stability summary</td><td class="py-3 px-4 text-gray-600 text-sm">Custom, 4–6 weeks</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium text-primary">Metabolic combination work</td><td class="py-3 px-4 text-gray-600 text-sm">Cagrilintide + Semaglutide blend</td><td class="py-3 px-4 text-gray-600 text-sm">Fixed-ratio confirmation per component</td><td class="py-3 px-4 text-gray-600 text-sm">Standard catalog item</td></tr>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">Reconstitution supply</td><td class="py-3 px-4 text-gray-600 text-sm">Bacteriostatic, sterile or acetic acid water</td><td class="py-3 px-4 text-gray-600 text-sm">Diluent COA and volume per vial</td><td class="py-3 px-4 text-gray-600 text-sm">Standard catalog item</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center max-w-3xl mx-auto">Custom ratios are available above the qualifying minimum order quantity; the ratio, fill weight and salt form are fixed in writing before stability work begins.</p>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">How to Evaluate a Quote in This Category</h2>
+    <div class="card p-6 max-w-3xl mx-auto">
+      <p class="text-gray-600">The common failure in a stack quote is one COA that reports the blend, not its components. Ask for:</p>
+      <ul class="mt-4 space-y-2 text-sm text-gray-600 list-disc pl-5">
+          <li><span class="font-medium text-primary">COA</span> — one per peptide, in the same document as the kit</li>
+          <li><span class="font-medium text-primary">HPLC</span> — a chromatogram with integration for each component</li>
+          <li><span class="font-medium text-primary">MS</span> — a mass spectrum for each component, not one combined trace</li>
+          <li><span class="font-medium text-primary">Batch number</span> — the number printed on the kit, tying every vial to that document</li>
+          <li><span class="font-medium text-primary">Retest date</span> — for the finished kit, not only the bulk peptides</li>
+      </ul>
+      <p class="mt-4 text-sm text-gray-500">Ask whether components were co-lyophilised in one vial or filled separately — that changes how the kit is sampled. For a custom ratio, request the stability summary before the price.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">Where This Category Does Not Fit</h2>
+    <div class="card p-6 max-w-3xl mx-auto bg-gradient-to-br from-amber-50 to-white border-amber-200">
+      <p class="text-gray-600">A stack is not a shortcut to a finished pharmaceutical. This category is not intended for GMP manufacturing, clinical supply, compounding, human or veterinary use, and it is not a route to a registered combination product. Laboratories that need every component released against its own monograph, or a dossier for a regulator, should not use a pre-formulated kit. The intended use is bench research where a fixed ratio and a single shipment simplify handling.</p>
     </div>
   </div>
 </section>

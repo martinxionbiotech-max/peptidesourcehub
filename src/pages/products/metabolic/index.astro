@@ -181,6 +181,59 @@ const allJsonLd = [jsonLd, faqJson, breadcrumbLd];
   </div>
 </section>
 
+<section class="section bg-surface">
+  <div class="container-wide mx-auto px-4">
+    <h2 class="text-center mb-4">Matching a Metabolic SKU to the Study Design</h2>
+    <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">Metabolic programmes usually choose a molecule before the receptor panel and the sample scale are fixed, which is how a study ends up with the wrong comparator. The table maps common study requirements onto catalog SKUs, using only the receptor targets and pack configurations listed above.</p>
+    <div class="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-gray-50 border-b-2 border-gray-200">
+            <th class="text-left py-3 px-5 font-semibold text-primary">Study requirement</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Catalog SKU</th>
+            <th class="text-left py-3 px-4 font-semibold text-primary">Receptor profile</th>
+            <th class="text-left py-3 px-5 font-semibold text-primary">Documentation to request</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">Single-receptor readout</td><td class="py-3 px-4 text-gray-600 text-sm">Semaglutide</td><td class="py-3 px-4 text-gray-600 text-sm">GLP-1R only</td><td class="py-3 px-4 text-gray-600 text-sm">Batch COA, HPLC, MS against 4,113.6 Da</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium text-primary">Dual-incretin comparison</td><td class="py-3 px-4 text-gray-600 text-sm">Tirzepatide</td><td class="py-3 px-4 text-gray-600 text-sm">GIPR and GLP-1R</td><td class="py-3 px-4 text-gray-600 text-sm">Batch COA, HPLC, MS against 4,813.5 Da</td></tr>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">Triple-agonist or hepatic endpoint</td><td class="py-3 px-4 text-gray-600 text-sm">Retatrutide</td><td class="py-3 px-4 text-gray-600 text-sm">GIPR, GLP-1R and GCGR</td><td class="py-3 px-4 text-gray-600 text-sm">Batch COA, HPLC, MS against 4,731.5 Da</td></tr>
+          <tr class="border-b border-gray-100 bg-gray-50/50"><td class="py-3 px-5 font-medium text-primary">Amylin arm beside a GLP-1 arm</td><td class="py-3 px-4 text-gray-600 text-sm">Cagrilintide</td><td class="py-3 px-4 text-gray-600 text-sm">AMY-R</td><td class="py-3 px-4 text-gray-600 text-sm">Batch COA, HPLC, MS against 4,100.7 Da</td></tr>
+          <tr class="border-b border-gray-100 bg-white"><td class="py-3 px-5 font-medium text-primary">Non-incretin lipolytic control</td><td class="py-3 px-4 text-gray-600 text-sm">AOD-9604</td><td class="py-3 px-4 text-gray-600 text-sm">hGH fragment 177–191</td><td class="py-3 px-4 text-gray-600 text-sm">Batch COA, HPLC, MS against 1,815.1 Da</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-500 text-sm mt-4 text-center max-w-3xl mx-auto">Two-molecule work is quoted as a custom combination; ask for each component to be listed separately rather than as a single blended line.</p>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">How to Evaluate a Quote in This Category</h2>
+    <div class="card p-6 max-w-3xl mx-auto">
+      <p class="text-gray-600">GLP-1 and amylin analogues are long sequences, so a quote without analytics is a price for an unverified powder. Work in this order:</p>
+      <ul class="mt-4 space-y-2 text-sm text-gray-600 list-disc pl-5">
+          <li><span class="font-medium text-primary">COA</span> — batch-specific, not a generic example from a brochure</li>
+          <li><span class="font-medium text-primary">HPLC</span> — chromatogram with retention time and integration shown, not a purity number alone</li>
+          <li><span class="font-medium text-primary">MS</span> — deconvoluted mass against the theoretical value in the specification table above</li>
+          <li><span class="font-medium text-primary">Batch number</span> — must match the vials you receive</li>
+          <li><span class="font-medium text-primary">Retest date</span> — stated on the COA and inside your study window</li>
+      </ul>
+      <p class="mt-4 text-sm text-gray-500">Price first and documents later is a sample request, not a purchase.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface">
+  <div class="container-narrow mx-auto px-4">
+    <h2 class="text-center mb-8">Where This Category Does Not Fit</h2>
+    <div class="card p-6 max-w-3xl mx-auto bg-gradient-to-br from-amber-50 to-white border-amber-200">
+      <p class="text-gray-600">This catalog is not a source of GMP-grade or pharmacopoeial material, and it is not intended for clinical supply, compounding, human use or veterinary use. A laboratory that needs a regulatory dossier, validated sterility or release against a monograph should use a manufacturer qualified for that work. In vitro metabolic research, method development and analytical reference work are the intended applications; anything that requires a marketing authorisation sits outside this category.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section bg-primary py-16 text-center">
   <div class="container-wide mx-auto px-4">
     <h2 class="text-white text-3xl mb-4">Ready to Source GLP-1 Peptides?</h2>

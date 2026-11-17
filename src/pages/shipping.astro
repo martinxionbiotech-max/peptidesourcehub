@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
+import BreadcrumbSchema from "../components/BreadcrumbSchema.astro";
 
 const shippingData = [
   ["DHL Express","2-4 business days","$65 for orders under $800","Full tracking, signature on delivery"],
@@ -99,4 +100,5 @@ const shippingData = [
     </div>
   </div>
 </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "Shipping", url: "https://peptidesourcehub.net/shipping/" }]} />
 </PageLayout>

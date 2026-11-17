@@ -169,5 +169,8 @@
   "ctaText": "Ready to Source Bacteriostatic water?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
   "molecularFormula": "C₂H₄O₂ (acetic acid)",
-  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs.",
+  "productImage": "/images/products/acetic-acid-water.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Dilute acetic acid is a solubility tool, not a generic water substitute. It is used when a peptide is poorly soluble near neutral pH, and the relevant variables are the acid concentration and the pH after mixing, because both affect dissolution and stability. The same vial can be appropriate for one peptide and inappropriate for another; the peptide's handling sheet takes precedence over a catalogue default. Ask for the acetic acid concentration on the label, record the final pH in your notes, and check compatibility with the buffer or assay medium before use. Because the solution is acidic, storage and handling should follow the supplier's specification rather than an assumption carried over from sterile water."
 }

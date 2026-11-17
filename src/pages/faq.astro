@@ -1,33 +1,6 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
-
-const allFaqs = [
-  { q: "What is the minimum order quantity?", a: "Most catalog products have no minimum — order 1 kit to evaluate quality before committing to volume. Custom synthesis and OEM projects have project-specific minimums." },
-  { q: "Do you offer free shipping?", a: "Orders over $800 qualify for free worldwide delivery." },
-  { q: "Do you offer private labeling?", a: "Yes. OEM services include custom vial labels, kit boxes, insert documentation, and branding. Contact for project scope." },
-  { q: "What purity level do your peptides meet?", a: "All catalog products target ≥99% purity by HPLC, verified on every production batch. Lower-purity material is not released for shipment." },
-  { q: "What quality documentation do you provide?", a: "Every order includes a Certificate of Analysis (COA). HPLC chromatograms, mass spectrometry data, and stability data available on request." },
-  { q: "Can I request third-party testing?", a: "Yes. We provide internal QC documentation with every order. Third-party lab testing can be arranged at buyer's request and expense." },
-  { q: "How do you ensure batch-to-batch consistency?", a: "Every production step follows documented SOPs. Each batch receives a unique lot number linked to its full production and QC record." },
-  { q: "Which countries do you ship to?", a: "North America, EU, UK, Australia, New Zealand, Asia, and most other regions. Contact us for your specific destination." },
-  { q: "How long does delivery take?", a: "Tracking number issued within 3 business days. Transit: typically 5–10 business days for major markets." },
-  { q: "Who handles customs clearance?", a: "The buyer is responsible for import duties and customs clearance. We provide necessary export documentation." },
-  { q: "Can you produce custom peptide sequences?", a: "Yes. Our R&D team evaluates custom synthesis projects based on sequence complexity, scale, and timeline." },
-  { q: "How should I store peptide vials?", a: "Store lyophilized vials at 2–8°C in a dry, dark environment. Protect from light and moisture." },
-  { q: "What is the shelf life?", a: "12–24 months for most catalog SKUs when stored at recommended conditions. Stability varies by sequence." },
-  { q: "Are your peptides for human consumption?", a: "No. All products are labeled FOR LABORATORY RESEARCH USE ONLY. Not for diagnostic or therapeutic use." },
-];
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "name": "Peptides Source Hub — Frequently Asked Questions",
-  "mainEntity": allFaqs.map(f => ({
-    "@type": "Question",
-    "name": f.q,
-    "acceptedAnswer": { "@type": "Answer", "text": f.a }
-  })),
-};
+import BreadcrumbSchema from "../components/BreadcrumbSchema.astro";
 
 const groups = [
   {
@@ -68,13 +41,36 @@ const groups = [
       { q: "Are your peptides for human consumption?", a: "No. All products are labeled FOR LABORATORY RESEARCH USE ONLY. Not for diagnostic or therapeutic use." },
     ],
   },
+  {
+    title: "Buying, Documentation & Payment",
+    icon: "M3 10h18M7 15h3m4 0h3M5 6h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z",
+    faqs: [
+      { q: "Do custom and OEM projects follow the same minimum as catalog SKUs?", a: "Catalog SKUs and custom work are quoted on different rules. Most catalog products have no minimum, so a single kit is a valid order. Custom synthesis and OEM projects are priced per project, and the minimum depends on sequence length, scale and whether new artwork or a new fill configuration is involved. Send the sequence, the target quantity and the label requirement, and the minimum is stated in the quotation rather than guessed at beforehand." },
+      { q: "Is the COA in the box specific to my lot?", a: "Yes. COAs are issued per batch, not as a generic template for the SKU. The lot number on the vial maps to the analytical record for that production run, and the COA reports HPLC purity, mass spectrometry identity and appearance for that lot. If your records need the chromatogram or the mass spectrum as separate files, request them with the order so they are attached to the same documentation set." },
+      { q: "My own assay disagrees with the COA. Can the lot be retested?", a: "Yes, where the disagreement concerns a parameter the COA reports. Send the lot number, the COA reference, the parameter in question, your measured value and the method you used. A retained sample of the same lot is re-run against the released specification. What a retest cannot do is rewrite that specification to fit a result: if the measured mass does not match the intended sequence, the answer is that the lot is not released, not that the document is edited." },
+      { q: "Who is responsible for the shipment once it leaves Shenzhen?", a: "The buyer carries import duties, taxes and customs clearance, and confirms that the product may be imported into the destination country. What we control is what leaves the factory and how it is documented: commercial invoice, packing list, COA and MSDS travel with every shipment, and contents and values are declared as they are. If a parcel arrives damaged, defective or incorrect, report it within seven calendar days with photographs and the lot number; replacement or refund is at our discretion. Returns are not accepted for protocol changes or regulatory issues at destination." },
+      { q: "Which payment methods are accepted, and when is an order confirmed?", a: "Wire transfer is the preferred method. Card payment runs through a secure processor, and PayPal is available for evaluation orders under $1,000; above that threshold, wire transfer or card. Net-30 terms are available to approved institutional accounts ordering against a purchase order. An order is confirmed when payment is received or a purchase order is accepted, and a quotation is valid for 30 calendar days from issue." },
+      { q: "Can I order a single kit as a sample?", a: "There is no separate sample program: the smallest catalog unit is one kit, and most SKUs have no minimum, so a single-kit order is the normal evaluation route. It ships with the same batch-specific COA as a bulk order. Tiered pricing starts at five kits, so a single kit is charged at list price, and free delivery applies only above the $800 order threshold." },
+    ],
+  },
 ];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Peptides Source Hub — Frequently Asked Questions",
+  "mainEntity": groups.flatMap(g => g.faqs).map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a }
+  })),
+};
 ---
 
 <PageLayout
   title="Frequently Asked Questions"
   description="Answers on ordering research peptides in bulk: minimum order, COA and testing documentation, international shipping, payment terms and lead times."
-  {jsonLd}
+  jsonLd={jsonLd}
 >
 
 <!-- Header -->
@@ -163,6 +159,7 @@ const groups = [
     </div>
   </div>
 </section>
+  <BreadcrumbSchema items={[{ name: "Home", url: "https://peptidesourcehub.net/" }, { name: "FAQ", url: "https://peptidesourcehub.net/faq/" }]} />
 </PageLayout>
 
 <script>

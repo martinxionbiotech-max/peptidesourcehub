@@ -25,6 +25,8 @@ const productsCollection = defineCollection({
     heroTitle: z.string(),
     description: z.string(),
     productImage: z.string().optional(),
+    imageNote: z.string().optional(),
+    researchContext: z.string().optional(),
     sku: z.string().optional(),
 
     specifications: z.array(z.object({ label: z.string(), value: z.string() })).optional(),

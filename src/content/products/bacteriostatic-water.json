@@ -187,5 +187,8 @@
   "complianceText": "All products are manufactured for <strong>laboratory research purposes only</strong>. Bacteriostatic water is labeled FOR LABORATORY RESEARCH USE ONLY. Not for human or veterinary use, diagnosis, treatment, prophylaxis or any clinical, cosmetic, dietary or household application. Not a dietary supplement, pharmaceutical ingredient, cosmetic ingredient or approved drug substance. Buyers are responsible for verifying the legal status of importation and possession in their destination country.",
   "ctaText": "Ready to Source Bacteriostatic water?",
   "ctaSubtitle": "Bulk pricing, tiered discounts up to 30%, COA with every order.",
-  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs."
+  "notFor": "A fixed-ratio blend for laboratory work, not a formulation for human use. Blends also make it harder to attribute an effect to one component, which is often the opposite of what a study design needs.",
+  "productImage": "/images/products/bacteriostatic-water.webp",
+  "imageNote": "Illustrative label render, not a batch photograph",
+  "researchContext": "Bacteriostatic water contains an antimicrobial preservative, conventionally benzyl alcohol, which is why it is offered for multi-dose laboratory use rather than as a universal diluent. The preservative is the difference that matters: it can interfere with some assays and is not compatible with every peptide or cell system. A batch record should state the preservative and its concentration, not just the product name. For research use, the practical question is whether the preservative is acceptable in the specific assay; if it is not, use sterile water and a single-use aliquot. The two water products are not interchangeable, and a quote that treats them as such is a sign the supplier has not read the specification."
 }

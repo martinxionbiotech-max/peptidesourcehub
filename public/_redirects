@@ -1,3 +1,4 @@
+https://www.peptidesourcehub.net/* https://peptidesourcehub.net/:splat 301
 # Block common exploit paths — return 410 Gone
 /.env             /404.html   410
 /.git/*           /404.html   410
